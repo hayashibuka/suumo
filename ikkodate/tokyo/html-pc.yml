@@ -1,0 +1,2761 @@
+- :name: 'html'
+  :attributes:
+    :lang: 'ja'
+  :children:
+    - :name: 'head'
+      :children:
+        - :name: 'meta'
+          :attributes:
+            :charset: 'utf-8'
+        - :name: 'title'
+        - :name: 'meta'
+          :attributes:
+            :content: '東京都,一戸建て,新築一戸建て,戸建,分譲住宅,新築住宅,マイホーム,一軒家,建売住宅,建て売り,SUUMO,スーモ'
+            :name: 'keywords'
+        - :name: 'meta'
+          :attributes:
+            :content: '【SUUMO(スーモ)新築一戸建て】東京都で新築分譲・建売住宅のマイホーム購入を考えているあなたをトータルにサポートする一軒家・一戸建て購入のポータルサイトです。東京都の新築一戸建て・建て売り住宅販売の最新情報を検索できます。'
+            :name: 'description'
+        - :name: 'link'
+          :attributes:
+            :href: '/front/img/favicon.ico'
+            :rel:
+              - shortcut
+              - icon
+            :type: 'image/vnd.microsoft.icon'
+        - :name: 'link'
+          :attributes:
+            :href: '/front/img/favicon.ico'
+            :rel:
+              - icon
+            :type: 'image/vnd.microsoft.icon'
+        - :name: 'link'
+          :attributes:
+            :href: 'http://suumo.jp/edit/mb/pc2m/?p=http://suumo.jp/jj/__JJSEO/ikkodate/td_tokyo/'
+            :media: 'handheld'
+            :rel:
+              - alternate
+        - :name: 'link'
+          :attributes:
+            :href: 'android-app://jp.co.recruit.android.suumo/suumo-app/smp.suumo.jp/ikkodate/tokyo/'
+            :rel:
+              - alternate
+        - :name: 'link'
+          :attributes:
+            :href: 'ios-app://359578668/suumo-app/smp.suumo.jp/ikkodate/tokyo/'
+            :rel:
+              - alternate
+        - :name: 'link'
+          :attributes:
+            :href: 'http://smp.suumo.jp/ikkodate/tokyo/'
+            :media: 'only screen and (max-width: 640px)'
+            :rel:
+              - alternate
+        - :name: 'link'
+          :attributes:
+            :href: '/edit/assets/suumo/css/kr-top.css'
+            :media: 'screen'
+            :rel:
+              - stylesheet
+    - :name: 'body'
+      :children:
+        - :name: 'link'
+          :attributes:
+            :href: '/edit/assets/suumo/css/header-gnav.css?160523'
+            :media: 'screen'
+            :rel:
+              - stylesheet
+        - :name: 'form'
+          :attributes:
+            :action: 'https://suumo.jp/jj/common/common/JJ901FK101/showLogin/'
+            :id: 'js-turnbackPostForm'
+            :method: 'post'
+            :name: 'common_common_JJ901FK101ActionForm'
+          :children:
+            - :name: 'input'
+              :attributes:
+                :name: 'ar'
+                :type: 'hidden'
+                :value: '030'
+            - :name: 'input'
+              :attributes:
+                :name: 'bs'
+                :type: 'hidden'
+                :value: '020'
+            - :name: 'input'
+              :attributes:
+                :name: 'ltbi'
+                :type: 'hidden'
+                :value: '9bca05eebee120fb3fac5305c338b7eee27e0859441c6ca6d87b94d4971a8c8476b6ab18e685f466bb28ea9e0a46d34c87ac9d22cd1e4a29bd20058e4d22aa2ccbe35948718386a321a624e5a8497565068be7c6cdf882a4609974f742c5a970e3cf7c291cbb7c767b74672329a1336ced367c56cd50dbe7e873920cfb568a302ebc2e18f7273147c08c4a42cf268a0b3d24ff2a78a26c0fbdba36c336dc0dc6d1aabbebce8a712cbe2926e909f1f05152931a175340e54568c50d6797197886433050482f9b3e8a78e0e889090d4fe856e3ac8ac188086eabbb99240276847eb27249336c334a112cce250fd868aaeabd2ba848c6fb1e3fb7864a1663fff30a78bafaf92b4d9dde3b43092832d7961b37f7eab87bfe77a600d8506bfd8a785bc0c89816c19de17b42969e5881df2c12a06820f4ff6b63ac714e599944163dc0d90abdb3b2ff8aade50e1eb32d438bac003c80d9c22a2eb4bc5439786f29a1ba8c3850ee160721570aa1276288b8e1acc6fcb87b0d369728'
+        - :name: 'form'
+          :attributes:
+            :action: '/jj/common/service/JJ901FM303/'
+            :id: 'js-myKensakuJokenForm'
+            :method: 'post'
+          :children:
+            - :name: 'input'
+              :attributes:
+                :name: 'ar'
+                :type: 'hidden'
+                :value: '030'
+            - :name: 'input'
+              :attributes:
+                :name: 'bs'
+                :type: 'hidden'
+                :value: '020'
+        - :name: 'form'
+          :attributes:
+            :action: '/jj/common/parts/JJ901FI306/'
+            :id: 'js-popLatestBukkenForm'
+            :method: 'post'
+          :children:
+            - :name: 'input'
+              :attributes:
+                :name: 'ar'
+                :type: 'hidden'
+                :value: ''
+            - :name: 'input'
+              :attributes:
+                :name: 'bs'
+                :type: 'hidden'
+                :value: ''
+            - :name: 'input'
+              :attributes:
+                :name: 'dispmode'
+                :type: 'hidden'
+                :value: '3'
+        - :name: 'form'
+          :attributes:
+            :action: '/jj/common/parts/JJ901FI302/'
+            :id: 'js-resetLatestBukkenForm'
+            :method: 'post'
+          :children:
+            - :name: 'input'
+              :attributes:
+                :name: 'ar'
+                :type: 'hidden'
+                :value: ''
+            - :name: 'input'
+              :attributes:
+                :name: 'bs'
+                :type: 'hidden'
+                :value: ''
+            - :name: 'input'
+              :attributes:
+                :name: 'dispmode'
+                :type: 'hidden'
+                :value: '3'
+        - :name: 'form'
+          :attributes:
+            :action: '/jj/common/parts/JJ901FI313/'
+            :id: 'js-popLatestSearchForm'
+            :method: 'post'
+          :children:
+            - :name: 'input'
+              :attributes:
+                :name: 'ar'
+                :type: 'hidden'
+                :value: ''
+            - :name: 'input'
+              :attributes:
+                :name: 'bs'
+                :type: 'hidden'
+                :value: ''
+            - :name: 'input'
+              :attributes:
+                :name: 'dispmode'
+                :type: 'hidden'
+                :value: '3'
+        - :name: 'form'
+          :attributes:
+            :action: '/jj/common/parts/JJ901FI312/'
+            :id: 'js-resetLatestSearchForm'
+            :method: 'post'
+          :children:
+            - :name: 'input'
+              :attributes:
+                :name: 'ar'
+                :type: 'hidden'
+                :value: ''
+            - :name: 'input'
+              :attributes:
+                :name: 'bs'
+                :type: 'hidden'
+                :value: ''
+            - :name: 'input'
+              :attributes:
+                :name: 'dispmode'
+                :type: 'hidden'
+                :value: '3'
+        - :name: 'form'
+          :attributes:
+            :action: 'https://suumo.jp/jj/common/common/JJ901FK101/showMemRegist/'
+            :id: 'js-myEntryForm'
+            :method: 'post'
+            :name: 'common_common_JJ901FK101ActionForm'
+          :children:
+            - :name: 'input'
+              :attributes:
+                :name: 'siteKbn'
+                :type: 'hidden'
+                :value: '01'
+            - :name: 'input'
+              :attributes:
+                :name: 'seniFlg'
+                :type: 'hidden'
+                :value: ''
+            - :name: 'input'
+              :attributes:
+                :name: 'ar'
+                :type: 'hidden'
+                :value: '030'
+            - :name: 'input'
+              :attributes:
+                :name: 'bs'
+                :type: 'hidden'
+                :value: '020'
+        - :name: 'div'
+          :attributes:
+            :class:
+              - mylist
+            :id: 'js-mylist'
+          :children:
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - mylist-inner
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - browsearea
+                      - dn
+                    :id: 'js-mylist-historyBox'
+                  :children:
+                    - :name: 'ul'
+                      :attributes:
+                        :class:
+                          - browselist
+                      :children:
+                        - :name: 'li'
+                          :attributes:
+                            :class:
+                              - browselist-box
+                            :id: 'js-mylist-historyBox-popLatestBukken'
+                        - :name: 'li'
+                          :attributes:
+                            :class:
+                              - browselist-box
+                            :id: 'js-mylist-historyBox-popLatestSearch'
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - browsearea-close
+                        :id: 'js-mylist-historyBox-close'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'javascript:void(0);'
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - mylist-logo
+                    :id: 'js-mylist-logo'
+                  :children:
+                    - :name: 'a'
+                      :attributes:
+                        :class:
+                          - js-setCookieArZenkoku
+                        :href: '/'
+                - :name: 'ul'
+                  :attributes:
+                    :class:
+                      - mylist-list
+                  :children:
+                    - :name: 'li'
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - mylistbarbox
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - mylistbarbox-inner
+                              :children:
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - mylistbarbox-inner-contents
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - mylistbar
+                                      :children:
+                                        - :name: 'p'
+                                          :attributes:
+                                            :class:
+                                              - mylistbar-title
+                                        - :name: 'ul'
+                                          :attributes:
+                                            :class:
+                                              - mylistbar-inbar
+                                          :children:
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - mylistbar-inbar-item
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - mylistbarlink
+                                                      - mylistbarlink--bukken
+                                                    :href: '/jj/common/service/JJ901FM203/?ar=030&bs=020&cts=01'
+                                                  :children:
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - mylistbarlink-title
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - mylistbarcnt
+                                                        :id: 'js-mylistbarcnt-bukken'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - mylistbar-inbar-item
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - mylistbarlink
+                                                      - mylistbarlink--company
+                                                    :href: '/jj/common/service/JJ901FM203/?ar=030&bs=020&cts=02'
+                                                  :children:
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - mylistbarlink-title
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - mylistbarcnt
+                                                        :id: 'js-mylistbarcnt-company'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - mylistbar-inbar-item
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - mylistbarlink
+                                                      - mylistbarlink--sch
+                                                    :href: 'javascript:void(0);'
+                                                    :id: 'js-mylist-myKensakuJoken'
+                                                  :children:
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - mylistbarlink-title
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - mylistbarcnt
+                                                        :id: 'js-mylistbarcnt-sch'
+                    - :name: 'li'
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - mylistnbbox
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - mylistbar
+                                  - mylistbar--nb
+                              :children:
+                                - :name: 'ul'
+                                  :attributes:
+                                    :class:
+                                      - mylistbar-inbar
+                                  :children:
+                                    - :name: 'li'
+                                      :attributes:
+                                        :class:
+                                          - mylistbar-inbar-item
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :class:
+                                              - mylistbarlink
+                                              - mylistbarlink--browse
+                                            :href: 'javascript:void(0);'
+                                            :id: 'js-mylist-myHistory'
+                                          :children:
+                                            - :name: 'span'
+                                              :attributes:
+                                                :class:
+                                                  - mylistbarlink-title
+                                            - :name: 'span'
+                                              :attributes:
+                                                :class:
+                                                  - mylistbarlink-arw
+                                                  - mylisticon
+                                                  - mylisticon--arw
+                    - :name: 'li'
+                      :children:
+                        - :name: 'ul'
+                          :attributes:
+                            :class:
+                              - mylist-member
+                          :children:
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - member-entry
+                                    :href: 'https://suumo.jp/jj/common/common/JJ901FK101/showMemRegist/'
+                                  :children:
+                                    - :name: 'span'
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - mylist-login
+                                    :href: 'https://suumo.jp/jj/common/common/JJ901FK101/showLogin/'
+                                  :children:
+                                    - :name: 'span'
+                - :name: 'span'
+                  :attributes:
+                    :class:
+                      - dn
+                    :id: 'js-mylistbukkencountcookie'
+                - :name: 'span'
+                  :attributes:
+                    :class:
+                      - dn
+                    :id: 'js-mylistkaishacountcookie'
+                - :name: 'span'
+                  :attributes:
+                    :class:
+                      - dn
+                    :id: 'js-mylistkensakujokencountcookie'
+        - :name: 'div'
+          :attributes:
+            :class:
+              - headercontainer
+          :children:
+            - :name: 'noscript'
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - headjsalart
+                  :children:
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - headjsalart-coution
+                          - ui-media
+                      :children:
+                        - :name: 'span'
+                          :attributes:
+                            :class:
+                              - ui-icon--exclamation1
+                              - ui-media-object
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - ui-media-body
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - headjsalart-title
+                            - :name: 'p'
+                              :attributes:
+                                :class:
+                                  - headjsalart-txt
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: '/help/guide.html'
+                                    :target: '_blank'
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - siteheadercontainer
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - siteheader
+                  :children:
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - desc
+                      :children:
+                        - :name: 'p'
+                          :attributes:
+                            :class:
+                              - desc-title
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - siteheader-inner
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - logo
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - logo-object
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: '/'
+                                  :children:
+                                    - :name: 'img'
+                                      :attributes:
+                                        :alt: 'SUUMO(スーモ)'
+                                        :height: '46'
+                                        :src: '/edit/assets/suumo/img/logo.png'
+                                        :width: '138'
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - logo-field
+                              :children:
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - logo-field-link
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :class:
+                                          - js-setCookieArZenkoku
+                                        :href: '/'
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - logo-field-area
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - gnav
+                          :children:
+                            - :name: 'ul'
+                              :attributes:
+                                :class:
+                                  - gnav_list
+                              :children:
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'dl'
+                                      :attributes:
+                                        :class:
+                                          - gnav_item
+                                          - gnav_item--chintai
+                                      :children:
+                                        - :name: 'dt'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-title
+                                        - :name: 'dd'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-definition
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--chintai
+                                                      - 
+                                                    :href: '/chintai/'
+                                                    :title: '賃貸'
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'dl'
+                                      :attributes:
+                                        :class:
+                                          - gnav_item
+                                          - gnav_item--ms
+                                      :children:
+                                        - :name: 'dt'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-title
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ms/'
+                                                :title: 'マンション・購入'
+                                        - :name: 'dd'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-definition
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--shinchiku
+                                                      - gnav_btn--left
+                                                      - 
+                                                    :href: '/ms/shinchiku/'
+                                                    :title: 'マンション購入 新築・未入居マンション'
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--chukomansion
+                                                      - gnav_btn--right
+                                                      - 
+                                                    :href: '/ms/chuko/'
+                                                    :title: 'マンション購入 中古'
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'dl'
+                                      :attributes:
+                                        :class:
+                                          - gnav_item
+                                          - gnav_item--kodate
+                                      :children:
+                                        - :name: 'dt'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-title
+                                        - :name: 'dd'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-definition
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--ikkodate
+                                                      - gnav_btn--left
+                                                      - is-active
+                                                    :href: '/ikkodate/'
+                                                    :title: '一戸建て購入・建築 新築・未入居一戸建て'
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--chukoikkodate
+                                                      - gnav_btn--right
+                                                      - 
+                                                    :href: '/chukoikkodate/'
+                                                    :title: '一戸建て購入・建築 中古'
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'dl'
+                                      :attributes:
+                                        :class:
+                                          - gnav_item
+                                          - gnav_item--chumon
+                                      :children:
+                                        - :name: 'dt'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-title
+                                        - :name: 'dd'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-definition
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--twolines
+                                                      - gnav_btn--chumon
+                                                      - gnav_btn--left
+                                                    :href: '/chumon/'
+                                                    :title: '一戸建て購入・建築 注文'
+                                                  :children:
+                                                    - :name: 'br'
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--tochi
+                                                      - gnav_btn--right
+                                                      - 
+                                                    :href: '/tochi/'
+                                                    :title: '一戸建て購入・建築 土地'
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'dl'
+                                      :attributes:
+                                        :class:
+                                          - gnav_item
+                                          - gnav_item--reform
+                                      :children:
+                                        - :name: 'dt'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-title
+                                        - :name: 'dd'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-definition
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--reform
+                                                      - gnav_btn--left
+                                                      - 
+                                                    :href: '/remodel/'
+                                                    :title: 'リフォーム'
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--twolines
+                                                      - gnav_btn--setsubi
+                                                      - gnav_btn--right
+                                                    :href: '/setsubi/'
+                                                    :title: '住宅設備'
+                                                  :children:
+                                                    - :name: 'br'
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'dl'
+                                      :attributes:
+                                        :class:
+                                          - gnav_item
+                                          - gnav_item--baikyaku
+                                      :children:
+                                        - :name: 'dt'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-title
+                                        - :name: 'dd'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-definition
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--twolines
+                                                      - gnav_btn--baikyaku
+                                                      - 
+                                                    :href: '/baikyaku/'
+                                                    :title: '売却査定'
+                                                  :children:
+                                                    - :name: 'br'
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'dl'
+                                      :attributes:
+                                        :class:
+                                          - gnav_item
+                                          - gnav_item--counter
+                                      :children:
+                                        - :name: 'dt'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-title
+                                        - :name: 'dd'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-definition
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--counter
+                                                    :href: 'http://www.suumocounter.jp/?vos=dsmcrecb20110926001'
+                                                    :target: '_blank'
+                                                    :title: '講座/相談'
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - gnav_item
+                                          - gnav_item--kurashi
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - balloon_nav
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - balloon_nav-action
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - balloon_nav-action-link
+                                                  :children:
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :class:
+                                                          - gnav_btn
+                                                          - gnav_btn--kurashi
+                                                        :href: 'javascript:void(0);'
+                                                        :title: '暮らし'
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - balloon_nav-action-item
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - gnav_drop_list
+                                                      :children:
+                                                        - :name: 'ul'
+                                                          :attributes:
+                                                            :class:
+                                                              - gnav_drop_list-item
+                                                          :children:
+                                                            - :name: 'li'
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - gnav_drop
+                                                                      - gnav_drop--moving
+                                                                    :href: 'http://hikkoshi.suumo.jp/'
+                                                                    :target: '_blank'
+                                                                    :title: 'SUUMO引越し見積もり'
+                                                                  :children:
+                                                                    - :name: 'span'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - gnav_drop-text
+                                                            - :name: 'li'
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - gnav_drop
+                                                                      - gnav_drop--electrical
+                                                                    :href: 'http://denki.suumo.jp/'
+                                                                    :target: '_blank'
+                                                                    :title: 'SUUMO電気代診断'
+                                                                  :children:
+                                                                    - :name: 'span'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - gnav_drop-text
+                                                        - :name: 'ul'
+                                                          :attributes:
+                                                            :class:
+                                                              - gnav_drop_list-item
+                                                          :children:
+                                                            - :name: 'li'
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - gnav_drop
+                                                                      - gnav_drop--service
+                                                                    :href: 'https://house-service.suumo.jp/'
+                                                                    :target: '_blank'
+                                                                    :title: 'SUUMOハウスサービス'
+                                                                  :children:
+                                                                    - :name: 'span'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - gnav_drop-text
+                                                            - :name: 'li'
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - gnav_drop
+                                                                      - gnav_drop--inheritance
+                                                                    :href: 'https://souzoku.suumo.jp/'
+                                                                    :target: '_blank'
+                                                                    :title: 'SUUMO相続'
+                                                                  :children:
+                                                                    - :name: 'span'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - gnav_drop-text
+        - :name: 'div'
+          :attributes:
+            :class:
+              - breadcrumb
+          :children:
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - breadcrumb-inner
+              :children:
+                - :name: 'ol'
+                  :attributes:
+                    :class:
+                      - breadcrumb-list
+                  :children:
+                    - :name: 'li'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :class:
+                              - js-setCookieArZenkoku
+                            :href: '/'
+                    - :name: 'li'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :class:
+                              - js-setCookieArZenkoku
+                            :href: '/ikkodate/'
+                    - :name: 'li'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: '/ikkodate/kanto/'
+                    - :name: 'li'
+        - :name: 'div'
+          :attributes:
+            :class:
+              - wrapper
+          :children:
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - ui-section--h1
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - ui-section-header
+                  :children:
+                    - :name: 'h1'
+                      :attributes:
+                        :class:
+                          - ui-section-title
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - ui-section-body
+                  :children:
+                    - :name: 'p'
+                      :attributes:
+                        :class:
+                          - pagecaption
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - pagenationhit
+                          - item2
+                      :children:
+                        - :name: 'span'
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - itembox
+                      :children:
+                        - :name: 'ul'
+                          :attributes:
+                            :class:
+                              - itemlist_group
+                          :children:
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: '/ikkodate/tokyo/ensen/'
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - kr_kentop
+                                          - kr_kentop--btnsearch01
+                                      :children:
+                                        - :name: 'span'
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: '/ikkodate/tokyo/city/'
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - kr_kentop
+                                          - kr_kentop--btnsearch02
+                                      :children:
+                                        - :name: 'span'
+                        - :name: 'ul'
+                          :attributes:
+                            :class:
+                              - itemlist_group
+                              - itemlist_group--col3
+                          :children:
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - kr_kentop
+                                      - kr_kentop--btnsearch03
+                                    :href: '/jj/bukken/kensaku/JJ010FB007/?ar=030&bs=020&ta=13'
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - kr_kentop
+                                      - kr_kentop--btnsearch04
+                                    :href: '/jj/bukken/kensaku/JJ010FB008/?ar=030&bs=020&ta=13'
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - kr_kentop
+                                      - kr_kentop--btnsearch05
+                                    :href: '/jj/bukken/kensaku/JJ010FB006/?ar=030&bs=020&ta=13'
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - kr_kentop
+                                      - kr_kentop--btnsearch06
+                                    :href: '/jj/bukken/ichiran/JJ010FC003/?ar=030&bs=020&initKeido=502902170&initIdo=128470740'
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - ui-section--h2
+                      - item
+                  :children:
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - ui-section-header
+                      :children:
+                        - :name: 'h2'
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - ui-section-body
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - l-itemranking
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - l-itemranking-body
+                              :children:
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - l-itemranking-body-left
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - itemranking
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - itemranking-title
+                                          :children:
+                                            - :name: 'img'
+                                              :attributes:
+                                                :alt: '人気駅ランキング'
+                                                :height: '56'
+                                                :src: '/edit/assets/suumo/img/top_000_stranking.png'
+                                                :width: '449'
+                                        - :name: 'ol'
+                                          :attributes:
+                                            :class:
+                                              - itemranking-body
+                                          :children:
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - itemranking-body-higherrank
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - itemrank
+                                                      - itemrank--stationyel
+                                                  :children:
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - top-ranking
+                                                          - top-ranking--staion1
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :class:
+                                                          - itemrank-text
+                                                        :href: '/ikkodate/tokyo/ek_11640/'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - itemranking-body-higherrank
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - itemrank
+                                                      - itemrank--stationgray
+                                                  :children:
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - top-ranking
+                                                          - top-ranking--staion2
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :class:
+                                                          - itemrank-text
+                                                        :href: '/ikkodate/tokyo/ek_06640/'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - itemranking-body-higherrank
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - itemrank
+                                                      - itemrank--stationred
+                                                  :children:
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - top-ranking
+                                                          - top-ranking--staion3
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :class:
+                                                          - itemrank-text
+                                                        :href: '/ikkodate/tokyo/ek_36880/'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - itemranking-body-middlerank
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - itemrank_other
+                                                  :children:
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - pictrank
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :class:
+                                                          - itemrank_other-text
+                                                        :href: '/ikkodate/tokyo/ek_38740/'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - itemranking-body-lowerrank
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - itemrank_other
+                                                  :children:
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - pictrank
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :class:
+                                                          - itemrank_other-text
+                                                        :href: '/ikkodate/tokyo/ek_28500/'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - itemranking-body-lowerrank
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - itemrank_other
+                                                  :children:
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - pictrank
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :class:
+                                                          - itemrank_other-text
+                                                        :href: '/ikkodate/tokyo/ek_38710/'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - itemranking-body-lowerrank
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - itemrank_other
+                                                  :children:
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - pictrank
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :class:
+                                                          - itemrank_other-text
+                                                        :href: '/ikkodate/tokyo/ek_00640/'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - itemranking-body-lowerrank
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - itemrank_other
+                                                  :children:
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - pictrank
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :class:
+                                                          - itemrank_other-text
+                                                        :href: '/ikkodate/tokyo/ek_14690/'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - itemranking-body-lowerrank
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - itemrank_other
+                                                  :children:
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - pictrank
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :class:
+                                                          - itemrank_other-text
+                                                        :href: '/ikkodate/tokyo/ek_21360/'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - itemranking-body-lowerrank
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - itemrank_other
+                                                      - itemrank_other--last
+                                                  :children:
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - pictrank
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :class:
+                                                          - itemrank_other-text
+                                                        :href: '/ikkodate/tokyo/ek_31920/'
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - l-itemranking-body-right
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - itemranking
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - itemranking-title
+                                          :children:
+                                            - :name: 'img'
+                                              :attributes:
+                                                :alt: '人気エリアランキング'
+                                                :height: '56'
+                                                :src: '/edit/assets/suumo/img/top_000_arearanking.png'
+                                                :width: '449'
+                                            - :name: 'ol'
+                                              :attributes:
+                                                :class:
+                                                  - itemranking-body
+                                              :children:
+                                                - :name: 'li'
+                                                  :attributes:
+                                                    :class:
+                                                      - itemranking-body-higherrank
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - itemrank
+                                                          - itemrank--areayel
+                                                      :children:
+                                                        - :name: 'span'
+                                                          :attributes:
+                                                            :class:
+                                                              - top-ranking
+                                                              - top-ranking--area1
+                                                        - :name: 'a'
+                                                          :attributes:
+                                                            :class:
+                                                              - itemrank-text
+                                                            :href: '/ikkodate/tokyo/sc_setagaya/'
+                                                - :name: 'li'
+                                                  :attributes:
+                                                    :class:
+                                                      - itemranking-body-higherrank
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - itemrank
+                                                          - itemrank--areagray
+                                                      :children:
+                                                        - :name: 'span'
+                                                          :attributes:
+                                                            :class:
+                                                              - top-ranking
+                                                              - top-ranking--area2
+                                                        - :name: 'a'
+                                                          :attributes:
+                                                            :class:
+                                                              - itemrank-text
+                                                            :href: '/ikkodate/tokyo/sc_nerima/'
+                                                - :name: 'li'
+                                                  :attributes:
+                                                    :class:
+                                                      - itemranking-body-higherrank
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - itemrank
+                                                          - itemrank--areared
+                                                      :children:
+                                                        - :name: 'span'
+                                                          :attributes:
+                                                            :class:
+                                                              - top-ranking
+                                                              - top-ranking--area3
+                                                        - :name: 'a'
+                                                          :attributes:
+                                                            :class:
+                                                              - itemrank-text
+                                                            :href: '/ikkodate/tokyo/sc_suginami/'
+                                                - :name: 'li'
+                                                  :attributes:
+                                                    :class:
+                                                      - itemranking-body-middlerank
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - itemrank_other
+                                                      :children:
+                                                        - :name: 'span'
+                                                          :attributes:
+                                                            :class:
+                                                              - pictrank
+                                                        - :name: 'a'
+                                                          :attributes:
+                                                            :class:
+                                                              - itemrank_other-text
+                                                            :href: '/ikkodate/tokyo/sc_meguro/'
+                                                - :name: 'li'
+                                                  :attributes:
+                                                    :class:
+                                                      - itemranking-body-lowerrank
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - itemrank_other
+                                                      :children:
+                                                        - :name: 'span'
+                                                          :attributes:
+                                                            :class:
+                                                              - pictrank
+                                                        - :name: 'a'
+                                                          :attributes:
+                                                            :class:
+                                                              - itemrank_other-text
+                                                            :href: '/ikkodate/tokyo/sc_ota/'
+                                                - :name: 'li'
+                                                  :attributes:
+                                                    :class:
+                                                      - itemranking-body-lowerrank
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - itemrank_other
+                                                      :children:
+                                                        - :name: 'span'
+                                                          :attributes:
+                                                            :class:
+                                                              - pictrank
+                                                        - :name: 'a'
+                                                          :attributes:
+                                                            :class:
+                                                              - itemrank_other-text
+                                                            :href: '/ikkodate/tokyo/sc_bunkyo/'
+                                                - :name: 'li'
+                                                  :attributes:
+                                                    :class:
+                                                      - itemranking-body-lowerrank
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - itemrank_other
+                                                      :children:
+                                                        - :name: 'span'
+                                                          :attributes:
+                                                            :class:
+                                                              - pictrank
+                                                        - :name: 'a'
+                                                          :attributes:
+                                                            :class:
+                                                              - itemrank_other-text
+                                                            :href: '/ikkodate/tokyo/sc_shinjuku/'
+                                                - :name: 'li'
+                                                  :attributes:
+                                                    :class:
+                                                      - itemranking-body-lowerrank
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - itemrank_other
+                                                      :children:
+                                                        - :name: 'span'
+                                                          :attributes:
+                                                            :class:
+                                                              - pictrank
+                                                        - :name: 'a'
+                                                          :attributes:
+                                                            :class:
+                                                              - itemrank_other-text
+                                                            :href: '/ikkodate/tokyo/sc_shibuya/'
+                                                - :name: 'li'
+                                                  :attributes:
+                                                    :class:
+                                                      - itemranking-body-lowerrank
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - itemrank_other
+                                                      :children:
+                                                        - :name: 'span'
+                                                          :attributes:
+                                                            :class:
+                                                              - pictrank
+                                                        - :name: 'a'
+                                                          :attributes:
+                                                            :class:
+                                                              - itemrank_other-text
+                                                            :href: '/ikkodate/tokyo/sc_shinagawa/'
+                                                - :name: 'li'
+                                                  :attributes:
+                                                    :class:
+                                                      - itemranking-body-lowerrank
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - itemrank_other
+                                                          - itemrank_other--last
+                                                      :children:
+                                                        - :name: 'span'
+                                                          :attributes:
+                                                            :class:
+                                                              - pictrank
+                                                        - :name: 'a'
+                                                          :attributes:
+                                                            :class:
+                                                              - itemrank_other-text
+                                                            :href: '/ikkodate/tokyo/sc_nakano/'
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - l-itemranking-foot
+                              :children:
+                                - :name: 'p'
+                                  :attributes:
+                                    :class:
+                                      - annotation
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - ui-section--h2
+                      - item
+                  :children:
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - ui-section-header
+                      :children:
+                        - :name: 'h2'
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - ui-section-body
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - itemlinebox
+                              - item
+                          :children:
+                            - :name: 'dl'
+                              :attributes:
+                                :class:
+                                  - itemlinebox-inner
+                              :children:
+                                - :name: 'dt'
+                                  :attributes:
+                                    :class:
+                                      - itemlinebox-title
+                                - :name: 'dd'
+                                  :attributes:
+                                    :class:
+                                      - itemlinebox-body
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - itemblock
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - itemblock-title
+                                        - :name: 'p'
+                                          :attributes:
+                                            :class:
+                                              - itemblock-disc
+                                          :children:
+                                            - :name: 'sup'
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - itemlinebox
+                              - item
+                          :children:
+                            - :name: 'dl'
+                              :attributes:
+                                :class:
+                                  - itemlinebox-inner
+                              :children:
+                                - :name: 'dd'
+                                  :attributes:
+                                    :class:
+                                      - itemlinebox-body
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - itemblock
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - itemblock-title
+                                        - :name: 'p'
+                                          :attributes:
+                                            :class:
+                                              - itemblock-disc
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - itemlinebox
+                              - itemlinkline
+                              - item
+                          :children:
+                            - :name: 'dl'
+                              :children:
+                                - :name: 'dt'
+                                  :attributes:
+                                    :class:
+                                      - itemlinebox-title
+                                - :name: 'dd'
+                                  :attributes:
+                                    :class:
+                                      - itemlinebox-body
+                                      - itemlinkline-body
+                                  :children:
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - itemlistblock
+                                      :children:
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_chofu/nc_86964359/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_tama/nc_86617097/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_nakano/nc_86906755/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_machida/nc_86673569/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_adachi/nc_86786803/'
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - itemlistblock
+                                      :children:
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_kodaira/nc_86986756/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_nakano/nc_86521064/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_ota/nc_86869264/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_chofu/nc_86952832/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_setagaya/nc_86349889/'
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - itemlinebox
+                              - itemlinkline
+                              - item
+                          :children:
+                            - :name: 'dl'
+                              :children:
+                                - :name: 'dt'
+                                  :attributes:
+                                    :class:
+                                      - itemlinebox-title
+                                - :name: 'dd'
+                                  :attributes:
+                                    :class:
+                                      - itemlinebox-body
+                                      - itemlinkline-body
+                                  :children:
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - itemtoplist
+                                      :children:
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'span'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'span'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_minato/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_shinjuku/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_bunkyo/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_shibuya/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_taito/'
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - itemtoplist
+                                      :children:
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_sumida/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_koto/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_arakawa/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_adachi/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_katsushika/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_edogawa/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_shinagawa/'
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - itemtoplist
+                                      :children:
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_meguro/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_ota/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_setagaya/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_nakano/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_suginami/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_nerima/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_toshima/'
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - itemtoplist
+                                      :children:
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_kita/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_itabashi/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_hachioji/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_tachikawa/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_musashino/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_mitaka/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ikkodate/tokyo/sc_ome/'
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - dn
+                                        :id: 'js-searchallTogglePanel'
+                                      :children:
+                                        - :name: 'ul'
+                                          :attributes:
+                                            :class:
+                                              - itemtoplist
+                                          :children:
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_fuchu/'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_akishima/'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_chofu/'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_machida/'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_koganei/'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_kodaira/'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_hino/'
+                                        - :name: 'ul'
+                                          :attributes:
+                                            :class:
+                                              - itemtoplist
+                                          :children:
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_higashimurayama/'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_kokubunji/'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_kunitachi/'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_fussa/'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_komae/'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_higashiyamato/'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_kiyose/'
+                                        - :name: 'ul'
+                                          :attributes:
+                                            :class:
+                                              - itemtoplist
+                                          :children:
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_higashikurume/'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_musashimurayama/'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_tama/'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_inagi/'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_hamura/'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_akiruno/'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_nishitokyo/'
+                                        - :name: 'ul'
+                                          :attributes:
+                                            :class:
+                                              - itemtoplist
+                                          :children:
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/sc_nishitamagun/'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'span'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'span'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'span'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'span'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'span'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'span'
+                                        - :name: 'ul'
+                                          :attributes:
+                                            :class:
+                                              - itemtoplist
+                                          :children:
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'span'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'span'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'span'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'span'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'span'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'span'
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'span'
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - itemtoplistclose
+                                        :id: 'js-searchall'
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - js-searchallToggle
+                                              - dn
+                                          :children:
+                                            - :name: 'span'
+                                              :attributes:
+                                                :class:
+                                                  - ui-icon--minus2
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'javascript:void(0);'
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - js-searchallToggle
+                                          :children:
+                                            - :name: 'span'
+                                              :attributes:
+                                                :class:
+                                                  - ui-icon--plus2
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'javascript:void(0);'
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - itemlinebox
+                              - itemlinkline
+                              - item
+                          :children:
+                            - :name: 'dl'
+                              :children:
+                                - :name: 'dt'
+                                  :attributes:
+                                    :class:
+                                      - itemlinebox-title
+                                - :name: 'dd'
+                                  :attributes:
+                                    :class:
+                                      - itemlinebox-body
+                                      - itemlinkline-body
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: '/ikkodate/tokyo/ek_02060/'
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: '/ikkodate/tokyo/ek_08940/'
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: '/ikkodate/tokyo/ek_11310/'
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: '/ikkodate/tokyo/ek_11640/'
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: '/ikkodate/tokyo/ek_14970/'
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: '/ikkodate/tokyo/ek_17460/'
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: '/ikkodate/tokyo/ek_17640/'
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: '/ikkodate/tokyo/ek_19670/'
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: '/ikkodate/tokyo/ek_23100/'
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: '/ikkodate/tokyo/ek_35780/'
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - ui-section--h2
+                      - item
+                  :children:
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - ui-section-header
+                      :children:
+                        - :name: 'h2'
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - ui-section-body
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - itemlinebox
+                              - item
+                          :children:
+                            - :name: 'dl'
+                              :children:
+                                - :name: 'dt'
+                                  :attributes:
+                                    :class:
+                                      - itemlinebox-title
+                                - :name: 'dd'
+                                  :attributes:
+                                    :class:
+                                      - itemlinebox-body
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - itemlinkbox_container
+                                          - itemlinkline
+                                      :children:
+                                        - :name: 'dl'
+                                          :attributes:
+                                            :class:
+                                              - itemlinkbox
+                                          :children:
+                                            - :name: 'dt'
+                                              :attributes:
+                                                :class:
+                                                  - itemlinkbox-title
+                                            - :name: 'dd'
+                                              :attributes:
+                                                :class:
+                                                  - itemlinkbox-body
+                                                  - itemlinkline-body
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/nj_135/'
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/nj_136/'
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/nj_137/'
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/nj_138/'
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/nj_139/'
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/nj_140/'
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/nj_141/'
+                                        - :name: 'dl'
+                                          :attributes:
+                                            :class:
+                                              - itemlinkbox
+                                              - itemlinkline
+                                          :children:
+                                            - :name: 'dt'
+                                              :attributes:
+                                                :class:
+                                                  - itemlinkbox-title
+                                            - :name: 'dd'
+                                              :attributes:
+                                                :class:
+                                                  - itemlinkbox-body
+                                                  - itemlinkline-body
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/nj_217/'
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/nj_218/'
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/nj_219/'
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/nj_220/'
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/nj_221/'
+                                        - :name: 'dl'
+                                          :attributes:
+                                            :class:
+                                              - itemlinkbox
+                                              - itemlinkline
+                                          :children:
+                                            - :name: 'dt'
+                                              :attributes:
+                                                :class:
+                                                  - itemlinkbox-title
+                                            - :name: 'dd'
+                                              :attributes:
+                                                :class:
+                                                  - itemlinkbox-body
+                                                  - itemlinkline-body
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/nj_310/'
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/nj_311/'
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/nj_312/'
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/nj_313/'
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/nj_314/'
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/nj_315/'
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/ikkodate/tokyo/nj_316/'
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - itemlinebox
+                  - itemlinkline
+                  - item
+              :children:
+                - :name: 'dl'
+                  :children:
+                    - :name: 'dt'
+                      :attributes:
+                        :class:
+                          - itemlinebox-title
+                    - :name: 'dd'
+                      :attributes:
+                        :class:
+                          - itemlinebox-body
+                          - itemlinkline-body
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: '/ikkodate/kanagawa/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: '/ikkodate/saitama/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: '/ikkodate/chiba/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: '/ikkodate/ibaraki/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: '/ikkodate/tochigi/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: '/ikkodate/gumma/'
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - itemlinebox
+                  - itemlinkline
+                  - item
+              :children:
+                - :name: 'dl'
+                  :children:
+                    - :name: 'dt'
+                      :attributes:
+                        :class:
+                          - itemlinebox-title
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: '/tokyo/'
+                    - :name: 'dd'
+                      :attributes:
+                        :class:
+                          - itemlinebox-body
+                          - itemlinkline-body
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: '/ms/tokyo/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: '/ms/shinchiku/tokyo/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: '/ms/chuko/tokyo/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: '/chukoikkodate/tokyo/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: '/tochi/tokyo/'
+                        - :name: 'a'
+                          :attributes:
+                            :href: '/chintai/tokyo/'
+        - :name: 'div'
+          :attributes:
+            :class:
+              - footer
+          :children:
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - footinfo
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - footinfo-inner
+                  :children:
+                    - :name: 'p'
+                      :attributes:
+                        :class:
+                          - footinfo-txt
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - footinfo-object
+                      :children:
+                        - :name: 'span'
+                          :attributes:
+                            :class:
+                              - ui-icon--suumo06
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - footlinks
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - footlinks-inner
+                  :children:
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - linkbox_group
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - linkbox
+                              - linkbox--search
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - linkbox-body
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - js-setCookieArZenkoku
+                                    :href: 'http://suumo.jp/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/kanto/'
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - linkbox-search
+                              :children:
+                                - :name: 'form'
+                                  :attributes:
+                                    :action: '/jj/common/ichiran/JJ901FC001/'
+                                    :id: 'js-wordSearch'
+                                    :method: 'post'
+                                  :children:
+                                    - :name: 'input'
+                                      :attributes:
+                                        :name: 'ar'
+                                        :type: 'hidden'
+                                        :value: '030'
+                                    - :name: 'input'
+                                      :attributes:
+                                        :id: 'js-linkbox-search'
+                                        :name: 'kwd'
+                                        :placeholder: 'キーワード検索'
+                                        :type: 'text'
+                                    - :name: 'a'
+                                      :attributes:
+                                        :class:
+                                          - ui-btn
+                                          - ui-btn--search
+                                          - ui-btn--small
+                                        :href: 'javascript:void(0);'
+                                        :id: 'js-footerKensakuBtn'
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - linkbox_group
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - linkbox
+                              - linkbox--full
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - linkbox-title
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - js-setCookieArZenkoku
+                                    :href: 'http://suumo.jp/'
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - linkbox-body
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/chintai/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/chintai/mansion/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/chintai/apartment/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/chintai/ikkodate/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/chintai/soba/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/ms/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/ms/shinchiku/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/ms/chuko/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/ikkodate/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/chukoikkodate/'
+                                - :name: 'br'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/tochi/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/tokushu/renovation/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://bessou.suumo.jp/'
+                                    :target: '_blank'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://inaka.suumo.jp/'
+                                    :target: '_blank'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/chumon/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/remodel/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/setsubi/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/baikyaku/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://www.suumocounter.jp/?vos=dsmcrecb20140123007'
+                                    :target: '_blank'
+                                - :name: 'br'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://hikkoshi.suumo.jp/'
+                                    :target: '_blank'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/loan/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/library/'
+                                    :target: '_blank'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'https://kaigo.suumo.jp/'
+                                    :target: '_blank'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'https://house-service.suumo.jp/'
+                                    :target: '_blank'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://denki.suumo.jp/'
+                                    :target: '_blank'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'https://parking.suumo.jp/'
+                                    :target: '_blank'
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - linkbox_group
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - linkbox
+                              - linkbox--full
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - linkbox-title
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - linkbox-body
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/hokkaido/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/tohoku/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/kanto/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/koshinetsu/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/tokai/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/kansai/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/shikoku/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/chugoku/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/kyushu/'
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - footlogo
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - logobox
+                  :children:
+                    - :name: 'div'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.recruit-sumai.co.jp'
+                            :target: '_blank'
+                          :children:
+                            - :name: 'img'
+                              :attributes:
+                                :alt: 'リクルート住まいカンパニー'
+                                :height: '27'
+                                :src: '/edit/assets/suumo/img/include/inc_CM_all_000_crrecruit.gif'
+                                :width: '286'
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - logobox-link
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.recruit.jp/'
+                            :target: '_blank'
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - footlogo-link
+                  :children:
+                    - :name: 'a'
+                      :attributes:
+                        :href: 'http://suumo.jp/edit/beginner/guide/'
+                    - :name: 'a'
+                      :attributes:
+                        :href: 'http://suumo.jp/sitemap/'
+                    - :name: 'a'
+                      :attributes:
+                        :href: 'http://suumo.jp/edit/kiyaku/'
+                    - :name: 'a'
+                      :attributes:
+                        :href: 'http://cmn.point.recruit.co.jp/policy/privacy.html'
+                        :target: '_blank'
+                    - :name: 'a'
+                      :attributes:
+                        :href: 'http://suumo.jp/edit/sogotoiawase/'
+                        :target: '_blank'
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - footlogo-action
+                  :children:
+                    - :name: 'a'
+                      :attributes:
+                        :class:
+                          - footlogo-action-btn
+                        :href: 'http://www.recruit-sumai.co.jp/recruit/'
+                        :target: '_blank'
+        - :name: 'div'
+          :attributes:
+            :id: 'js-pageTop'
+          :children:
+            - :name: 'a'
+              :attributes:
+                :href: 'javascript:void(0);'
+              :children:
+                - :name: 'img'
+                  :attributes:
+                    :alt: 'ページトップへ戻る'
+                    :height: '51'
+                    :src: '/edit/assets/suumo/img/pagetop.png'
+                    :width: '74'
+        - :name: 'script'
+          :attributes:
+            :src: '/edit/assets/allsites/js/jquery-1.4.2.min.js'
+        - :name: 'script'
+          :attributes:
+            :src: '/edit/assets/suumo/js/headerfooter.js'
+        - :name: 'script'
+          :attributes:
+            :src: '/edit/assets/suumo/js/include/inc-kr-top.js'
+        - :name: 'script'
+          :attributes:
+            :type: 'text/javascript'
+        - :name: 'script'
+          :attributes:
+            :language: 'JavaScript'
+            :src: '/jj/jjcommon/sc/catalyst.js?20160914'
+        - :name: 'script'
+          :attributes:
+            :language: 'JavaScript'
+        - :name: 'script'
+          :attributes:
+            :language: 'JavaScript'
+            :src: '/jj/jjcommon/sc/s_code.js'
+        - :name: 'script'
+          :attributes:
+            :language: 'JavaScript'
+        - :name: 'script'
+          :attributes:
+            :src: '/jj/jjcommon/vos/vos.js'
