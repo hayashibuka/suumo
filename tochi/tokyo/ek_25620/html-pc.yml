@@ -6270,7 +6270,7 @@
                                     :class:
                                       - ui-media
                                       - mediabox
-                                    :href: '/tochi/tokyo/sc_bunkyo/nc_86855279/?fmlg=bo001'
+                                    :href: '/tochi/tokyo/sc_chiyoda/nc_86979681/?fmlg=bo001'
                                   :children:
                                     - :name: 'div'
                                       :attributes:
@@ -6286,7 +6286,7 @@
                                               - ui-thumb--1
                                               - js-noContextMenu
                                             :height: '50'
-                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2Fsystem%2Fimg%2FDummy_Photo_030_132_99.jpg&w=70&h=50'
+                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F681%2F86979681%2F86979681_0002.jpg&w=70&h=50'
                                             :width: '70'
                                     - :name: 'div'
                                       :attributes:
@@ -6308,7 +6308,7 @@
                                     :class:
                                       - ui-media
                                       - mediabox
-                                    :href: '/tochi/tokyo/sc_minato/nc_86372488/?fmlg=bo001'
+                                    :href: '/tochi/tokyo/sc_shibuya/nc_86201240/?fmlg=bo001'
                                   :children:
                                     - :name: 'div'
                                       :attributes:
@@ -6324,7 +6324,7 @@
                                               - ui-thumb--1
                                               - js-noContextMenu
                                             :height: '50'
-                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F488%2F86372488%2F86372488_0016.jpg&w=70&h=50'
+                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F240%2F86201240%2F86201240_0014.jpg&w=70&h=50'
                                             :width: '70'
                                     - :name: 'div'
                                       :attributes:
@@ -6339,6 +6339,12 @@
                                           :attributes:
                                             :class:
                                               - mediabox-desc
+                                          :children:
+                                            - :name: 'span'
+                                              :attributes:
+                                                :class:
+                                                  - ui-pct
+                                                  - ui-pct--util1
                             - :name: 'li'
                               :children:
                                 - :name: 'a'
@@ -6346,7 +6352,7 @@
                                     :class:
                                       - ui-media
                                       - mediabox
-                                    :href: '/tochi/tokyo/sc_setagaya/nc_87002107/?fmlg=bo001'
+                                    :href: '/tochi/tokyo/sc_meguro/nc_86944170/?fmlg=bo001'
                                   :children:
                                     - :name: 'div'
                                       :attributes:
@@ -6362,7 +6368,7 @@
                                               - ui-thumb--1
                                               - js-noContextMenu
                                             :height: '50'
-                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F107%2F87002107%2F87002107_0002.jpg&w=70&h=50'
+                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F170%2F86944170%2F86944170_0011.jpg&w=70&h=50'
                                             :width: '70'
                                     - :name: 'div'
                                       :attributes:
@@ -6377,6 +6383,12 @@
                                           :attributes:
                                             :class:
                                               - mediabox-desc
+                                          :children:
+                                            - :name: 'span'
+                                              :attributes:
+                                                :class:
+                                                  - ui-pct
+                                                  - ui-pct--util1
                             - :name: 'li'
                               :children:
                                 - :name: 'a'
@@ -7877,13 +7889,13 @@
                     :id: 'jsiTextBannerUrl'
                     :name: 'text_banner_url'
                     :type: 'hidden'
-                    :value: '/jj/common/parts/JJ901FJ901/?ar=030&ra=030013&rn=0005&kkkKoseiCd=N030011&dc=3&styleKbn=1&times=1475339540795'
+                    :value: '/jj/common/parts/JJ901FJ901/?ar=030&ra=030013&rn=0005&kkkKoseiCd=N030011&dc=3&styleKbn=1&times=1475357952553'
                 - :name: 'input'
                   :attributes:
                     :id: 'jsiLotationBannerUrl'
                     :name: 'lotation_banner_url'
                     :type: 'hidden'
-                    :value: '/jj/common/parts/JJ901FJ901/?ar=030&kkkKoseiCd=N030010&dc=6&styleKbn=1&times=1475339540795'
+                    :value: '/jj/common/parts/JJ901FJ901/?ar=030&kkkKoseiCd=N030010&dc=6&styleKbn=1&times=1475357952554'
         - :name: 'div'
           :attributes:
             :class:

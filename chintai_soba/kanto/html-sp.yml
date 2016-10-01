@@ -1,0 +1,2489 @@
+- :name: 'html'
+  :attributes:
+    :lang: 'ja'
+  :children:
+    - :name: 'head'
+      :children:
+        - :name: 'meta'
+          :attributes:
+            :charset: 'utf-8'
+        - :name: 'meta'
+          :attributes:
+            :content: '【関東の家賃相場】あなたの気になる地域・間取りの家賃相場は？ | SUUMO'
+            :property: 'og:title'
+        - :name: 'meta'
+          :attributes:
+            :content: '【SUUMO】あなたの気になる・住んでる地域の家賃相場を調べてみよう！関東の物件から調査した全国の相場情報を大公開！'
+            :property: 'og:description'
+        - :name: 'title'
+        - :name: 'meta'
+          :attributes:
+            :content: '都道府県,家賃相場,賃貸相場,賃料相場,賃貸,SUUMO,スーモ'
+            :name: 'keywords'
+        - :name: 'meta'
+          :attributes:
+            :content: '気になる都道府県の家賃相場を関東から探すなら不動産情報サイトSUUMO（スーモ）。関東の物件から調査した、各都道府県（市区郡・駅）の賃料相場情報をご用意。家賃相場を目安にあなたの賃貸物件探しにお役立てください。'
+            :name: 'description'
+        - :name: 'link'
+          :attributes:
+            :href: '/front/img/favicon.ico'
+            :rel:
+              - shortcut
+              - icon
+            :type: 'image/vnd.microsoft.icon'
+        - :name: 'link'
+          :attributes:
+            :href: '/front/img/favicon.ico'
+            :rel:
+              - icon
+            :type: 'image/vnd.microsoft.icon'
+        - :name: 'link'
+          :attributes:
+            :href: 'http://suumo.jp/edit/mb/pc2m/?p=http://suumo.jp/jj/__JJSEO/chintai/soba/ar_kanto/'
+            :media: 'handheld'
+            :rel:
+              - alternate
+        - :name: 'link'
+          :attributes:
+            :href: '/edit/fr-soba/suumo/css/fr-top_soba.css'
+            :media: 'screen'
+            :rel:
+              - stylesheet
+    - :name: 'body'
+      :children:
+        - :name: 'link'
+          :attributes:
+            :href: '/edit/assets/suumo/css/header-gnav.css?160523'
+            :media: 'screen'
+            :rel:
+              - stylesheet
+        - :name: 'form'
+          :attributes:
+            :action: 'https://suumo.jp/jj/common/common/JJ901FK101/showLogin/'
+            :id: 'js-turnbackPostForm'
+            :method: 'post'
+            :name: 'common_common_JJ901FK101ActionForm'
+          :children:
+            - :name: 'input'
+              :attributes:
+                :name: 'ar'
+                :type: 'hidden'
+                :value: '030'
+            - :name: 'input'
+              :attributes:
+                :name: 'bs'
+                :type: 'hidden'
+                :value: '040'
+            - :name: 'input'
+              :attributes:
+                :name: 'ltbi'
+                :type: 'hidden'
+                :value: '9bca05eebee120fb3fac5305c338b7eee27e0859441c6ca6d87b94d4971a8c8476b6ab18e685f466bb28ea9e0a46d34c87ac9d22cd1e4a29bd20058e4d22aa2ccbe35948718386a321a624e5a8497565068be7c6cdf882a4609974f742c5a970cbdf1a5f6e88d2718c9dc150cf933f284b1cefecefb1f65e7b20e02853fa2facff086af387ea9e3724868af265d04e5da6b4c0760941c0b8e53230d012f2cf9eabac1aca279557582a8564041ded5ef4096a4190fdb220bc7294262b70d93efb0c9e214748e7a9f623a1abbf9de12552fd8619f90bb096c0da71ba03c38bdf418bb58b3ac52cec2102a0b3befcdd85d6e6e65c52b1e1f2fc44aeba1630b5a0ebbf53de4ce37a81f5da8d50fa6c859537acf889be5be4875ef5822b97683abfff0b78165f0c623d651355c1a3e323a2289e2cc7866cbdec934713e3d4e0c11481eedc90f26cb671d4040afec75dbf3e7235d2193a2f162cd220019aac5121889641ff45faed25aca5b8def7a8e4e10e6d6eee052ccd03f991eae9acda89978b1e'
+        - :name: 'form'
+          :attributes:
+            :action: '/jj/common/service/JJ901FM303/'
+            :id: 'js-myKensakuJokenForm'
+            :method: 'post'
+          :children:
+            - :name: 'input'
+              :attributes:
+                :name: 'ar'
+                :type: 'hidden'
+                :value: '030'
+            - :name: 'input'
+              :attributes:
+                :name: 'bs'
+                :type: 'hidden'
+                :value: '040'
+        - :name: 'form'
+          :attributes:
+            :action: '/jj/common/parts/JJ901FI306/'
+            :id: 'js-popLatestBukkenForm'
+            :method: 'post'
+          :children:
+            - :name: 'input'
+              :attributes:
+                :name: 'ar'
+                :type: 'hidden'
+                :value: ''
+            - :name: 'input'
+              :attributes:
+                :name: 'bs'
+                :type: 'hidden'
+                :value: ''
+            - :name: 'input'
+              :attributes:
+                :name: 'dispmode'
+                :type: 'hidden'
+                :value: '3'
+        - :name: 'form'
+          :attributes:
+            :action: '/jj/common/parts/JJ901FI302/'
+            :id: 'js-resetLatestBukkenForm'
+            :method: 'post'
+          :children:
+            - :name: 'input'
+              :attributes:
+                :name: 'ar'
+                :type: 'hidden'
+                :value: ''
+            - :name: 'input'
+              :attributes:
+                :name: 'bs'
+                :type: 'hidden'
+                :value: ''
+            - :name: 'input'
+              :attributes:
+                :name: 'dispmode'
+                :type: 'hidden'
+                :value: '3'
+        - :name: 'form'
+          :attributes:
+            :action: '/jj/common/parts/JJ901FI313/'
+            :id: 'js-popLatestSearchForm'
+            :method: 'post'
+          :children:
+            - :name: 'input'
+              :attributes:
+                :name: 'ar'
+                :type: 'hidden'
+                :value: ''
+            - :name: 'input'
+              :attributes:
+                :name: 'bs'
+                :type: 'hidden'
+                :value: ''
+            - :name: 'input'
+              :attributes:
+                :name: 'dispmode'
+                :type: 'hidden'
+                :value: '3'
+        - :name: 'form'
+          :attributes:
+            :action: '/jj/common/parts/JJ901FI312/'
+            :id: 'js-resetLatestSearchForm'
+            :method: 'post'
+          :children:
+            - :name: 'input'
+              :attributes:
+                :name: 'ar'
+                :type: 'hidden'
+                :value: ''
+            - :name: 'input'
+              :attributes:
+                :name: 'bs'
+                :type: 'hidden'
+                :value: ''
+            - :name: 'input'
+              :attributes:
+                :name: 'dispmode'
+                :type: 'hidden'
+                :value: '3'
+        - :name: 'form'
+          :attributes:
+            :action: 'https://suumo.jp/jj/common/common/JJ901FK101/showMemRegist/'
+            :id: 'js-myEntryForm'
+            :method: 'post'
+            :name: 'common_common_JJ901FK101ActionForm'
+          :children:
+            - :name: 'input'
+              :attributes:
+                :name: 'siteKbn'
+                :type: 'hidden'
+                :value: '01'
+            - :name: 'input'
+              :attributes:
+                :name: 'seniFlg'
+                :type: 'hidden'
+                :value: ''
+            - :name: 'input'
+              :attributes:
+                :name: 'ar'
+                :type: 'hidden'
+                :value: '030'
+            - :name: 'input'
+              :attributes:
+                :name: 'bs'
+                :type: 'hidden'
+                :value: '040'
+        - :name: 'div'
+          :attributes:
+            :class:
+              - mylist
+            :id: 'js-mylist'
+          :children:
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - mylist-inner
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - browsearea
+                      - dn
+                    :id: 'js-mylist-historyBox'
+                  :children:
+                    - :name: 'ul'
+                      :attributes:
+                        :class:
+                          - browselist
+                      :children:
+                        - :name: 'li'
+                          :attributes:
+                            :class:
+                              - browselist-box
+                            :id: 'js-mylist-historyBox-popLatestBukken'
+                        - :name: 'li'
+                          :attributes:
+                            :class:
+                              - browselist-box
+                            :id: 'js-mylist-historyBox-popLatestSearch'
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - browsearea-close
+                        :id: 'js-mylist-historyBox-close'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'javascript:void(0);'
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - mylist-logo
+                    :id: 'js-mylist-logo'
+                  :children:
+                    - :name: 'a'
+                      :attributes:
+                        :class:
+                          - js-setCookieArZenkoku
+                        :href: '/'
+                - :name: 'ul'
+                  :attributes:
+                    :class:
+                      - mylist-list
+                  :children:
+                    - :name: 'li'
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - mylistbarbox
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - mylistbarbox-inner
+                              :children:
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - mylistbarbox-inner-contents
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - mylistbar
+                                      :children:
+                                        - :name: 'p'
+                                          :attributes:
+                                            :class:
+                                              - mylistbar-title
+                                        - :name: 'ul'
+                                          :attributes:
+                                            :class:
+                                              - mylistbar-inbar
+                                          :children:
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - mylistbar-inbar-item
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - mylistbarlink
+                                                      - mylistbarlink--bukken
+                                                    :href: '/jj/common/service/JJ901FM203/?ar=030&bs=040&cts=01'
+                                                  :children:
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - mylistbarlink-title
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - mylistbarcnt
+                                                        :id: 'js-mylistbarcnt-bukken'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - mylistbar-inbar-item
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - mylistbarlink
+                                                      - mylistbarlink--company
+                                                    :href: '/jj/common/service/JJ901FM203/?ar=030&bs=040&cts=02'
+                                                  :children:
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - mylistbarlink-title
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - mylistbarcnt
+                                                        :id: 'js-mylistbarcnt-company'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - mylistbar-inbar-item
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - mylistbarlink
+                                                      - mylistbarlink--sch
+                                                    :href: 'javascript:void(0);'
+                                                    :id: 'js-mylist-myKensakuJoken'
+                                                  :children:
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - mylistbarlink-title
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - mylistbarcnt
+                                                        :id: 'js-mylistbarcnt-sch'
+                    - :name: 'li'
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - mylistnbbox
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - mylistbar
+                                  - mylistbar--nb
+                              :children:
+                                - :name: 'ul'
+                                  :attributes:
+                                    :class:
+                                      - mylistbar-inbar
+                                  :children:
+                                    - :name: 'li'
+                                      :attributes:
+                                        :class:
+                                          - mylistbar-inbar-item
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :class:
+                                              - mylistbarlink
+                                              - mylistbarlink--browse
+                                            :href: 'javascript:void(0);'
+                                            :id: 'js-mylist-myHistory'
+                                          :children:
+                                            - :name: 'span'
+                                              :attributes:
+                                                :class:
+                                                  - mylistbarlink-title
+                                            - :name: 'span'
+                                              :attributes:
+                                                :class:
+                                                  - mylistbarlink-arw
+                                                  - mylisticon
+                                                  - mylisticon--arw
+                    - :name: 'li'
+                      :children:
+                        - :name: 'ul'
+                          :attributes:
+                            :class:
+                              - mylist-member
+                          :children:
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - member-entry
+                                    :href: 'https://suumo.jp/jj/common/common/JJ901FK101/showMemRegist/'
+                                  :children:
+                                    - :name: 'span'
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - mylist-login
+                                    :href: 'https://suumo.jp/jj/common/common/JJ901FK101/showLogin/'
+                                  :children:
+                                    - :name: 'span'
+                - :name: 'span'
+                  :attributes:
+                    :class:
+                      - dn
+                    :id: 'js-mylistbukkencountcookie'
+                - :name: 'span'
+                  :attributes:
+                    :class:
+                      - dn
+                    :id: 'js-mylistkaishacountcookie'
+                - :name: 'span'
+                  :attributes:
+                    :class:
+                      - dn
+                    :id: 'js-mylistkensakujokencountcookie'
+        - :name: 'div'
+          :attributes:
+            :class:
+              - headercontainer
+          :children:
+            - :name: 'noscript'
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - headjsalart
+                  :children:
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - headjsalart-coution
+                          - ui-media
+                      :children:
+                        - :name: 'span'
+                          :attributes:
+                            :class:
+                              - ui-icon--exclamation1
+                              - ui-media-object
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - ui-media-body
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - headjsalart-title
+                            - :name: 'p'
+                              :attributes:
+                                :class:
+                                  - headjsalart-txt
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: '/help/guide.html'
+                                    :target: '_blank'
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - siteheadercontainer
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - siteheader
+                  :children:
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - desc
+                      :children:
+                        - :name: 'p'
+                          :attributes:
+                            :class:
+                              - desc-title
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - siteheader-inner
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - logo
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - logo-object
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: '/'
+                                  :children:
+                                    - :name: 'img'
+                                      :attributes:
+                                        :alt: 'SUUMO(スーモ)'
+                                        :height: '46'
+                                        :src: '/edit/assets/suumo/img/logo.png'
+                                        :width: '138'
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - logo-field
+                              :children:
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - logo-field-link
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :class:
+                                          - js-setCookieArZenkoku
+                                        :href: '/'
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - logo-field-area
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - gnav
+                          :children:
+                            - :name: 'ul'
+                              :attributes:
+                                :class:
+                                  - gnav_list
+                              :children:
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'dl'
+                                      :attributes:
+                                        :class:
+                                          - gnav_item
+                                          - gnav_item--chintai
+                                      :children:
+                                        - :name: 'dt'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-title
+                                        - :name: 'dd'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-definition
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--chintai
+                                                      - is-active
+                                                    :href: '/chintai/'
+                                                    :title: '賃貸'
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'dl'
+                                      :attributes:
+                                        :class:
+                                          - gnav_item
+                                          - gnav_item--ms
+                                      :children:
+                                        - :name: 'dt'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-title
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: '/ms/'
+                                                :title: 'マンション・購入'
+                                        - :name: 'dd'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-definition
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--shinchiku
+                                                      - gnav_btn--left
+                                                      - 
+                                                    :href: '/ms/shinchiku/'
+                                                    :title: 'マンション購入 新築・未入居マンション'
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--chukomansion
+                                                      - gnav_btn--right
+                                                      - 
+                                                    :href: '/ms/chuko/'
+                                                    :title: 'マンション購入 中古'
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'dl'
+                                      :attributes:
+                                        :class:
+                                          - gnav_item
+                                          - gnav_item--kodate
+                                      :children:
+                                        - :name: 'dt'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-title
+                                        - :name: 'dd'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-definition
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--ikkodate
+                                                      - gnav_btn--left
+                                                      - 
+                                                    :href: '/ikkodate/'
+                                                    :title: '一戸建て購入・建築 新築・未入居一戸建て'
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--chukoikkodate
+                                                      - gnav_btn--right
+                                                      - 
+                                                    :href: '/chukoikkodate/'
+                                                    :title: '一戸建て購入・建築 中古'
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'dl'
+                                      :attributes:
+                                        :class:
+                                          - gnav_item
+                                          - gnav_item--chumon
+                                      :children:
+                                        - :name: 'dt'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-title
+                                        - :name: 'dd'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-definition
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--twolines
+                                                      - gnav_btn--chumon
+                                                      - gnav_btn--left
+                                                    :href: '/chumon/'
+                                                    :title: '一戸建て購入・建築 注文'
+                                                  :children:
+                                                    - :name: 'br'
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--tochi
+                                                      - gnav_btn--right
+                                                      - 
+                                                    :href: '/tochi/'
+                                                    :title: '一戸建て購入・建築 土地'
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'dl'
+                                      :attributes:
+                                        :class:
+                                          - gnav_item
+                                          - gnav_item--reform
+                                      :children:
+                                        - :name: 'dt'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-title
+                                        - :name: 'dd'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-definition
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--reform
+                                                      - gnav_btn--left
+                                                      - 
+                                                    :href: '/remodel/'
+                                                    :title: 'リフォーム'
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--twolines
+                                                      - gnav_btn--setsubi
+                                                      - gnav_btn--right
+                                                    :href: '/setsubi/'
+                                                    :title: '住宅設備'
+                                                  :children:
+                                                    - :name: 'br'
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'dl'
+                                      :attributes:
+                                        :class:
+                                          - gnav_item
+                                          - gnav_item--baikyaku
+                                      :children:
+                                        - :name: 'dt'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-title
+                                        - :name: 'dd'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-definition
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--twolines
+                                                      - gnav_btn--baikyaku
+                                                      - 
+                                                    :href: '/baikyaku/'
+                                                    :title: '売却査定'
+                                                  :children:
+                                                    - :name: 'br'
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'dl'
+                                      :attributes:
+                                        :class:
+                                          - gnav_item
+                                          - gnav_item--counter
+                                      :children:
+                                        - :name: 'dt'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-title
+                                        - :name: 'dd'
+                                          :attributes:
+                                            :class:
+                                              - gnav_item-definition
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - gnav_item-definition-list
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - gnav_btn
+                                                      - gnav_btn--counter
+                                                    :href: 'http://www.suumocounter.jp/?vos=dsmcrecb20110926001'
+                                                    :target: '_blank'
+                                                    :title: '講座/相談'
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - gnav_item
+                                          - gnav_item--kurashi
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - balloon_nav
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - balloon_nav-action
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - balloon_nav-action-link
+                                                  :children:
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :class:
+                                                          - gnav_btn
+                                                          - gnav_btn--kurashi
+                                                        :href: 'javascript:void(0);'
+                                                        :title: '暮らし'
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - balloon_nav-action-item
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - gnav_drop_list
+                                                      :children:
+                                                        - :name: 'ul'
+                                                          :attributes:
+                                                            :class:
+                                                              - gnav_drop_list-item
+                                                          :children:
+                                                            - :name: 'li'
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - gnav_drop
+                                                                      - gnav_drop--moving
+                                                                    :href: 'http://hikkoshi.suumo.jp/'
+                                                                    :target: '_blank'
+                                                                    :title: 'SUUMO引越し見積もり'
+                                                                  :children:
+                                                                    - :name: 'span'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - gnav_drop-text
+                                                            - :name: 'li'
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - gnav_drop
+                                                                      - gnav_drop--electrical
+                                                                    :href: 'http://denki.suumo.jp/'
+                                                                    :target: '_blank'
+                                                                    :title: 'SUUMO電気代診断'
+                                                                  :children:
+                                                                    - :name: 'span'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - gnav_drop-text
+                                                        - :name: 'ul'
+                                                          :attributes:
+                                                            :class:
+                                                              - gnav_drop_list-item
+                                                          :children:
+                                                            - :name: 'li'
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - gnav_drop
+                                                                      - gnav_drop--service
+                                                                    :href: 'https://house-service.suumo.jp/'
+                                                                    :target: '_blank'
+                                                                    :title: 'SUUMOハウスサービス'
+                                                                  :children:
+                                                                    - :name: 'span'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - gnav_drop-text
+                                                            - :name: 'li'
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - gnav_drop
+                                                                      - gnav_drop--inheritance
+                                                                    :href: 'https://souzoku.suumo.jp/'
+                                                                    :target: '_blank'
+                                                                    :title: 'SUUMO相続'
+                                                                  :children:
+                                                                    - :name: 'span'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - gnav_drop-text
+        - :name: 'div'
+          :attributes:
+            :class:
+              - breadcrumb
+          :children:
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - breadcrumb-inner
+              :children:
+                - :name: 'ol'
+                  :attributes:
+                    :class:
+                      - breadcrumb-list
+                  :children:
+                    - :name: 'li'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :class:
+                              - js-setCookieArZenkoku
+                            :href: '/'
+                    - :name: 'li'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :class:
+                              - js-setCookieArZenkoku
+                            :href: '/chintai/'
+                    - :name: 'li'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: '/chintai/soba/'
+                    - :name: 'li'
+        - :name: 'div'
+          :attributes:
+            :class:
+              - wrapper
+          :children:
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - ui-section--h1
+                  - basicpage
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - ui-section-header
+                      - basicpage-header
+                  :children:
+                    - :name: 'h1'
+                - :name: 'p'
+                  :attributes:
+                    :class:
+                      - pagecaption
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - ui-section-body
+                  :children:
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - contents
+                          - contents--type1
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - main
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - ui-section--h2
+                              :children:
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - ui-section-header
+                                  :children:
+                                    - :name: 'h2'
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - ui-section-body
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - areamap-field--top
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - areamap-header-title
+                                          :children:
+                                            - :name: 'h2'
+                                              :attributes:
+                                                :class:
+                                                  - areatitle
+                                              :children:
+                                                - :name: 'span'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-icon--loupe5
+                                                - :name: 'span'
+                                                  :attributes:
+                                                    :class:
+                                                      - areatitle-label
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - areamap
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - areamap-container
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - areamap-field
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - areamap-field-kanto
+                                                      :children:
+                                                        - :name: 'dl'
+                                                          :attributes:
+                                                            :class:
+                                                              - areabox
+                                                              - areabox--gumma
+                                                          :children:
+                                                            - :name: 'dt'
+                                                              :attributes:
+                                                                :class:
+                                                                  - areabox-title
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :href: '/chintai/soba/gumma/'
+                                                            - :name: 'dd'
+                                                              :children:
+                                                                - :name: 'ul'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - ui-list--hz
+                                                                  :children:
+                                                                    - :name: 'li'
+                                                                      :children:
+                                                                        - :name: 'a'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - areabox-link
+                                                                            :href: '/chintai/soba/gumma/ensen/'
+                                                                          :children:
+                                                                            - :name: 'div'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - areabox-txt
+                                                                    - :name: 'li'
+                                                                      :children:
+                                                                        - :name: 'a'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - areabox-link
+                                                                            :href: '/chintai/soba/gumma/area/'
+                                                                          :children:
+                                                                            - :name: 'div'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - areabox-txt
+                                                        - :name: 'dl'
+                                                          :attributes:
+                                                            :class:
+                                                              - areabox
+                                                              - areabox--tochigi
+                                                          :children:
+                                                            - :name: 'dt'
+                                                              :attributes:
+                                                                :class:
+                                                                  - areabox-title
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :href: '/chintai/soba/tochigi/'
+                                                            - :name: 'dd'
+                                                              :children:
+                                                                - :name: 'ul'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - ui-list--hz
+                                                                  :children:
+                                                                    - :name: 'li'
+                                                                      :children:
+                                                                        - :name: 'a'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - areabox-link
+                                                                            :href: '/chintai/soba/tochigi/ensen/'
+                                                                          :children:
+                                                                            - :name: 'div'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - areabox-txt
+                                                                    - :name: 'li'
+                                                                      :children:
+                                                                        - :name: 'a'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - areabox-link
+                                                                            :href: '/chintai/soba/tochigi/area/'
+                                                                          :children:
+                                                                            - :name: 'div'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - areabox-txt
+                                                        - :name: 'dl'
+                                                          :attributes:
+                                                            :class:
+                                                              - areabox
+                                                              - areabox--saitama
+                                                          :children:
+                                                            - :name: 'dt'
+                                                              :attributes:
+                                                                :class:
+                                                                  - areabox-title
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :href: '/chintai/soba/saitama/'
+                                                            - :name: 'dd'
+                                                              :children:
+                                                                - :name: 'ul'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - ui-list--hz
+                                                                  :children:
+                                                                    - :name: 'li'
+                                                                      :children:
+                                                                        - :name: 'a'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - areabox-link
+                                                                            :href: '/chintai/soba/saitama/ensen/'
+                                                                          :children:
+                                                                            - :name: 'div'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - areabox-txt
+                                                                    - :name: 'li'
+                                                                      :children:
+                                                                        - :name: 'a'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - areabox-link
+                                                                            :href: '/chintai/soba/saitama/area/'
+                                                                          :children:
+                                                                            - :name: 'div'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - areabox-txt
+                                                        - :name: 'dl'
+                                                          :attributes:
+                                                            :class:
+                                                              - areabox
+                                                              - areabox--ibaraki
+                                                          :children:
+                                                            - :name: 'dt'
+                                                              :attributes:
+                                                                :class:
+                                                                  - areabox-title
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :href: '/chintai/soba/ibaraki/'
+                                                            - :name: 'dd'
+                                                              :children:
+                                                                - :name: 'ul'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - ui-list--hz
+                                                                  :children:
+                                                                    - :name: 'li'
+                                                                      :children:
+                                                                        - :name: 'a'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - areabox-link
+                                                                            :href: '/chintai/soba/ibaraki/ensen/'
+                                                                          :children:
+                                                                            - :name: 'div'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - areabox-txt
+                                                                    - :name: 'li'
+                                                                      :children:
+                                                                        - :name: 'a'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - areabox-link
+                                                                            :href: '/chintai/soba/ibaraki/area/'
+                                                                          :children:
+                                                                            - :name: 'div'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - areabox-txt
+                                                        - :name: 'dl'
+                                                          :attributes:
+                                                            :class:
+                                                              - areabox
+                                                              - areabox--tokyo
+                                                          :children:
+                                                            - :name: 'dt'
+                                                              :attributes:
+                                                                :class:
+                                                                  - areabox-title
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :href: '/chintai/soba/tokyo/'
+                                                            - :name: 'dd'
+                                                              :children:
+                                                                - :name: 'ul'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - ui-list--hz
+                                                                  :children:
+                                                                    - :name: 'li'
+                                                                      :children:
+                                                                        - :name: 'a'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - areabox-link
+                                                                            :href: '/chintai/soba/tokyo/ensen/'
+                                                                          :children:
+                                                                            - :name: 'div'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - areabox-txt
+                                                                    - :name: 'li'
+                                                                      :children:
+                                                                        - :name: 'a'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - areabox-link
+                                                                            :href: '/chintai/soba/tokyo/area/'
+                                                                          :children:
+                                                                            - :name: 'div'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - areabox-txt
+                                                        - :name: 'dl'
+                                                          :attributes:
+                                                            :class:
+                                                              - areabox
+                                                              - areabox--chiba
+                                                          :children:
+                                                            - :name: 'dt'
+                                                              :attributes:
+                                                                :class:
+                                                                  - areabox-title
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :href: '/chintai/soba/chiba/'
+                                                            - :name: 'dd'
+                                                              :children:
+                                                                - :name: 'ul'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - ui-list--hz
+                                                                  :children:
+                                                                    - :name: 'li'
+                                                                      :children:
+                                                                        - :name: 'a'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - areabox-link
+                                                                            :href: '/chintai/soba/chiba/ensen/'
+                                                                          :children:
+                                                                            - :name: 'div'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - areabox-txt
+                                                                    - :name: 'li'
+                                                                      :children:
+                                                                        - :name: 'a'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - areabox-link
+                                                                            :href: '/chintai/soba/chiba/area/'
+                                                                          :children:
+                                                                            - :name: 'div'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - areabox-txt
+                                                        - :name: 'dl'
+                                                          :attributes:
+                                                            :class:
+                                                              - areabox
+                                                              - areabox--kanagawa
+                                                          :children:
+                                                            - :name: 'dt'
+                                                              :attributes:
+                                                                :class:
+                                                                  - areabox-title
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :href: '/chintai/soba/kanagawa/'
+                                                            - :name: 'dd'
+                                                              :children:
+                                                                - :name: 'ul'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - ui-list--hz
+                                                                  :children:
+                                                                    - :name: 'li'
+                                                                      :children:
+                                                                        - :name: 'a'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - areabox-link
+                                                                            :href: '/chintai/soba/kanagawa/ensen/'
+                                                                          :children:
+                                                                            - :name: 'div'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - areabox-txt
+                                                                    - :name: 'li'
+                                                                      :children:
+                                                                        - :name: 'a'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - areabox-link
+                                                                            :href: '/chintai/soba/kanagawa/area/'
+                                                                          :children:
+                                                                            - :name: 'div'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - areabox-txt
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - ui-icon--suumo16
+                                                          - areamap-map-icon
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - itemlinebox
+                                  - itemlinkline
+                                  - item
+                              :children:
+                                - :name: 'dl'
+                                  :children:
+                                    - :name: 'dt'
+                                      :attributes:
+                                        :class:
+                                          - itemlinebox-title
+                                    - :name: 'dd'
+                                      :attributes:
+                                        :class:
+                                          - itemlinebox-body
+                                          - itemlinkline-body
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: '/chintai/tokyo/'
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: '/chintai/kanagawa/'
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: '/chintai/saitama/'
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: '/chintai/chiba/'
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: '/chintai/ibaraki/'
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: '/chintai/tochigi/'
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: '/chintai/gumma/'
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - itemlinebox
+                                  - itemlinkline
+                                  - item
+                              :children:
+                                - :name: 'dl'
+                                  :children:
+                                    - :name: 'dt'
+                                      :attributes:
+                                        :class:
+                                          - itemlinebox-title
+                                    - :name: 'dd'
+                                      :attributes:
+                                        :class:
+                                          - itemlinebox-body
+                                          - itemlinkline-body
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: '/chintai/kanagawa/sa_yokohama/'
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: '/chintai/kanagawa/sa_kawasaki/'
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: '/chintai/kanagawa/sa_sagamihara/'
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: '/chintai/saitama/sa_saitama/'
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: '/chintai/chiba/sa_chiba/'
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - sub
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - ui-section--subitem
+                                  - subitem
+                              :children:
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - ui-section-body
+                                  :children:
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - subitemlistv
+                                          - subitemlistv--line
+                                      :children:
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :class:
+                                                  - ui-media
+                                                  - mediabox
+                                                  - mediabox_low
+                                                :href: 'http://www.gomez.co.jp/ranking/realestate_chintai/'
+                                                :target: '_blank'
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-media-object
+                                                      - mediabox-object
+                                                  :children:
+                                                    - :name: 'img'
+                                                      :attributes:
+                                                        :alt: 'Gomez賃貸不動産情報サイトランキングで総合１位を獲得しました'
+                                                        :class:
+                                                          - ui-thumb
+                                                          - ui-thumb--1
+                                                        :height: '118'
+                                                        :src: '/edit/assets/suumo/img/include/inc_FR_top_000_gomezchintai.png'
+                                                        :width: '91'
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-media-body
+                                                  :children:
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - mediabox-desc
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - ui-section--subitem
+                                  - subitem
+                              :children:
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - ui-section-header
+                                      - titleobject
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - ui-section-subtitle
+                                      :children:
+                                        - :name: 'span'
+                                          :attributes:
+                                            :class:
+                                              - ui-icon--suumo04
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - ui-section-body
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - subitembox
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - mobilebox
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - mobilebox-qr
+                                              :children:
+                                                - :name: 'img'
+                                                  :attributes:
+                                                    :alt: 'SUUMO(スーモ）モバイル'
+                                                    :height: '66'
+                                                    :src: '/edit/assets/suumo/img/include/inc_CM_top_030_barcode.gif'
+                                                    :width: '66'
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - mobilebox-anchor
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-btn--sphone
+                                                    :href: 'http://smp.suumo.jp/'
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - subitemlistv
+                                          - subitemlistv--line
+                                      :children:
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'div'
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - ui-iconbox
+                                                  - ui-iconbox--arrow02
+                                              :children:
+                                                - :name: 'span'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-iconbox-icon
+                                                      - ui-icon--arrow02
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/edit/app/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'div'
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - ui-iconbox
+                                                  - ui-iconbox--arrow02
+                                              :children:
+                                                - :name: 'span'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-iconbox-icon
+                                                      - ui-icon--arrow02
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/edit/series/mobile/'
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - ui-section--subitem
+                                  - subitem
+                              :children:
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - ui-section-header
+                                  :children:
+                                    - :name: 'h2'
+                                      :attributes:
+                                        :class:
+                                          - ui-section-subtitle
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: '/article/oyakudachi/oyaku/oyaku_category/chintai/'
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - ui-section-body
+                                  :children:
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - subitemlistv
+                                          - subitemlistv--line
+                                      :children:
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :class:
+                                                  - ui-media
+                                                  - mediabox
+                                                  - mediabox_low
+                                                :href: '/article/oyakudachi/oyaku/oyaku_category/chintai/fr_single/'
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-media-object
+                                                      - mediabox-object
+                                                  :children:
+                                                    - :name: 'img'
+                                                      :attributes:
+                                                        :alt: '先輩学生に聞いた！一人暮らしのお役立ち情報'
+                                                        :class:
+                                                          - ui-thumb
+                                                          - ui-thumb--1
+                                                        :height: '50'
+                                                        :src: '/edit/assets/suumo/img/include/inc_FR_top_000_hitorigurashi.png'
+                                                        :width: '50'
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-media-body
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - mediabox-title
+                                                      :children:
+                                                        - :name: 'br'
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - mediabox-desc
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :class:
+                                                  - ui-media
+                                                  - mediabox
+                                                  - mediabox_low
+                                                :href: '/article/oyakudachi/oyaku/oyaku_tag/fr-rank13/'
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-media-object
+                                                      - mediabox-object
+                                                  :children:
+                                                    - :name: 'img'
+                                                      :attributes:
+                                                        :alt: '賃貸居住者に聞いてみた！気になるランキング'
+                                                        :class:
+                                                          - ui-thumb
+                                                          - ui-thumb--1
+                                                        :height: '50'
+                                                        :src: '/edit/assets/suumo/img/include/inc_FR_top_000_kininaru.png'
+                                                        :width: '50'
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-media-body
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - mediabox-title
+                                                      :children:
+                                                        - :name: 'br'
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - mediabox-desc
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :class:
+                                                  - ui-media
+                                                  - mediabox
+                                                  - mediabox_low
+                                                :href: '/edit/customize/jitsurei/'
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-media-object
+                                                      - mediabox-object
+                                                  :children:
+                                                    - :name: 'img'
+                                                      :attributes:
+                                                        :alt: '賃貸でカスタマイズ&DIY！ステキな実例を見てみよう'
+                                                        :class:
+                                                          - ui-thumb
+                                                          - ui-thumb--1
+                                                        :height: '50'
+                                                        :src: '/edit/assets/suumo/img/include/inc_FR_top_000_customize.png'
+                                                        :width: '50'
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-media-body
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - mediabox-title
+                                                      :children:
+                                                        - :name: 'br'
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - mediabox-desc
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :class:
+                                                  - ui-media
+                                                  - mediabox
+                                                  - mediabox_low
+                                                :href: '/article/jukatsu/archives/chintai/'
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-media-object
+                                                      - mediabox-object
+                                                  :children:
+                                                    - :name: 'img'
+                                                      :attributes:
+                                                        :alt: '賃貸部屋探しマニュアル'
+                                                        :class:
+                                                          - ui-thumb
+                                                          - ui-thumb--1
+                                                        :height: '50'
+                                                        :src: '/edit/assets/suumo/img/include/inc_CM_top_000_jukatsu.png'
+                                                        :width: '50'
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-media-body
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - mediabox-title
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - mediabox-desc
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :class:
+                                                  - ui-media
+                                                  - mediabox
+                                                  - mediabox_low
+                                                :href: '/article/oyakudachi/oyaku/chintai/fr_money/f0kei000/'
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-media-object
+                                                      - mediabox-object
+                                                  :children:
+                                                    - :name: 'img'
+                                                      :attributes:
+                                                        :alt: '申し込み・契約のチェックポイント'
+                                                        :class:
+                                                          - ui-thumb
+                                                          - ui-thumb--1
+                                                        :height: '50'
+                                                        :src: '/edit/assets/suumo/img/include/inc_CM_top_000_checkpoint.png'
+                                                        :width: '50'
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-media-body
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - mediabox-title
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - mediabox-desc
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - ui-iconbox
+                                                  - ui-iconbox--arrow04
+                                              :children:
+                                                - :name: 'span'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-iconbox-icon
+                                                      - ui-icon--arrow04
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/b/chintai/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - ui-iconbox
+                                                  - ui-iconbox--arrow04
+                                              :children:
+                                                - :name: 'span'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-iconbox-icon
+                                                      - ui-icon--arrow04
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/tokushu/foreigner/english/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - ui-iconbox
+                                                  - ui-iconbox--arrow04
+                                              :children:
+                                                - :name: 'span'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-iconbox-icon
+                                                      - ui-icon--arrow04
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/article/oyakudachi/oyaku/sumai_nyumon/iesagashi/c0mov000/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - ui-iconbox
+                                                  - ui-iconbox--arrow04
+                                              :children:
+                                                - :name: 'span'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-iconbox-icon
+                                                      - ui-icon--arrow04
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/tokushu/foreigner/english_company/tokyo.html'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - ui-iconbox
+                                                  - ui-iconbox--arrow04
+                                              :children:
+                                                - :name: 'span'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-iconbox-icon
+                                                      - ui-icon--arrow04
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/article/oyakudachi/oyaku/chintai/fr_room/F0gek000/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - ui-iconbox
+                                                  - ui-iconbox--arrow04
+                                              :children:
+                                                - :name: 'span'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-iconbox-icon
+                                                      - ui-icon--arrow04
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: '/article/oyakudachi/oyaku/oyaku_tag/chintai-vs/'
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - subitemlistv
+                                          - subitemlistv--line
+                                        :id: 'inc-chumoku-kiji'
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - subitemlistv
+                                          - subitemlistv--line
+                                      :children:
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - subitembox-link
+                                                  - subsectionmore
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-iconbox
+                                                      - ui-iconbox--arrow01
+                                                      - subsectionmore-box
+                                                  :children:
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - ui-iconbox-icon
+                                                          - ui-icon--arrow01
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :href: '/article/oyakudachi/oyaku/oyaku_category/chintai/'
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - ui-section--subitem
+                                  - subitem
+                              :children:
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - ui-section-header
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - ui-section-subtitle
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - ui-section-body
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - subitembox
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - subitemlisth_container
+                                          :children:
+                                            - :name: 'ul'
+                                              :attributes:
+                                                :class:
+                                                  - subitemlisth
+                                                  - subitemlisth--size2
+                                              :children:
+                                                - :name: 'li'
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - ui-iconbox
+                                                          - ui-iconbox--arrow02
+                                                      :children:
+                                                        - :name: 'span'
+                                                          :attributes:
+                                                            :class:
+                                                              - ui-iconbox-icon
+                                                              - ui-icon--arrow02
+                                                        - :name: 'a'
+                                                          :attributes:
+                                                            :href: '/edit/series/toshin/'
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - subtextbox
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - ui-section--subdifferitem
+                                  - ui-section--subdifferitemout
+                                  - subitem
+                              :children:
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - ui-section-header
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - ui-section-title
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - ui-section-body
+                                  :children:
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - subitemlistv
+                                          - subitemlistv--line
+                                      :children:
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - ui-iconbox
+                                                  - ui-iconbox--square
+                                              :children:
+                                                - :name: 'span'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-iconbox-icon
+                                                      - ui-icon--square
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'http://zexy.net/interior/shutoken/'
+                                                    :target: '_blank'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - ui-iconbox
+                                                  - ui-iconbox--square
+                                              :children:
+                                                - :name: 'span'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-iconbox-icon
+                                                      - ui-icon--square
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'http://akasugu.fcart.jp/'
+                                                    :target: '_blank'
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - bgbox
+                  - bgbox--add
+                  - bgbox--type3
+                  - dn
+                :id: 'fr_lotation_banner'
+        - :name: 'div'
+          :attributes:
+            :class:
+              - footer
+          :children:
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - footinfo
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - footinfo-inner
+                  :children:
+                    - :name: 'p'
+                      :attributes:
+                        :class:
+                          - footinfo-txt
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - footinfo-object
+                      :children:
+                        - :name: 'span'
+                          :attributes:
+                            :class:
+                              - ui-icon--suumo06
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - footlinks
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - footlinks-inner
+                  :children:
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - linkbox_group
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - linkbox
+                              - linkbox--search
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - linkbox-body
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - js-setCookieArZenkoku
+                                    :href: 'http://suumo.jp/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/kanto/'
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - linkbox-search
+                              :children:
+                                - :name: 'form'
+                                  :attributes:
+                                    :action: '/jj/common/ichiran/JJ901FC001/'
+                                    :id: 'js-wordSearch'
+                                    :method: 'post'
+                                  :children:
+                                    - :name: 'input'
+                                      :attributes:
+                                        :name: 'ar'
+                                        :type: 'hidden'
+                                        :value: '030'
+                                    - :name: 'input'
+                                      :attributes:
+                                        :id: 'js-linkbox-search'
+                                        :name: 'kwd'
+                                        :placeholder: 'キーワード検索'
+                                        :type: 'text'
+                                    - :name: 'a'
+                                      :attributes:
+                                        :class:
+                                          - ui-btn
+                                          - ui-btn--search
+                                          - ui-btn--small
+                                        :href: 'javascript:void(0);'
+                                        :id: 'js-footerKensakuBtn'
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - linkbox_group
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - linkbox
+                              - linkbox--full
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - linkbox-title
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - js-setCookieArZenkoku
+                                    :href: 'http://suumo.jp/'
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - linkbox-body
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/chintai/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/chintai/mansion/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/chintai/apartment/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/chintai/ikkodate/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/chintai/soba/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/ms/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/ms/shinchiku/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/ms/chuko/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/ikkodate/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/chukoikkodate/'
+                                - :name: 'br'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/tochi/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/tokushu/renovation/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://bessou.suumo.jp/'
+                                    :target: '_blank'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://inaka.suumo.jp/'
+                                    :target: '_blank'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/chumon/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/remodel/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/setsubi/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/baikyaku/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://www.suumocounter.jp/?vos=dsmcrecb20140123007'
+                                    :target: '_blank'
+                                - :name: 'br'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://hikkoshi.suumo.jp/'
+                                    :target: '_blank'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/loan/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/library/'
+                                    :target: '_blank'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'https://kaigo.suumo.jp/'
+                                    :target: '_blank'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'https://house-service.suumo.jp/'
+                                    :target: '_blank'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://denki.suumo.jp/'
+                                    :target: '_blank'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'https://parking.suumo.jp/'
+                                    :target: '_blank'
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - linkbox_group
+                      :children:
+                        - :name: 'div'
+                          :attributes:
+                            :class:
+                              - linkbox
+                              - linkbox--full
+                          :children:
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - linkbox-title
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - linkbox-body
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/hokkaido/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/tohoku/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/kanto/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/koshinetsu/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/tokai/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/kansai/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/shikoku/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/chugoku/'
+                                - :name: 'a'
+                                  :attributes:
+                                    :href: 'http://suumo.jp/kyushu/'
+            - :name: 'div'
+              :attributes:
+                :class:
+                  - footlogo
+              :children:
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - logobox
+                  :children:
+                    - :name: 'div'
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.recruit-sumai.co.jp'
+                            :target: '_blank'
+                          :children:
+                            - :name: 'img'
+                              :attributes:
+                                :alt: 'リクルート住まいカンパニー'
+                                :height: '27'
+                                :src: '/edit/assets/suumo/img/include/inc_CM_all_000_crrecruit.gif'
+                                :width: '286'
+                    - :name: 'div'
+                      :attributes:
+                        :class:
+                          - logobox-link
+                      :children:
+                        - :name: 'a'
+                          :attributes:
+                            :href: 'http://www.recruit.jp/'
+                            :target: '_blank'
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - footlogo-link
+                  :children:
+                    - :name: 'a'
+                      :attributes:
+                        :href: 'http://suumo.jp/edit/beginner/guide/'
+                    - :name: 'a'
+                      :attributes:
+                        :href: 'http://suumo.jp/sitemap/'
+                    - :name: 'a'
+                      :attributes:
+                        :href: 'http://suumo.jp/edit/kiyaku/'
+                    - :name: 'a'
+                      :attributes:
+                        :href: 'http://cmn.point.recruit.co.jp/policy/privacy.html'
+                        :target: '_blank'
+                    - :name: 'a'
+                      :attributes:
+                        :href: 'http://suumo.jp/edit/sogotoiawase/'
+                        :target: '_blank'
+                - :name: 'div'
+                  :attributes:
+                    :class:
+                      - footlogo-action
+                  :children:
+                    - :name: 'a'
+                      :attributes:
+                        :class:
+                          - footlogo-action-btn
+                        :href: 'http://www.recruit-sumai.co.jp/recruit/'
+                        :target: '_blank'
+        - :name: 'div'
+          :attributes:
+            :id: 'js-pageTop'
+          :children:
+            - :name: 'a'
+              :attributes:
+                :href: 'javascript:void(0);'
+              :children:
+                - :name: 'img'
+                  :attributes:
+                    :alt: 'ページトップへ戻る'
+                    :height: '51'
+                    :src: '/edit/assets/suumo/img/pagetop.png'
+                    :width: '74'
+        - :name: 'script'
+          :attributes:
+            :src: '/edit/assets/allsites/js/jquery-1.4.2.min.js'
+        - :name: 'script'
+          :attributes:
+            :src: '/edit/assets/suumo/js/headerfooter.js'
+        - :name: 'script'
+          :attributes:
+            :src: '/edit/fr-soba/suumo/js/fr-top_soba.js'
+        - :name: 'script'
+          :attributes:
+            :src: '/edit/fr-soba/suumo/js/include/inc-fr-top_soba.js'
+        - :name: 'script'
+          :attributes:
+            :type: 'text/javascript'
+        - :name: 'script'
+          :attributes:
+            :type: 'text/javascript'
+        - :name: 'script'
+          :attributes:
+            :language: 'JavaScript'
+            :src: '/jj/jjcommon/sc/catalyst.js?20160914'
+        - :name: 'script'
+          :attributes:
+            :language: 'JavaScript'
+        - :name: 'script'
+          :attributes:
+            :language: 'JavaScript'
+            :src: '/jj/jjcommon/sc/s_code.js'
+        - :name: 'script'
+          :attributes:
+            :language: 'JavaScript'
+        - :name: 'form'
+          :children:
+            - :name: 'input'
+              :attributes:
+                :id: 'browserBack'
+                :style: 'display: none;'
+                :type: 'hidden'
+        - :name: 'script'
+          :attributes:
+            :src: '/jj/jjcommon/vos/vos.js'
+            :type: 'text/javascript'
+        - :name: 'script'
+          :attributes:
+            :language: 'JavaScript'

@@ -7674,13 +7674,6 @@
                                                                             :class:
                                                                               - ui-pct
                                                                               - ui-pct--util1
-                                                                    - :name: 'li'
-                                                                      :children:
-                                                                        - :name: 'span'
-                                                                          :attributes:
-                                                                            :class:
-                                                                              - ui-pct
-                                                                              - ui-pct--util1
                                                 - :name: 'div'
                                                   :attributes:
                                                     :class:
@@ -8176,12 +8169,6 @@
                                                       - ui-pct--util1
                                                       - cassettebox-hpct
                                                       - cassettebox-hpctcat
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - ui-label
-                                                      - ui-label--cta1
-                                                      - cassettebox-hpct
                                                 - :name: 'h2'
                                                   :attributes:
                                                     :class:
@@ -9985,12 +9972,6 @@
                                                       - ui-pct--util1
                                                       - cassettebox-hpct
                                                       - cassettebox-hpctcat
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - ui-label
-                                                      - ui-label--cta1
-                                                      - cassettebox-hpct
                                                 - :name: 'h2'
                                                   :attributes:
                                                     :class:
@@ -14219,358 +14200,12 @@
                                                   - js-ikkatsuCB
                                                 :id: 'bukken_33'
                                                 :type: 'checkbox'
-                                                :value: '86915136'
-                                            - :name: 'label'
-                                              :attributes:
-                                                :class:
-                                                  - cbx_list
-                                                :for: 'bukken_33'
-                                            - :name: 'input'
-                                              :attributes:
-                                                :class:
-                                                  - js-shiryoukey
-                                                :type: 'hidden'
-                                                :value: 'JJ_020_86915136'
-                                            - :name: 'input'
-                                              :attributes:
-                                                :class:
-                                                  - js-clipkey
-                                                :type: 'hidden'
-                                                :value: '86915136_020'
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - cassettebox
-                                              - js-normalLink
-                                              - js-cassetLink
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - cassettebox-header
-                                              :children:
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - ui-pct
-                                                      - ui-pct--util1
-                                                      - cassettebox-hpct
-                                                      - cassettebox-hpctcat
-                                                - :name: 'h2'
-                                                  :attributes:
-                                                    :class:
-                                                      - cassettebox-title
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :class:
-                                                          - js-cassetLinkHref
-                                                        :href: '/ikkodate/tokyo/sc_adachi/nc_86915136/'
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - cassettebox-body
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - ui-media
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - infodatabox
-                                                      :children:
-                                                        - :name: 'div'
-                                                          :attributes:
-                                                            :class:
-                                                              - ui-media-object
-                                                              - infodatabox-object
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/ikkodate/tokyo/sc_adachi/nc_86915136/'
-                                                              :children:
-                                                                - :name: 'img'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - js-noContextMenu
-                                                                      - js-scrollLazy
-                                                                      - js-adjustImg
-                                                                    :height: '0'
-                                                                    :rel: 'http://img01.suumo.com/front/gazo/bukken/030/N010000/img/136/86915136/86915136_0008.jpg'
-                                                                    :src: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D'
-                                                                    :width: '0'
-                                                        - :name: 'div'
-                                                          :attributes:
-                                                            :class:
-                                                              - ui-media-body
-                                                          :children:
-                                                            - :name: 'p'
-                                                              :attributes:
-                                                                :class:
-                                                                  - infodatabox-lead
-                                                            - :name: 'div'
-                                                              :attributes:
-                                                                :class:
-                                                                  - infodatabox-boxgroup
-                                                              :children:
-                                                                - :name: 'div'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - infodatabox-box
-                                                                  :children:
-                                                                    - :name: 'table'
-                                                                      :attributes:
-                                                                        :class:
-                                                                          - listtable
-                                                                      :children:
-                                                                        - :name: 'tbody'
-                                                                          :children:
-                                                                            - :name: 'tr'
-                                                                              :children:
-                                                                                - :name: 'th'
-                                                                                  :children:
-                                                                                    - :name: 'div'
-                                                                                      :attributes:
-                                                                                        :class:
-                                                                                          - infodatabox-box-title
-                                                                                - :name: 'th'
-                                                                                  :children:
-                                                                                    - :name: 'div'
-                                                                                      :attributes:
-                                                                                        :class:
-                                                                                          - infodatabox-box-title
-                                                                                - :name: 'th'
-                                                                                  :children:
-                                                                                    - :name: 'div'
-                                                                                      :attributes:
-                                                                                        :class:
-                                                                                          - infodatabox-box-title
-                                                                            - :name: 'tr'
-                                                                              :children:
-                                                                                - :name: 'td'
-                                                                                  :children:
-                                                                                    - :name: 'div'
-                                                                                      :attributes:
-                                                                                        :class:
-                                                                                          - infodatabox-box-txt
-                                                                                - :name: 'td'
-                                                                                  :children:
-                                                                                    - :name: 'div'
-                                                                                      :attributes:
-                                                                                        :class:
-                                                                                          - infodatabox-box-txt
-                                                                                - :name: 'td'
-                                                                                  :children:
-                                                                                    - :name: 'div'
-                                                                                      :attributes:
-                                                                                        :class:
-                                                                                          - infodatabox-box-txt
-                                                                                      :children:
-                                                                                        - :name: 'br'
-                                                                - :name: 'div'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - infodatabox-box
-                                                                  :children:
-                                                                    - :name: 'table'
-                                                                      :attributes:
-                                                                        :class:
-                                                                          - listtable
-                                                                      :children:
-                                                                        - :name: 'tbody'
-                                                                          :children:
-                                                                            - :name: 'tr'
-                                                                              :children:
-                                                                                - :name: 'th'
-                                                                                  :children:
-                                                                                    - :name: 'div'
-                                                                                      :attributes:
-                                                                                        :class:
-                                                                                          - infodatabox-box-title
-                                                                                      :children:
-                                                                                        - :name: 'a'
-                                                                                          :attributes:
-                                                                                            :href: '/edit/yogo/getsugaku.html'
-                                                                                            :target: '_blank'
-                                                                                          :children:
-                                                                                            - :name: 'span'
-                                                                                              :attributes:
-                                                                                                :class:
-                                                                                                  - ui-icon--cherry
-                                                                                                  - js-noCassetteLink
-                                                                                - :name: 'th'
-                                                                                  :children:
-                                                                                    - :name: 'div'
-                                                                                      :attributes:
-                                                                                        :class:
-                                                                                          - infodatabox-box-title
-                                                                                - :name: 'th'
-                                                                                  :children:
-                                                                                    - :name: 'div'
-                                                                                      :attributes:
-                                                                                        :class:
-                                                                                          - infodatabox-box-title
-                                                                            - :name: 'tr'
-                                                                              :children:
-                                                                                - :name: 'td'
-                                                                                  :children:
-                                                                                    - :name: 'div'
-                                                                                      :attributes:
-                                                                                        :class:
-                                                                                          - infodatabox-box-txt
-                                                                                      :children:
-                                                                                        - :name: 'dl'
-                                                                                          :attributes:
-                                                                                            :class:
-                                                                                              - infodatabox-details
-                                                                                          :children:
-                                                                                            - :name: 'dt'
-                                                                                              :attributes:
-                                                                                                :class:
-                                                                                                  - infodatabox-details-title
-                                                                                            - :name: 'dd'
-                                                                                              :attributes:
-                                                                                                :class:
-                                                                                                  - infodatabox-details-txt
-                                                                                        - :name: 'dl'
-                                                                                          :attributes:
-                                                                                            :class:
-                                                                                              - infodatabox-details
-                                                                                          :children:
-                                                                                            - :name: 'dt'
-                                                                                              :attributes:
-                                                                                                :class:
-                                                                                                  - infodatabox-details-title
-                                                                                            - :name: 'dd'
-                                                                                              :attributes:
-                                                                                                :class:
-                                                                                                  - infodatabox-details-txt
-                                                                                - :name: 'td'
-                                                                                  :children:
-                                                                                    - :name: 'div'
-                                                                                      :attributes:
-                                                                                        :class:
-                                                                                          - infodatabox-box-txt
-                                                                                      :children:
-                                                                                        - :name: 'dl'
-                                                                                          :attributes:
-                                                                                            :class:
-                                                                                              - infodatabox-details
-                                                                                          :children:
-                                                                                            - :name: 'dt'
-                                                                                              :attributes:
-                                                                                                :class:
-                                                                                                  - infodatabox-details-title
-                                                                                            - :name: 'dd'
-                                                                                              :attributes:
-                                                                                                :class:
-                                                                                                  - infodatabox-details-txt
-                                                                                              :children:
-                                                                                                - :name: 'sup'
-                                                                                                - :name: 'sup'
-                                                                                        - :name: 'dl'
-                                                                                          :attributes:
-                                                                                            :class:
-                                                                                              - infodatabox-details
-                                                                                          :children:
-                                                                                            - :name: 'dt'
-                                                                                              :attributes:
-                                                                                                :class:
-                                                                                                  - infodatabox-details-title
-                                                                                            - :name: 'dd'
-                                                                                              :attributes:
-                                                                                                :class:
-                                                                                                  - infodatabox-details-txt
-                                                                                              :children:
-                                                                                                - :name: 'sup'
-                                                                                                - :name: 'sup'
-                                                                                        - :name: 'dl'
-                                                                                          :attributes:
-                                                                                            :class:
-                                                                                              - infodatabox-details
-                                                                                          :children:
-                                                                                            - :name: 'dt'
-                                                                                              :attributes:
-                                                                                                :class:
-                                                                                                  - infodatabox-details-title
-                                                                                            - :name: 'dd'
-                                                                                              :attributes:
-                                                                                                :class:
-                                                                                                  - infodatabox-details-txt
-                                                                                - :name: 'td'
-                                                                                  :children:
-                                                                                    - :name: 'div'
-                                                                                      :attributes:
-                                                                                        :class:
-                                                                                          - infodatabox-box-txt
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - cassettebox-action
-                                                  :children:
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - ui-list--hz
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - ui-btn
-                                                                  - ui-btn--util1
-                                                                  - listbtn
-                                                                :href: '/ikkodate/tokyo/sc_adachi/nc_86915136/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - ui-btn
-                                                                  - ui-btn--cta2
-                                                                  - listbtn
-                                                                  - js-singleShiryoSeikyu
-                                                                  - js-noCassetteLink
-                                                                :href: 'javascript:void(0);'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - ui-sprite--actionbtn_addmylist
-                                                                  - js-addMyList
-                                                                  - js-linkSuppresser
-                                                                :href: 'javascript:void(0);'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - cassette
-                                          - js-bukkenCassette
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - cassette-cbx
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - ui-sprite--mark_check
-                                            - :name: 'input'
-                                              :attributes:
-                                                :class:
-                                                  - js-ikkatsuCB
-                                                :id: 'bukken_34'
-                                                :type: 'checkbox'
                                                 :value: '86785713'
                                             - :name: 'label'
                                               :attributes:
                                                 :class:
                                                   - cbx_list
-                                                :for: 'bukken_34'
+                                                :for: 'bukken_33'
                                             - :name: 'input'
                                               :attributes:
                                                 :class:
@@ -14879,60 +14514,6 @@
                                                                   - js-addMyList
                                                                   - js-linkSuppresser
                                                                 :href: 'javascript:void(0);'
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - favassist
-                                      - favassist--tb
-                                  :children:
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - favassit-tbinner
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - favassist-inner
-                                          :children:
-                                            - :name: 'p'
-                                              :attributes:
-                                                :class:
-                                                  - favassist-all
-                                              :children:
-                                                - :name: 'input'
-                                                  :attributes:
-                                                    :class:
-                                                      - js-checkall-input
-                                                    :id: 'checkall34'
-                                                    :type: 'checkbox'
-                                                - :name: 'label'
-                                                  :attributes:
-                                                    :for: 'checkall34'
-                                            - :name: 'ul'
-                                              :attributes:
-                                                :class:
-                                                  - favassist-list
-                                              :children:
-                                                - :name: 'li'
-                                                  :attributes:
-                                                    :class:
-                                                      - favassist-sep
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :class:
-                                                          - ui-btn
-                                                          - ui-btn--cta2
-                                                          - ui-btn--small
-                                                          - favassist-action
-                                                          - js-allShiryoSeikyu
-                                                        :href: 'javascript:void(0);'
-                                - :name: 'ul'
-                                  :attributes:
-                                    :class:
-                                      - cassette_group
-                                  :children:
                                     - :name: 'li'
                                       :attributes:
                                         :class:
@@ -14952,14 +14533,14 @@
                                               :attributes:
                                                 :class:
                                                   - js-ikkatsuCB
-                                                :id: 'bukken_35'
+                                                :id: 'bukken_34'
                                                 :type: 'checkbox'
                                                 :value: '86597703'
                                             - :name: 'label'
                                               :attributes:
                                                 :class:
                                                   - cbx_list
-                                                :for: 'bukken_35'
+                                                :for: 'bukken_34'
                                             - :name: 'input'
                                               :attributes:
                                                 :class:
@@ -15283,6 +14864,60 @@
                                                                   - js-addMyList
                                                                   - js-linkSuppresser
                                                                 :href: 'javascript:void(0);'
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - favassist
+                                      - favassist--tb
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - favassit-tbinner
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - favassist-inner
+                                          :children:
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - favassist-all
+                                              :children:
+                                                - :name: 'input'
+                                                  :attributes:
+                                                    :class:
+                                                      - js-checkall-input
+                                                    :id: 'checkall34'
+                                                    :type: 'checkbox'
+                                                - :name: 'label'
+                                                  :attributes:
+                                                    :for: 'checkall34'
+                                            - :name: 'ul'
+                                              :attributes:
+                                                :class:
+                                                  - favassist-list
+                                              :children:
+                                                - :name: 'li'
+                                                  :attributes:
+                                                    :class:
+                                                      - favassist-sep
+                                                  :children:
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :class:
+                                                          - ui-btn
+                                                          - ui-btn--cta2
+                                                          - ui-btn--small
+                                                          - favassist-action
+                                                          - js-allShiryoSeikyu
+                                                        :href: 'javascript:void(0);'
+                                - :name: 'ul'
+                                  :attributes:
+                                    :class:
+                                      - cassette_group
+                                  :children:
                                     - :name: 'li'
                                       :attributes:
                                         :class:
@@ -15302,14 +14937,14 @@
                                               :attributes:
                                                 :class:
                                                   - js-ikkatsuCB
-                                                :id: 'bukken_36'
+                                                :id: 'bukken_35'
                                                 :type: 'checkbox'
                                                 :value: '86872182'
                                             - :name: 'label'
                                               :attributes:
                                                 :class:
                                                   - cbx_list
-                                                :for: 'bukken_36'
+                                                :for: 'bukken_35'
                                             - :name: 'input'
                                               :attributes:
                                                 :class:
@@ -15631,14 +15266,14 @@
                                               :attributes:
                                                 :class:
                                                   - js-ikkatsuCB
-                                                :id: 'bukken_37'
+                                                :id: 'bukken_36'
                                                 :type: 'checkbox'
                                                 :value: '87015838'
                                             - :name: 'label'
                                               :attributes:
                                                 :class:
                                                   - cbx_list
-                                                :for: 'bukken_37'
+                                                :for: 'bukken_36'
                                             - :name: 'input'
                                               :attributes:
                                                 :class:
@@ -16001,14 +15636,14 @@
                                               :attributes:
                                                 :class:
                                                   - js-ikkatsuCB
-                                                :id: 'bukken_38'
+                                                :id: 'bukken_37'
                                                 :type: 'checkbox'
                                                 :value: '86949247'
                                             - :name: 'label'
                                               :attributes:
                                                 :class:
                                                   - cbx_list
-                                                :for: 'bukken_38'
+                                                :for: 'bukken_37'
                                             - :name: 'input'
                                               :attributes:
                                                 :class:
@@ -16355,14 +15990,14 @@
                                               :attributes:
                                                 :class:
                                                   - js-ikkatsuCB
-                                                :id: 'bukken_39'
+                                                :id: 'bukken_38'
                                                 :type: 'checkbox'
                                                 :value: '86943473'
                                             - :name: 'label'
                                               :attributes:
                                                 :class:
                                                   - cbx_list
-                                                :for: 'bukken_39'
+                                                :for: 'bukken_38'
                                             - :name: 'input'
                                               :attributes:
                                                 :class:
@@ -16665,60 +16300,6 @@
                                                                   - js-addMyList
                                                                   - js-linkSuppresser
                                                                 :href: 'javascript:void(0);'
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - favassist
-                                      - favassist--tb
-                                  :children:
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - favassit-tbinner
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - favassist-inner
-                                          :children:
-                                            - :name: 'p'
-                                              :attributes:
-                                                :class:
-                                                  - favassist-all
-                                              :children:
-                                                - :name: 'input'
-                                                  :attributes:
-                                                    :class:
-                                                      - js-checkall-input
-                                                    :id: 'checkall39'
-                                                    :type: 'checkbox'
-                                                - :name: 'label'
-                                                  :attributes:
-                                                    :for: 'checkall39'
-                                            - :name: 'ul'
-                                              :attributes:
-                                                :class:
-                                                  - favassist-list
-                                              :children:
-                                                - :name: 'li'
-                                                  :attributes:
-                                                    :class:
-                                                      - favassist-sep
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :class:
-                                                          - ui-btn
-                                                          - ui-btn--cta2
-                                                          - ui-btn--small
-                                                          - favassist-action
-                                                          - js-allShiryoSeikyu
-                                                        :href: 'javascript:void(0);'
-                                - :name: 'ul'
-                                  :attributes:
-                                    :class:
-                                      - cassette_group
-                                  :children:
                                     - :name: 'li'
                                       :attributes:
                                         :class:
@@ -16738,14 +16319,14 @@
                                               :attributes:
                                                 :class:
                                                   - js-ikkatsuCB
-                                                :id: 'bukken_40'
+                                                :id: 'bukken_39'
                                                 :type: 'checkbox'
                                                 :value: '86146624'
                                             - :name: 'label'
                                               :attributes:
                                                 :class:
                                                   - cbx_list
-                                                :for: 'bukken_40'
+                                                :for: 'bukken_39'
                                             - :name: 'input'
                                               :attributes:
                                                 :class:
@@ -17066,6 +16647,60 @@
                                                                   - js-addMyList
                                                                   - js-linkSuppresser
                                                                 :href: 'javascript:void(0);'
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - favassist
+                                      - favassist--tb
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - favassit-tbinner
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - favassist-inner
+                                          :children:
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - favassist-all
+                                              :children:
+                                                - :name: 'input'
+                                                  :attributes:
+                                                    :class:
+                                                      - js-checkall-input
+                                                    :id: 'checkall39'
+                                                    :type: 'checkbox'
+                                                - :name: 'label'
+                                                  :attributes:
+                                                    :for: 'checkall39'
+                                            - :name: 'ul'
+                                              :attributes:
+                                                :class:
+                                                  - favassist-list
+                                              :children:
+                                                - :name: 'li'
+                                                  :attributes:
+                                                    :class:
+                                                      - favassist-sep
+                                                  :children:
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :class:
+                                                          - ui-btn
+                                                          - ui-btn--cta2
+                                                          - ui-btn--small
+                                                          - favassist-action
+                                                          - js-allShiryoSeikyu
+                                                        :href: 'javascript:void(0);'
+                                - :name: 'ul'
+                                  :attributes:
+                                    :class:
+                                      - cassette_group
+                                  :children:
                                     - :name: 'li'
                                       :attributes:
                                         :class:
@@ -17085,14 +16720,14 @@
                                               :attributes:
                                                 :class:
                                                   - js-ikkatsuCB
-                                                :id: 'bukken_41'
+                                                :id: 'bukken_40'
                                                 :type: 'checkbox'
                                                 :value: '86948919'
                                             - :name: 'label'
                                               :attributes:
                                                 :class:
                                                   - cbx_list
-                                                :for: 'bukken_41'
+                                                :for: 'bukken_40'
                                             - :name: 'input'
                                               :attributes:
                                                 :class:
@@ -17439,14 +17074,14 @@
                                               :attributes:
                                                 :class:
                                                   - js-ikkatsuCB
-                                                :id: 'bukken_42'
+                                                :id: 'bukken_41'
                                                 :type: 'checkbox'
                                                 :value: '86648866'
                                             - :name: 'label'
                                               :attributes:
                                                 :class:
                                                   - cbx_list
-                                                :for: 'bukken_42'
+                                                :for: 'bukken_41'
                                             - :name: 'input'
                                               :attributes:
                                                 :class:
@@ -17785,14 +17420,14 @@
                                               :attributes:
                                                 :class:
                                                   - js-ikkatsuCB
-                                                :id: 'bukken_43'
+                                                :id: 'bukken_42'
                                                 :type: 'checkbox'
                                                 :value: '86822896'
                                             - :name: 'label'
                                               :attributes:
                                                 :class:
                                                   - cbx_list
-                                                :for: 'bukken_43'
+                                                :for: 'bukken_42'
                                             - :name: 'input'
                                               :attributes:
                                                 :class:
@@ -18114,14 +17749,14 @@
                                               :attributes:
                                                 :class:
                                                   - js-ikkatsuCB
-                                                :id: 'bukken_44'
+                                                :id: 'bukken_43'
                                                 :type: 'checkbox'
                                                 :value: '86970916'
                                             - :name: 'label'
                                               :attributes:
                                                 :class:
                                                   - cbx_list
-                                                :for: 'bukken_44'
+                                                :for: 'bukken_43'
                                             - :name: 'input'
                                               :attributes:
                                                 :class:
@@ -18464,60 +18099,6 @@
                                                                   - js-addMyList
                                                                   - js-linkSuppresser
                                                                 :href: 'javascript:void(0);'
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - favassist
-                                      - favassist--tb
-                                  :children:
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - favassit-tbinner
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - favassist-inner
-                                          :children:
-                                            - :name: 'p'
-                                              :attributes:
-                                                :class:
-                                                  - favassist-all
-                                              :children:
-                                                - :name: 'input'
-                                                  :attributes:
-                                                    :class:
-                                                      - js-checkall-input
-                                                    :id: 'checkall44'
-                                                    :type: 'checkbox'
-                                                - :name: 'label'
-                                                  :attributes:
-                                                    :for: 'checkall44'
-                                            - :name: 'ul'
-                                              :attributes:
-                                                :class:
-                                                  - favassist-list
-                                              :children:
-                                                - :name: 'li'
-                                                  :attributes:
-                                                    :class:
-                                                      - favassist-sep
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :class:
-                                                          - ui-btn
-                                                          - ui-btn--cta2
-                                                          - ui-btn--small
-                                                          - favassist-action
-                                                          - js-allShiryoSeikyu
-                                                        :href: 'javascript:void(0);'
-                                - :name: 'ul'
-                                  :attributes:
-                                    :class:
-                                      - cassette_group
-                                  :children:
                                     - :name: 'li'
                                       :attributes:
                                         :class:
@@ -18537,14 +18118,14 @@
                                               :attributes:
                                                 :class:
                                                   - js-ikkatsuCB
-                                                :id: 'bukken_45'
+                                                :id: 'bukken_44'
                                                 :type: 'checkbox'
                                                 :value: '86544380'
                                             - :name: 'label'
                                               :attributes:
                                                 :class:
                                                   - cbx_list
-                                                :for: 'bukken_45'
+                                                :for: 'bukken_44'
                                             - :name: 'input'
                                               :attributes:
                                                 :class:
@@ -18847,6 +18428,60 @@
                                                                   - js-addMyList
                                                                   - js-linkSuppresser
                                                                 :href: 'javascript:void(0);'
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - favassist
+                                      - favassist--tb
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - favassit-tbinner
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - favassist-inner
+                                          :children:
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - favassist-all
+                                              :children:
+                                                - :name: 'input'
+                                                  :attributes:
+                                                    :class:
+                                                      - js-checkall-input
+                                                    :id: 'checkall44'
+                                                    :type: 'checkbox'
+                                                - :name: 'label'
+                                                  :attributes:
+                                                    :for: 'checkall44'
+                                            - :name: 'ul'
+                                              :attributes:
+                                                :class:
+                                                  - favassist-list
+                                              :children:
+                                                - :name: 'li'
+                                                  :attributes:
+                                                    :class:
+                                                      - favassist-sep
+                                                  :children:
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :class:
+                                                          - ui-btn
+                                                          - ui-btn--cta2
+                                                          - ui-btn--small
+                                                          - favassist-action
+                                                          - js-allShiryoSeikyu
+                                                        :href: 'javascript:void(0);'
+                                - :name: 'ul'
+                                  :attributes:
+                                    :class:
+                                      - cassette_group
+                                  :children:
                                     - :name: 'li'
                                       :attributes:
                                         :class:
@@ -18866,14 +18501,14 @@
                                               :attributes:
                                                 :class:
                                                   - js-ikkatsuCB
-                                                :id: 'bukken_46'
+                                                :id: 'bukken_45'
                                                 :type: 'checkbox'
                                                 :value: '86898408'
                                             - :name: 'label'
                                               :attributes:
                                                 :class:
                                                   - cbx_list
-                                                :for: 'bukken_46'
+                                                :for: 'bukken_45'
                                             - :name: 'input'
                                               :attributes:
                                                 :class:
@@ -19213,14 +18848,14 @@
                                               :attributes:
                                                 :class:
                                                   - js-ikkatsuCB
-                                                :id: 'bukken_47'
+                                                :id: 'bukken_46'
                                                 :type: 'checkbox'
                                                 :value: '86630369'
                                             - :name: 'label'
                                               :attributes:
                                                 :class:
                                                   - cbx_list
-                                                :for: 'bukken_47'
+                                                :for: 'bukken_46'
                                             - :name: 'input'
                                               :attributes:
                                                 :class:
@@ -19531,14 +19166,14 @@
                                               :attributes:
                                                 :class:
                                                   - js-ikkatsuCB
-                                                :id: 'bukken_48'
+                                                :id: 'bukken_47'
                                                 :type: 'checkbox'
                                                 :value: '87008439'
                                             - :name: 'label'
                                               :attributes:
                                                 :class:
                                                   - cbx_list
-                                                :for: 'bukken_48'
+                                                :for: 'bukken_47'
                                             - :name: 'input'
                                               :attributes:
                                                 :class:
@@ -19878,14 +19513,14 @@
                                               :attributes:
                                                 :class:
                                                   - js-ikkatsuCB
-                                                :id: 'bukken_49'
+                                                :id: 'bukken_48'
                                                 :type: 'checkbox'
                                                 :value: '86831331'
                                             - :name: 'label'
                                               :attributes:
                                                 :class:
                                                   - cbx_list
-                                                :for: 'bukken_49'
+                                                :for: 'bukken_48'
                                             - :name: 'input'
                                               :attributes:
                                                 :class:
@@ -20186,6 +19821,360 @@
                                                                   - ui-btn--util1
                                                                   - listbtn
                                                                 :href: '/ms/chuko/tokyo/sc_adachi/nc_86831331/'
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - ui-btn
+                                                                  - ui-btn--cta2
+                                                                  - listbtn
+                                                                  - js-singleShiryoSeikyu
+                                                                  - js-noCassetteLink
+                                                                :href: 'javascript:void(0);'
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - ui-sprite--actionbtn_addmylist
+                                                                  - js-addMyList
+                                                                  - js-linkSuppresser
+                                                                :href: 'javascript:void(0);'
+                                    - :name: 'li'
+                                      :attributes:
+                                        :class:
+                                          - cassette
+                                          - js-bukkenCassette
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - cassette-cbx
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - ui-sprite--mark_check
+                                            - :name: 'input'
+                                              :attributes:
+                                                :class:
+                                                  - js-ikkatsuCB
+                                                :id: 'bukken_49'
+                                                :type: 'checkbox'
+                                                :value: '86997091'
+                                            - :name: 'label'
+                                              :attributes:
+                                                :class:
+                                                  - cbx_list
+                                                :for: 'bukken_49'
+                                            - :name: 'input'
+                                              :attributes:
+                                                :class:
+                                                  - js-shiryoukey
+                                                :type: 'hidden'
+                                                :value: 'JJ_011_86997091'
+                                            - :name: 'input'
+                                              :attributes:
+                                                :class:
+                                                  - js-clipkey
+                                                :type: 'hidden'
+                                                :value: '86997091_011'
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - cassettebox
+                                              - js-normalLink
+                                              - js-cassetLink
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - cassettebox-header
+                                              :children:
+                                                - :name: 'span'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-pct
+                                                      - ui-pct--util1
+                                                      - cassettebox-hpct
+                                                      - cassettebox-hpctcat
+                                                - :name: 'h2'
+                                                  :attributes:
+                                                    :class:
+                                                      - cassettebox-title
+                                                  :children:
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :class:
+                                                          - js-cassetLinkHref
+                                                        :href: '/ms/chuko/tokyo/sc_adachi/nc_86997091/'
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - cassettebox-body
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-media
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - infodatabox
+                                                      :children:
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - ui-media-object
+                                                              - infodatabox-object
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :href: '/ms/chuko/tokyo/sc_adachi/nc_86997091/'
+                                                              :children:
+                                                                - :name: 'img'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - js-noContextMenu
+                                                                      - js-scrollLazy
+                                                                      - js-adjustImg
+                                                                    :height: '0'
+                                                                    :rel: 'http://img01.suumo.com/front/gazo/bukken/030/N010000/img/091/86997091/86997091_0042.jpg'
+                                                                    :src: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D'
+                                                                    :width: '0'
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - ui-media-body
+                                                          :children:
+                                                            - :name: 'p'
+                                                              :attributes:
+                                                                :class:
+                                                                  - infodatabox-lead
+                                                            - :name: 'div'
+                                                              :attributes:
+                                                                :class:
+                                                                  - infodatabox-boxgroup
+                                                              :children:
+                                                                - :name: 'div'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - infodatabox-box
+                                                                  :children:
+                                                                    - :name: 'table'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - listtable
+                                                                      :children:
+                                                                        - :name: 'tbody'
+                                                                          :children:
+                                                                            - :name: 'tr'
+                                                                              :children:
+                                                                                - :name: 'th'
+                                                                                  :children:
+                                                                                    - :name: 'div'
+                                                                                      :attributes:
+                                                                                        :class:
+                                                                                          - infodatabox-box-title
+                                                                                - :name: 'th'
+                                                                                  :children:
+                                                                                    - :name: 'div'
+                                                                                      :attributes:
+                                                                                        :class:
+                                                                                          - infodatabox-box-title
+                                                                                - :name: 'th'
+                                                                                  :children:
+                                                                                    - :name: 'div'
+                                                                                      :attributes:
+                                                                                        :class:
+                                                                                          - infodatabox-box-title
+                                                                            - :name: 'tr'
+                                                                              :children:
+                                                                                - :name: 'td'
+                                                                                  :children:
+                                                                                    - :name: 'div'
+                                                                                      :attributes:
+                                                                                        :class:
+                                                                                          - infodatabox-box-txt
+                                                                                - :name: 'td'
+                                                                                  :children:
+                                                                                    - :name: 'div'
+                                                                                      :attributes:
+                                                                                        :class:
+                                                                                          - infodatabox-box-txt
+                                                                                - :name: 'td'
+                                                                                  :children:
+                                                                                    - :name: 'div'
+                                                                                      :attributes:
+                                                                                        :class:
+                                                                                          - infodatabox-box-txt
+                                                                                      :children:
+                                                                                        - :name: 'br'
+                                                                - :name: 'div'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - infodatabox-box
+                                                                  :children:
+                                                                    - :name: 'table'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - listtable
+                                                                      :children:
+                                                                        - :name: 'tbody'
+                                                                          :children:
+                                                                            - :name: 'tr'
+                                                                              :children:
+                                                                                - :name: 'th'
+                                                                                  :children:
+                                                                                    - :name: 'div'
+                                                                                      :attributes:
+                                                                                        :class:
+                                                                                          - infodatabox-box-title
+                                                                                      :children:
+                                                                                        - :name: 'a'
+                                                                                          :attributes:
+                                                                                            :href: '/edit/yogo/getsugaku.html'
+                                                                                            :target: '_blank'
+                                                                                          :children:
+                                                                                            - :name: 'span'
+                                                                                              :attributes:
+                                                                                                :class:
+                                                                                                  - ui-icon--cherry
+                                                                                                  - js-noCassetteLink
+                                                                                - :name: 'th'
+                                                                                  :children:
+                                                                                    - :name: 'div'
+                                                                                      :attributes:
+                                                                                        :class:
+                                                                                          - infodatabox-box-title
+                                                                                - :name: 'th'
+                                                                                  :children:
+                                                                                    - :name: 'div'
+                                                                                      :attributes:
+                                                                                        :class:
+                                                                                          - infodatabox-box-title
+                                                                            - :name: 'tr'
+                                                                              :children:
+                                                                                - :name: 'td'
+                                                                                  :children:
+                                                                                    - :name: 'div'
+                                                                                      :attributes:
+                                                                                        :class:
+                                                                                          - infodatabox-box-txt
+                                                                                      :children:
+                                                                                        - :name: 'dl'
+                                                                                          :attributes:
+                                                                                            :class:
+                                                                                              - infodatabox-details
+                                                                                          :children:
+                                                                                            - :name: 'dt'
+                                                                                              :attributes:
+                                                                                                :class:
+                                                                                                  - infodatabox-details-title
+                                                                                            - :name: 'dd'
+                                                                                              :attributes:
+                                                                                                :class:
+                                                                                                  - infodatabox-details-txt
+                                                                                        - :name: 'dl'
+                                                                                          :attributes:
+                                                                                            :class:
+                                                                                              - infodatabox-details
+                                                                                          :children:
+                                                                                            - :name: 'dt'
+                                                                                              :attributes:
+                                                                                                :class:
+                                                                                                  - infodatabox-details-title
+                                                                                            - :name: 'dd'
+                                                                                              :attributes:
+                                                                                                :class:
+                                                                                                  - infodatabox-details-txt
+                                                                                - :name: 'td'
+                                                                                  :children:
+                                                                                    - :name: 'div'
+                                                                                      :attributes:
+                                                                                        :class:
+                                                                                          - infodatabox-box-txt
+                                                                                      :children:
+                                                                                        - :name: 'dl'
+                                                                                          :attributes:
+                                                                                            :class:
+                                                                                              - infodatabox-details
+                                                                                          :children:
+                                                                                            - :name: 'dt'
+                                                                                              :attributes:
+                                                                                                :class:
+                                                                                                  - infodatabox-details-title
+                                                                                            - :name: 'dd'
+                                                                                              :attributes:
+                                                                                                :class:
+                                                                                                  - infodatabox-details-txt
+                                                                                              :children:
+                                                                                                - :name: 'sup'
+                                                                                        - :name: 'dl'
+                                                                                          :attributes:
+                                                                                            :class:
+                                                                                              - infodatabox-details
+                                                                                          :children:
+                                                                                            - :name: 'dt'
+                                                                                              :attributes:
+                                                                                                :class:
+                                                                                                  - infodatabox-details-title
+                                                                                            - :name: 'dd'
+                                                                                              :attributes:
+                                                                                                :class:
+                                                                                                  - infodatabox-details-txt
+                                                                                - :name: 'td'
+                                                                                  :children:
+                                                                                    - :name: 'div'
+                                                                                      :attributes:
+                                                                                        :class:
+                                                                                          - infodatabox-box-txt
+                                                            - :name: 'div'
+                                                              :attributes:
+                                                                :class:
+                                                                  - infodatabox-line
+                                                              :children:
+                                                                - :name: 'ul'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - infodatabox-pcts
+                                                                      - ui-list--hz
+                                                                  :children:
+                                                                    - :name: 'li'
+                                                                      :children:
+                                                                        - :name: 'span'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - ui-pct
+                                                                              - ui-pct--util1
+                                                                    - :name: 'li'
+                                                                      :children:
+                                                                        - :name: 'span'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - ui-pct
+                                                                              - ui-pct--util1
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - cassettebox-action
+                                                  :children:
+                                                    - :name: 'ul'
+                                                      :attributes:
+                                                        :class:
+                                                          - ui-list--hz
+                                                      :children:
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - ui-btn
+                                                                  - ui-btn--util1
+                                                                  - listbtn
+                                                                :href: '/ms/chuko/tokyo/sc_adachi/nc_86997091/'
                                                         - :name: 'li'
                                                           :children:
                                                             - :name: 'a'
@@ -21053,7 +21042,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: '/ms/shinchiku/tokyo/sc_chuo/nc_67714778/?fmlg=r014'
+                                                :href: '/ms/shinchiku/tokyo/sc_koto/nc_67714665/?fmlg=r014'
                                     - :name: 'div'
                                       :attributes:
                                         :class:
@@ -21072,15 +21061,15 @@
                                                 :class:
                                                   - ui-thumb
                                                   - ui-thumb--2
-                                                :href: '/ms/shinchiku/tokyo/sc_chuo/nc_67714778/?fmlg=r014'
+                                                :href: '/ms/shinchiku/tokyo/sc_koto/nc_67714665/?fmlg=r014'
                                               :children:
                                                 - :name: 'img'
                                                   :attributes:
-                                                    :alt: 'ザ・パークハウス 日本橋大伝馬町'
+                                                    :alt: 'クレヴィア豊洲'
                                                     :class:
                                                       - js-noContextMenu
                                                       - js-scrollLazy
-                                                    :rel: 'http://img01.suumo.com/jj/resizeImage?src=%2Fgazo%2Fbukken%2F030%2FN001000%2Fimg%2F78%2F67714778%2F67714778_000079.jpg&w=90&h=110'
+                                                    :rel: 'http://img01.suumo.com/jj/resizeImage?src=%2Fgazo%2Fbukken%2F030%2FN001000%2Fimg%2F65%2F67714665%2F67714665_000221.jpg&w=90&h=110'
                                                     :src: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D'
                                         - :name: 'div'
                                           :attributes:
@@ -21193,7 +21182,7 @@
                                                       - ui-btn
                                                       - ui-btn--util1
                                                       - ui-btn--small
-                                                    :href: '/ms/shinchiku/tokyo/sc_chuo/nc_67714778/?fmlg=r014'
+                                                    :href: '/ms/shinchiku/tokyo/sc_koto/nc_67714665/?fmlg=r014'
                                 - :name: 'div'
                                   :attributes:
                                     :class:
@@ -21432,7 +21421,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: '/ikkodate/tokyo/sc_adachi/nc_86906469/?fmlg2=r014'
+                                                :href: '/ikkodate/tokyo/sc_kita/nc_87029137/?fmlg2=r014'
                                     - :name: 'div'
                                       :attributes:
                                         :class:
@@ -21451,15 +21440,15 @@
                                                 :class:
                                                   - ui-thumb
                                                   - ui-thumb--2
-                                                :href: '/ikkodate/tokyo/sc_adachi/nc_86906469/?fmlg2=r014'
+                                                :href: '/ikkodate/tokyo/sc_kita/nc_87029137/?fmlg2=r014'
                                               :children:
                                                 - :name: 'img'
                                                   :attributes:
-                                                    :alt: '大きめ４LDK！『駅・公園・スーパー・学校』ご家族の欲しいが揃った閑静な分譲住宅地♪'
+                                                    :alt: '住環境と駅チカどちらの希望も叶えませんか？【北区上中里３丁目新築一戸建て全２棟】'
                                                     :class:
                                                       - js-noContextMenu
                                                       - js-scrollLazy
-                                                    :rel: 'http://img01.suumo.com/jj/resizeImage?src=%2Fgazo%2Fbukken%2F030%2FN010000%2Fimg%2F469%2F86906469%2F86906469_0061.jpg&w=90&h=110'
+                                                    :rel: 'http://img01.suumo.com/jj/resizeImage?src=%2Fgazo%2Fbukken%2F030%2FN010000%2Fimg%2F137%2F87029137%2F87029137_0001.jpg&w=90&h=110'
                                                     :src: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D'
                                         - :name: 'div'
                                           :attributes:
@@ -21577,7 +21566,7 @@
                                                       - ui-btn
                                                       - ui-btn--util1
                                                       - ui-btn--small
-                                                    :href: '/ikkodate/tokyo/sc_adachi/nc_86906469/?fmlg2=r014'
+                                                    :href: '/ikkodate/tokyo/sc_kita/nc_87029137/?fmlg2=r014'
                                 - :name: 'div'
                                   :attributes:
                                     :class:
@@ -21628,7 +21617,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: '/chukoikkodate/tokyo/sc_arakawa/nc_86960560/?fmlg2=r014'
+                                                :href: '/chukoikkodate/tokyo/sc_adachi/nc_86612386/?fmlg2=r014'
                                     - :name: 'div'
                                       :attributes:
                                         :class:
@@ -21647,15 +21636,15 @@
                                                 :class:
                                                   - ui-thumb
                                                   - ui-thumb--2
-                                                :href: '/chukoikkodate/tokyo/sc_arakawa/nc_86960560/?fmlg2=r014'
+                                                :href: '/chukoikkodate/tokyo/sc_adachi/nc_86612386/?fmlg2=r014'
                                               :children:
                                                 - :name: 'img'
                                                   :attributes:
-                                                    :alt: 'ノスタルジックな世界観をぜひご堪能下さい。【荒川区東尾久６丁目　中古戸建て】'
+                                                    :alt: '伊興５（竹ノ塚駅） 1億500万円'
                                                     :class:
                                                       - js-noContextMenu
                                                       - js-scrollLazy
-                                                    :rel: 'http://img01.suumo.com/jj/resizeImage?src=%2Fgazo%2Fbukken%2F030%2FN010000%2Fimg%2F560%2F86960560%2F86960560_0022.jpg&w=90&h=110'
+                                                    :rel: 'http://img01.suumo.com/jj/resizeImage?src=%2Fgazo%2Fbukken%2F030%2FN010000%2Fimg%2F386%2F86612386%2F86612386_0023.jpg&w=90&h=110'
                                                     :src: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D'
                                         - :name: 'div'
                                           :attributes:
@@ -21771,7 +21760,7 @@
                                                       - ui-btn
                                                       - ui-btn--util1
                                                       - ui-btn--small
-                                                    :href: '/chukoikkodate/tokyo/sc_arakawa/nc_86960560/?fmlg2=r014'
+                                                    :href: '/chukoikkodate/tokyo/sc_adachi/nc_86612386/?fmlg2=r014'
                                 - :name: 'div'
                                   :attributes:
                                     :class:
@@ -21822,7 +21811,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: '/chintai/tokyo/sc_chuo/bc_100057685320/'
+                                                :href: '/chintai/tokyo/sc_chiyoda/bc_100059542925/'
                                     - :name: 'div'
                                       :attributes:
                                         :class:
@@ -21841,15 +21830,15 @@
                                                 :class:
                                                   - ui-thumb
                                                   - ui-thumb--2
-                                                :href: '/chintai/tokyo/sc_chuo/bc_100057685320/'
+                                                :href: '/chintai/tokyo/sc_chiyoda/bc_100059542925/'
                                               :children:
                                                 - :name: 'img'
                                                   :attributes:
-                                                    :alt: '12.75万円　ＪＲ東海道本線/東京'
+                                                    :alt: '12万円　ＪＲ山手線/神田'
                                                     :class:
                                                       - js-noContextMenu
                                                       - js-scrollLazy
-                                                    :rel: 'http://img01.suumo.com/jj/resizeImage?src=%2Fgazo%2Ffr%2Fbukken%2F320%2F100057685320%2F100057685320_gt.jpg&w=90&h=110'
+                                                    :rel: 'http://img01.suumo.com/jj/resizeImage?src=%2Fgazo%2Ffr%2Fbukken%2F925%2F100059542925%2F100059542925_gt.jpg&w=90&h=110'
                                                     :src: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D'
                                         - :name: 'div'
                                           :attributes:
@@ -21944,6 +21933,27 @@
                                                                               :attributes:
                                                                                 :class:
                                                                                   - ui-text--bold
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - propertyinfo-desc
+                                          :children:
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - propertyinfo-txt
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - propertyinfo-btn
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-btn
+                                                      - ui-btn--util1
+                                                      - ui-btn--small
+                                                    :href: '/chintai/tokyo/sc_chiyoda/bc_100059542925/'
                                 - :name: 'div'
                                   :attributes:
                                     :class:
