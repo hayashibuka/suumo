@@ -14092,7 +14092,7 @@
                                     :class:
                                       - ui-media
                                       - mediabox
-                                    :href: '/tochi/tokyo/sc_meguro/nc_86944170/?fmlg=bo001'
+                                    :href: '/tochi/tokyo/sc_kita/nc_86544502/?fmlg=bo001'
                                   :children:
                                     - :name: 'div'
                                       :attributes:
@@ -14108,7 +14108,7 @@
                                               - ui-thumb--1
                                               - js-noContextMenu
                                             :height: '50'
-                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F170%2F86944170%2F86944170_0011.jpg&w=70&h=50'
+                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F502%2F86544502%2F86544502_0031.jpg&w=70&h=50'
                                             :width: '70'
                                     - :name: 'div'
                                       :attributes:
@@ -14124,6 +14124,55 @@
                                             :class:
                                               - mediabox-desc
                                           :children:
+                                            - :name: 'span'
+                                              :attributes:
+                                                :class:
+                                                  - ui-pct
+                                                  - ui-pct--util1
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - ui-media
+                                      - mediabox
+                                    :href: '/tochi/tokyo/sc_toshima/nc_87036898/?fmlg=bo001'
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - ui-media-object
+                                          - mediabox-object
+                                      :children:
+                                        - :name: 'img'
+                                          :attributes:
+                                            :alt: ''
+                                            :class:
+                                              - ui-thumb
+                                              - ui-thumb--1
+                                              - js-noContextMenu
+                                            :height: '50'
+                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2Fsystem%2Fimg%2FDummy_Photo_030_132_99.jpg&w=70&h=50'
+                                            :width: '70'
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - ui-media-body
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - mediabox-title
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - mediabox-desc
+                                          :children:
+                                            - :name: 'span'
+                                              :attributes:
+                                                :class:
+                                                  - ui-label
+                                                  - label--new
                                             - :name: 'span'
                                               :attributes:
                                                 :class:
@@ -14174,7 +14223,7 @@
                                     :class:
                                       - ui-media
                                       - mediabox
-                                    :href: '/ikkodate/tokyo/sc_taito/nc_86874164/?fmlg=bo001'
+                                    :href: '/tochi/tokyo/sc_shibuya/nc_86201240/?fmlg=bo001'
                                   :children:
                                     - :name: 'div'
                                       :attributes:
@@ -14190,7 +14239,7 @@
                                               - ui-thumb--1
                                               - js-noContextMenu
                                             :height: '50'
-                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F164%2F86874164%2F86874164_0009.jpg&w=70&h=50'
+                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F240%2F86201240%2F86201240_0014.jpg&w=70&h=50'
                                             :width: '70'
                                     - :name: 'div'
                                       :attributes:
@@ -14205,44 +14254,12 @@
                                           :attributes:
                                             :class:
                                               - mediabox-desc
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :class:
-                                      - ui-media
-                                      - mediabox
-                                    :href: '/ikkodate/tokyo/sc_taito/nc_86864545/?fmlg=bo001'
-                                  :children:
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - ui-media-object
-                                          - mediabox-object
-                                      :children:
-                                        - :name: 'img'
-                                          :attributes:
-                                            :alt: ''
-                                            :class:
-                                              - ui-thumb
-                                              - ui-thumb--1
-                                              - js-noContextMenu
-                                            :height: '50'
-                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F545%2F86864545%2F86864545_0018.jpg&w=70&h=50'
-                                            :width: '70'
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - ui-media-body
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - mediabox-title
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - mediabox-desc
+                                          :children:
+                                            - :name: 'span'
+                                              :attributes:
+                                                :class:
+                                                  - ui-pct
+                                                  - ui-pct--util1
             - :name: 'div'
               :attributes:
                 :class:
@@ -15734,13 +15751,13 @@
                     :id: 'jsiTextBannerUrl'
                     :name: 'text_banner_url'
                     :type: 'hidden'
-                    :value: '/jj/common/parts/JJ901FJ901/?ar=030&ra=030013&rn=0005&kkkKoseiCd=N030011&dc=3&styleKbn=1&times=1475405089195'
+                    :value: '/jj/common/parts/JJ901FJ901/?ar=030&ra=030013&rn=0005&kkkKoseiCd=N030011&dc=3&styleKbn=1&times=1475425018685'
                 - :name: 'input'
                   :attributes:
                     :id: 'jsiLotationBannerUrl'
                     :name: 'lotation_banner_url'
                     :type: 'hidden'
-                    :value: '/jj/common/parts/JJ901FJ901/?ar=030&kkkKoseiCd=N030010&dc=6&styleKbn=1&times=1475405089196'
+                    :value: '/jj/common/parts/JJ901FJ901/?ar=030&kkkKoseiCd=N030010&dc=6&styleKbn=1&times=1475425018685'
         - :name: 'div'
           :attributes:
             :class:
