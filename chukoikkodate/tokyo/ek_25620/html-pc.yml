@@ -8236,52 +8236,7 @@
                             - :name: 'div'
                               :attributes:
                                 :class:
-                                  - ui-section--subitem
-                                  - subitem
-                                  - subitem--t
-                                  - dn
-                                :id: 'targetingR01'
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - ui-section-header
-                                  :children:
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - ui-section-subtitle
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - ui-section-body
-                                  :children:
-                                    - :name: 'ul'
-                                      :attributes:
-                                        :class:
-                                          - subitemlistv
-                                          - subitemlistv--line
-                                      :children:
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - dn
-                                            :id: 'targetingR01_1'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - dn
-                                            :id: 'targetingR01_2'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - dn
-                                            :id: 'targetingR01_3'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
                                   - subitemlistvbox
-                                :id: 'js-fixBanner'
                               :children:
                                 - :name: 'ul'
                                   :attributes:
@@ -8305,61 +8260,111 @@
                                         :class:
                                           - dn
                                         :id: 'targetingR02_3'
-                                    - :name: 'li'
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - subitemlistvbox
+                                :id: 'js-fixBanner'
+                              :children:
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - ui-section--subitem
+                                      - subitem
+                                      - subitem--t
+                                      - dn
+                                    :id: 'targetingR01'
+                                  :children:
+                                    - :name: 'div'
                                       :attributes:
                                         :class:
-                                          - dn
-                                        :id: 'targetingR02_4'
-                                    - :name: 'li'
+                                          - ui-section-header
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - ui-section-subtitle
+                                    - :name: 'div'
                                       :attributes:
                                         :class:
-                                          - dn
-                                        :id: 'targetingR02_5'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - dn
-                                        :id: 'targetingR02_6'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - dn
-                                        :id: 'targetingR02_7'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - dn
-                                        :id: 'targetingR02_8'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - dn
-                                        :id: 'targetingR02_9'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - dn
-                                        :id: 'targetingR02_10'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - dn
-                                        :id: 'targetingR02_11'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - dn
-                                        :id: 'targetingR02_12'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - dn
-                                        :id: 'targetingR02_13'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - dn
-                                        :id: 'targetingR02_14'
+                                          - ui-section-body
+                                      :children:
+                                        - :name: 'ul'
+                                          :attributes:
+                                            :class:
+                                              - subitemlistv
+                                              - subitemlistv--line
+                                          :children:
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_1'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_2'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_3'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_4'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_5'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_6'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_7'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_8'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_9'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_10'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_11'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_12'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_13'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_14'
             - :name: 'div'
               :attributes:
                 :class:
@@ -8424,7 +8429,7 @@
                                     :class:
                                       - ui-media
                                       - mediabox
-                                    :href: '/chukoikkodate/tokyo/sc_bunkyo/nc_86552793/?fmlg=bo001'
+                                    :href: '/chukoikkodate/tokyo/sc_adachi/nc_86785942/?fmlg=bo001'
                                   :children:
                                     - :name: 'div'
                                       :attributes:
@@ -8440,7 +8445,7 @@
                                               - ui-thumb--1
                                               - js-noContextMenu
                                             :height: '50'
-                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F793%2F86552793%2F86552793_0010.jpg&w=70&h=50'
+                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F942%2F86785942%2F86785942_0011.jpg&w=70&h=50'
                                             :width: '70'
                                     - :name: 'div'
                                       :attributes:
@@ -8538,7 +8543,7 @@
                                     :class:
                                       - ui-media
                                       - mediabox
-                                    :href: '/chukoikkodate/tokyo/sc_adachi/nc_86865033/?fmlg=bo001'
+                                    :href: '/chukoikkodate/tokyo/sc_bunkyo/nc_86552793/?fmlg=bo001'
                                   :children:
                                     - :name: 'div'
                                       :attributes:
@@ -8554,7 +8559,7 @@
                                               - ui-thumb--1
                                               - js-noContextMenu
                                             :height: '50'
-                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F033%2F86865033%2F86865033_0024.jpg&w=70&h=50'
+                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F793%2F86552793%2F86552793_0010.jpg&w=70&h=50'
                                             :width: '70'
                                     - :name: 'div'
                                       :attributes:
@@ -8610,26 +8615,6 @@
                                       - shadowbtn
                                       - topcomaselebox
                                       - topcomaselebox--multiline
-                                    :href: '/jj/tokushu/ichiran/JJ900FJ001?ar=030&bs=021&tm=D3ksl010&hd=D3ksl010&ta=13'
-                                  :children:
-                                    - :name: 'span'
-                                      :attributes:
-                                        :class:
-                                          - ui-icon--comaselection58
-                                    - :name: 'span'
-                                      :attributes:
-                                        :class:
-                                          - topcomaselebox-lead
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :class:
-                                      - ui-btn
-                                      - ui-btn--base
-                                      - shadowbtn
-                                      - topcomaselebox
-                                      - topcomaselebox--multiline
                                     :href: '/jj/tokushu/ichiran/JJ900FJ001?ar=030&bs=021&tm=D3ksl006&hd=D3ksl006&ta=13'
                                   :children:
                                     - :name: 'span'
@@ -8650,12 +8635,12 @@
                                       - shadowbtn
                                       - topcomaselebox
                                       - topcomaselebox--multiline
-                                    :href: '/jj/tokushu/ichiran/JJ900FJ001?ar=030&bs=021&tm=D3ksl001&hd=D3ksl001&ta=13'
+                                    :href: '/jj/tokushu/ichiran/JJ900FJ001?ar=030&bs=021&tm=D3ksl005&hd=D3ksl005&ta=13'
                                   :children:
                                     - :name: 'span'
                                       :attributes:
                                         :class:
-                                          - ui-icon--comaselection56
+                                          - ui-icon--comaselection51
                                     - :name: 'span'
                                       :attributes:
                                         :class:
@@ -8676,6 +8661,26 @@
                                       :attributes:
                                         :class:
                                           - ui-icon--comaselection33
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - topcomaselebox-lead
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - ui-btn
+                                      - ui-btn--base
+                                      - shadowbtn
+                                      - topcomaselebox
+                                      - topcomaselebox--multiline
+                                    :href: '/jj/tokushu/ichiran/JJ900FJ001?ar=030&bs=021&tm=D3ksl002&hd=D3ksl002&ta=13'
+                                  :children:
+                                    - :name: 'span'
+                                      :attributes:
+                                        :class:
+                                          - ui-icon--comaselection66
                                     - :name: 'span'
                                       :attributes:
                                         :class:
@@ -9455,28 +9460,6 @@
                       :attributes:
                         :class:
                           - itemlinebox-title
-                    - :name: 'dd'
-                      :attributes:
-                        :class:
-                          - itemlinebox-body
-                          - itemlinkline-body
-                      :children:
-                        - :name: 'a'
-                          :attributes:
-                            :href: '/chukoikkodate/tokyo/sc_musashino/'
-            - :name: 'div'
-              :attributes:
-                :class:
-                  - itemlinebox
-                  - itemlinkline
-                  - item
-              :children:
-                - :name: 'dl'
-                  :children:
-                    - :name: 'dt'
-                      :attributes:
-                        :class:
-                          - itemlinebox-title
                       :children:
                         - :name: 'a'
                           :attributes:
@@ -9930,13 +9913,13 @@
                     :id: 'jsiTextBannerUrl'
                     :name: 'text_banner_url'
                     :type: 'hidden'
-                    :value: '/jj/common/parts/JJ901FJ901/?ar=030&ra=030013&rn=0005&kkkKoseiCd=N030011&dc=3&styleKbn=1&times=1475425147203'
+                    :value: '/jj/common/parts/JJ901FJ901/?ar=030&ra=030013&rn=0005&kkkKoseiCd=N030011&dc=3&styleKbn=1&times=1475511597573'
                 - :name: 'input'
                   :attributes:
                     :id: 'jsiLotationBannerUrl'
                     :name: 'lotation_banner_url'
                     :type: 'hidden'
-                    :value: '/jj/common/parts/JJ901FJ901/?ar=030&kkkKoseiCd=N030010&dc=6&styleKbn=1&times=1475425147203'
+                    :value: '/jj/common/parts/JJ901FJ901/?ar=030&kkkKoseiCd=N030010&dc=6&styleKbn=1&times=1475511597574'
         - :name: 'div'
           :attributes:
             :class:

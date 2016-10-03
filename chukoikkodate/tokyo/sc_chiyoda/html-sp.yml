@@ -477,10 +477,10 @@
                                                 :data-areacd: '030'
                                                 :data-bc: '86805187'
                                                 :data-bukken-cd: '86805187'
-                                                :data-bukken_nm: '神田東松下町（神田駅） 8500万円'
+                                                :data-bukken_nm: '神田東松下町（神田駅） 7990万円'
                                                 :data-chikugonensu: '27'
                                                 :data-choson: '神田東松下町'
-                                                :data-kakaku: '8500万円'
+                                                :data-kakaku: '7990万円'
                                                 :data-kanigazo: 'http://suumo.jp/front/gazo/bukken/030/N010000/img/187/86805187/86805187_0008.jpg'
                                                 :data-kanrihi: '-'
                                                 :data-kotsu: 'ＪＲ山手線「神田」歩4分'
@@ -523,7 +523,7 @@
                                                               - loader
                                                         - :name: 'img'
                                                           :attributes:
-                                                            :alt: '神田東松下町（神田駅） 8500万円'
+                                                            :alt: '神田東松下町（神田駅） 7990万円'
                                                             :data-src: 'https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F187%2F86805187%2F86805187_0008.jpg&w=200'
                                                             :style: 'display: none;'
                                                 - :name: 'table'
@@ -603,6 +603,15 @@
                                                                       :attributes:
                                                                         :class:
                                                                           - houseMenseki
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - pctUpWrapper
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - pctUp
                                 - :name: 'li'
                                   :children:
                                     - :name: 'div'
