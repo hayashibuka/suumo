@@ -1410,6 +1410,7 @@
                                                     :class:
                                                       - acdHead
                                                       - searchArea
+                                                      - disabled
                                                   :children:
                                                     - :name: 'span'
                                                       :attributes:
@@ -1421,6 +1422,7 @@
                                                           :attributes:
                                                             :class:
                                                               - kuChk
+                                                            :disabled: 'disabled'
                                                             :name: 'sc[]'
                                                             :type: 'checkbox'
                                                             :value: '205'

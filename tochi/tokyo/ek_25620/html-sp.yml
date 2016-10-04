@@ -449,173 +449,6 @@
                                                 :name: 'bsnc'
                                                 :rel: '030'
                                                 :type: 'checkbox'
-                                                :value: '03086939684'
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - titleBox
-                                          :children:
-                                            - :name: 'p'
-                                              :attributes:
-                                                :class:
-                                                  - titleWrap
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - favoriteWrap
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :class:
-                                                  - icnFavorite
-                                                :data-areacd: '030'
-                                                :data-bc: '86939684'
-                                                :data-bukken-cd: '86939684'
-                                                :data-bukken_nm: '絶景スカイツリー！すぐ横　8Ｍ道路整形地'
-                                                :data-chikugonensu: '-'
-                                                :data-choson: '向島'
-                                                :data-kakaku: '6480万円'
-                                                :data-kanigazo: 'http://suumo.jp/front/gazo/bukken/030/N010000/img/684/86939684/86939684_0001.jpg'
-                                                :data-kanrihi: '-'
-                                                :data-kotsu: 'ＪＲ山手線「東京」車7.2km'
-                                                :data-krsnetid: 't13100000101'
-                                                :data-madori: '-'
-                                                :data-menseki: '82.41m²'
-                                                :data-project_cd: '86939684'
-                                                :data-sc: '107'
-                                                :data-seqno: ''
-                                                :data-shigunku: '墨田区'
-                                                :data-shubetsu: '030'
-                                                :data-tf: '13'
-                                                :data-todofuken: '東京都'
-                                                :href: 'javascript:void(0);'
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - innerInfo
-                                          - 
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: '/tochi/tokyo/sc_107/pj_86939684/?kbn=2&bkflg=1&bku=%2Ftochi%2Ftokyo%2Fek_000525620%2F&iflg=1'
-                                          :children:
-                                            - :name: 'div'
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - imgWrap
-                                                  :children:
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - imgBorder
-                                                      :children:
-                                                        - :name: 'span'
-                                                          :attributes:
-                                                            :class:
-                                                              - loader
-                                                        - :name: 'img'
-                                                          :attributes:
-                                                            :alt: '絶景スカイツリー！すぐ横　8Ｍ道路整形地'
-                                                            :data-src: 'https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F684%2F86939684%2F86939684_0001.jpg&w=200'
-                                                            :height: '140'
-                                                            :style: 'display: none;'
-                                                            :width: '140'
-                                                - :name: 'table'
-                                                  :attributes:
-                                                    :class:
-                                                      - infoWrap
-                                                  :children:
-                                                    - :name: 'tbody'
-                                                      :children:
-                                                        - :name: 'tr'
-                                                          :children:
-                                                            - :name: 'th'
-                                                              :attributes:
-                                                                :class:
-                                                                  - price
-                                                                  - 
-                                                                :colspan: '2'
-                                                        - :name: 'tr'
-                                                          :children:
-                                                            - :name: 'td'
-                                                              :attributes:
-                                                                :class:
-                                                                  - exclusive
-                                                              :children:
-                                                                - :name: 'span'
-                                                        - :name: 'tr'
-                                                          :children:
-                                                            - :name: 'td'
-                                                              :attributes:
-                                                                :class:
-                                                                  - address
-                                                        - :name: 'tr'
-                                                          :children:
-                                                            - :name: 'td'
-                                                              :attributes:
-                                                                :class:
-                                                                  - ensen
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - innerFoot
-                                          - customerSurvey
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :class:
-                                              - shopmore
-                                            :href: '/tochi/tokyo/sc_107/pj_86939684/kuchikomi/?kbn=2&bkflg=1&bku=%2Ftochi%2Ftokyo%2Fek_000525620%2F&iflg=1'
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - shopmore-item
-                                              :children:
-                                                - :name: 'p'
-                                                  :attributes:
-                                                    :class:
-                                                      - shopmore-item-title
-                                                - :name: 'p'
-                                                  :attributes:
-                                                    :class:
-                                                      - shopmore-item-main
-                                                  :children:
-                                                    - :name: 'span'
-                                                      :attributes:
-                                                        :class:
-                                                          - icon_star
-                                                          - icon_star--md
-                                                          - icon_star_4-5
-                                                - :name: 'p'
-                                                  :attributes:
-                                                    :class:
-                                                      - shopmore-item-sub
-                                            - :name: 'p'
-                                              :attributes:
-                                                :class:
-                                                  - shopmore-title
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - innerHead
-                                      :children:
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - inputWrap
-                                          :children:
-                                            - :name: 'input'
-                                              :attributes:
-                                                :class:
-                                                  - ctmChk
-                                                :name: 'bsnc'
-                                                :rel: '030'
-                                                :type: 'checkbox'
                                                 :value: '03086630369'
                                         - :name: 'div'
                                           :attributes:
@@ -702,7 +535,7 @@
                                                               :attributes:
                                                                 :class:
                                                                   - price
-                                                                  - ribbonClass
+                                                                  - 
                                                                 :colspan: '2'
                                                         - :name: 'tr'
                                                           :children:
@@ -724,15 +557,6 @@
                                                               :attributes:
                                                                 :class:
                                                                   - ensen
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - pctUpWrapper
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - pctUp
                                     - :name: 'div'
                                       :attributes:
                                         :class:
@@ -1076,17 +900,6 @@
                                                               :attributes:
                                                                 :class:
                                                                   - ensen
-                                                        - :name: 'tr'
-                                                          :children:
-                                                            - :name: 'td'
-                                                              :attributes:
-                                                                :class:
-                                                                  - infoPictWrap
-                                                              :children:
-                                                                - :name: 'span'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - pctMovie
                                     - :name: 'div'
                                       :attributes:
                                         :class:
@@ -1098,6 +911,182 @@
                                             :class:
                                               - shopmore
                                             :href: '/tochi/tokyo/sc_121/pj_86973674/kuchikomi/?kbn=2&bkflg=1&bku=%2Ftochi%2Ftokyo%2Fek_000525620%2F&iflg=1'
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - shopmore-item
+                                              :children:
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - shopmore-item-title
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - shopmore-item-main
+                                                  :children:
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - icon_star
+                                                          - icon_star--md
+                                                          - icon_star_4-5
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - shopmore-item-sub
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - shopmore-title
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - innerHead
+                                      :children:
+                                        - :name: 'p'
+                                          :attributes:
+                                            :class:
+                                              - inputWrap
+                                          :children:
+                                            - :name: 'input'
+                                              :attributes:
+                                                :class:
+                                                  - ctmChk
+                                                :name: 'bsnc'
+                                                :rel: '030'
+                                                :type: 'checkbox'
+                                                :value: '03087053605'
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - titleBox
+                                          :children:
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - titleWrap
+                                        - :name: 'p'
+                                          :attributes:
+                                            :class:
+                                              - favoriteWrap
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :class:
+                                                  - icnFavorite
+                                                :data-areacd: '030'
+                                                :data-bc: '87053605'
+                                                :data-bukken-cd: '87053605'
+                                                :data-bukken_nm: '西新井４（谷在家駅） 2280万円'
+                                                :data-chikugonensu: '-'
+                                                :data-choson: '西新井'
+                                                :data-kakaku: '2280万円'
+                                                :data-kanigazo: 'http://suumo.jp/front/gazo/bukken/030/N010000/img/605/87053605/87053605_0023.jpg'
+                                                :data-kanrihi: '-'
+                                                :data-kotsu: '日暮里・舎人ライナー「谷在家」歩6分'
+                                                :data-krsnetid: 't14547700101'
+                                                :data-madori: '-'
+                                                :data-menseki: '66.82m²'
+                                                :data-project_cd: '87053605'
+                                                :data-sc: '121'
+                                                :data-seqno: ''
+                                                :data-shigunku: '足立区'
+                                                :data-shubetsu: '030'
+                                                :data-tf: '13'
+                                                :data-todofuken: '東京都'
+                                                :href: 'javascript:void(0);'
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - innerInfo
+                                          - 
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: '/tochi/tokyo/sc_121/pj_87053605/?kbn=2&bkflg=1&bku=%2Ftochi%2Ftokyo%2Fek_000525620%2F&iflg=1'
+                                          :children:
+                                            - :name: 'div'
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - imgWrap
+                                                  :children:
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - imgBorder
+                                                      :children:
+                                                        - :name: 'span'
+                                                          :attributes:
+                                                            :class:
+                                                              - loader
+                                                        - :name: 'img'
+                                                          :attributes:
+                                                            :alt: '西新井４（谷在家駅） 2280万円'
+                                                            :data-src: 'https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F605%2F87053605%2F87053605_0023.jpg&w=200'
+                                                            :height: '140'
+                                                            :style: 'display: none;'
+                                                            :width: '140'
+                                                - :name: 'table'
+                                                  :attributes:
+                                                    :class:
+                                                      - infoWrap
+                                                  :children:
+                                                    - :name: 'tbody'
+                                                      :children:
+                                                        - :name: 'tr'
+                                                          :children:
+                                                            - :name: 'th'
+                                                              :attributes:
+                                                                :class:
+                                                                  - price
+                                                                  - ribbonClass
+                                                                :colspan: '2'
+                                                        - :name: 'tr'
+                                                          :children:
+                                                            - :name: 'td'
+                                                              :attributes:
+                                                                :class:
+                                                                  - exclusive
+                                                              :children:
+                                                                - :name: 'span'
+                                                        - :name: 'tr'
+                                                          :children:
+                                                            - :name: 'td'
+                                                              :attributes:
+                                                                :class:
+                                                                  - address
+                                                        - :name: 'tr'
+                                                          :children:
+                                                            - :name: 'td'
+                                                              :attributes:
+                                                                :class:
+                                                                  - ensen
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - pctNewWrapper
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - pctNew
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - innerFoot
+                                          - customerSurvey
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :class:
+                                              - shopmore
+                                            :href: '/tochi/tokyo/sc_121/pj_87053605/kuchikomi/?kbn=2&bkflg=1&bku=%2Ftochi%2Ftokyo%2Fek_000525620%2F&iflg=1'
                                           :children:
                                             - :name: 'div'
                                               :attributes:
@@ -1783,6 +1772,173 @@
                                             :class:
                                               - shopmore
                                             :href: '/tochi/tokyo/sc_107/pj_86860499/kuchikomi/?kbn=2&bkflg=1&bku=%2Ftochi%2Ftokyo%2Fek_000525620%2F&iflg=1'
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - shopmore-item
+                                              :children:
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - shopmore-item-title
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - shopmore-item-main
+                                                  :children:
+                                                    - :name: 'span'
+                                                      :attributes:
+                                                        :class:
+                                                          - icon_star
+                                                          - icon_star--md
+                                                          - icon_star_4-5
+                                                - :name: 'p'
+                                                  :attributes:
+                                                    :class:
+                                                      - shopmore-item-sub
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - shopmore-title
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - innerHead
+                                      :children:
+                                        - :name: 'p'
+                                          :attributes:
+                                            :class:
+                                              - inputWrap
+                                          :children:
+                                            - :name: 'input'
+                                              :attributes:
+                                                :class:
+                                                  - ctmChk
+                                                :name: 'bsnc'
+                                                :rel: '030'
+                                                :type: 'checkbox'
+                                                :value: '03086939684'
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - titleBox
+                                          :children:
+                                            - :name: 'p'
+                                              :attributes:
+                                                :class:
+                                                  - titleWrap
+                                        - :name: 'p'
+                                          :attributes:
+                                            :class:
+                                              - favoriteWrap
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :class:
+                                                  - icnFavorite
+                                                :data-areacd: '030'
+                                                :data-bc: '86939684'
+                                                :data-bukken-cd: '86939684'
+                                                :data-bukken_nm: '向島３ 6480万円'
+                                                :data-chikugonensu: '-'
+                                                :data-choson: '向島'
+                                                :data-kakaku: '6480万円'
+                                                :data-kanigazo: 'http://suumo.jp/front/gazo/bukken/030/N010000/img/684/86939684/86939684_0001.jpg'
+                                                :data-kanrihi: '-'
+                                                :data-kotsu: 'ＪＲ山手線「東京」車7.2km'
+                                                :data-krsnetid: 't13100000101'
+                                                :data-madori: '-'
+                                                :data-menseki: '82.41m²'
+                                                :data-project_cd: '86939684'
+                                                :data-sc: '107'
+                                                :data-seqno: ''
+                                                :data-shigunku: '墨田区'
+                                                :data-shubetsu: '030'
+                                                :data-tf: '13'
+                                                :data-todofuken: '東京都'
+                                                :href: 'javascript:void(0);'
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - innerInfo
+                                          - 
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :href: '/tochi/tokyo/sc_107/pj_86939684/?kbn=2&bkflg=1&bku=%2Ftochi%2Ftokyo%2Fek_000525620%2F&iflg=1'
+                                          :children:
+                                            - :name: 'div'
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - imgWrap
+                                                  :children:
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - imgBorder
+                                                      :children:
+                                                        - :name: 'span'
+                                                          :attributes:
+                                                            :class:
+                                                              - loader
+                                                        - :name: 'img'
+                                                          :attributes:
+                                                            :alt: '向島３ 6480万円'
+                                                            :data-src: 'https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F684%2F86939684%2F86939684_0001.jpg&w=200'
+                                                            :height: '140'
+                                                            :style: 'display: none;'
+                                                            :width: '140'
+                                                - :name: 'table'
+                                                  :attributes:
+                                                    :class:
+                                                      - infoWrap
+                                                  :children:
+                                                    - :name: 'tbody'
+                                                      :children:
+                                                        - :name: 'tr'
+                                                          :children:
+                                                            - :name: 'th'
+                                                              :attributes:
+                                                                :class:
+                                                                  - price
+                                                                  - 
+                                                                :colspan: '2'
+                                                        - :name: 'tr'
+                                                          :children:
+                                                            - :name: 'td'
+                                                              :attributes:
+                                                                :class:
+                                                                  - exclusive
+                                                              :children:
+                                                                - :name: 'span'
+                                                        - :name: 'tr'
+                                                          :children:
+                                                            - :name: 'td'
+                                                              :attributes:
+                                                                :class:
+                                                                  - address
+                                                        - :name: 'tr'
+                                                          :children:
+                                                            - :name: 'td'
+                                                              :attributes:
+                                                                :class:
+                                                                  - ensen
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - innerFoot
+                                          - customerSurvey
+                                      :children:
+                                        - :name: 'a'
+                                          :attributes:
+                                            :class:
+                                              - shopmore
+                                            :href: '/tochi/tokyo/sc_107/pj_86939684/kuchikomi/?kbn=2&bkflg=1&bku=%2Ftochi%2Ftokyo%2Fek_000525620%2F&iflg=1'
                                           :children:
                                             - :name: 'div'
                                               :attributes:
@@ -2912,21 +3068,21 @@
             :data-requesturl: '/tochi/tokyo/ek_000525620/'
             :data-sitekbncd: '01'
             :data-todofuken: '030'
-            :data-totalhits: '8'
+            :data-totalhits: '9'
             :data-urlparamsstring: '?km=1'
             :id: 'js-data-script-commonScript'
             :src: '/js/tochi/list/commonScript.js,qid=20160928c63c4b7.pagespeed.jm.NtuA4ArNbH.js'
         - :name: 'script'
           :attributes:
-            :data-bclist: '["86939684","86630369","86835323","86973674","86930566","86790723","86855205","86860499"]'
+            :data-bclist: '["86630369","86835323","86973674","87053605","86930566","86790723","86855205","86860499","86939684"]'
             :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_030","se":"030"}'
             :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_030","e":["000525620"],"se":["030"],"ta":["13"]}'
             :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_030","e":["000525620"],"se":["030"],"ta":["13"]}'
-            :data-krsnetidlist: '["t13100000101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t13100000101","t13100000101"]'
-            :data-nclist: '["86939684","86630369","86835323","86973674","86930566","86790723","86855205","86860499"]'
+            :data-krsnetidlist: '["t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t13100000101","t13100000101","t13100000101"]'
+            :data-nclist: '["86630369","86835323","86973674","87053605","86930566","86790723","86855205","86860499","86939684"]'
             :data-pageid: 'PT3C1304'
             :data-templateid: 'SP_SUUMO'
-            :data-totalhit: '8'
+            :data-totalhit: '9'
             :data-url: 'log.suumo.jp/js/logsuumo.js'
             :id: 'beaconJs'
             :language: 'JavaScript'

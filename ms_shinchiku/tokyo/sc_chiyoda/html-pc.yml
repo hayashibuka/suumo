@@ -1815,7 +1815,7 @@
                                                         :id: 'bukken_1'
                                                         :name: 'bc'
                                                         :type: 'checkbox'
-                                                        :value: '67715170'
+                                                        :value: '67715329'
                                                     - :name: 'label'
                                                       :attributes:
                                                         :class:
@@ -1827,13 +1827,13 @@
                                                         :class:
                                                           - js-bsnckey
                                                         :type: 'hidden'
-                                                        :value: '01067715170'
+                                                        :value: '01067715329'
                                                     - :name: 'input'
                                                       :attributes:
                                                         :class:
                                                           - js-clipkey
                                                         :type: 'hidden'
-                                                        :value: '67715170_010'
+                                                        :value: '67715329_010'
                                                     - :name: 'input'
                                                       :attributes:
                                                         :class:
@@ -1852,6 +1852,17 @@
                                                         :class:
                                                           - cassette-header
                                                       :children:
+                                                        - :name: 'p'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-header-pct
+                                                          :children:
+                                                            - :name: 'span'
+                                                              :attributes:
+                                                                :class:
+                                                                  - ui-pct
+                                                                  - ui-pct--radius
+                                                                  - ui-pct--status
                                                         - :name: 'h2'
                                                           :children:
                                                             - :name: 'a'
@@ -1859,7 +1870,7 @@
                                                                 :class:
                                                                   - cassette-header-title
                                                                   - js-cassetLinkHref
-                                                                :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67715170/'
+                                                                :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67715329/'
                                                     - :name: 'p'
                                                       :attributes:
                                                         :class:
@@ -1882,7 +1893,7 @@
                                                           :children:
                                                             - :name: 'a'
                                                               :attributes:
-                                                                :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67715170/'
+                                                                :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67715329/'
                                                               :children:
                                                                 - :name: 'img'
                                                                   :attributes:
@@ -1892,7 +1903,7 @@
                                                                       - js-scrollLazy
                                                                       - js-adjustImg
                                                                     :height: '202'
-                                                                    :rel: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN001000%2Fimg%2F70%2F67715170%2F67715170_000025.jpg&w=202&h=202'
+                                                                    :rel: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN001000%2Fimg%2F29%2F67715329%2F67715329_000031.jpg&w=202&h=202'
                                                                     :src: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D'
                                                                     :width: '202'
                                                         - :name: 'div'
@@ -1988,7 +1999,7 @@
                                                                       - ui-btn--submit
                                                                       - ui-btn--default
                                                                       - js-noCassetteLink
-                                                                    :href: 'https://suumo.jp/jj/bukken/shiryou/JJ010FJ010/?ar=030&bs=010&bsnc=01067715170&senimotokbn=1'
+                                                                    :href: 'https://suumo.jp/jj/bukken/shiryou/JJ010FJ010/?ar=030&bs=010&bsnc=01067715329&senimotokbn=1'
                                                                     :target: '_blank'
                                                                     :title: '資料請求する'
                                                             - :name: 'li'
@@ -2012,7 +2023,7 @@
                                                                   - ui-btn
                                                                   - ui-btn--transition
                                                                   - ui-btn--default
-                                                                :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67715170/'
+                                                                :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67715329/'
                                         - :name: 'li'
                                           :children:
                                             - :name: 'div'
@@ -2041,230 +2052,13 @@
                                                         :id: 'bukken_2'
                                                         :name: 'bc'
                                                         :type: 'checkbox'
-                                                        :value: '67714626'
-                                                    - :name: 'label'
-                                                      :attributes:
-                                                        :class:
-                                                          - cassette-cbx
-                                                          - cbx_list
-                                                        :for: 'bukken_2'
-                                                    - :name: 'input'
-                                                      :attributes:
-                                                        :class:
-                                                          - js-bsnckey
-                                                        :type: 'hidden'
-                                                        :value: '01067714626'
-                                                    - :name: 'input'
-                                                      :attributes:
-                                                        :class:
-                                                          - js-clipkey
-                                                        :type: 'hidden'
-                                                        :value: '67714626_010'
-                                                    - :name: 'input'
-                                                      :attributes:
-                                                        :class:
-                                                          - js-keisaiKbn
-                                                        :type: 'hidden'
-                                                        :value: '3'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - cassette-content
-                                                      - js-normalLink
-                                                      - js-cassetLink
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - cassette-header
-                                                      :children:
-                                                        - :name: 'h2'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - cassette-header-title
-                                                                  - js-cassetLinkHref
-                                                                :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67714626/'
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - cassette-body
-                                                      :children:
-                                                        - :name: 'div'
-                                                          :attributes:
-                                                            :class:
-                                                              - cassette-object
-                                                              - ui-thumbcenter
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67714626/'
-                                                              :children:
-                                                                - :name: 'img'
-                                                                  :attributes:
-                                                                    :alt: ''
-                                                                    :class:
-                                                                      - js-noContextMenu
-                                                                      - js-scrollLazy
-                                                                      - js-adjustImg
-                                                                    :height: '202'
-                                                                    :rel: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN001000%2Fimg%2F26%2F67714626%2F67714626_000002.jpg&w=202&h=202'
-                                                                    :src: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D'
-                                                                    :width: '202'
-                                                        - :name: 'div'
-                                                          :attributes:
-                                                            :class:
-                                                              - cassette-detail
-                                                          :children:
-                                                            - :name: 'ul'
-                                                              :attributes:
-                                                                :class:
-                                                                  - cassette-text
-                                                              :children:
-                                                                - :name: 'li'
-                                                                  :children:
-                                                                    - :name: 'div'
-                                                                      :attributes:
-                                                                        :class:
-                                                                          - ui-text_bold
-                                                                - :name: 'li'
-                                                                  :children:
-                                                                    - :name: 'div'
-                                                                - :name: 'li'
-                                                                  :children:
-                                                                    - :name: 'div'
-                                                            - :name: 'ul'
-                                                              :attributes:
-                                                                :class:
-                                                                  - cassette-line
-                                                              :children:
-                                                                - :name: 'li'
-                                                                  :children:
-                                                                    - :name: 'div'
-                                                                      :attributes:
-                                                                        :class:
-                                                                          - cassette-price
-                                                                      :children:
-                                                                        - :name: 'span'
-                                                                          :attributes:
-                                                                            :class:
-                                                                              - cassette-price-accent
-                                                                    - :name: 'ul'
-                                                                      :attributes:
-                                                                        :class:
-                                                                          - cassette-plan
-                                                                      :children:
-                                                                        - :name: 'li'
-                                                                        - :name: 'li'
-                                                                          :children:
-                                                                            - :name: 'sup'
-                                                                            - :name: 'sup'
-                                                            - :name: 'div'
-                                                              :attributes:
-                                                                :class:
-                                                                  - cassette-point
-                                                              :children:
-                                                                - :name: 'div'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - cassette-point-icon
-                                                                - :name: 'p'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - cassette-point-text
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - cassette-pct
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'span'
-                                                              :attributes:
-                                                                :class:
-                                                                  - ui-pct
-                                                                  - ui-pct--util1
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - cassette-action
-                                                      :children:
-                                                        - :name: 'ul'
-                                                          :attributes:
-                                                            :class:
-                                                              - cassette-action-left
-                                                          :children:
-                                                            - :name: 'li'
-                                                              :children:
-                                                                - :name: 'a'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - cassette-action-btn
-                                                                      - ui-btn
-                                                                      - ui-btn--submit
-                                                                      - ui-btn--default
-                                                                      - js-noCassetteLink
-                                                                    :href: 'https://suumo.jp/jj/bukken/shiryou/JJ010FJ010/?ar=030&bs=010&bsnc=01067714626&senimotokbn=1'
-                                                                    :target: '_blank'
-                                                                    :title: '資料請求する'
-                                                            - :name: 'li'
-                                                              :children:
-                                                                - :name: 'a'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - ui-sprite--actionbtn_addmylist
-                                                                      - js-linkSuppresser
-                                                                      - js-addMyListSingle
-                                                                    :href: 'javascript:void(0);'
-                                                        - :name: 'div'
-                                                          :attributes:
-                                                            :class:
-                                                              - cassette-action-right
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - cassette-action-btn
-                                                                  - ui-btn
-                                                                  - ui-btn--transition
-                                                                  - ui-btn--default
-                                                                :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67714626/'
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - cassette
-                                                  - property_unit
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - cassette-check
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - ui-txtreplace
-                                                          - sms_list-icon
-                                                          - sms_list-icon--check
-                                                    - :name: 'input'
-                                                      :attributes:
-                                                        :autocomplete: 'off'
-                                                        :class:
-                                                          - js-singleCheckBox
-                                                          - js-ikkatsuCB
-                                                        :id: 'bukken_3'
-                                                        :name: 'bc'
-                                                        :type: 'checkbox'
                                                         :value: '67715183'
                                                     - :name: 'label'
                                                       :attributes:
                                                         :class:
                                                           - cassette-cbx
                                                           - cbx_list
-                                                        :for: 'bukken_3'
+                                                        :for: 'bukken_2'
                                                     - :name: 'input'
                                                       :attributes:
                                                         :class:
@@ -2295,17 +2089,6 @@
                                                         :class:
                                                           - cassette-header
                                                       :children:
-                                                        - :name: 'p'
-                                                          :attributes:
-                                                            :class:
-                                                              - cassette-header-pct
-                                                          :children:
-                                                            - :name: 'span'
-                                                              :attributes:
-                                                                :class:
-                                                                  - ui-pct
-                                                                  - ui-pct--radius
-                                                                  - ui-pct--status
                                                         - :name: 'h2'
                                                           :children:
                                                             - :name: 'a'
@@ -2587,7 +2370,7 @@
                                                         :class:
                                                           - js-singleCheckBox
                                                           - js-ikkatsuCB
-                                                        :id: 'bukken_4'
+                                                        :id: 'bukken_3'
                                                         :name: 'bc'
                                                         :type: 'checkbox'
                                                         :value: '67714399'
@@ -2596,7 +2379,7 @@
                                                         :class:
                                                           - cassette-cbx
                                                           - cbx_list
-                                                        :for: 'bukken_4'
+                                                        :for: 'bukken_3'
                                                     - :name: 'input'
                                                       :attributes:
                                                         :class:
@@ -2830,70 +2613,6 @@
                                                                   - ui-btn--transition
                                                                   - ui-btn--default
                                                                 :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67714399/'
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - l-cassette_assist
-                                          - l-cassette_assist--topbottom
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - l-cassette_assist-bottom
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - cassette_assist
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - cassette_assist-inner
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - cassette_assist-all
-                                                          - js-checkall
-                                                      :children:
-                                                        - :name: 'input'
-                                                          :attributes:
-                                                            :autocomplete: 'off'
-                                                            :class:
-                                                              - js-checkall-input
-                                                            :id: 'checkall0'
-                                                            :name: 'bc'
-                                                            :type: 'checkbox'
-                                                            :value: '0'
-                                                        - :name: 'label'
-                                                          :attributes:
-                                                            :class:
-                                                              - check
-                                                            :for: 'checkall0'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - cassette_assist-action
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :attributes:
-                                                            :class:
-                                                              - favassist-sep
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - js-shiryoseikyu
-                                                                  - ui-btn
-                                                                  - ui-btn--submit
-                                                                  - ui-btn--default
-                                                                :href: 'https://suumo.jp/jj/bukken/shiryou/JJ010FJ010/?ar=030&bs=010&senimotokbn=1'
-                                    - :name: 'ul'
-                                      :attributes:
-                                        :class:
-                                          - l-cassette
-                                      :children:
                                         - :name: 'li'
                                           :children:
                                             - :name: 'div'
@@ -2919,7 +2638,7 @@
                                                         :class:
                                                           - js-singleCheckBox
                                                           - js-ikkatsuCB
-                                                        :id: 'bukken_5'
+                                                        :id: 'bukken_4'
                                                         :name: 'bc'
                                                         :type: 'checkbox'
                                                         :value: '67716112'
@@ -2928,7 +2647,7 @@
                                                         :class:
                                                           - cassette-cbx
                                                           - cbx_list
-                                                        :for: 'bukken_5'
+                                                        :for: 'bukken_4'
                                                     - :name: 'input'
                                                       :attributes:
                                                         :class:
@@ -3156,6 +2875,70 @@
                                                                   - ui-btn--transition
                                                                   - ui-btn--default
                                                                 :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67716112/'
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - l-cassette_assist
+                                          - l-cassette_assist--topbottom
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - l-cassette_assist-bottom
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - cassette_assist
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - cassette_assist-inner
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette_assist-all
+                                                          - js-checkall
+                                                      :children:
+                                                        - :name: 'input'
+                                                          :attributes:
+                                                            :autocomplete: 'off'
+                                                            :class:
+                                                              - js-checkall-input
+                                                            :id: 'checkall0'
+                                                            :name: 'bc'
+                                                            :type: 'checkbox'
+                                                            :value: '0'
+                                                        - :name: 'label'
+                                                          :attributes:
+                                                            :class:
+                                                              - check
+                                                            :for: 'checkall0'
+                                                    - :name: 'ul'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette_assist-action
+                                                      :children:
+                                                        - :name: 'li'
+                                                          :attributes:
+                                                            :class:
+                                                              - favassist-sep
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - js-shiryoseikyu
+                                                                  - ui-btn
+                                                                  - ui-btn--submit
+                                                                  - ui-btn--default
+                                                                :href: 'https://suumo.jp/jj/bukken/shiryou/JJ010FJ010/?ar=030&bs=010&senimotokbn=1'
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - l-cassette
+                                      :children:
                                         - :name: 'li'
                                           :children:
                                             - :name: 'div'
@@ -3181,7 +2964,7 @@
                                                         :class:
                                                           - js-singleCheckBox
                                                           - js-ikkatsuCB
-                                                        :id: 'bukken_6'
+                                                        :id: 'bukken_5'
                                                         :name: 'bc'
                                                         :type: 'checkbox'
                                                         :value: '67715089'
@@ -3190,7 +2973,7 @@
                                                         :class:
                                                           - cassette-cbx
                                                           - cbx_list
-                                                        :for: 'bukken_6'
+                                                        :for: 'bukken_5'
                                                     - :name: 'input'
                                                       :attributes:
                                                         :class:
@@ -3419,7 +3202,7 @@
                                                         :class:
                                                           - js-singleCheckBox
                                                           - js-ikkatsuCB
-                                                        :id: 'bukken_7'
+                                                        :id: 'bukken_6'
                                                         :name: 'bc'
                                                         :type: 'checkbox'
                                                         :value: '67715931'
@@ -3428,7 +3211,7 @@
                                                         :class:
                                                           - cassette-cbx
                                                           - cbx_list
-                                                        :for: 'bukken_7'
+                                                        :for: 'bukken_6'
                                                     - :name: 'input'
                                                       :attributes:
                                                         :class:
@@ -3643,7 +3426,7 @@
                                                         :class:
                                                           - js-singleCheckBox
                                                           - js-ikkatsuCB
-                                                        :id: 'bukken_8'
+                                                        :id: 'bukken_7'
                                                         :name: 'bc'
                                                         :type: 'checkbox'
                                                         :value: '67716282'
@@ -3652,7 +3435,7 @@
                                                         :class:
                                                           - cassette-cbx
                                                           - cbx_list
-                                                        :for: 'bukken_8'
+                                                        :for: 'bukken_7'
                                                     - :name: 'input'
                                                       :attributes:
                                                         :class:
@@ -3890,7 +3673,7 @@
                                                         :class:
                                                           - js-singleCheckBox
                                                           - js-ikkatsuCB
-                                                        :id: 'bukken_9'
+                                                        :id: 'bukken_8'
                                                         :name: 'bc'
                                                         :type: 'checkbox'
                                                         :value: '67715198'
@@ -3899,7 +3682,7 @@
                                                         :class:
                                                           - cassette-cbx
                                                           - cbx_list
-                                                        :for: 'bukken_9'
+                                                        :for: 'bukken_8'
                                                     - :name: 'input'
                                                       :attributes:
                                                         :class:
@@ -4109,70 +3892,6 @@
                                                                   - ui-btn--transition
                                                                   - ui-btn--default
                                                                 :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67715198/'
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - l-cassette_assist
-                                          - l-cassette_assist--topbottom
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - l-cassette_assist-bottom
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - cassette_assist
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - cassette_assist-inner
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - cassette_assist-all
-                                                          - js-checkall
-                                                      :children:
-                                                        - :name: 'input'
-                                                          :attributes:
-                                                            :autocomplete: 'off'
-                                                            :class:
-                                                              - js-checkall-input
-                                                            :id: 'checkall1'
-                                                            :name: 'bc'
-                                                            :type: 'checkbox'
-                                                            :value: '0'
-                                                        - :name: 'label'
-                                                          :attributes:
-                                                            :class:
-                                                              - check
-                                                            :for: 'checkall1'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - cassette_assist-action
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :attributes:
-                                                            :class:
-                                                              - favassist-sep
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - js-shiryoseikyu
-                                                                  - ui-btn
-                                                                  - ui-btn--submit
-                                                                  - ui-btn--default
-                                                                :href: 'https://suumo.jp/jj/bukken/shiryou/JJ010FJ010/?ar=030&bs=010&senimotokbn=1'
-                                    - :name: 'ul'
-                                      :attributes:
-                                        :class:
-                                          - l-cassette
-                                      :children:
                                         - :name: 'li'
                                           :children:
                                             - :name: 'div'
@@ -4198,7 +3917,7 @@
                                                         :class:
                                                           - js-singleCheckBox
                                                           - js-ikkatsuCB
-                                                        :id: 'bukken_10'
+                                                        :id: 'bukken_9'
                                                         :name: 'bc'
                                                         :type: 'checkbox'
                                                         :value: '67714344'
@@ -4207,7 +3926,7 @@
                                                         :class:
                                                           - cassette-cbx
                                                           - cbx_list
-                                                        :for: 'bukken_10'
+                                                        :for: 'bukken_9'
                                                     - :name: 'input'
                                                       :attributes:
                                                         :class:
@@ -4390,6 +4109,70 @@
                                                                   - ui-btn--transition
                                                                   - ui-btn--default
                                                                 :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67714344/'
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - l-cassette_assist
+                                          - l-cassette_assist--topbottom
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - l-cassette_assist-bottom
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - cassette_assist
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - cassette_assist-inner
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette_assist-all
+                                                          - js-checkall
+                                                      :children:
+                                                        - :name: 'input'
+                                                          :attributes:
+                                                            :autocomplete: 'off'
+                                                            :class:
+                                                              - js-checkall-input
+                                                            :id: 'checkall1'
+                                                            :name: 'bc'
+                                                            :type: 'checkbox'
+                                                            :value: '0'
+                                                        - :name: 'label'
+                                                          :attributes:
+                                                            :class:
+                                                              - check
+                                                            :for: 'checkall1'
+                                                    - :name: 'ul'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette_assist-action
+                                                      :children:
+                                                        - :name: 'li'
+                                                          :attributes:
+                                                            :class:
+                                                              - favassist-sep
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - js-shiryoseikyu
+                                                                  - ui-btn
+                                                                  - ui-btn--submit
+                                                                  - ui-btn--default
+                                                                :href: 'https://suumo.jp/jj/bukken/shiryou/JJ010FJ010/?ar=030&bs=010&senimotokbn=1'
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - l-cassette
+                                      :children:
                                         - :name: 'li'
                                           :children:
                                             - :name: 'div'
@@ -4415,7 +4198,7 @@
                                                         :class:
                                                           - js-singleCheckBox
                                                           - js-ikkatsuCB
-                                                        :id: 'bukken_11'
+                                                        :id: 'bukken_10'
                                                         :name: 'bc'
                                                         :type: 'checkbox'
                                                         :value: '67716409'
@@ -4424,7 +4207,7 @@
                                                         :class:
                                                           - cassette-cbx
                                                           - cbx_list
-                                                        :for: 'bukken_11'
+                                                        :for: 'bukken_10'
                                                     - :name: 'input'
                                                       :attributes:
                                                         :class:
@@ -4455,17 +4238,6 @@
                                                         :class:
                                                           - cassette-header
                                                       :children:
-                                                        - :name: 'p'
-                                                          :attributes:
-                                                            :class:
-                                                              - cassette-header-pct
-                                                          :children:
-                                                            - :name: 'span'
-                                                              :attributes:
-                                                                :class:
-                                                                  - ui-pct
-                                                                  - ui-pct--radius
-                                                                  - ui-pct--status
                                                         - :name: 'h2'
                                                           :children:
                                                             - :name: 'a'
@@ -4474,15 +4246,6 @@
                                                                   - cassette-header-title
                                                                   - js-cassetLinkHref
                                                                 :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67716409/'
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - cassette-info
-                                                      :children:
-                                                        - :name: 'span'
-                                                          :attributes:
-                                                            :class:
-                                                              - cassette-info-accent
                                                     - :name: 'div'
                                                       :attributes:
                                                         :class:
@@ -4652,7 +4415,450 @@
                                                         :class:
                                                           - js-singleCheckBox
                                                           - js-ikkatsuCB
+                                                        :id: 'bukken_11'
+                                                        :name: 'bc'
+                                                        :type: 'checkbox'
+                                                        :value: '67715170'
+                                                    - :name: 'label'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette-cbx
+                                                          - cbx_list
+                                                        :for: 'bukken_11'
+                                                    - :name: 'input'
+                                                      :attributes:
+                                                        :class:
+                                                          - js-bsnckey
+                                                        :type: 'hidden'
+                                                        :value: '01067715170'
+                                                    - :name: 'input'
+                                                      :attributes:
+                                                        :class:
+                                                          - js-clipkey
+                                                        :type: 'hidden'
+                                                        :value: '67715170_010'
+                                                    - :name: 'input'
+                                                      :attributes:
+                                                        :class:
+                                                          - js-keisaiKbn
+                                                        :type: 'hidden'
+                                                        :value: '3'
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - cassette-content
+                                                      - js-normalLink
+                                                      - js-cassetLink
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette-header
+                                                      :children:
+                                                        - :name: 'h2'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - cassette-header-title
+                                                                  - js-cassetLinkHref
+                                                                :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67715170/'
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette-info
+                                                      :children:
+                                                        - :name: 'span'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-info-accent
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette-body
+                                                      :children:
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-object
+                                                              - ui-thumbcenter
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67715170/'
+                                                              :children:
+                                                                - :name: 'img'
+                                                                  :attributes:
+                                                                    :alt: ''
+                                                                    :class:
+                                                                      - js-noContextMenu
+                                                                      - js-scrollLazy
+                                                                      - js-adjustImg
+                                                                    :height: '202'
+                                                                    :rel: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN001000%2Fimg%2F70%2F67715170%2F67715170_000025.jpg&w=202&h=202'
+                                                                    :src: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D'
+                                                                    :width: '202'
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-detail
+                                                          :children:
+                                                            - :name: 'ul'
+                                                              :attributes:
+                                                                :class:
+                                                                  - cassette-text
+                                                              :children:
+                                                                - :name: 'li'
+                                                                  :children:
+                                                                    - :name: 'div'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - ui-text_bold
+                                                                - :name: 'li'
+                                                                  :children:
+                                                                    - :name: 'div'
+                                                                - :name: 'li'
+                                                                  :children:
+                                                                    - :name: 'div'
+                                                            - :name: 'ul'
+                                                              :attributes:
+                                                                :class:
+                                                                  - cassette-line
+                                                              :children:
+                                                                - :name: 'li'
+                                                                  :children:
+                                                                    - :name: 'div'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - cassette-price
+                                                                      :children:
+                                                                        - :name: 'span'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - cassette-price-accent
+                                                                    - :name: 'ul'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - cassette-plan
+                                                                      :children:
+                                                                        - :name: 'li'
+                                                                        - :name: 'li'
+                                                                          :children:
+                                                                            - :name: 'sup'
+                                                                            - :name: 'sup'
+                                                            - :name: 'div'
+                                                              :attributes:
+                                                                :class:
+                                                                  - cassette-point
+                                                              :children:
+                                                                - :name: 'div'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - cassette-point-icon
+                                                                - :name: 'p'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - cassette-point-text
+                                                    - :name: 'ul'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette-pct
+                                                      :children:
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'span'
+                                                              :attributes:
+                                                                :class:
+                                                                  - ui-pct
+                                                                  - ui-pct--util1
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette-action
+                                                      :children:
+                                                        - :name: 'ul'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-action-left
+                                                          :children:
+                                                            - :name: 'li'
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - cassette-action-btn
+                                                                      - ui-btn
+                                                                      - ui-btn--submit
+                                                                      - ui-btn--default
+                                                                      - js-noCassetteLink
+                                                                    :href: 'https://suumo.jp/jj/bukken/shiryou/JJ010FJ010/?ar=030&bs=010&bsnc=01067715170&senimotokbn=1'
+                                                                    :target: '_blank'
+                                                                    :title: '資料請求する'
+                                                            - :name: 'li'
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - ui-sprite--actionbtn_addmylist
+                                                                      - js-linkSuppresser
+                                                                      - js-addMyListSingle
+                                                                    :href: 'javascript:void(0);'
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-action-right
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - cassette-action-btn
+                                                                  - ui-btn
+                                                                  - ui-btn--transition
+                                                                  - ui-btn--default
+                                                                :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67715170/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - cassette
+                                                  - property_unit
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - cassette-check
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - ui-txtreplace
+                                                          - sms_list-icon
+                                                          - sms_list-icon--check
+                                                    - :name: 'input'
+                                                      :attributes:
+                                                        :autocomplete: 'off'
+                                                        :class:
+                                                          - js-singleCheckBox
+                                                          - js-ikkatsuCB
                                                         :id: 'bukken_12'
+                                                        :name: 'bc'
+                                                        :type: 'checkbox'
+                                                        :value: '67714626'
+                                                    - :name: 'label'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette-cbx
+                                                          - cbx_list
+                                                        :for: 'bukken_12'
+                                                    - :name: 'input'
+                                                      :attributes:
+                                                        :class:
+                                                          - js-bsnckey
+                                                        :type: 'hidden'
+                                                        :value: '01067714626'
+                                                    - :name: 'input'
+                                                      :attributes:
+                                                        :class:
+                                                          - js-clipkey
+                                                        :type: 'hidden'
+                                                        :value: '67714626_010'
+                                                    - :name: 'input'
+                                                      :attributes:
+                                                        :class:
+                                                          - js-keisaiKbn
+                                                        :type: 'hidden'
+                                                        :value: '3'
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - cassette-content
+                                                      - js-normalLink
+                                                      - js-cassetLink
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette-header
+                                                      :children:
+                                                        - :name: 'h2'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - cassette-header-title
+                                                                  - js-cassetLinkHref
+                                                                :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67714626/'
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette-body
+                                                      :children:
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-object
+                                                              - ui-thumbcenter
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67714626/'
+                                                              :children:
+                                                                - :name: 'img'
+                                                                  :attributes:
+                                                                    :alt: ''
+                                                                    :class:
+                                                                      - js-noContextMenu
+                                                                      - js-scrollLazy
+                                                                      - js-adjustImg
+                                                                    :height: '202'
+                                                                    :rel: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN001000%2Fimg%2F26%2F67714626%2F67714626_000002.jpg&w=202&h=202'
+                                                                    :src: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D'
+                                                                    :width: '202'
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-detail
+                                                          :children:
+                                                            - :name: 'ul'
+                                                              :attributes:
+                                                                :class:
+                                                                  - cassette-text
+                                                              :children:
+                                                                - :name: 'li'
+                                                                  :children:
+                                                                    - :name: 'div'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - ui-text_bold
+                                                                - :name: 'li'
+                                                                  :children:
+                                                                    - :name: 'div'
+                                                                - :name: 'li'
+                                                                  :children:
+                                                                    - :name: 'div'
+                                                            - :name: 'ul'
+                                                              :attributes:
+                                                                :class:
+                                                                  - cassette-line
+                                                              :children:
+                                                                - :name: 'li'
+                                                                  :children:
+                                                                    - :name: 'div'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - cassette-price
+                                                                      :children:
+                                                                        - :name: 'span'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - cassette-price-accent
+                                                                    - :name: 'ul'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - cassette-plan
+                                                                      :children:
+                                                                        - :name: 'li'
+                                                                        - :name: 'li'
+                                                                          :children:
+                                                                            - :name: 'sup'
+                                                                            - :name: 'sup'
+                                                            - :name: 'div'
+                                                              :attributes:
+                                                                :class:
+                                                                  - cassette-point
+                                                              :children:
+                                                                - :name: 'div'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - cassette-point-icon
+                                                                - :name: 'p'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - cassette-point-text
+                                                    - :name: 'ul'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette-pct
+                                                      :children:
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'span'
+                                                              :attributes:
+                                                                :class:
+                                                                  - ui-pct
+                                                                  - ui-pct--util1
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette-action
+                                                      :children:
+                                                        - :name: 'ul'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-action-left
+                                                          :children:
+                                                            - :name: 'li'
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - cassette-action-btn
+                                                                      - ui-btn
+                                                                      - ui-btn--submit
+                                                                      - ui-btn--default
+                                                                      - js-noCassetteLink
+                                                                    :href: 'https://suumo.jp/jj/bukken/shiryou/JJ010FJ010/?ar=030&bs=010&bsnc=01067714626&senimotokbn=1'
+                                                                    :target: '_blank'
+                                                                    :title: '資料請求する'
+                                                            - :name: 'li'
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - ui-sprite--actionbtn_addmylist
+                                                                      - js-linkSuppresser
+                                                                      - js-addMyListSingle
+                                                                    :href: 'javascript:void(0);'
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-action-right
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - cassette-action-btn
+                                                                  - ui-btn
+                                                                  - ui-btn--transition
+                                                                  - ui-btn--default
+                                                                :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67714626/'
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - cassette
+                                                  - property_unit
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - cassette-check
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - ui-txtreplace
+                                                          - sms_list-icon
+                                                          - sms_list-icon--check
+                                                    - :name: 'input'
+                                                      :attributes:
+                                                        :autocomplete: 'off'
+                                                        :class:
+                                                          - js-singleCheckBox
+                                                          - js-ikkatsuCB
+                                                        :id: 'bukken_13'
                                                         :name: 'bc'
                                                         :type: 'checkbox'
                                                         :value: '67715922'
@@ -4661,7 +4867,7 @@
                                                         :class:
                                                           - cassette-cbx
                                                           - cbx_list
-                                                        :for: 'bukken_12'
+                                                        :for: 'bukken_13'
                                                     - :name: 'input'
                                                       :attributes:
                                                         :class:
@@ -4873,7 +5079,296 @@
                                                         :class:
                                                           - js-singleCheckBox
                                                           - js-ikkatsuCB
-                                                        :id: 'bukken_13'
+                                                        :id: 'bukken_14'
+                                                        :name: 'bc'
+                                                        :type: 'checkbox'
+                                                        :value: '67714803'
+                                                    - :name: 'label'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette-cbx
+                                                          - cbx_list
+                                                        :for: 'bukken_14'
+                                                    - :name: 'input'
+                                                      :attributes:
+                                                        :class:
+                                                          - js-bsnckey
+                                                        :type: 'hidden'
+                                                        :value: '01067714803'
+                                                    - :name: 'input'
+                                                      :attributes:
+                                                        :class:
+                                                          - js-clipkey
+                                                        :type: 'hidden'
+                                                        :value: '67714803_010'
+                                                    - :name: 'input'
+                                                      :attributes:
+                                                        :class:
+                                                          - js-keisaiKbn
+                                                        :type: 'hidden'
+                                                        :value: '2'
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - cassette-content
+                                                      - js-normalLink
+                                                      - js-cassetLink
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette-header
+                                                      :children:
+                                                        - :name: 'p'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-header-pct
+                                                          :children:
+                                                            - :name: 'span'
+                                                              :attributes:
+                                                                :class:
+                                                                  - ui-pct
+                                                                  - ui-pct--radius
+                                                                  - ui-pct--status
+                                                        - :name: 'h2'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - cassette-header-title
+                                                                  - js-cassetLinkHref
+                                                                :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67714803/'
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette-info
+                                                      :children:
+                                                        - :name: 'span'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-info-accent
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette-body
+                                                      :children:
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-object
+                                                              - ui-thumbcenter
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67714803/'
+                                                              :children:
+                                                                - :name: 'img'
+                                                                  :attributes:
+                                                                    :alt: ''
+                                                                    :class:
+                                                                      - js-noContextMenu
+                                                                      - js-scrollLazy
+                                                                      - js-adjustImg
+                                                                    :height: '202'
+                                                                    :rel: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN001000%2Fimg%2F03%2F67714803%2F67714803_000002.jpg&w=202&h=202'
+                                                                    :src: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D'
+                                                                    :width: '202'
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-detail
+                                                          :children:
+                                                            - :name: 'ul'
+                                                              :attributes:
+                                                                :class:
+                                                                  - cassette-text
+                                                              :children:
+                                                                - :name: 'li'
+                                                                  :children:
+                                                                    - :name: 'div'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - ui-text_bold
+                                                                - :name: 'li'
+                                                                  :children:
+                                                                    - :name: 'div'
+                                                                - :name: 'li'
+                                                                  :children:
+                                                                    - :name: 'div'
+                                                            - :name: 'ul'
+                                                              :attributes:
+                                                                :class:
+                                                                  - cassette-line
+                                                              :children:
+                                                                - :name: 'li'
+                                                                  :children:
+                                                                    - :name: 'div'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - cassette-price
+                                                                      :children:
+                                                                        - :name: 'span'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - cassette-price-accent
+                                                                    - :name: 'ul'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - cassette-plan
+                                                                      :children:
+                                                                        - :name: 'li'
+                                                                        - :name: 'li'
+                                                                          :children:
+                                                                            - :name: 'sup'
+                                                                            - :name: 'sup'
+                                                            - :name: 'div'
+                                                              :attributes:
+                                                                :class:
+                                                                  - cassette-point
+                                                              :children:
+                                                                - :name: 'div'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - cassette-point-icon
+                                                                - :name: 'p'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - cassette-point-text
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette-action
+                                                      :children:
+                                                        - :name: 'ul'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-action-left
+                                                          :children:
+                                                            - :name: 'li'
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - cassette-action-btn
+                                                                      - ui-btn
+                                                                      - ui-btn--submit
+                                                                      - ui-btn--default
+                                                                      - js-noCassetteLink
+                                                                    :href: 'https://suumo.jp/jj/bukken/shiryou/JJ010FJ010/?ar=030&bs=010&bsnc=01067714803&senimotokbn=1'
+                                                                    :target: '_blank'
+                                                                    :title: '資料請求する'
+                                                            - :name: 'li'
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - ui-sprite--actionbtn_addmylist
+                                                                      - js-linkSuppresser
+                                                                      - js-addMyListSingle
+                                                                    :href: 'javascript:void(0);'
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-action-right
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - cassette-action-btn
+                                                                  - ui-btn
+                                                                  - ui-btn--transition
+                                                                  - ui-btn--default
+                                                                :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67714803/'
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - l-cassette_assist
+                                          - l-cassette_assist--topbottom
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - l-cassette_assist-bottom
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - cassette_assist
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - cassette_assist-inner
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette_assist-all
+                                                          - js-checkall
+                                                      :children:
+                                                        - :name: 'input'
+                                                          :attributes:
+                                                            :autocomplete: 'off'
+                                                            :class:
+                                                              - js-checkall-input
+                                                            :id: 'checkall2'
+                                                            :name: 'bc'
+                                                            :type: 'checkbox'
+                                                            :value: '0'
+                                                        - :name: 'label'
+                                                          :attributes:
+                                                            :class:
+                                                              - check
+                                                            :for: 'checkall2'
+                                                    - :name: 'ul'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette_assist-action
+                                                      :children:
+                                                        - :name: 'li'
+                                                          :attributes:
+                                                            :class:
+                                                              - favassist-sep
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - js-shiryoseikyu
+                                                                  - ui-btn
+                                                                  - ui-btn--submit
+                                                                  - ui-btn--default
+                                                                :href: 'https://suumo.jp/jj/bukken/shiryou/JJ010FJ010/?ar=030&bs=010&senimotokbn=1'
+                                    - :name: 'ul'
+                                      :attributes:
+                                        :class:
+                                          - l-cassette
+                                      :children:
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - cassette
+                                                  - property_unit
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - cassette-check
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - ui-txtreplace
+                                                          - sms_list-icon
+                                                          - sms_list-icon--check
+                                                    - :name: 'input'
+                                                      :attributes:
+                                                        :autocomplete: 'off'
+                                                        :class:
+                                                          - js-singleCheckBox
+                                                          - js-ikkatsuCB
+                                                        :id: 'bukken_15'
                                                         :name: 'bc'
                                                         :type: 'checkbox'
                                                         :value: '86805377'
@@ -4882,7 +5377,7 @@
                                                         :class:
                                                           - cassette-cbx
                                                           - cbx_list
-                                                        :for: 'bukken_13'
+                                                        :for: 'bukken_15'
                                                     - :name: 'input'
                                                       :attributes:
                                                         :class:
@@ -5079,7 +5574,7 @@
                                                         :class:
                                                           - js-singleCheckBox
                                                           - js-ikkatsuCB
-                                                        :id: 'bukken_14'
+                                                        :id: 'bukken_16'
                                                         :name: 'bc'
                                                         :type: 'checkbox'
                                                         :value: '86817065'
@@ -5088,7 +5583,7 @@
                                                         :class:
                                                           - cassette-cbx
                                                           - cbx_list
-                                                        :for: 'bukken_14'
+                                                        :for: 'bukken_16'
                                                     - :name: 'input'
                                                       :attributes:
                                                         :class:
@@ -5260,70 +5755,6 @@
                                                                   - ui-btn--transition
                                                                   - ui-btn--default
                                                                 :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_86817065/'
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - l-cassette_assist
-                                          - l-cassette_assist--topbottom
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - l-cassette_assist-bottom
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - cassette_assist
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - cassette_assist-inner
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - cassette_assist-all
-                                                          - js-checkall
-                                                      :children:
-                                                        - :name: 'input'
-                                                          :attributes:
-                                                            :autocomplete: 'off'
-                                                            :class:
-                                                              - js-checkall-input
-                                                            :id: 'checkall2'
-                                                            :name: 'bc'
-                                                            :type: 'checkbox'
-                                                            :value: '0'
-                                                        - :name: 'label'
-                                                          :attributes:
-                                                            :class:
-                                                              - check
-                                                            :for: 'checkall2'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - cassette_assist-action
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :attributes:
-                                                            :class:
-                                                              - favassist-sep
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - js-shiryoseikyu
-                                                                  - ui-btn
-                                                                  - ui-btn--submit
-                                                                  - ui-btn--default
-                                                                :href: 'https://suumo.jp/jj/bukken/shiryou/JJ010FJ010/?ar=030&bs=010&senimotokbn=1'
-                                    - :name: 'ul'
-                                      :attributes:
-                                        :class:
-                                          - l-cassette
-                                      :children:
                                         - :name: 'li'
                                           :children:
                                             - :name: 'div'
@@ -5349,7 +5780,7 @@
                                                         :class:
                                                           - js-singleCheckBox
                                                           - js-ikkatsuCB
-                                                        :id: 'bukken_15'
+                                                        :id: 'bukken_17'
                                                         :name: 'bc'
                                                         :type: 'checkbox'
                                                         :value: '86575513'
@@ -5358,7 +5789,7 @@
                                                         :class:
                                                           - cassette-cbx
                                                           - cbx_list
-                                                        :for: 'bukken_15'
+                                                        :for: 'bukken_17'
                                                     - :name: 'input'
                                                       :attributes:
                                                         :class:
@@ -5556,7 +5987,7 @@
                                                         :class:
                                                           - js-singleCheckBox
                                                           - js-ikkatsuCB
-                                                        :id: 'bukken_16'
+                                                        :id: 'bukken_18'
                                                         :name: 'bc'
                                                         :type: 'checkbox'
                                                         :value: '86788560'
@@ -5565,7 +5996,7 @@
                                                         :class:
                                                           - cassette-cbx
                                                           - cbx_list
-                                                        :for: 'bukken_16'
+                                                        :for: 'bukken_18'
                                                     - :name: 'input'
                                                       :attributes:
                                                         :class:
@@ -5762,7 +6193,7 @@
                                                         :class:
                                                           - js-singleCheckBox
                                                           - js-ikkatsuCB
-                                                        :id: 'bukken_17'
+                                                        :id: 'bukken_19'
                                                         :name: 'bc'
                                                         :type: 'checkbox'
                                                         :value: '86916736'
@@ -5771,7 +6202,7 @@
                                                         :class:
                                                           - cassette-cbx
                                                           - cbx_list
-                                                        :for: 'bukken_17'
+                                                        :for: 'bukken_19'
                                                     - :name: 'input'
                                                       :attributes:
                                                         :class:
@@ -7426,13 +7857,13 @@
                       :children:
                         - :name: 'a'
                           :attributes:
-                            :href: '/jj/common/parts/JJ901FJ901/click?url=6f0022963f1a35b646907427a1327eaf41b577c6e3b670b4459a33a98ae7fd69b41a6c555f50d02e2689721cc45b5d44958620d5f6bfa2ebfcf2d6507c881858&fmlg=b001&ba=20053128 '
+                            :href: '/jj/common/parts/JJ901FJ901/click?url=6f0022963f1a35b646907427a1327eaf41b577c6e3b670b4459a33a98ae7fd69b41a6c555f50d02e2689721cc45b5d44e44341cd9f8fa9fafcf2d6507c881858&fmlg=b001&ba=20058153 '
                     - :name: 'span'
                       :attributes:
                         :class:
                           - dn
                         :id: 'js-banner-msTextBannerAccessPrintUrl'
-                        :rel: '/jj/log/common/JJ700FK003/?ar=030&ba=20053128'
+                        :rel: '/jj/log/common/JJ700FK003/?ar=030&ba=20058153'
                     - :name: 'div'
                       :attributes:
                         :id: 'js-banner-msTextBannerAccessPrint'
@@ -7476,21 +7907,6 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: '/jj/common/parts/JJ901FJ901/click?url=6f0022963f1a35b646907427a1327eaf41b577c6e3b670b4459a33a98ae7fd69b41a6c555f50d02e21e13ffdad39ee65b717f8535eeffd6b18ffd6bba5117de8f41ce35c6a05705fd967a9de42525313c6aa71741e149209&fmlg=b001&ba=20045110 '
-                                      :children:
-                                        - :name: 'img'
-                                          :attributes:
-                                            :alt: 'ガーデンゲート千葉ニュータウン中央'
-                                            :class:
-                                              - ui-thumb
-                                              - ui-thumb--1
-                                            :height: '60'
-                                            :src: 'http://img01.suumo.com/front/gazo/banner/030/N030001/img/10/20045110.gif'
-                                            :width: '115'
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
                                         :href: '/jj/common/parts/JJ901FJ901/click?url=ae6e312dcb5675f086a96a90ab2f7ceddba69ace81b8b589b0018502ac46565711bff9c536d8a85fb50282c2486d803dc6aa71741e149209&fmlg=b001&ba=10029128 '
                                       :children:
                                         - :name: 'img'
@@ -7502,12 +7918,27 @@
                                             :height: '60'
                                             :src: 'http://img01.suumo.com/front/gazo/banner/030/N030001/img/28/10029128.gif'
                                             :width: '115'
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: '/jj/common/parts/JJ901FJ901/click?url=6f0022963f1a35b646907427a1327eaf41b577c6e3b670b4459a33a98ae7fd69b41a6c555f50d02e21e13ffdad39ee65b717f8535eeffd6b18ffd6bba5117de8f41ce35c6a05705fd967a9de42525313c6aa71741e149209&fmlg=b001&ba=20045110 '
+                                      :children:
+                                        - :name: 'img'
+                                          :attributes:
+                                            :alt: 'ガーデンゲート千葉ニュータウン中央'
+                                            :class:
+                                              - ui-thumb
+                                              - ui-thumb--1
+                                            :height: '60'
+                                            :src: 'http://img01.suumo.com/front/gazo/banner/030/N030001/img/10/20045110.gif'
+                                            :width: '115'
                         - :name: 'span'
                           :attributes:
                             :class:
                               - dn
                             :id: 'js-banner-msLotationBannerAccessPrintUrl'
-                            :rel: '/jj/log/common/JJ700FK003/?ar=030&ba=20000220&ba=20045110&ba=10029128'
+                            :rel: '/jj/log/common/JJ700FK003/?ar=030&ba=20000220&ba=10029128&ba=20045110'
                         - :name: 'div'
                           :attributes:
                             :id: 'js-banner-msLotationBannerAccessPrint'
@@ -9096,7 +9527,7 @@
                   - js-mslogParam-imp
                 :name: 'imp'
                 :type: 'hidden'
-                :value: '01_67715863,01_67715170,01_67714626,01_67715183,01_67714399,01_67716112,01_67715089,01_67715931,01_67716282,01_67715198,01_67714344,01_67716409,01_67715922,01_86805377,01_86817065,01_86575513,01_86788560,01_86916736,02_67715183_N003105,02_67714399_N003001,02_67716112_N003121'
+                :value: '01_67715863,01_67715329,01_67715183,01_67714399,01_67716112,01_67715089,01_67715931,01_67716282,01_67715198,01_67714344,01_67716409,01_67715170,01_67714626,01_67715922,01_67714803,01_86805377,01_86817065,01_86575513,01_86788560,01_86916736,02_67715183_N003105,02_67714399_N003001,02_67716112_N003121'
         - :name: 'script'
           :attributes:
             :src: '/edit/assets/allsites/js/jquery-1.4.2.min.js'
