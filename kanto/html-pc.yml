@@ -1296,6 +1296,40 @@
                                                               :children:
                                                                 - :name: 'a'
                                                                   :attributes:
+                                                                    :href: 'http://suumo.jp/article/oyakudachi/oyaku/ms_shinchiku/ms_data/sumainews161005/'
+                                                            - :name: 'div'
+                                                              :attributes:
+                                                                :class:
+                                                                  - pickup-label
+                                                              :children:
+                                                                - :name: 'span'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - ui-label
+                                                                      - ui-label--cta2
+                                                    - :name: 'li'
+                                                      :children:
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - pickup
+                                                          :children:
+                                                            - :name: 'div'
+                                                              :attributes:
+                                                                :class:
+                                                                  - pickup-icon
+                                                              :children:
+                                                                - :name: 'i'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - ui-icon--arrow02
+                                                            - :name: 'div'
+                                                              :attributes:
+                                                                :class:
+                                                                  - pickup-link
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
                                                                     :href: 'http://suumo.jp/article/oyakudachi/oyaku/ms_shinchiku/ms_knowhow/jitan160930/'
                                                             - :name: 'div'
                                                               :attributes:
@@ -1331,40 +1365,6 @@
                                                                 - :name: 'a'
                                                                   :attributes:
                                                                     :href: 'http://suumo.jp/article/oyakudachi/oyaku/sumai_nyumon/machi/rekishitoima_tokyo6ku/'
-                                                            - :name: 'div'
-                                                              :attributes:
-                                                                :class:
-                                                                  - pickup-label
-                                                              :children:
-                                                                - :name: 'span'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - ui-label
-                                                                      - ui-label--cta2
-                                                    - :name: 'li'
-                                                      :children:
-                                                        - :name: 'div'
-                                                          :attributes:
-                                                            :class:
-                                                              - pickup
-                                                          :children:
-                                                            - :name: 'div'
-                                                              :attributes:
-                                                                :class:
-                                                                  - pickup-icon
-                                                              :children:
-                                                                - :name: 'i'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - ui-icon--arrow02
-                                                            - :name: 'div'
-                                                              :attributes:
-                                                                :class:
-                                                                  - pickup-link
-                                                              :children:
-                                                                - :name: 'a'
-                                                                  :attributes:
-                                                                    :href: 'http://suumo.jp/article/oyakudachi/oyaku/ms_shinchiku/ms_money/23kuave_money1609/'
                                                             - :name: 'div'
                                                               :attributes:
                                                                 :class:
@@ -2343,35 +2343,6 @@
                                                                               - ui-icon--arrow02
                                                                         - :name: 'a'
                                                                           :attributes:
-                                                                            :href: '/tokushu/ogatatown_susume/ikkodate_kanto/index.html'
-                                                                - :name: 'div'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - themeboxlist-txt
-                                                            - :name: 'li'
-                                                              :attributes:
-                                                                :class:
-                                                                  - is-inactive
-                                                                  - js-randomMulti-inner-content
-                                                              :children:
-                                                                - :name: 'div'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - themeboxlist-link
-                                                                  :children:
-                                                                    - :name: 'div'
-                                                                      :attributes:
-                                                                        :class:
-                                                                          - ui-iconbox
-                                                                          - ui-iconbox--arrow02
-                                                                      :children:
-                                                                        - :name: 'span'
-                                                                          :attributes:
-                                                                            :class:
-                                                                              - ui-iconbox-icon
-                                                                              - ui-icon--arrow02
-                                                                        - :name: 'a'
-                                                                          :attributes:
                                                                             :href: '/tokushu/pre/ikkodate_kanto/index.html'
                                                                 - :name: 'div'
                                                                   :attributes:
@@ -3302,6 +3273,94 @@
                                                     :class:
                                                       - ui-media
                                                       - mediabox
+                                                    :href: 'http://suumo.jp/journal/2016/10/05/118929/'
+                                                    :target: '_blank'
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - ui-media-object
+                                                          - mediabox-object
+                                                      :children:
+                                                        - :name: 'img'
+                                                          :attributes:
+                                                            :alt: ''
+                                                            :height: '75'
+                                                            :src: 'http://suumo.jp/journal/wp/wp-content/uploads/2016/10/118929_main.jpg'
+                                                            :width: '120'
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - ui-media-body
+                                                      :children:
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - mediabox-time
+                                                          :children:
+                                                            - :name: 'span'
+                                                              :attributes:
+                                                                :class:
+                                                                  - daytime
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - mediabox-title
+                                                        - :name: 'p'
+                                                          :attributes:
+                                                            :class:
+                                                              - mediabox-desc
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-media
+                                                      - mediabox
+                                                    :href: 'http://suumo.jp/journal/2016/10/05/119033/'
+                                                    :target: '_blank'
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - ui-media-object
+                                                          - mediabox-object
+                                                      :children:
+                                                        - :name: 'img'
+                                                          :attributes:
+                                                            :alt: ''
+                                                            :height: '75'
+                                                            :src: 'http://suumo.jp/journal/wp/wp-content/uploads/2016/10/119033_main.jpg'
+                                                            :width: '120'
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - ui-media-body
+                                                      :children:
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - mediabox-time
+                                                          :children:
+                                                            - :name: 'span'
+                                                              :attributes:
+                                                                :class:
+                                                                  - daytime
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - mediabox-title
+                                                        - :name: 'p'
+                                                          :attributes:
+                                                            :class:
+                                                              - mediabox-desc
+                                            - :name: 'li'
+                                              :children:
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :class:
+                                                      - ui-media
+                                                      - mediabox
                                                     :href: 'http://suumo.jp/journal/2016/10/04/118925/'
                                                     :target: '_blank'
                                                   :children:
@@ -3341,94 +3400,6 @@
                                                               - mediabox-desc
                                                           :children:
                                                             - :name: 'sup'
-                                            - :name: 'li'
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :class:
-                                                      - ui-media
-                                                      - mediabox
-                                                    :href: 'http://suumo.jp/journal/2016/10/04/118882/'
-                                                    :target: '_blank'
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - ui-media-object
-                                                          - mediabox-object
-                                                      :children:
-                                                        - :name: 'img'
-                                                          :attributes:
-                                                            :alt: ''
-                                                            :height: '75'
-                                                            :src: 'http://suumo.jp/journal/wp/wp-content/uploads/2016/10/118882_main.jpg'
-                                                            :width: '120'
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - ui-media-body
-                                                      :children:
-                                                        - :name: 'div'
-                                                          :attributes:
-                                                            :class:
-                                                              - mediabox-time
-                                                          :children:
-                                                            - :name: 'span'
-                                                              :attributes:
-                                                                :class:
-                                                                  - daytime
-                                                        - :name: 'div'
-                                                          :attributes:
-                                                            :class:
-                                                              - mediabox-title
-                                                        - :name: 'p'
-                                                          :attributes:
-                                                            :class:
-                                                              - mediabox-desc
-                                            - :name: 'li'
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :class:
-                                                      - ui-media
-                                                      - mediabox
-                                                    :href: 'http://suumo.jp/journal/2016/10/03/118804/'
-                                                    :target: '_blank'
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - ui-media-object
-                                                          - mediabox-object
-                                                      :children:
-                                                        - :name: 'img'
-                                                          :attributes:
-                                                            :alt: ''
-                                                            :height: '75'
-                                                            :src: 'http://suumo.jp/journal/wp/wp-content/uploads/2016/10/118804_main.jpg'
-                                                            :width: '120'
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - ui-media-body
-                                                      :children:
-                                                        - :name: 'div'
-                                                          :attributes:
-                                                            :class:
-                                                              - mediabox-time
-                                                          :children:
-                                                            - :name: 'span'
-                                                              :attributes:
-                                                                :class:
-                                                                  - daytime
-                                                        - :name: 'div'
-                                                          :attributes:
-                                                            :class:
-                                                              - mediabox-title
-                                                        - :name: 'p'
-                                                          :attributes:
-                                                            :class:
-                                                              - mediabox-desc
                             - :name: 'section'
                               :attributes:
                                 :class:
