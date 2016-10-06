@@ -541,7 +541,7 @@
                                                               :attributes:
                                                                 :class:
                                                                   - price
-                                                                  - ribbonClass
+                                                                  - 
                                                                 :colspan: '2'
                                                         - :name: 'tr'
                                                           :children:
@@ -590,15 +590,6 @@
                                                                   :attributes:
                                                                     :class:
                                                                       - pctTourReservation
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - pctNewWrapper
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - pctNew
                                     - :name: 'div'
                                       :attributes:
                                         :class:
@@ -5347,7 +5338,7 @@
             :data-registrirekifunctionname: 'saveShikugun'
             :data-requesturl: '/chukomansion/tokyo/sc_101/'
             :data-sitekbncd: '01'
-            :data-totalhits: '252'
+            :data-totalhits: '256'
             :data-unnormalshiboriparamb: ''
             :data-urlparamsstring: ''
             :id: 'js-data-script-commonScript'
@@ -5362,7 +5353,7 @@
             :data-nclist: '["87028381","86822939","86920589","86660733","86976376","86971175","86821031","87032347","86083941","87013756","86848544","87005955","87024153","86893149","86437579","86571862","86583668","87044256","87045295","86421553"]'
             :data-pageid: 'PS3C1302'
             :data-templateid: 'SP_SUUMO'
-            :data-totalhit: '252'
+            :data-totalhit: '256'
             :data-url: 'log.suumo.jp/js/logsuumo.js'
             :id: 'beaconJs'
             :language: 'JavaScript'

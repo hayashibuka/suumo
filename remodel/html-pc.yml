@@ -1524,6 +1524,64 @@
                                                                     :class:
                                                                       - ui-media
                                                                       - mediabox
+                                                                    :href: 'http://suumo.jp/remodel/blog/entry/2016/10/06/145114'
+                                                                  :children:
+                                                                    - :name: 'div'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - ui-media-object
+                                                                          - mediabox-object
+                                                                          - ui-thumb--square
+                                                                      :children:
+                                                                        - :name: 'img'
+                                                                          :attributes:
+                                                                            :alt: ''
+                                                                            :height: '112'
+                                                                            :src: 'https://cdn-ak.f.st-hatena.com/images/fotolife/j/j_ito/20160819/20160819193615.jpg'
+                                                                    - :name: 'div'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - ui-media-body
+                                                                      :children:
+                                                                        - :name: 'div'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - mediabox-time
+                                                                          :children:
+                                                                            - :name: 'span'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - daytime
+                                                                        - :name: 'div'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - mediabox-title
+                                                                        - :name: 'p'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - mediabox-desc
+                                                                        - :name: 'div'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - mediabox-label
+                                                                          :children:
+                                                                            - :name: 'span'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - ui-label--roundfill
+                                                                                  - l-icon
+                                                                            - :name: 'span'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - ui-label--roundfill
+                                                                                  - l-icon
+                                                            - :name: 'li'
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - ui-media
+                                                                      - mediabox
                                                                     :href: 'http://suumo.jp/remodel/blog/entry/2016/10/04/125523'
                                                                   :children:
                                                                     - :name: 'div'
@@ -1564,12 +1622,6 @@
                                                                           :attributes:
                                                                             :class:
                                                                               - mediabox-label
-                                                                          :children:
-                                                                            - :name: 'span'
-                                                                              :attributes:
-                                                                                :class:
-                                                                                  - ui-label--roundfill
-                                                                                  - l-icon
                                                             - :name: 'li'
                                                               :children:
                                                                 - :name: 'a'
@@ -1591,53 +1643,6 @@
                                                                             :alt: ''
                                                                             :height: '112'
                                                                             :src: 'https://cdn-ak.f.st-hatena.com/images/fotolife/j/j_ito/20160824/20160824150854.jpg'
-                                                                    - :name: 'div'
-                                                                      :attributes:
-                                                                        :class:
-                                                                          - ui-media-body
-                                                                      :children:
-                                                                        - :name: 'div'
-                                                                          :attributes:
-                                                                            :class:
-                                                                              - mediabox-time
-                                                                          :children:
-                                                                            - :name: 'span'
-                                                                              :attributes:
-                                                                                :class:
-                                                                                  - daytime
-                                                                        - :name: 'div'
-                                                                          :attributes:
-                                                                            :class:
-                                                                              - mediabox-title
-                                                                        - :name: 'p'
-                                                                          :attributes:
-                                                                            :class:
-                                                                              - mediabox-desc
-                                                                        - :name: 'div'
-                                                                          :attributes:
-                                                                            :class:
-                                                                              - mediabox-label
-                                                            - :name: 'li'
-                                                              :children:
-                                                                - :name: 'a'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - ui-media
-                                                                      - mediabox
-                                                                    :href: 'http://suumo.jp/remodel/blog/entry/2016/09/29/154003'
-                                                                  :children:
-                                                                    - :name: 'div'
-                                                                      :attributes:
-                                                                        :class:
-                                                                          - ui-media-object
-                                                                          - mediabox-object
-                                                                          - ui-thumb--square
-                                                                      :children:
-                                                                        - :name: 'img'
-                                                                          :attributes:
-                                                                            :alt: ''
-                                                                            :height: '112'
-                                                                            :src: 'https://cdn-ak.f.st-hatena.com/images/fotolife/j/j_ito/20160623/20160623023549.jpg'
                                                                     - :name: 'div'
                                                                       :attributes:
                                                                         :class:
