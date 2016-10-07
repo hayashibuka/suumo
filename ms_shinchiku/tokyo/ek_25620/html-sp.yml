@@ -613,10 +613,6 @@
                                         - :name: 'div'
                                           :attributes:
                                             :class:
-                                              - innerfoot-text
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
                                               - innerfoot-report
                                           :children:
                                             - :name: 'div'
@@ -1145,7 +1141,7 @@
                                                 :data-chikugonensu: '0'
                                                 :data-choson: '湊'
                                                 :data-hanbaiki: '最終期最終次'
-                                                :data-kakaku: '7400万円台～1億800万円台'
+                                                :data-kakaku: '7400万円台～1億600万円台'
                                                 :data-kanigazo: 'http://suumo.jp/front/gazo/bukken/030/N001000/img/71/67712271/67712271_000095.jpg'
                                                 :data-kanrihi: '金額未定'
                                                 :data-kotsu: '東京メトロ日比谷線「八丁堀」歩6分'
@@ -1426,7 +1422,7 @@
                                                                 :class:
                                                                   - price
                                                                   - infoWarp-detail
-                                                                  - 
+                                                                  - ribbonClass
                                                                 :colspan: '2'
                                                         - :name: 'tr'
                                                           :children:
@@ -1474,11 +1470,24 @@
                                                   :attributes:
                                                     :class:
                                                       - access
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - pctNewWrapper
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - pctUpdate
                                     - :name: 'div'
                                       :attributes:
                                         :class:
                                           - innerfoot
                                       :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - innerfoot-text
                                         - :name: 'div'
                                           :attributes:
                                             :class:
@@ -1852,7 +1861,7 @@
                                                                 :class:
                                                                   - price
                                                                   - infoWarp-detail
-                                                                  - ribbonClass
+                                                                  - 
                                                                 :colspan: '2'
                                                         - :name: 'tr'
                                                           :children:
@@ -1900,15 +1909,6 @@
                                                   :attributes:
                                                     :class:
                                                       - access
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - pctNewWrapper
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - pctPricing
                                     - :name: 'div'
                                       :attributes:
                                         :class:
@@ -2804,11 +2804,6 @@
                                       :attributes:
                                         :class:
                                           - innerfoot
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - innerfoot-text
                                 - :name: 'li'
                                   :children:
                                     - :name: 'div'

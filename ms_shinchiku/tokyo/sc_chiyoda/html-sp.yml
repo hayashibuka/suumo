@@ -2149,7 +2149,7 @@
                                                                 :class:
                                                                   - price
                                                                   - infoWarp-detail
-                                                                  - 
+                                                                  - ribbonClass
                                                                 :colspan: '2'
                                                         - :name: 'tr'
                                                           :children:
@@ -2197,6 +2197,15 @@
                                                   :attributes:
                                                     :class:
                                                       - access
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - pctNewWrapper
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - pctUpdate
                                     - :name: 'div'
                                       :attributes:
                                         :class:
@@ -2714,11 +2723,6 @@
                                       :attributes:
                                         :class:
                                           - innerfoot
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - innerfoot-text
                                 - :name: 'li'
                                   :children:
                                     - :name: 'div'
@@ -2883,6 +2887,11 @@
                                       :attributes:
                                         :class:
                                           - innerfoot
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - innerfoot-text
                                 - :name: 'li'
                                   :children:
                                     - :name: 'div'
@@ -2930,7 +2939,7 @@
                                                 :data-choson: '岩本町'
                                                 :data-hanbaiki: '-'
                                                 :data-kakaku: '未定'
-                                                :data-kanigazo: 'http://suumo.jp/front/gazo/bukken/030/N001000/img/03/67714803/67714803_000002.jpg'
+                                                :data-kanigazo: 'http://suumo.jp/front/gazo/bukken/030/N001000/img/03/67714803/67714803_000073.jpg'
                                                 :data-kanrihi: '金額未定'
                                                 :data-kotsu: '都営新宿線「岩本町」歩3分'
                                                 :data-krsnetid: ''
@@ -2979,7 +2988,7 @@
                                                         - :name: 'img'
                                                           :attributes:
                                                             :alt: 'シティインデックス神田'
-                                                            :data-src: 'https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN001000%2Fimg%2F03%2F67714803%2F67714803_000002.jpg&w=200'
+                                                            :data-src: 'https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN001000%2Fimg%2F03%2F67714803%2F67714803_000073.jpg&w=200'
                                                             :style: 'display: none;'
                                                 - :name: 'table'
                                                   :attributes:

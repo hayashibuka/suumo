@@ -873,13 +873,13 @@
                                                 :data-areacd: '030'
                                                 :data-bc: '87015773'
                                                 :data-bukken-cd: '87015773'
-                                                :data-bukken_nm: '朝から夕方まで陽が入る南西向き♪収納充実の２ＳＬＤＫ【ロータリーパレス田端】'
+                                                :data-bukken_nm: '山手線【田端駅】徒歩5分！ペット可♪収納充実の２ＳＬＤＫ【ロータリーパレス田端】'
                                                 :data-chikugonensu: '14'
                                                 :data-choson: '東田端'
-                                                :data-kakaku: '3780万円'
+                                                :data-kakaku: '3499万円'
                                                 :data-kanigazo: 'http://suumo.jp/front/gazo/bukken/030/N010000/img/773/87015773/87015773_0052.jpg'
                                                 :data-kanrihi: '1万670円／月（委託(通勤)）'
-                                                :data-kotsu: 'ＪＲ山手線「田端」歩11分'
+                                                :data-kotsu: 'ＪＲ山手線「田端」歩5分'
                                                 :data-krsnetid: 't14547700101'
                                                 :data-madori: '2LDK+S（納戸）'
                                                 :data-menseki: '66.71m²（壁芯）'
@@ -919,7 +919,7 @@
                                                               - loader
                                                         - :name: 'img'
                                                           :attributes:
-                                                            :alt: '朝から夕方まで陽が入る南西向き♪収納充実の２ＳＬＤＫ【ロータリーパレス田端】'
+                                                            :alt: '山手線【田端駅】徒歩5分！ペット可♪収納充実の２ＳＬＤＫ【ロータリーパレス田端】'
                                                             :data-src: 'https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F773%2F87015773%2F87015773_0052.jpg&w=200'
                                                             :height: '140'
                                                             :style: 'display: none;'
@@ -937,7 +937,7 @@
                                                               :attributes:
                                                                 :class:
                                                                   - price
-                                                                  - 
+                                                                  - ribbonClass
                                                                 :colspan: '2'
                                                         - :name: 'tr'
                                                           :children:
@@ -990,6 +990,15 @@
                                                                   :attributes:
                                                                     :class:
                                                                       - pctMovie
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - pctUpWrapper
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - pctUp
                                     - :name: 'div'
                                       :attributes:
                                         :class:
@@ -2297,17 +2306,6 @@
                                                               :attributes:
                                                                 :class:
                                                                   - ensen
-                                                        - :name: 'tr'
-                                                          :children:
-                                                            - :name: 'td'
-                                                              :attributes:
-                                                                :class:
-                                                                  - infoPictWrap
-                                                              :children:
-                                                                - :name: 'span'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - pctMovie
                                     - :name: 'div'
                                       :attributes:
                                         :class:
@@ -2697,6 +2695,17 @@
                                                               :attributes:
                                                                 :class:
                                                                   - ensen
+                                                        - :name: 'tr'
+                                                          :children:
+                                                            - :name: 'td'
+                                                              :attributes:
+                                                                :class:
+                                                                  - infoPictWrap
+                                                              :children:
+                                                                - :name: 'span'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - pctMovie
                                             - :name: 'div'
                                               :attributes:
                                                 :class:
@@ -5552,7 +5561,7 @@
             :data-registrirekifunctionname: 'saveEki'
             :data-requesturl: '/chukomansion/tokyo/ek_000525620/'
             :data-sitekbncd: '01'
-            :data-totalhits: '79'
+            :data-totalhits: '78'
             :data-unnormalshiboriparamb: ''
             :data-urlparamsstring: ''
             :id: 'js-data-script-commonScript'
@@ -5567,7 +5576,7 @@
             :data-nclist: '["87003921","87006506","87015773","85830554","86948919","86992951","87008439","86992955","86949247","86992893","86507969","87044385","86989106","86632634","86872182","86878955","86948894","86976005","87035656","86744558"]'
             :data-pageid: 'PS3C1304'
             :data-templateid: 'SP_SUUMO'
-            :data-totalhit: '79'
+            :data-totalhit: '78'
             :data-url: 'log.suumo.jp/js/logsuumo.js'
             :id: 'beaconJs'
             :language: 'JavaScript'

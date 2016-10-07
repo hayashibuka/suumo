@@ -390,6 +390,259 @@
                                               :attributes:
                                                 :class:
                                                   - tou-bukken-cd
+                                                :id: '100028649926'
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - toulistitem-inner-title
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - toulistitem-inner-media
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - toulistitem_media
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - toulistitem_media-object
+                                                      :children:
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - toulistitem_media-object-img
+                                                              - imgWrap
+                                                              - imgWrap--wide
+                                                          :children:
+                                                            - :name: 'p'
+                                                              :attributes:
+                                                                :class:
+                                                                  - imgBorder
+                                                              :children:
+                                                                - :name: 'span'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - loader
+                                                                - :name: 'img'
+                                                                  :attributes:
+                                                                    :alt: '京王新線/幡ヶ谷駅 歩8分'
+                                                                    :class:
+                                                                      - touImage
+                                                                    :data-src: 'https://img01.suumo.com/front/gazo/fr/bukken/926/100028649926/100028649926_gw.jpg'
+                                                                    :style: 'display: none;'
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - toulistitem_media-body
+                                                      :children:
+                                                        - :name: 'br'
+                                                        - :name: 'br'
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - toulistitem-inner-sublist
+                                                :id: 'sublist_1_1'
+                                              :children:
+                                                - :name: 'ul'
+                                                  :attributes:
+                                                    :class:
+                                                      - toulistitem_sublist
+                                                    :data-bukken-cd: '100028649926'
+                                                  :children:
+                                                    - :name: 'li'
+                                                      :children:
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - toulistitem_sublistitem
+                                                          :children:
+                                                            - :name: 'div'
+                                                              :attributes:
+                                                                :class:
+                                                                  - toulistitem_sublistitem-inner
+                                                              :children:
+                                                                - :name: 'div'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - toulistitem_sublistitem-inner-cellinput
+                                                                  :children:
+                                                                    - :name: 'input'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - toulistitem_sublistitem-checkbox
+                                                                          - js-juko-checkbox
+                                                                        :name: 'bck'
+                                                                        :rel: '030'
+                                                                        :type: 'checkbox'
+                                                                        :value: '01_100028649926'
+                                                                    - :name: 'p'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - icnFavorite
+                                                                        :data-areacd: '030'
+                                                                        :data-bukken-cd: '100028649926'
+                                                                        :data-chikugonensu: '62'
+                                                                        :data-chikunen: '1955年8月'
+                                                                        :data-chintai_bukken_nm: '京王新線 幡ヶ谷駅 2階建 築62年'
+                                                                        :data-choson: '本町'
+                                                                        :data-kaiso_disp: '2階/2階建'
+                                                                        :data-kakaku_value: '2.5'
+                                                                        :data-kanigazo: 'https://img01.suumo.com/front/gazo/fr/bukken/926/100028649926/100028649926_cw.jpg'
+                                                                        :data-kanrihi: '2500円'
+                                                                        :data-kiss_cd: '067202000'
+                                                                        :data-kotsu: '京王新線/幡ヶ谷駅 歩8分'
+                                                                        :data-madori: 'ワンルーム'
+                                                                        :data-menseki: '12.5平米'
+                                                                        :data-reikin: '2.5万円'
+                                                                        :data-sc: '113'
+                                                                        :data-seqno: ''
+                                                                        :data-shigunku: '渋谷区'
+                                                                        :data-shikikin: '2.5万円'
+                                                                        :data-shubetsu: '040'
+                                                                        :data-tatemono_shu_nm: 'アパート'
+                                                                        :data-tf: '13'
+                                                                        :data-todofuken: '東京都'
+                                                                - :name: 'div'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - toulistitem_sublistitem-inner-cellobject
+                                                                      - js-save-bukken-cd
+                                                                  :children:
+                                                                    - :name: 'div'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - tou-bukken-cd
+                                                                        :id: '100028649926'
+                                                                        :style: 'display:none'
+                                                                    - :name: 'a'
+                                                                      :attributes:
+                                                                        :class:
+                                                                          - toulistitem_sublistitembody
+                                                                        :href: '/chintai/tokyo/sc_113/jnc_000014915631/?bk=100028649926&kbn=2&bkflg=1&jkp=b3d40db0bdcfe52dfcf51448221a54d0'
+                                                                      :children:
+                                                                        - :name: 'div'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - toulistitem_sublistitembody-object
+                                                                          :children:
+                                                                            - :name: 'div'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - toulistitem_sublistitembody-object-img
+                                                                                  - imgWrap
+                                                                                  - imgWrap--wide
+                                                                              :children:
+                                                                                - :name: 'p'
+                                                                                  :attributes:
+                                                                                    :class:
+                                                                                      - imgBorder
+                                                                                  :children:
+                                                                                    - :name: 'span'
+                                                                                      :attributes:
+                                                                                        :class:
+                                                                                          - loader
+                                                                                    - :name: 'img'
+                                                                                      :attributes:
+                                                                                        :alt: '間取り'
+                                                                                        :class:
+                                                                                          - daihyoImage
+                                                                                        :data-src: 'https://img01.suumo.com/front/gazo/fr/bukken/926/100028649926/100028649926_cw.jpg'
+                                                                                        :style: 'display: none;'
+                                                                        - :name: 'div'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - toulistitem_sublistitembody-body
+                                                                          :children:
+                                                                            - :name: 'div'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - toulistitem_sublistitembody-descstrong
+                                                                              :children:
+                                                                                - :name: 'span'
+                                                                                  :attributes:
+                                                                                    :class:
+                                                                                      - toulistitem_sublistitembody-descstrong-text1
+                                                                                - :name: 'span'
+                                                                                  :attributes:
+                                                                                    :class:
+                                                                                      - toulistitem_sublistitembody-descstrong-text2
+                                                                                - :name: 'span'
+                                                                                  :attributes:
+                                                                                    :class:
+                                                                                      - toulistitem_sublistitembody-descstrong-text3
+                                                                            - :name: 'dl'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - toulistitem_sublistitembody-dllist
+                                                                              :children:
+                                                                                - :name: 'dt'
+                                                                                  :children:
+                                                                                    - :name: 'span'
+                                                                                      :attributes:
+                                                                                        :class:
+                                                                                          - pct-deposit
+                                                                                - :name: 'dd'
+                                                                            - :name: 'dl'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - toulistitem_sublistitembody-dllist
+                                                                              :children:
+                                                                                - :name: 'dt'
+                                                                                  :children:
+                                                                                    - :name: 'span'
+                                                                                      :attributes:
+                                                                                        :class:
+                                                                                          - pct-deposit
+                                                                                - :name: 'dd'
+                                                                            - :name: 'div'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - toulistitem_sublistitembody-desc
+                                                                            - :name: 'div'
+                                                                              :attributes:
+                                                                                :class:
+                                                                                  - toulistitem_sublistitembody-iconbox
+                                                                        - :name: 'span'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - taglabel
+                                                                              - taglabel--new
+                                                                            :data-shinchaku-flag: '0'
+                                                                            :style: 'visibility:hidden;'
+                                                                        - :name: 'span'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - taglabel
+                                                                              - taglabel--etsuranzumi
+                                                                            :style: 'visibility:hidden;'
+                                                                        - :name: 'span'
+                                                                          :attributes:
+                                                                            :class:
+                                                                              - taglabel
+                                                                              - taglabel--favorite
+                                                                            :style: 'visibility:hidden;'
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :id: 'addDaihyoBukkenPosition_1_1'
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - toulistitem
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - toulistitem-inner
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - tou-bukken-cd
                                                 :id: '100051513815'
                                             - :name: 'div'
                                               :attributes:
@@ -444,13 +697,13 @@
                                               :attributes:
                                                 :class:
                                                   - toulistitem-inner-sublist
-                                                :id: 'sublist_1_1'
+                                                :id: 'sublist_1_2'
                                               :children:
                                                 - :name: 'ul'
                                                   :attributes:
                                                     :class:
                                                       - toulistitem_sublist
-                                                    :data-bukken-cd: '100071422111'
+                                                    :data-bukken-cd: '100045137737'
                                                   :children:
                                                     - :name: 'li'
                                                       :children:
@@ -477,13 +730,13 @@
                                                                         :name: 'bck'
                                                                         :rel: '030'
                                                                         :type: 'checkbox'
-                                                                        :value: '01_100071422111'
+                                                                        :value: '01_100045137737'
                                                                     - :name: 'p'
                                                                       :attributes:
                                                                         :class:
                                                                           - icnFavorite
                                                                         :data-areacd: '030'
-                                                                        :data-bukken-cd: '100071422111'
+                                                                        :data-bukken-cd: '100045137737'
                                                                         :data-chikugonensu: '61'
                                                                         :data-chikunen: '1956年1月'
                                                                         :data-chintai_bukken_nm: '門間アパ－ト'
@@ -492,7 +745,7 @@
                                                                         :data-kakaku_value: '2.8'
                                                                         :data-kanigazo: 'https://img01.suumo.com/front/gazo/fr/bukken/815/100051513815/100051513815_cw.jpg'
                                                                         :data-kanrihi: '-'
-                                                                        :data-kiss_cd: '071816088'
+                                                                        :data-kiss_cd: '071816040'
                                                                         :data-kotsu: 'ＪＲ山手線/駒込駅 歩7分'
                                                                         :data-madori: 'ワンルーム'
                                                                         :data-menseki: '12平米'
@@ -521,7 +774,7 @@
                                                                       :attributes:
                                                                         :class:
                                                                           - toulistitem_sublistitembody
-                                                                        :href: '/chintai/tokyo/sc_105/jnc_000015503001/?bk=100071422111&kbn=2&bkflg=1&jkp=b3d40db0bdcfe52dfcf51448221a54d0'
+                                                                        :href: '/chintai/tokyo/sc_105/jnc_000015503001/?bk=100045137737&kbn=2&bkflg=1&jkp=b3d40db0bdcfe52dfcf51448221a54d0'
                                                                       :children:
                                                                         - :name: 'div'
                                                                           :attributes:
@@ -549,7 +802,7 @@
                                                                                         :alt: '間取り'
                                                                                         :class:
                                                                                           - daihyoImage
-                                                                                        :data-src: 'https://img01.suumo.com/front/gazo/fr/bukken/111/100071422111/100071422111_cw.jpg'
+                                                                                        :data-src: 'https://img01.suumo.com/front/gazo/fr/bukken/737/100045137737/100045137737_cw.jpg'
                                                                                         :style: 'display: none;'
                                                                         - :name: 'div'
                                                                           :attributes:
@@ -617,8 +870,8 @@
                                                                             :class:
                                                                               - taglabel
                                                                               - taglabel--new
-                                                                            :data-shinchaku-flag: '1'
-                                                                            :style: 'visibility:visible;'
+                                                                            :data-shinchaku-flag: '0'
+                                                                            :style: 'visibility:hidden;'
                                                                         - :name: 'span'
                                                                           :attributes:
                                                                             :class:
@@ -820,7 +1073,7 @@
                                                   :attributes:
                                                     :class:
                                                       - toulistitem_sublist
-                                                    :data-bukken-cd: '100032192758'
+                                                    :data-bukken-cd: '000069388212'
                                                   :children:
                                                     - :name: 'li'
                                                       :children:
@@ -847,13 +1100,13 @@
                                                                         :name: 'bck'
                                                                         :rel: '030'
                                                                         :type: 'checkbox'
-                                                                        :value: '01_100032192758'
+                                                                        :value: '01_000069388212'
                                                                     - :name: 'p'
                                                                       :attributes:
                                                                         :class:
                                                                           - icnFavorite
                                                                         :data-areacd: '030'
-                                                                        :data-bukken-cd: '100032192758'
+                                                                        :data-bukken-cd: '000069388212'
                                                                         :data-chikugonensu: '61'
                                                                         :data-chikunen: '1956年1月'
                                                                         :data-chintai_bukken_nm: '門間アパ－ト'
@@ -862,7 +1115,7 @@
                                                                         :data-kakaku_value: '2.8'
                                                                         :data-kanigazo: 'https://img01.suumo.com/front/gazo/fr/bukken/815/100051513815/100051513815_cw.jpg'
                                                                         :data-kanrihi: '2500円'
-                                                                        :data-kiss_cd: '082192114'
+                                                                        :data-kiss_cd: '082192129'
                                                                         :data-kotsu: 'ＪＲ山手線/駒込駅 歩7分'
                                                                         :data-madori: 'ワンルーム'
                                                                         :data-menseki: '10平米'
@@ -891,7 +1144,7 @@
                                                                       :attributes:
                                                                         :class:
                                                                           - toulistitem_sublistitembody
-                                                                        :href: '/chintai/tokyo/sc_105/jnc_000015086902/?bk=100032192758&kbn=2&bkflg=1&jkp=b3d40db0bdcfe52dfcf51448221a54d0'
+                                                                        :href: '/chintai/tokyo/sc_105/jnc_000015086902/?bk=000069388212&kbn=2&bkflg=1&jkp=b3d40db0bdcfe52dfcf51448221a54d0'
                                                                       :children:
                                                                         - :name: 'div'
                                                                           :attributes:
@@ -919,7 +1172,7 @@
                                                                                         :alt: '間取り'
                                                                                         :class:
                                                                                           - daihyoImage
-                                                                                        :data-src: 'https://img01.suumo.com/front/gazo/fr/bukken/758/100032192758/100032192758_cw.jpg'
+                                                                                        :data-src: 'https://img01.suumo.com/front/gazo/fr/bukken/212/69388212/69388212_cw.jpg'
                                                                                         :style: 'display: none;'
                                                                         - :name: 'div'
                                                                           :attributes:
@@ -1005,7 +1258,7 @@
                                                   :attributes:
                                                     :class:
                                                       - toulistitem_sublist
-                                                    :data-bukken-cd: '100045829873'
+                                                    :data-bukken-cd: '100045645013'
                                                     :style: 'display:none'
                                                   :children:
                                                     - :name: 'li'
@@ -1033,13 +1286,13 @@
                                                                         :name: 'bck'
                                                                         :rel: '030'
                                                                         :type: 'checkbox'
-                                                                        :value: '01_100045829873'
+                                                                        :value: '01_100045645013'
                                                                     - :name: 'p'
                                                                       :attributes:
                                                                         :class:
                                                                           - icnFavorite
                                                                         :data-areacd: '030'
-                                                                        :data-bukken-cd: '100045829873'
+                                                                        :data-bukken-cd: '100045645013'
                                                                         :data-chikugonensu: '61'
                                                                         :data-chikunen: '1956年1月'
                                                                         :data-chintai_bukken_nm: '門間アパ－ト'
@@ -1048,7 +1301,7 @@
                                                                         :data-kakaku_value: '2.8'
                                                                         :data-kanigazo: 'https://img01.suumo.com/front/gazo/fr/bukken/815/100051513815/100051513815_cw.jpg'
                                                                         :data-kanrihi: '2500円'
-                                                                        :data-kiss_cd: '082192105'
+                                                                        :data-kiss_cd: '082192114'
                                                                         :data-kotsu: 'ＪＲ山手線/駒込駅 歩7分'
                                                                         :data-madori: 'ワンルーム'
                                                                         :data-menseki: '9.9平米'
@@ -1077,7 +1330,7 @@
                                                                       :attributes:
                                                                         :class:
                                                                           - toulistitem_sublistitembody
-                                                                        :href: '/chintai/tokyo/sc_105/jnc_000013366963/?bk=100045829873&kbn=2&bkflg=1&jkp=b3d40db0bdcfe52dfcf51448221a54d0'
+                                                                        :href: '/chintai/tokyo/sc_105/jnc_000013366963/?bk=100045645013&kbn=2&bkflg=1&jkp=b3d40db0bdcfe52dfcf51448221a54d0'
                                                                       :children:
                                                                         - :name: 'div'
                                                                           :attributes:
@@ -1105,7 +1358,7 @@
                                                                                         :alt: '間取り'
                                                                                         :class:
                                                                                           - daihyoImage
-                                                                                        :data-src: 'https://img01.suumo.com/front/gazo/fr/bukken/873/100045829873/100045829873_cw.jpg'
+                                                                                        :data-src: 'https://img01.suumo.com/front/gazo/fr/bukken/013/100045645013/100045645013_cw.jpg'
                                                                                         :style: 'display: none;'
                                                                         - :name: 'div'
                                                                           :attributes:
@@ -1190,17 +1443,17 @@
                                                             - :name: 'div'
                                                               :attributes:
                                                                 :class:
-                                                                  - js-beacon-bukken-cd-1_1
+                                                                  - js-beacon-bukken-cd-1_2
                                                                 :name: 'beacon_bc_list'
                                                                 :style: 'display:none'
-                                                                :value: '100045829873'
+                                                                :value: '100045645013'
                                                         - :name: 'div'
                                                           :attributes:
                                                             :class:
-                                                              - js-beacon-kiss-cd-1_1
+                                                              - js-beacon-kiss-cd-1_2
                                                             :name: 'beacon_kiss_list'
                                                             :style: 'display:none'
-                                                            :value: '082192105'
+                                                            :value: '082192114'
                                         - :name: 'ul'
                                           :attributes:
                                             :class:
@@ -1390,26 +1643,26 @@
                                                     - :name: 'div'
                                                       :attributes:
                                                         :class:
-                                                          - js-beacon-bukken-cd-1_1
+                                                          - js-beacon-bukken-cd-1_2
                                                         :name: 'beacon_bc_list'
                                                         :style: 'display:none'
                                                         :value: '100051513815'
                                                 - :name: 'div'
                                                   :attributes:
                                                     :class:
-                                                      - js-beacon-kiss-cd-1_1
+                                                      - js-beacon-kiss-cd-1_2
                                                     :name: 'beacon_kiss_list'
                                                     :style: 'display:none'
                                                     :value: '071816040'
         - :name: 'div'
           :attributes:
-            :id: 'addDaihyoBukkenPosition_1_1'
+            :id: 'addDaihyoBukkenPosition_1_2'
         - :name: 'div'
           :attributes:
             :class:
               - toulistitem--bottom
               - js-juko-more
-            :id: '1_1'
+            :id: '1_2'
           :children:
             - :name: 'a'
               :attributes:
@@ -1493,7 +1746,7 @@
                       :attributes:
                         :class:
                           - toulistitem-inner-sublist
-                        :id: 'sublist_1_2'
+                        :id: 'sublist_1_3'
                       :children:
                         - :name: 'ul'
                           :attributes:
@@ -1682,7 +1935,7 @@
                                                     :style: 'visibility:hidden;'
                         - :name: 'div'
                           :attributes:
-                            :id: 'addDaihyoBukkenPosition_1_2'
+                            :id: 'addDaihyoBukkenPosition_1_3'
         - :name: 'li'
           :children:
             - :name: 'div'
@@ -1753,7 +2006,7 @@
                       :attributes:
                         :class:
                           - toulistitem-inner-sublist
-                        :id: 'sublist_1_3'
+                        :id: 'sublist_1_4'
                       :children:
                         - :name: 'ul'
                           :attributes:
@@ -2127,7 +2380,7 @@
                                                     :style: 'visibility:hidden;'
                         - :name: 'div'
                           :attributes:
-                            :id: 'addDaihyoBukkenPosition_1_3'
+                            :id: 'addDaihyoBukkenPosition_1_4'
         - :name: 'li'
           :children:
             - :name: 'div'
@@ -2198,7 +2451,7 @@
                       :attributes:
                         :class:
                           - toulistitem-inner-sublist
-                        :id: 'sublist_1_4'
+                        :id: 'sublist_1_5'
                       :children:
                         - :name: 'ul'
                           :attributes:
@@ -2387,7 +2640,7 @@
                                                     :style: 'visibility:hidden;'
                         - :name: 'div'
                           :attributes:
-                            :id: 'addDaihyoBukkenPosition_1_4'
+                            :id: 'addDaihyoBukkenPosition_1_5'
         - :name: 'li'
           :children:
             - :name: 'div'
@@ -2458,7 +2711,7 @@
                       :attributes:
                         :class:
                           - toulistitem-inner-sublist
-                        :id: 'sublist_1_5'
+                        :id: 'sublist_1_6'
                       :children:
                         - :name: 'ul'
                           :attributes:
@@ -2832,7 +3085,7 @@
                                                     :style: 'visibility:hidden;'
                         - :name: 'div'
                           :attributes:
-                            :id: 'addDaihyoBukkenPosition_1_5'
+                            :id: 'addDaihyoBukkenPosition_1_6'
         - :name: 'li'
           :children:
             - :name: 'div'
@@ -2903,7 +3156,7 @@
                       :attributes:
                         :class:
                           - toulistitem-inner-sublist
-                        :id: 'sublist_1_6'
+                        :id: 'sublist_1_7'
                       :children:
                         - :name: 'ul'
                           :attributes:
@@ -3092,7 +3345,7 @@
                                                     :style: 'visibility:hidden;'
                         - :name: 'div'
                           :attributes:
-                            :id: 'addDaihyoBukkenPosition_1_6'
+                            :id: 'addDaihyoBukkenPosition_1_7'
         - :name: 'li'
           :children:
             - :name: 'div'
@@ -3163,7 +3416,7 @@
                       :attributes:
                         :class:
                           - toulistitem-inner-sublist
-                        :id: 'sublist_1_7'
+                        :id: 'sublist_1_8'
                       :children:
                         - :name: 'ul'
                           :attributes:
@@ -3345,7 +3598,7 @@
                                                     :style: 'visibility:hidden;'
                         - :name: 'div'
                           :attributes:
-                            :id: 'addDaihyoBukkenPosition_1_7'
+                            :id: 'addDaihyoBukkenPosition_1_8'
         - :name: 'li'
           :children:
             - :name: 'div'
@@ -3416,7 +3669,7 @@
                       :attributes:
                         :class:
                           - toulistitem-inner-sublist
-                        :id: 'sublist_1_8'
+                        :id: 'sublist_1_9'
                       :children:
                         - :name: 'ul'
                           :attributes:
@@ -3577,451 +3830,6 @@
                                                       :attributes:
                                                         :class:
                                                           - toulistitem_sublistitembody-iconbox
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - taglabel
-                                                      - taglabel--new
-                                                    :data-shinchaku-flag: '0'
-                                                    :style: 'visibility:hidden;'
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - taglabel
-                                                      - taglabel--etsuranzumi
-                                                    :style: 'visibility:hidden;'
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - taglabel
-                                                      - taglabel--favorite
-                                                    :style: 'visibility:hidden;'
-                        - :name: 'div'
-                          :attributes:
-                            :id: 'addDaihyoBukkenPosition_1_8'
-        - :name: 'li'
-          :children:
-            - :name: 'div'
-              :attributes:
-                :class:
-                  - toulistitem
-              :children:
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - toulistitem-inner
-                  :children:
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - tou-bukken-cd
-                        :id: '100068525899'
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - toulistitem-inner-title
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - toulistitem-inner-media
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - toulistitem_media
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - toulistitem_media-object
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - toulistitem_media-object-img
-                                      - imgWrap
-                                      - imgWrap--wide
-                                  :children:
-                                    - :name: 'p'
-                                      :attributes:
-                                        :class:
-                                          - imgBorder
-                                      :children:
-                                        - :name: 'span'
-                                          :attributes:
-                                            :class:
-                                              - loader
-                                        - :name: 'img'
-                                          :attributes:
-                                            :alt: '東京メトロ千代田線/千駄木駅 歩6分'
-                                            :class:
-                                              - touImage
-                                            :data-src: 'https://img01.suumo.com/front/gazo/fr/bukken/899/100068525899/100068525899_gw.jpg'
-                                            :style: 'display: none;'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - toulistitem_media-body
-                              :children:
-                                - :name: 'br'
-                                - :name: 'br'
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - toulistitem-inner-sublist
-                        :id: 'sublist_1_9'
-                      :children:
-                        - :name: 'ul'
-                          :attributes:
-                            :class:
-                              - toulistitem_sublist
-                            :data-bukken-cd: '100068525899'
-                          :children:
-                            - :name: 'li'
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - toulistitem_sublistitem
-                                  :children:
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - toulistitem_sublistitem-inner
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - toulistitem_sublistitem-inner-cellinput
-                                          :children:
-                                            - :name: 'input'
-                                              :attributes:
-                                                :class:
-                                                  - toulistitem_sublistitem-checkbox
-                                                  - js-juko-checkbox
-                                                :name: 'bck'
-                                                :rel: '030'
-                                                :type: 'checkbox'
-                                                :value: '01_100068525899'
-                                            - :name: 'p'
-                                              :attributes:
-                                                :class:
-                                                  - icnFavorite
-                                                :data-areacd: '030'
-                                                :data-bukken-cd: '100068525899'
-                                                :data-chikugonensu: '52'
-                                                :data-chikunen: '1965年5月'
-                                                :data-chintai_bukken_nm: '東京メトロ千代田線 千駄木駅 2階建 築52年'
-                                                :data-choson: '千駄木'
-                                                :data-kaiso_disp: '2階/2階建'
-                                                :data-kakaku_value: '2.8'
-                                                :data-kanigazo: 'https://img01.suumo.com/front/gazo/fr/bukken/899/100068525899/100068525899_cw.jpg'
-                                                :data-kanrihi: '1000円'
-                                                :data-kiss_cd: '110499012'
-                                                :data-kotsu: '東京メトロ千代田線/千駄木駅 歩6分'
-                                                :data-madori: 'ワンルーム'
-                                                :data-menseki: '10平米'
-                                                :data-reikin: '2.8万円'
-                                                :data-sc: '105'
-                                                :data-seqno: ''
-                                                :data-shigunku: '文京区'
-                                                :data-shikikin: '2.8万円'
-                                                :data-shubetsu: '040'
-                                                :data-tatemono_shu_nm: 'アパート'
-                                                :data-tf: '13'
-                                                :data-todofuken: '東京都'
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - toulistitem_sublistitem-inner-cellobject
-                                              - js-save-bukken-cd
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - tou-bukken-cd
-                                                :id: '100068525899'
-                                                :style: 'display:none'
-                                            - :name: 'a'
-                                              :attributes:
-                                                :class:
-                                                  - toulistitem_sublistitembody
-                                                :href: '/chintai/tokyo/sc_105/jnc_000013365128/?bk=100068525899&kbn=2&bkflg=1&jkp=b3d40db0bdcfe52dfcf51448221a54d0'
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - toulistitem_sublistitembody-object
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - toulistitem_sublistitembody-object-img
-                                                          - imgWrap
-                                                          - imgWrap--wide
-                                                      :children:
-                                                        - :name: 'p'
-                                                          :attributes:
-                                                            :class:
-                                                              - imgBorder
-                                                          :children:
-                                                            - :name: 'span'
-                                                              :attributes:
-                                                                :class:
-                                                                  - loader
-                                                            - :name: 'img'
-                                                              :attributes:
-                                                                :alt: '間取り'
-                                                                :class:
-                                                                  - daihyoImage
-                                                                :data-src: 'https://img01.suumo.com/front/gazo/fr/bukken/899/100068525899/100068525899_cw.jpg'
-                                                                :style: 'display: none;'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - toulistitem_sublistitembody-body
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - toulistitem_sublistitembody-descstrong
-                                                      :children:
-                                                        - :name: 'span'
-                                                          :attributes:
-                                                            :class:
-                                                              - toulistitem_sublistitembody-descstrong-text1
-                                                        - :name: 'span'
-                                                          :attributes:
-                                                            :class:
-                                                              - toulistitem_sublistitembody-descstrong-text2
-                                                        - :name: 'span'
-                                                          :attributes:
-                                                            :class:
-                                                              - toulistitem_sublistitembody-descstrong-text3
-                                                    - :name: 'dl'
-                                                      :attributes:
-                                                        :class:
-                                                          - toulistitem_sublistitembody-dllist
-                                                      :children:
-                                                        - :name: 'dt'
-                                                          :children:
-                                                            - :name: 'span'
-                                                              :attributes:
-                                                                :class:
-                                                                  - pct-deposit
-                                                        - :name: 'dd'
-                                                    - :name: 'dl'
-                                                      :attributes:
-                                                        :class:
-                                                          - toulistitem_sublistitembody-dllist
-                                                      :children:
-                                                        - :name: 'dt'
-                                                          :children:
-                                                            - :name: 'span'
-                                                              :attributes:
-                                                                :class:
-                                                                  - pct-deposit
-                                                        - :name: 'dd'
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - toulistitem_sublistitembody-desc
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - toulistitem_sublistitembody-iconbox
-                                                      :children:
-                                                        - :name: 'span'
-                                                          :attributes:
-                                                            :class:
-                                                              - toulistitem_sublistitembody-icon
-                                                              - cassettePct
-                                                              - pctVisit
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - taglabel
-                                                      - taglabel--new
-                                                    :data-shinchaku-flag: '0'
-                                                    :style: 'visibility:hidden;'
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - taglabel
-                                                      - taglabel--etsuranzumi
-                                                    :style: 'visibility:hidden;'
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - taglabel
-                                                      - taglabel--favorite
-                                                    :style: 'visibility:hidden;'
-                        - :name: 'ul'
-                          :attributes:
-                            :class:
-                              - toulistitem_sublist
-                            :data-bukken-cd: '100068525895'
-                          :children:
-                            - :name: 'li'
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - toulistitem_sublistitem
-                                  :children:
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - toulistitem_sublistitem-inner
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - toulistitem_sublistitem-inner-cellinput
-                                          :children:
-                                            - :name: 'input'
-                                              :attributes:
-                                                :class:
-                                                  - toulistitem_sublistitem-checkbox
-                                                  - js-juko-checkbox
-                                                :name: 'bck'
-                                                :rel: '030'
-                                                :type: 'checkbox'
-                                                :value: '01_100068525895'
-                                            - :name: 'p'
-                                              :attributes:
-                                                :class:
-                                                  - icnFavorite
-                                                :data-areacd: '030'
-                                                :data-bukken-cd: '100068525895'
-                                                :data-chikugonensu: '52'
-                                                :data-chikunen: '1965年5月'
-                                                :data-chintai_bukken_nm: '東京メトロ千代田線 千駄木駅 2階建 築52年'
-                                                :data-choson: '千駄木'
-                                                :data-kaiso_disp: '2階/2階建'
-                                                :data-kakaku_value: '2.8'
-                                                :data-kanigazo: 'https://img01.suumo.com/front/gazo/fr/bukken/899/100068525899/100068525899_cw.jpg'
-                                                :data-kanrihi: '1000円'
-                                                :data-kiss_cd: '110499012'
-                                                :data-kotsu: '東京メトロ千代田線/千駄木駅 歩6分'
-                                                :data-madori: 'ワンルーム'
-                                                :data-menseki: '10平米'
-                                                :data-reikin: '2.8万円'
-                                                :data-sc: '105'
-                                                :data-seqno: ''
-                                                :data-shigunku: '文京区'
-                                                :data-shikikin: '2.8万円'
-                                                :data-shubetsu: '040'
-                                                :data-tatemono_shu_nm: 'アパート'
-                                                :data-tf: '13'
-                                                :data-todofuken: '東京都'
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - toulistitem_sublistitem-inner-cellobject
-                                              - js-save-bukken-cd
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - tou-bukken-cd
-                                                :id: '100068525899'
-                                                :style: 'display:none'
-                                            - :name: 'a'
-                                              :attributes:
-                                                :class:
-                                                  - toulistitem_sublistitembody
-                                                :href: '/chintai/tokyo/sc_105/jnc_000013365129/?bk=100068525895&kbn=2&bkflg=1&jkp=b3d40db0bdcfe52dfcf51448221a54d0'
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - toulistitem_sublistitembody-object
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - toulistitem_sublistitembody-object-img
-                                                          - imgWrap
-                                                          - imgWrap--wide
-                                                      :children:
-                                                        - :name: 'p'
-                                                          :attributes:
-                                                            :class:
-                                                              - imgBorder
-                                                          :children:
-                                                            - :name: 'span'
-                                                              :attributes:
-                                                                :class:
-                                                                  - loader
-                                                            - :name: 'img'
-                                                              :attributes:
-                                                                :alt: '間取り'
-                                                                :class:
-                                                                  - daihyoImage
-                                                                :data-src: 'https://img01.suumo.com/front/gazo/fr/bukken/895/100068525895/100068525895_cw.jpg'
-                                                                :style: 'display: none;'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - toulistitem_sublistitembody-body
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - toulistitem_sublistitembody-descstrong
-                                                      :children:
-                                                        - :name: 'span'
-                                                          :attributes:
-                                                            :class:
-                                                              - toulistitem_sublistitembody-descstrong-text1
-                                                        - :name: 'span'
-                                                          :attributes:
-                                                            :class:
-                                                              - toulistitem_sublistitembody-descstrong-text2
-                                                        - :name: 'span'
-                                                          :attributes:
-                                                            :class:
-                                                              - toulistitem_sublistitembody-descstrong-text3
-                                                    - :name: 'dl'
-                                                      :attributes:
-                                                        :class:
-                                                          - toulistitem_sublistitembody-dllist
-                                                      :children:
-                                                        - :name: 'dt'
-                                                          :children:
-                                                            - :name: 'span'
-                                                              :attributes:
-                                                                :class:
-                                                                  - pct-deposit
-                                                        - :name: 'dd'
-                                                    - :name: 'dl'
-                                                      :attributes:
-                                                        :class:
-                                                          - toulistitem_sublistitembody-dllist
-                                                      :children:
-                                                        - :name: 'dt'
-                                                          :children:
-                                                            - :name: 'span'
-                                                              :attributes:
-                                                                :class:
-                                                                  - pct-deposit
-                                                        - :name: 'dd'
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - toulistitem_sublistitembody-desc
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - toulistitem_sublistitembody-iconbox
-                                                      :children:
-                                                        - :name: 'span'
-                                                          :attributes:
-                                                            :class:
-                                                              - toulistitem_sublistitembody-icon
-                                                              - cassettePct
-                                                              - pctVisit
                                                 - :name: 'span'
                                                   :attributes:
                                                     :class:
@@ -5349,7 +5157,7 @@
             :data-requesturl: '/chintai/tokyo/sa_01/'
             :data-sitekbncd: '01'
             :data-ssite: '1'
-            :data-totalhits: '17905'
+            :data-totalhits: '18031'
             :data-unnormalshiboriparam: ''
             :data-urlparamsstring: ''
             :id: 'js-data-script-commonScript'
@@ -5368,17 +5176,17 @@
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
-            :data-bclist: '["100071422111","100032978950","100032192758","100069854168","100025188360","000073588007","100045216889","100064509356","100027053315","100053993219","100068208202","100065127247","100068525899","100068525895","100067981442"]'
+            :data-bclist: '["100028649926","100045137737","100032978950","000069388212","100069854168","100025188360","000073588007","100045216889","100064509356","100027053315","100053993219","100068208202","100065127247","100067981442"]'
             :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_040","se":"040"}'
             :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_040","sa":["01"],"se":["040"]}'
             :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_040","sa":["01"],"se":["040"],"ta":"13"}'
-            :data-jukototalhit: '39081'
-            :data-kisslist: '071816088,071816040,082192114,086657003,004003000,004003000,021999000,071816040,139761001,070380045,006403003,148786001,110499012,110499012,088882012'
+            :data-jukototalhit: '39229'
+            :data-kisslist: '067202000,071816040,071816040,082192129,086657003,004003000,004003000,021999000,071816040,139761001,070380045,006403003,148786001,088882012'
             :data-pageid: 'PF3C1301'
             :data-pageidlist: 'P,F,3,C,13,01'
             :data-pageviewinfo: '{"ab_t":"sort_recommend","sort_cd":"19"}'
             :data-templateid: 'SP_SUUMO'
-            :data-totalhit: '17905'
+            :data-totalhit: '18031'
             :data-url: 'log.suumo.jp/js/logsuumo.js'
             :id: 'beaconJs'
             :language: 'JavaScript'

@@ -1234,6 +1234,17 @@
                                                               :attributes:
                                                                 :class:
                                                                   - ensen
+                                                        - :name: 'tr'
+                                                          :children:
+                                                            - :name: 'td'
+                                                              :attributes:
+                                                                :class:
+                                                                  - infoPictWrap
+                                                              :children:
+                                                                - :name: 'span'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - pctMovie
                                             - :name: 'div'
                                               :attributes:
                                                 :class:

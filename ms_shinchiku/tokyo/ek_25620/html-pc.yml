@@ -1664,15 +1664,6 @@
                                                                   - cassette-header-title
                                                                   - js-cassetLinkHref
                                                                 :href: '/ms/shinchiku/tokyo/sc_chuo/nc_66824315/'
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - cassette-info
-                                                      :children:
-                                                        - :name: 'span'
-                                                          :attributes:
-                                                            :class:
-                                                              - cassette-info-accent
                                                     - :name: 'div'
                                                       :attributes:
                                                         :class:
@@ -3046,6 +3037,17 @@
                                                         :class:
                                                           - cassette-header
                                                       :children:
+                                                        - :name: 'p'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-header-pct
+                                                          :children:
+                                                            - :name: 'span'
+                                                              :attributes:
+                                                                :class:
+                                                                  - ui-pct
+                                                                  - ui-pct--radius
+                                                                  - ui-pct--status
                                                         - :name: 'h2'
                                                           :children:
                                                             - :name: 'a'
@@ -3054,6 +3056,15 @@
                                                                   - cassette-header-title
                                                                   - js-cassetLinkHref
                                                                 :href: '/ms/shinchiku/tokyo/sc_koto/nc_67714665/'
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette-info
+                                                      :children:
+                                                        - :name: 'span'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-info-accent
                                                     - :name: 'div'
                                                       :attributes:
                                                         :class:
@@ -3770,17 +3781,6 @@
                                                         :class:
                                                           - cassette-header
                                                       :children:
-                                                        - :name: 'p'
-                                                          :attributes:
-                                                            :class:
-                                                              - cassette-header-pct
-                                                          :children:
-                                                            - :name: 'span'
-                                                              :attributes:
-                                                                :class:
-                                                                  - ui-pct
-                                                                  - ui-pct--radius
-                                                                  - ui-pct--status
                                                         - :name: 'h2'
                                                           :children:
                                                             - :name: 'a'
@@ -5164,15 +5164,6 @@
                                                                   - cassette-header-title
                                                                   - js-cassetLinkHref
                                                                 :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67715170/'
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - cassette-info
-                                                      :children:
-                                                        - :name: 'span'
-                                                          :attributes:
-                                                            :class:
-                                                              - cassette-info-accent
                                                     - :name: 'div'
                                                       :attributes:
                                                         :class:
@@ -6254,15 +6245,15 @@
                                                           :children:
                                                             - :name: 'input'
                                                               :attributes:
+                                                                :id: 'ek_000519120'
                                                                 :name: 'rnek'
-                                                                :style: 'display:none'
                                                                 :type: 'checkbox'
                                                                 :value: '000519120'
-                                                            - :name: 'input'
-                                                              :attributes:
-                                                                :disabled: 'disabled'
-                                                                :type: 'checkbox'
                                                             - :name: 'label'
+                                                              :children:
+                                                                - :name: 'a'
+                                                                  :attributes:
+                                                                    :href: '/ms/shinchiku/tokyo/ek_19120/pnz11.html?cn=9999999&et=9999999&kb=1&kj=9&km=1&kt=9999999&mb=0&mt=9999999&pc=30&pj=1&po=0&rn=0005&tj=0'
                                                         - :name: 'li'
                                                           :attributes:
                                                             :class:
@@ -7680,18 +7671,15 @@
                       :children:
                         - :name: 'a'
                           :attributes:
-                            :href: '/jj/common/parts/JJ901FJ901/click?url=6f0022963f1a35b646907427a1327eaf41b577c6e3b670b4459a33a98ae7fd69b41a6c555f50d02e21e13ffdad39ee65f166751ac9731f1718ffd6bba5117de899fa96663593f6aed967a9de42525313c6aa71741e149209&fmlg=b001&ba=20053333 '
+                            :href: '/jj/common/parts/JJ901FJ901/click?url=6f0022963f1a35b646907427a1327eaf41b577c6e3b670b4459a33a98ae7fd69b41a6c555f50d02e21e13ffdad39ee65b717f8535eeffd6b18ffd6bba5117de82d271fa338c5f689d967a9de42525313c6aa71741e149209&fmlg=b001&ba=20052525 '
                           :children:
                             - :name: 'sup'
-                            - :name: 'brillia'
-                              :attributes:
-                                :tower: ''
                     - :name: 'span'
                       :attributes:
                         :class:
                           - dn
                         :id: 'js-banner-msTextBannerAccessPrintUrl'
-                        :rel: '/jj/log/common/JJ700FK003/?ar=030&ba=20053333'
+                        :rel: '/jj/log/common/JJ700FK003/?ar=030&ba=20052525'
                     - :name: 'div'
                       :attributes:
                         :id: 'js-banner-msTextBannerAccessPrint'
@@ -7735,21 +7723,6 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: '/jj/common/parts/JJ901FJ901/click?url=6f0022963f1a35b646907427a1327eaf41b577c6e3b670b4459a33a98ae7fd69b41a6c555f50d02e21e13ffdad39ee65b717f8535eeffd6b18ffd6bba5117de8f41ce35c6a05705fd967a9de42525313c6aa71741e149209&fmlg=b001&ba=20045110 '
-                                      :children:
-                                        - :name: 'img'
-                                          :attributes:
-                                            :alt: 'ガーデンゲート千葉ニュータウン中央'
-                                            :class:
-                                              - ui-thumb
-                                              - ui-thumb--1
-                                            :height: '60'
-                                            :src: 'http://img01.suumo.com/front/gazo/banner/030/N030001/img/10/20045110.gif'
-                                            :width: '115'
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
                                         :href: '/jj/common/parts/JJ901FJ901/click?url=ae6e312dcb5675f086a96a90ab2f7ceddba69ace81b8b589b0018502ac46565711bff9c536d8a85fb50282c2486d803dc6aa71741e149209&fmlg=b001&ba=10029128 '
                                       :children:
                                         - :name: 'img'
@@ -7761,12 +7734,27 @@
                                             :height: '60'
                                             :src: 'http://img01.suumo.com/front/gazo/banner/030/N030001/img/28/10029128.gif'
                                             :width: '115'
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: '/jj/common/parts/JJ901FJ901/click?url=6f0022963f1a35b646907427a1327eaf41b577c6e3b670b4459a33a98ae7fd69b41a6c555f50d02e21e13ffdad39ee65b717f8535eeffd6b18ffd6bba5117de8f41ce35c6a05705fd967a9de42525313c6aa71741e149209&fmlg=b001&ba=20045110 '
+                                      :children:
+                                        - :name: 'img'
+                                          :attributes:
+                                            :alt: 'ガーデンゲート千葉ニュータウン中央'
+                                            :class:
+                                              - ui-thumb
+                                              - ui-thumb--1
+                                            :height: '60'
+                                            :src: 'http://img01.suumo.com/front/gazo/banner/030/N030001/img/10/20045110.gif'
+                                            :width: '115'
                         - :name: 'span'
                           :attributes:
                             :class:
                               - dn
                             :id: 'js-banner-msLotationBannerAccessPrintUrl'
-                            :rel: '/jj/log/common/JJ700FK003/?ar=030&ba=20000220&ba=20045110&ba=10029128'
+                            :rel: '/jj/log/common/JJ700FK003/?ar=030&ba=20000220&ba=10029128&ba=20045110'
                         - :name: 'div'
                           :attributes:
                             :id: 'js-banner-msLotationBannerAccessPrint'

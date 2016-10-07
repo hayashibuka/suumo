@@ -3948,6 +3948,17 @@
                                                         :class:
                                                           - cassette-header
                                                       :children:
+                                                        - :name: 'p'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-header-pct
+                                                          :children:
+                                                            - :name: 'span'
+                                                              :attributes:
+                                                                :class:
+                                                                  - ui-pct
+                                                                  - ui-pct--radius
+                                                                  - ui-pct--status
                                                         - :name: 'h2'
                                                           :children:
                                                             - :name: 'a'
@@ -4680,15 +4691,6 @@
                                                                   - cassette-header-title
                                                                   - js-cassetLinkHref
                                                                 :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67715170/'
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - cassette-info
-                                                      :children:
-                                                        - :name: 'span'
-                                                          :attributes:
-                                                            :class:
-                                                              - cassette-info-accent
                                                     - :name: 'div'
                                                       :attributes:
                                                         :class:
@@ -4906,6 +4908,15 @@
                                                                   - cassette-header-title
                                                                   - js-cassetLinkHref
                                                                 :href: '/ms/shinchiku/tokyo/sc_chiyoda/nc_67715922/'
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - cassette-info
+                                                      :children:
+                                                        - :name: 'span'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-info-accent
                                                     - :name: 'div'
                                                       :attributes:
                                                         :class:
@@ -5170,7 +5181,7 @@
                                                                       - js-scrollLazy
                                                                       - js-adjustImg
                                                                     :height: '202'
-                                                                    :rel: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN001000%2Fimg%2F03%2F67714803%2F67714803_000002.jpg&w=202&h=202'
+                                                                    :rel: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN001000%2Fimg%2F03%2F67714803%2F67714803_000073.jpg&w=202&h=202'
                                                                     :src: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D'
                                                                     :width: '202'
                                                         - :name: 'div'
@@ -7857,13 +7868,13 @@
                       :children:
                         - :name: 'a'
                           :attributes:
-                            :href: '/jj/common/parts/JJ901FJ901/click?url=6f0022963f1a35b646907427a1327eaf41b577c6e3b670b4459a33a98ae7fd69b41a6c555f50d02e2689721cc45b5d44958620d5f6bfa2ebfcf2d6507c881858&fmlg=b001&ba=20053128 '
+                            :href: '/jj/common/parts/JJ901FJ901/click?url=6f0022963f1a35b646907427a1327eaf41b577c6e3b670b4459a33a98ae7fd69b41a6c555f50d02e2689721cc45b5d44e44341cd9f8fa9fafcf2d6507c881858&fmlg=b001&ba=20058153 '
                     - :name: 'span'
                       :attributes:
                         :class:
                           - dn
                         :id: 'js-banner-msTextBannerAccessPrintUrl'
-                        :rel: '/jj/log/common/JJ700FK003/?ar=030&ba=20053128'
+                        :rel: '/jj/log/common/JJ700FK003/?ar=030&ba=20058153'
                     - :name: 'div'
                       :attributes:
                         :id: 'js-banner-msTextBannerAccessPrint'
@@ -7887,6 +7898,21 @@
                           :children:
                             - :name: 'ul'
                               :children:
+                                - :name: 'li'
+                                  :children:
+                                    - :name: 'a'
+                                      :attributes:
+                                        :href: '/jj/common/parts/JJ901FJ901/click?url=ae6e312dcb5675f086a96a90ab2f7ceddba69ace81b8b589b0018502ac46565711bff9c536d8a85fb50282c2486d803dc6aa71741e149209&fmlg=b001&ba=10029128 '
+                                      :children:
+                                        - :name: 'img'
+                                          :attributes:
+                                            :alt: ''
+                                            :class:
+                                              - ui-thumb
+                                              - ui-thumb--1
+                                            :height: '60'
+                                            :src: 'http://img01.suumo.com/front/gazo/banner/030/N030001/img/28/10029128.gif'
+                                            :width: '115'
                                 - :name: 'li'
                                   :children:
                                     - :name: 'a'
@@ -7918,27 +7944,12 @@
                                             :height: '60'
                                             :src: 'http://img01.suumo.com/front/gazo/banner/030/N030001/img/10/20045110.gif'
                                             :width: '115'
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :href: '/jj/common/parts/JJ901FJ901/click?url=ae6e312dcb5675f086a96a90ab2f7ceddba69ace81b8b589b0018502ac46565711bff9c536d8a85fb50282c2486d803dc6aa71741e149209&fmlg=b001&ba=10029128 '
-                                      :children:
-                                        - :name: 'img'
-                                          :attributes:
-                                            :alt: ''
-                                            :class:
-                                              - ui-thumb
-                                              - ui-thumb--1
-                                            :height: '60'
-                                            :src: 'http://img01.suumo.com/front/gazo/banner/030/N030001/img/28/10029128.gif'
-                                            :width: '115'
                         - :name: 'span'
                           :attributes:
                             :class:
                               - dn
                             :id: 'js-banner-msLotationBannerAccessPrintUrl'
-                            :rel: '/jj/log/common/JJ700FK003/?ar=030&ba=20000220&ba=20045110&ba=10029128'
+                            :rel: '/jj/log/common/JJ700FK003/?ar=030&ba=10029128&ba=20000220&ba=20045110'
                         - :name: 'div'
                           :attributes:
                             :id: 'js-banner-msLotationBannerAccessPrint'
