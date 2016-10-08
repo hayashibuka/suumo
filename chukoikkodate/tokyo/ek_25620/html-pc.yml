@@ -2452,6 +2452,20 @@
                                                 :class:
                                                   - property_unit-header
                                               :children:
+                                                - :name: 'ul'
+                                                  :attributes:
+                                                    :class:
+                                                      - property_unit-pcts
+                                                      - ui-list--hz
+                                                  :children:
+                                                    - :name: 'li'
+                                                      :children:
+                                                        - :name: 'span'
+                                                          :attributes:
+                                                            :class:
+                                                              - ui-label
+                                                              - ui-label--cta1
+                                                              - ui-label--cta4
                                                 - :name: 'h2'
                                                   :attributes:
                                                     :class:
@@ -7957,44 +7971,6 @@
                                     :class:
                                       - ui-media
                                       - mediabox
-                                    :href: '/chukoikkodate/tokyo/sc_itabashi/nc_86908475/?fmlg=bo001'
-                                  :children:
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - ui-media-object
-                                          - mediabox-object
-                                      :children:
-                                        - :name: 'img'
-                                          :attributes:
-                                            :alt: ''
-                                            :class:
-                                              - ui-thumb
-                                              - ui-thumb--1
-                                              - js-noContextMenu
-                                            :height: '50'
-                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F475%2F86908475%2F86908475_0002.jpg&w=70&h=50'
-                                            :width: '70'
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - ui-media-body
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - mediabox-title
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - mediabox-desc
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :class:
-                                      - ui-media
-                                      - mediabox
                                     :href: '/chukoikkodate/tokyo/sc_bunkyo/nc_86552793/?fmlg=bo001'
                                   :children:
                                     - :name: 'div'
@@ -8033,7 +8009,7 @@
                                     :class:
                                       - ui-media
                                       - mediabox
-                                    :href: '/chukoikkodate/tokyo/sc_adachi/nc_86865033/?fmlg=bo001'
+                                    :href: '/chukoikkodate/tokyo/sc_itabashi/nc_86908475/?fmlg=bo001'
                                   :children:
                                     - :name: 'div'
                                       :attributes:
@@ -8049,7 +8025,7 @@
                                               - ui-thumb--1
                                               - js-noContextMenu
                                             :height: '50'
-                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F033%2F86865033%2F86865033_0024.jpg&w=70&h=50'
+                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F475%2F86908475%2F86908475_0002.jpg&w=70&h=50'
                                             :width: '70'
                                     - :name: 'div'
                                       :attributes:
@@ -8088,6 +8064,44 @@
                                               - js-noContextMenu
                                             :height: '50'
                                             :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F356%2F87003356%2F87003356_0002.jpg&w=70&h=50'
+                                            :width: '70'
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - ui-media-body
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - mediabox-title
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - mediabox-desc
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - ui-media
+                                      - mediabox
+                                    :href: '/chukoikkodate/tokyo/sc_adachi/nc_86865033/?fmlg=bo001'
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - ui-media-object
+                                          - mediabox-object
+                                      :children:
+                                        - :name: 'img'
+                                          :attributes:
+                                            :alt: ''
+                                            :class:
+                                              - ui-thumb
+                                              - ui-thumb--1
+                                              - js-noContextMenu
+                                            :height: '50'
+                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F033%2F86865033%2F86865033_0024.jpg&w=70&h=50'
                                             :width: '70'
                                     - :name: 'div'
                                       :attributes:
@@ -8143,12 +8157,12 @@
                                       - shadowbtn
                                       - topcomaselebox
                                       - topcomaselebox--multiline
-                                    :href: '/jj/tokushu/ichiran/JJ900FJ001?ar=030&bs=021&tm=D3ksl006&hd=D3ksl006&ta=13'
+                                    :href: '/jj/tokushu/ichiran/JJ900FJ001?ar=030&bs=021&tm=D3ksl005&hd=D3ksl005&ta=13'
                                   :children:
                                     - :name: 'span'
                                       :attributes:
                                         :class:
-                                          - ui-icon--comaselection26
+                                          - ui-icon--comaselection51
                                     - :name: 'span'
                                       :attributes:
                                         :class:
@@ -8163,12 +8177,12 @@
                                       - shadowbtn
                                       - topcomaselebox
                                       - topcomaselebox--multiline
-                                    :href: '/jj/tokushu/ichiran/JJ900FJ001?ar=030&bs=021&tm=D3ksl000&hd=D3ksl000&ta=13'
+                                    :href: '/jj/tokushu/ichiran/JJ900FJ001?ar=030&bs=021&tm=D3ksl010&hd=D3ksl010&ta=13'
                                   :children:
                                     - :name: 'span'
                                       :attributes:
                                         :class:
-                                          - ui-icon--comaselection30
+                                          - ui-icon--comaselection58
                                     - :name: 'span'
                                       :attributes:
                                         :class:
@@ -8183,12 +8197,12 @@
                                       - shadowbtn
                                       - topcomaselebox
                                       - topcomaselebox--multiline
-                                    :href: '/jj/tokushu/ichiran/JJ900FJ001?ar=030&bs=021&tm=D3ksl007&hd=D3ksl007&ta=13'
+                                    :href: '/jj/tokushu/ichiran/JJ900FJ001?ar=030&bs=021&tm=D3ksl009&hd=D3ksl009&ta=13'
                                   :children:
                                     - :name: 'span'
                                       :attributes:
                                         :class:
-                                          - ui-icon--comaselection33
+                                          - ui-icon--comaselection53
                                     - :name: 'span'
                                       :attributes:
                                         :class:
@@ -8203,12 +8217,12 @@
                                       - shadowbtn
                                       - topcomaselebox
                                       - topcomaselebox--multiline
-                                    :href: '/jj/tokushu/ichiran/JJ900FJ001?ar=030&bs=021&tm=D3ksl002&hd=D3ksl002&ta=13'
+                                    :href: '/jj/tokushu/ichiran/JJ900FJ001?ar=030&bs=021&tm=D3ksl003&hd=D3ksl003&ta=13'
                                   :children:
                                     - :name: 'span'
                                       :attributes:
                                         :class:
-                                          - ui-icon--comaselection66
+                                          - ui-icon--comaselection37
                                     - :name: 'span'
                                       :attributes:
                                         :class:
@@ -9439,13 +9453,13 @@
                     :id: 'jsiTextBannerUrl'
                     :name: 'text_banner_url'
                     :type: 'hidden'
-                    :value: '/jj/common/parts/JJ901FJ901/?ar=030&ra=030013&rn=0005&kkkKoseiCd=N030011&dc=3&styleKbn=1&times=1475856480132'
+                    :value: '/jj/common/parts/JJ901FJ901/?ar=030&ra=030013&rn=0005&kkkKoseiCd=N030011&dc=3&styleKbn=1&times=1475942921887'
                 - :name: 'input'
                   :attributes:
                     :id: 'jsiLotationBannerUrl'
                     :name: 'lotation_banner_url'
                     :type: 'hidden'
-                    :value: '/jj/common/parts/JJ901FJ901/?ar=030&kkkKoseiCd=N030010&dc=6&styleKbn=1&times=1475856480132'
+                    :value: '/jj/common/parts/JJ901FJ901/?ar=030&kkkKoseiCd=N030010&dc=6&styleKbn=1&times=1475942921887'
         - :name: 'div'
           :attributes:
             :class:

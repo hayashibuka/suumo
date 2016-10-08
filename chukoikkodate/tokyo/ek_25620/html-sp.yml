@@ -1553,10 +1553,10 @@
                                                 :data-areacd: '030'
                                                 :data-bc: '87001999'
                                                 :data-bukken-cd: '87001999'
-                                                :data-bukken_nm: '竹の塚３（竹ノ塚駅） 3280万円'
+                                                :data-bukken_nm: '竹の塚３（竹ノ塚駅） 3190万円'
                                                 :data-chikugonensu: '21'
                                                 :data-choson: '竹の塚'
-                                                :data-kakaku: '3280万円'
+                                                :data-kakaku: '3190万円'
                                                 :data-kanigazo: 'http://suumo.jp/front/gazo/bukken/030/N010000/img/999/87001999/87001999_0036.jpg'
                                                 :data-kanrihi: '-'
                                                 :data-kotsu: '東武伊勢崎線「竹ノ塚」歩10分'
@@ -1599,7 +1599,7 @@
                                                               - loader
                                                         - :name: 'img'
                                                           :attributes:
-                                                            :alt: '竹の塚３（竹ノ塚駅） 3280万円'
+                                                            :alt: '竹の塚３（竹ノ塚駅） 3190万円'
                                                             :data-src: 'https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F999%2F87001999%2F87001999_0036.jpg&w=200'
                                                             :style: 'display: none;'
                                                 - :name: 'table'
@@ -1690,6 +1690,15 @@
                                                                   :attributes:
                                                                     :class:
                                                                       - pctMovie
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - pctUpWrapper
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - pctUp
                                     - :name: 'div'
                                       :attributes:
                                         :class:

@@ -702,13 +702,13 @@
                                                 :data-chikugonensu: '0'
                                                 :data-choson: '豊洲'
                                                 :data-hanbaiki: '先着順'
-                                                :data-kakaku: '6260万円～9170万円'
+                                                :data-kakaku: '7190万円～9010万円'
                                                 :data-kanigazo: 'http://suumo.jp/front/gazo/bukken/030/N001000/img/48/67712348/67712348_000215.jpg'
-                                                :data-kanrihi: '1万7190円～2万2970円／月'
+                                                :data-kanrihi: '1万7890円～2万2970円／月'
                                                 :data-kotsu: '東京メトロ有楽町線「豊洲」歩5分'
                                                 :data-krsnetid: ''
-                                                :data-madori: '2LDK～4LDK'
-                                                :data-menseki: '64.87m²～86.68m²'
+                                                :data-madori: '1LDK～4LDK'
+                                                :data-menseki: '67.51m²～86.68m²'
                                                 :data-nyukyojiki: '2017年4月上旬予定'
                                                 :data-project_cd: '67712348'
                                                 :data-reikin: '-'
@@ -768,7 +768,7 @@
                                                                 :class:
                                                                   - price
                                                                   - infoWarp-detail
-                                                                  - 
+                                                                  - ribbonClass
                                                                 :colspan: '2'
                                                         - :name: 'tr'
                                                           :children:
@@ -816,6 +816,15 @@
                                                   :attributes:
                                                     :class:
                                                       - access
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - pctNewWrapper
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - pctUpdate
                                     - :name: 'div'
                                       :attributes:
                                         :class:
@@ -2404,7 +2413,7 @@
                                                                 :class:
                                                                   - price
                                                                   - infoWarp-detail
-                                                                  - 
+                                                                  - ribbonClass
                                                                 :colspan: '2'
                                                         - :name: 'tr'
                                                           :children:
@@ -2452,6 +2461,15 @@
                                                   :attributes:
                                                     :class:
                                                       - access
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - pctNewWrapper
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - pctSalesStart
                                     - :name: 'div'
                                       :attributes:
                                         :class:
@@ -2587,7 +2605,7 @@
                                                                 :class:
                                                                   - price
                                                                   - infoWarp-detail
-                                                                  - 
+                                                                  - ribbonClass
                                                                 :colspan: '2'
                                                         - :name: 'tr'
                                                           :children:
@@ -2635,10 +2653,24 @@
                                                   :attributes:
                                                     :class:
                                                       - access
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - pctNewWrapper
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - pctUpdate
                                     - :name: 'div'
                                       :attributes:
                                         :class:
                                           - innerfoot
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - innerfoot-text
                                 - :name: 'li'
                                   :children:
                                     - :name: 'div'

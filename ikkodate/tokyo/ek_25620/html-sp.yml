@@ -3327,7 +3327,7 @@
                                                 :data-chikugonensu: '1'
                                                 :data-choson: '梅田'
                                                 :data-kakaku: '3798万円～3838万円'
-                                                :data-kanigazo: 'http://suumo.jp/front/gazo/bukken/030/N010000/img/369/87064369/87064369_0015.jpg'
+                                                :data-kanigazo: 'http://suumo.jp/front/gazo/bukken/030/N010000/img/369/87064369/87064369_0059.jpg'
                                                 :data-kanrihi: '-'
                                                 :data-kotsu: '東武伊勢崎線「五反野」歩11分'
                                                 :data-krsnetid: 't14547700101'
@@ -3374,8 +3374,7 @@
                                                             :alt: '梅田１（五反野駅） 3798万円～3838万円'
                                                             :class:
                                                               - kaniImg
-                                                            :data-madori-flg: '1'
-                                                            :data-src: 'https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F369%2F87064369%2F87064369_0015.jpg&w=200'
+                                                            :data-src: 'https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F369%2F87064369%2F87064369_0059.jpg&w=200'
                                                             :style: 'display: none;'
                                                 - :name: 'table'
                                                   :attributes:
@@ -3446,6 +3445,17 @@
                                                                       :attributes:
                                                                         :class:
                                                                           - houseMenseki
+                                                        - :name: 'tr'
+                                                          :children:
+                                                            - :name: 'td'
+                                                              :attributes:
+                                                                :class:
+                                                                  - infoPictWrap
+                                                              :children:
+                                                                - :name: 'span'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - pctMovie
                                             - :name: 'div'
                                               :attributes:
                                                 :class:

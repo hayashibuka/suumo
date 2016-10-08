@@ -4035,17 +4035,6 @@
                                                         :class:
                                                           - cassette-header
                                                       :children:
-                                                        - :name: 'p'
-                                                          :attributes:
-                                                            :class:
-                                                              - cassette-header-pct
-                                                          :children:
-                                                            - :name: 'span'
-                                                              :attributes:
-                                                                :class:
-                                                                  - ui-pct
-                                                                  - ui-pct--radius
-                                                                  - ui-pct--status
                                                         - :name: 'h2'
                                                           :children:
                                                             - :name: 'a'
@@ -5178,7 +5167,7 @@
                                                                       - js-scrollLazy
                                                                       - js-adjustImg
                                                                     :height: '202'
-                                                                    :rel: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN001000%2Fimg%2F52%2F67707852%2F67707852_000365.jpg&w=202&h=202'
+                                                                    :rel: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN001000%2Fimg%2F52%2F67707852%2F67707852_000381.jpg&w=202&h=202'
                                                                     :src: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D'
                                                                     :width: '202'
                                                         - :name: 'div'
@@ -5497,6 +5486,17 @@
                                                         :class:
                                                           - cassette-header
                                                       :children:
+                                                        - :name: 'p'
+                                                          :attributes:
+                                                            :class:
+                                                              - cassette-header-pct
+                                                          :children:
+                                                            - :name: 'span'
+                                                              :attributes:
+                                                                :class:
+                                                                  - ui-pct
+                                                                  - ui-pct--radius
+                                                                  - ui-pct--status
                                                         - :name: 'h2'
                                                           :children:
                                                             - :name: 'a'
@@ -11673,15 +11673,15 @@
                                                           :children:
                                                             - :name: 'input'
                                                               :attributes:
-                                                                :id: 'ek_000520110'
                                                                 :name: 'rnek'
+                                                                :style: 'display:none'
                                                                 :type: 'checkbox'
                                                                 :value: '000520110'
+                                                            - :name: 'input'
+                                                              :attributes:
+                                                                :disabled: 'disabled'
+                                                                :type: 'checkbox'
                                                             - :name: 'label'
-                                                              :children:
-                                                                - :name: 'a'
-                                                                  :attributes:
-                                                                    :href: '/ms/shinchiku/tokyo/ek_20110/pnz11.html?cn=9999999&et=9999999&kb=1&kj=9&km=1&kt=9999999&mb=0&mt=9999999&pc=30&pj=1&po=0&rn=0005&tj=0'
                                                         - :name: 'li'
                                                           :attributes:
                                                             :class:
@@ -13249,13 +13249,13 @@
                       :children:
                         - :name: 'a'
                           :attributes:
-                            :href: '/jj/common/parts/JJ901FJ901/click?url=6f0022963f1a35b646907427a1327eaf41b577c6e3b670b4459a33a98ae7fd69b41a6c555f50d02e2689721cc45b5d448566494b96d238bffcf2d6507c881858&fmlg=b001&ba=20054752 '
+                            :href: '/jj/common/parts/JJ901FJ901/click?url=6f0022963f1a35b646907427a1327eaf41b577c6e3b670b4459a33a98ae7fd69b41a6c555f50d02e2689721cc45b5d44e44341cd9f8fa9fafcf2d6507c881858&fmlg=b001&ba=20058160 '
                     - :name: 'span'
                       :attributes:
                         :class:
                           - dn
                         :id: 'js-banner-msTextBannerAccessPrintUrl'
-                        :rel: '/jj/log/common/JJ700FK003/?ar=030&ba=20054752'
+                        :rel: '/jj/log/common/JJ700FK003/?ar=030&ba=20058160'
                     - :name: 'div'
                       :attributes:
                         :id: 'js-banner-msTextBannerAccessPrint'
