@@ -3159,13 +3159,9 @@
                                                                                         :class:
                                                                                           - js-checkSingle
                                                                                           - js-checkEkiError
-                                                                                        :id: 'kaishaBox015_rn0075'
-                                                                                        :name: 'rn'
+                                                                                        :disabled: 'disabled'
                                                                                         :type: 'checkbox'
-                                                                                        :value: '0075'
                                                                                     - :name: 'label'
-                                                                                      :attributes:
-                                                                                        :for: 'kaishaBox015_rn0075'
                                                                                       :children:
                                                                                         - :name: 'span'
                                                                                           :attributes:
@@ -5139,9 +5135,6 @@
                                             :href: '/tochi/tokyo/en_tokyomonorail/'
                                         - :name: 'a'
                                           :attributes:
-                                            :href: '/tochi/tokyo/en_shinkotsuyurikamome/'
-                                        - :name: 'a'
-                                          :attributes:
                                             :href: '/tochi/tokyo/en_saitamakosokutetsudosen/'
                                         - :name: 'a'
                                           :attributes:
@@ -5564,13 +5557,13 @@
                 :id: 'jsiLotationBannerUrl'
                 :name: 'lotation_banner_url'
                 :type: 'hidden'
-                :value: '/jj/common/parts/JJ901FJ901/?ar=030&kkkKoseiCd=N030010&dc=6&styleKbn=1&times=1475942937077'
+                :value: '/jj/common/parts/JJ901FJ901/?ar=030&kkkKoseiCd=N030010&dc=6&styleKbn=1&times=1476029250136'
             - :name: 'input'
               :attributes:
                 :id: 'jsiTextBannerUrl'
                 :name: 'text_banner_url'
                 :type: 'hidden'
-                :value: '/jj/common/parts/JJ901FJ901/?ar=030&ra=030013&kkkKoseiCd=N030011&dc=1&styleKbn=1&times=1475942937078'
+                :value: '/jj/common/parts/JJ901FJ901/?ar=030&ra=030013&kkkKoseiCd=N030011&dc=1&styleKbn=1&times=1476029250136'
         - :name: 'script'
           :attributes:
             :type: 'text/javascript'

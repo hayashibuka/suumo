@@ -3455,52 +3455,7 @@
                             - :name: 'div'
                               :attributes:
                                 :class:
-                                  - ui-section--subitem
-                                  - subitem
-                                  - subitem--t
-                                  - dn
-                                :id: 'targetingR01'
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - ui-section-header
-                                  :children:
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - ui-section-subtitle
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - ui-section-body
-                                  :children:
-                                    - :name: 'ul'
-                                      :attributes:
-                                        :class:
-                                          - subitemlistv
-                                          - subitemlistv--line
-                                      :children:
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - dn
-                                            :id: 'targetingR01_1'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - dn
-                                            :id: 'targetingR01_2'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - dn
-                                            :id: 'targetingR01_3'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
                                   - subitemlistvbox
-                                :id: 'js-fixBanner'
                               :children:
                                 - :name: 'ul'
                                   :attributes:
@@ -3524,61 +3479,111 @@
                                         :class:
                                           - dn
                                         :id: 'targetingR02_3'
-                                    - :name: 'li'
+                            - :name: 'div'
+                              :attributes:
+                                :class:
+                                  - subitemlistvbox
+                                :id: 'js-fixBanner'
+                              :children:
+                                - :name: 'div'
+                                  :attributes:
+                                    :class:
+                                      - ui-section--subitem
+                                      - subitem
+                                      - subitem--t
+                                      - dn
+                                    :id: 'targetingR01'
+                                  :children:
+                                    - :name: 'div'
                                       :attributes:
                                         :class:
-                                          - dn
-                                        :id: 'targetingR02_4'
-                                    - :name: 'li'
+                                          - ui-section-header
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - ui-section-subtitle
+                                    - :name: 'div'
                                       :attributes:
                                         :class:
-                                          - dn
-                                        :id: 'targetingR02_5'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - dn
-                                        :id: 'targetingR02_6'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - dn
-                                        :id: 'targetingR02_7'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - dn
-                                        :id: 'targetingR02_8'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - dn
-                                        :id: 'targetingR02_9'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - dn
-                                        :id: 'targetingR02_10'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - dn
-                                        :id: 'targetingR02_11'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - dn
-                                        :id: 'targetingR02_12'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - dn
-                                        :id: 'targetingR02_13'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - dn
-                                        :id: 'targetingR02_14'
+                                          - ui-section-body
+                                      :children:
+                                        - :name: 'ul'
+                                          :attributes:
+                                            :class:
+                                              - subitemlistv
+                                              - subitemlistv--line
+                                          :children:
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_1'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_2'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_3'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_4'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_5'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_6'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_7'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_8'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_9'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_10'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_11'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_12'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_13'
+                                            - :name: 'li'
+                                              :attributes:
+                                                :class:
+                                                  - dn
+                                                :id: 'targetingR01_14'
             - :name: 'div'
               :attributes:
                 :class:
@@ -3643,44 +3648,6 @@
                                     :class:
                                       - ui-media
                                       - mediabox
-                                    :href: '/ikkodate/tokyo/sc_taito/nc_86874164/?fmlg=bo001'
-                                  :children:
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - ui-media-object
-                                          - mediabox-object
-                                      :children:
-                                        - :name: 'img'
-                                          :attributes:
-                                            :alt: ''
-                                            :class:
-                                              - ui-thumb
-                                              - ui-thumb--1
-                                              - js-noContextMenu
-                                            :height: '50'
-                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F164%2F86874164%2F86874164_0009.jpg&w=70&h=50'
-                                            :width: '70'
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - ui-media-body
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - mediabox-title
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - mediabox-desc
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :class:
-                                      - ui-media
-                                      - mediabox
                                     :href: '/ikkodate/tokyo/sc_minato/nc_86648939/?fmlg=bo001'
                                   :children:
                                     - :name: 'div'
@@ -3719,6 +3686,44 @@
                                     :class:
                                       - ui-media
                                       - mediabox
+                                    :href: '/ikkodate/tokyo/sc_taito/nc_86874164/?fmlg=bo001'
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - ui-media-object
+                                          - mediabox-object
+                                      :children:
+                                        - :name: 'img'
+                                          :attributes:
+                                            :alt: ''
+                                            :class:
+                                              - ui-thumb
+                                              - ui-thumb--1
+                                              - js-noContextMenu
+                                            :height: '50'
+                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F164%2F86874164%2F86874164_0009.jpg&w=70&h=50'
+                                            :width: '70'
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - ui-media-body
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - mediabox-title
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - mediabox-desc
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - ui-media
+                                      - mediabox
                                     :href: '/ikkodate/tokyo/sc_taito/nc_86864545/?fmlg=bo001'
                                   :children:
                                     - :name: 'div'
@@ -3736,6 +3741,44 @@
                                               - js-noContextMenu
                                             :height: '50'
                                             :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F545%2F86864545%2F86864545_0018.jpg&w=70&h=50'
+                                            :width: '70'
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - ui-media-body
+                                      :children:
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - mediabox-title
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - mediabox-desc
+                            - :name: 'li'
+                              :children:
+                                - :name: 'a'
+                                  :attributes:
+                                    :class:
+                                      - ui-media
+                                      - mediabox
+                                    :href: '/ikkodate/tokyo/sc_bunkyo/nc_86956407/?fmlg=bo001'
+                                  :children:
+                                    - :name: 'div'
+                                      :attributes:
+                                        :class:
+                                          - ui-media-object
+                                          - mediabox-object
+                                      :children:
+                                        - :name: 'img'
+                                          :attributes:
+                                            :alt: ''
+                                            :class:
+                                              - ui-thumb
+                                              - ui-thumb--1
+                                              - js-noContextMenu
+                                            :height: '50'
+                                            :src: 'http://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F407%2F86956407%2F86956407_0005.jpg&w=70&h=50'
                                             :width: '70'
                                     - :name: 'div'
                                       :attributes:
@@ -4196,7 +4239,7 @@
                                                 :class:
                                                   - ui-media
                                                   - mediabox
-                                                :href: '/ikkodate/tokyo/sc_katsushika/nc_86573627/?fmlg2=r014'
+                                                :href: '/ikkodate/tokyo/sc_hachioji/nc_86998541/?fmlg2=r014'
                                               :children:
                                                 - :name: 'div'
                                                   :attributes:
@@ -4206,12 +4249,12 @@
                                                   :children:
                                                     - :name: 'img'
                                                       :attributes:
-                                                        :alt: '葛飾区西水元３丁目 新築一戸建て／全２棟'
+                                                        :alt: '【New】【さつき野台224期】八王子市大谷町◇全7棟◇'
                                                         :class:
                                                           - ui-thumb
                                                           - ui-thumb--1
                                                           - js-noContextMenu
-                                                        :src: 'http://img01.suumo.com/jj/resizeImage?src=%2Fgazo%2Fbukken%2F030%2FN010000%2Fimg%2F627%2F86573627%2F86573627_0016.jpg&w=110&h=80'
+                                                        :src: 'http://img01.suumo.com/jj/resizeImage?src=%2Fgazo%2Fbukken%2F030%2FN010000%2Fimg%2F541%2F86998541%2F86998541_1725.jpg&w=110&h=80'
                                                 - :name: 'div'
                                                   :attributes:
                                                     :class:
@@ -4229,6 +4272,7 @@
                                                         - :name: 'div'
                                                           :children:
                                                             - :name: 'sup'
+                                                            - :name: 'sup'
                                                         - :name: 'div'
                                                         - :name: 'div'
                                     - :name: 'li'
@@ -4244,7 +4288,7 @@
                                                 :class:
                                                   - ui-media
                                                   - mediabox
-                                                :href: '/ikkodate/tokyo/sc_fuchu/nc_86606236/?fmlg2=r014'
+                                                :href: '/ikkodate/tokyo/sc_fuchu/nc_87050903/?fmlg2=r014'
                                               :children:
                                                 - :name: 'div'
                                                   :attributes:
@@ -4254,12 +4298,12 @@
                                                   :children:
                                                     - :name: 'img'
                                                       :attributes:
-                                                        :alt: '☆飯田産業☆　限定2棟　府中四谷３丁目　～ついに、最終１邸☆　～'
+                                                        :alt: '『憧れの街♪　府中ではじめる新生活』　～分倍河原駅徒歩４分　新築戸建て～'
                                                         :class:
                                                           - ui-thumb
                                                           - ui-thumb--1
                                                           - js-noContextMenu
-                                                        :src: 'http://img01.suumo.com/jj/resizeImage?src=%2Fgazo%2Fbukken%2F030%2FN010000%2Fimg%2F236%2F86606236%2F86606236_0087.jpg&w=110&h=80'
+                                                        :src: 'http://img01.suumo.com/jj/resizeImage?src=%2Fgazo%2Fbukken%2F030%2FN010000%2Fimg%2F903%2F87050903%2F87050903_0009.jpg&w=110&h=80'
                                                 - :name: 'div'
                                                   :attributes:
                                                     :class:
@@ -4299,7 +4343,7 @@
                                                 :class:
                                                   - ui-media
                                                   - mediabox
-                                                :href: '/ikkodate/tokyo/sc_machida/nc_87009381/?fmlg2=r014'
+                                                :href: '/ikkodate/tokyo/sc_setagaya/nc_86727842/?fmlg2=r014'
                                               :children:
                                                 - :name: 'div'
                                                   :attributes:
@@ -4309,12 +4353,12 @@
                                                   :children:
                                                     - :name: 'img'
                                                       :attributes:
-                                                        :alt: '■全棟Ｐ２台OK！駅まで平坦で全８棟の新しい街並み～第１期堂々完成～見学会開催'
+                                                        :alt: '深沢の静穏な邸宅街に佇む、「ゆとり」をカタチにした住まい'
                                                         :class:
                                                           - ui-thumb
                                                           - ui-thumb--1
                                                           - js-noContextMenu
-                                                        :src: 'http://img01.suumo.com/jj/resizeImage?src=%2Fgazo%2Fbukken%2F030%2FN010000%2Fimg%2F381%2F87009381%2F87009381_0011.jpg&w=110&h=80'
+                                                        :src: 'http://img01.suumo.com/jj/resizeImage?src=%2Fgazo%2Fbukken%2F030%2FN010000%2Fimg%2F842%2F86727842%2F86727842_0016.jpg&w=110&h=80'
                                                 - :name: 'div'
                                                   :attributes:
                                                     :class:
@@ -4332,7 +4376,6 @@
                                                         - :name: 'div'
                                                           :children:
                                                             - :name: 'sup'
-                                                            - :name: 'sup'
                                                         - :name: 'div'
                                                         - :name: 'div'
                                     - :name: 'li'
@@ -4348,7 +4391,7 @@
                                                 :class:
                                                   - ui-media
                                                   - mediabox
-                                                :href: '/ikkodate/tokyo/sc_machida/nc_87034450/?fmlg2=r014'
+                                                :href: '/ikkodate/tokyo/sc_higashimurayama/nc_86806273/?fmlg2=r014'
                                               :children:
                                                 - :name: 'div'
                                                   :attributes:
@@ -4358,12 +4401,12 @@
                                                   :children:
                                                     - :name: 'img'
                                                       :attributes:
-                                                        :alt: '～JR横浜線「成瀬」駅　徒歩9分。～【金森東3丁目】'
+                                                        :alt: '【東証一部上場グローバル社グループの新築戸建】キャスティア東村山市野口町'
                                                         :class:
                                                           - ui-thumb
                                                           - ui-thumb--1
                                                           - js-noContextMenu
-                                                        :src: 'http://img01.suumo.com/jj/resizeImage?src=%2Fgazo%2Fbukken%2F030%2FN010000%2Fimg%2F450%2F87034450%2F87034450_0182.jpg&w=110&h=80'
+                                                        :src: 'http://img01.suumo.com/jj/resizeImage?src=%2Fgazo%2Fbukken%2F030%2FN010000%2Fimg%2F273%2F86806273%2F86806273_0008.jpg&w=110&h=80'
                                                 - :name: 'div'
                                                   :attributes:
                                                     :class:
@@ -4404,7 +4447,7 @@
                                                 :class:
                                                   - ui-media
                                                   - mediabox
-                                                :href: '/ikkodate/tokyo/sc_hino/nc_86780687/?fmlg2=r014'
+                                                :href: '/ikkodate/tokyo/sc_higashimurayama/nc_86655876/?fmlg2=r014'
                                               :children:
                                                 - :name: 'div'
                                                   :attributes:
@@ -4414,12 +4457,12 @@
                                                   :children:
                                                     - :name: 'img'
                                                       :attributes:
-                                                        :alt: '『Open Style Kitchen』　～日野駅まで平坦14分、19畳リビングと暮らす、LUXURY LIFE～'
+                                                        :alt: '◆ハウスナビが未来の住まいをナビゲーション◆　　東村山市廻田町　新築戸建　全５棟'
                                                         :class:
                                                           - ui-thumb
                                                           - ui-thumb--1
                                                           - js-noContextMenu
-                                                        :src: 'http://img01.suumo.com/jj/resizeImage?src=%2Fgazo%2Fbukken%2F030%2FN010000%2Fimg%2F687%2F86780687%2F86780687_0013.jpg&w=110&h=80'
+                                                        :src: 'http://img01.suumo.com/jj/resizeImage?src=%2Fgazo%2Fbukken%2F030%2FN010000%2Fimg%2F876%2F86655876%2F86655876_0052.jpg&w=110&h=80'
                                                 - :name: 'div'
                                                   :attributes:
                                                     :class:
@@ -4437,6 +4480,7 @@
                                                         - :name: 'div'
                                                           :children:
                                                             - :name: 'sup'
+                                                            - :name: 'sup'
                                                         - :name: 'div'
                                                         - :name: 'div'
                                     - :name: 'li'
@@ -4452,7 +4496,7 @@
                                                 :class:
                                                   - ui-media
                                                   - mediabox
-                                                :href: '/ikkodate/tokyo/sc_kodaira/nc_86657078/?fmlg2=r014'
+                                                :href: '/ikkodate/tokyo/sc_ota/nc_86646890/?fmlg2=r014'
                                               :children:
                                                 - :name: 'div'
                                                   :attributes:
@@ -4462,12 +4506,12 @@
                                                   :children:
                                                     - :name: 'img'
                                                       :attributes:
-                                                        :alt: '最終２棟♪△▼地震に強い飯田のいい家　ハートフルタウン小平市小川町１丁目飯田産業の物件は我々にお任せく...'
+                                                        :alt: '【リビングライフ】現地販売会開催中♪　中央７丁目　南東道路に面し日当たり良好！'
                                                         :class:
                                                           - ui-thumb
                                                           - ui-thumb--1
                                                           - js-noContextMenu
-                                                        :src: 'http://img01.suumo.com/jj/resizeImage?src=%2Fgazo%2Fbukken%2F030%2FN010000%2Fimg%2F078%2F86657078%2F86657078_0049.jpg&w=110&h=80'
+                                                        :src: 'http://img01.suumo.com/jj/resizeImage?src=%2Fgazo%2Fbukken%2F030%2FN010000%2Fimg%2F890%2F86646890%2F86646890_0001.jpg&w=110&h=80'
                                                 - :name: 'div'
                                                   :attributes:
                                                     :class:
@@ -4974,13 +5018,13 @@
                     :id: 'jsiTextBannerUrl'
                     :name: 'text_banner_url'
                     :type: 'hidden'
-                    :value: '/jj/common/parts/JJ901FJ901/?ar=030&ta=13&sc=13101&kkkKoseiCd=N030011&dc=3&styleKbn=1&times=1475942846866'
+                    :value: '/jj/common/parts/JJ901FJ901/?ar=030&ta=13&sc=13101&kkkKoseiCd=N030011&dc=3&styleKbn=1&times=1476029184251'
                 - :name: 'input'
                   :attributes:
                     :id: 'jsiLotationBannerUrl'
                     :name: 'lotation_banner_url'
                     :type: 'hidden'
-                    :value: '/jj/common/parts/JJ901FJ901/?ar=030&kkkKoseiCd=N030010&dc=6&styleKbn=1&times=1475942846866'
+                    :value: '/jj/common/parts/JJ901FJ901/?ar=030&kkkKoseiCd=N030010&dc=6&styleKbn=1&times=1476029184252'
         - :name: 'div'
           :attributes:
             :class:

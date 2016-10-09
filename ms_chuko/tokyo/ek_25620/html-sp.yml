@@ -481,7 +481,7 @@
                                                 :data-chikugonensu: '20'
                                                 :data-choson: '青井'
                                                 :data-kakaku: '1890万円'
-                                                :data-kanigazo: 'http://suumo.jp/front/gazo/bukken/030/N010000/img/688/87066688/87066688_0001.jpg'
+                                                :data-kanigazo: 'http://suumo.jp/front/gazo/bukken/030/N010000/img/688/87066688/87066688_0003.jpg'
                                                 :data-kanrihi: '7200円／月（委託(通勤)）'
                                                 :data-kotsu: 'つくばエクスプレス「青井」歩6分'
                                                 :data-krsnetid: 't14547700101'
@@ -524,8 +524,7 @@
                                                         - :name: 'img'
                                                           :attributes:
                                                             :alt: '商店街で行われる朝市も魅力的♪バラや菖蒲が美しい町、青井で新生活を！ビューネ北綾瀬'
-                                                            :data-madori-flg: '1'
-                                                            :data-src: 'https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F688%2F87066688%2F87066688_0001.jpg&w=200'
+                                                            :data-src: 'https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F688%2F87066688%2F87066688_0003.jpg&w=200'
                                                             :height: '140'
                                                             :style: 'display: none;'
                                                             :width: '140'
@@ -591,6 +590,10 @@
                                                                   :attributes:
                                                                     :class:
                                                                       - pctTourReservation
+                                                                - :name: 'span'
+                                                                  :attributes:
+                                                                    :class:
+                                                                      - pctMovie
                                             - :name: 'div'
                                               :attributes:
                                                 :class:
@@ -2016,7 +2019,7 @@
                                                 :data-areacd: '030'
                                                 :data-bc: '87070252'
                                                 :data-bukken-cd: '87070252'
-                                                :data-bukken_nm: '価格重視の方！お待たせしました！ルミネ竹ノ塚第２'
+                                                :data-bukken_nm: '春には約１２０本の桜が咲き乱れる花畑公園も魅力的♪ルミネ竹ノ塚第２'
                                                 :data-chikugonensu: '35'
                                                 :data-choson: '保木間'
                                                 :data-kakaku: '1499万円'
@@ -2062,7 +2065,7 @@
                                                               - loader
                                                         - :name: 'img'
                                                           :attributes:
-                                                            :alt: '価格重視の方！お待たせしました！ルミネ竹ノ塚第２'
+                                                            :alt: '春には約１２０本の桜が咲き乱れる花畑公園も魅力的♪ルミネ竹ノ塚第２'
                                                             :data-src: 'https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F252%2F87070252%2F87070252_0024.jpg&w=200'
                                                             :height: '140'
                                                             :style: 'display: none;'
@@ -2866,7 +2869,7 @@
                                                               :attributes:
                                                                 :class:
                                                                   - price
-                                                                  - ribbonClass
+                                                                  - 
                                                                 :colspan: '2'
                                                         - :name: 'tr'
                                                           :children:
@@ -2915,15 +2918,6 @@
                                                                   :attributes:
                                                                     :class:
                                                                       - pctMovie
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - pctNewWrapper
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - pctNew
                                     - :name: 'div'
                                       :attributes:
                                         :class:
@@ -3558,7 +3552,7 @@
                                                 :data-chikugonensu: '9'
                                                 :data-choson: '保木間'
                                                 :data-kakaku: '2190万円'
-                                                :data-kanigazo: 'http://suumo.jp/front/gazo/bukken/030/N010000/img/955/86878955/86878955_0022.jpg'
+                                                :data-kanigazo: 'http://suumo.jp/front/gazo/bukken/030/N010000/img/955/86878955/86878955_0030.jpg'
                                                 :data-kanrihi: '8500円／月（委託(通勤)）'
                                                 :data-kotsu: '東武伊勢崎線「竹ノ塚」歩20分'
                                                 :data-krsnetid: 't14547700101'
@@ -3601,7 +3595,7 @@
                                                         - :name: 'img'
                                                           :attributes:
                                                             :alt: '築浅！ペット飼育可能♪お料理楽々L型キッチン♪　レクシオ竹ノ塚ジーフォルム'
-                                                            :data-src: 'https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F955%2F86878955%2F86878955_0022.jpg&w=200'
+                                                            :data-src: 'https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F955%2F86878955%2F86878955_0030.jpg&w=200'
                                                             :height: '140'
                                                             :style: 'display: none;'
                                                             :width: '140'
@@ -5578,7 +5572,7 @@
             :data-registrirekifunctionname: 'saveEki'
             :data-requesturl: '/chukomansion/tokyo/ek_000525620/'
             :data-sitekbncd: '01'
-            :data-totalhits: '80'
+            :data-totalhits: '81'
             :data-unnormalshiboriparamb: ''
             :data-urlparamsstring: ''
             :id: 'js-data-script-commonScript'
@@ -5593,7 +5587,7 @@
             :data-nclist: '["87066688","87006506","87015773","85830554","86948919","86992951","87008439","86992955","87070252","86949247","86992893","86507969","87044385","86989106","86632634","86872182","86878955","86948894","86976005","87035656"]'
             :data-pageid: 'PS3C1304'
             :data-templateid: 'SP_SUUMO'
-            :data-totalhit: '80'
+            :data-totalhit: '81'
             :data-url: 'log.suumo.jp/js/logsuumo.js'
             :id: 'beaconJs'
             :language: 'JavaScript'
