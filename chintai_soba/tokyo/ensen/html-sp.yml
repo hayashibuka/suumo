@@ -1,3 +1,4 @@
+{"url"=>"http://suumo.jp/chintai/soba/tokyo/ensen/", "user-agent"=>"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_2 like Mac OS X AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13F69 Safari/601.1"}
 ---
 :name: html
 :attributes:
@@ -13,24 +14,14 @@
   - :name: title
     :count: 1
   - :name: meta
-    :count: 1
+    :count: 2
     :attributes:
       :content: "路線,沿線,東京都,家賃相場,賃貸相場,賃料相場,賃貸,SUUMO,スーモ"
       :name: keywords
-  - :name: meta
-    :count: 1
-    :attributes:
-      :content: "東京都で気になる駅の家賃相場を路線や沿線から探すなら不動産情報サイトSUUMO（スーモ）。各都道府県（市区郡・駅）の賃料相場情報をご用意。家賃相場を目安にあなたの賃貸物件探しにお役立てください。"
-      :name: description
   - :name: link
-    :count: 1
+    :count: 2
     :attributes:
       :rel: shortcut icon
-      :type: image/vnd.microsoft.icon
-  - :name: link
-    :count: 1
-    :attributes:
-      :rel: icon
       :type: image/vnd.microsoft.icon
   - :name: link
     :count: 1
@@ -51,7 +42,7 @@
       :media: screen
       :rel: stylesheet
   - :name: form
-    :count: 1
+    :count: 2
     :attributes:
       :action: https://suumo.jp/jj/common/common/JJ901FK101/showLogin/
       :id: js-turnbackPostForm
@@ -59,174 +50,24 @@
       :name: common_common_JJ901FK101ActionForm
     :children:
     - :name: input
-      :count: 1
+      :count: 3
       :attributes:
         :name: ar
         :type: hidden
         :value: '030'
-    - :name: input
-      :count: 1
-      :attributes:
-        :name: bs
-        :type: hidden
-        :value: '040'
-    - :name: input
-      :count: 1
-      :attributes:
-        :name: ltbi
-        :type: hidden
-        :value: 9bca05eebee120fb3fac5305c338b7eee27e0859441c6ca6d87b94d4971a8c8476b6ab18e685f466bb28ea9e0a46d34c87ac9d22cd1e4a29bd20058e4d22aa2ccbe35948718386a321a624e5a8497565068be7c6cdf882a4609974f742c5a9709bb422ed61a6e6d988cee3c61b67e3703f49f0ac70477ffe539a134af64617e1b78d490a05df4b397ea27d9dafcb694ad165a88107f4e368ab4a49c7180b5b4cdbb0c52e1a86845eae70c8fc9d8040c04ff01c39f6180559087966bcbec201e6b1c36e4bb69965b3a47737439f68c22a5ca384d7871277c955e58ab3abff95f21dcd19395c79435acd0750fac6db10f249b14e785fa81f91e4a47689b77265cdd907a57498132f4f632cffc5dc1be37f032d2c3a132450cf21e7d944c6c90f206307e5b8c058a17037f6244f3466cd5a720495692d9425432e17ee29ae093432dfdc7d9704c28494a9e859284e8ef3ddcac458c51be9b69067244ac5042914fe768571bf89d78ffac785f53a02e8e600cc114ba4ce051008cc97cf305da6490a37bc40d06fd0e2eec27e035acc4101970670c1acb5634e83
   - :name: form
-    :count: 1
+    :count: 5
     :attributes:
       :action: "/jj/common/service/JJ901FM303/"
       :id: js-myKensakuJokenForm
       :method: post
     :children:
     - :name: input
-      :count: 1
+      :count: 2
       :attributes:
         :name: ar
         :type: hidden
         :value: '030'
-    - :name: input
-      :count: 1
-      :attributes:
-        :name: bs
-        :type: hidden
-        :value: '040'
-  - :name: form
-    :count: 1
-    :attributes:
-      :action: "/jj/common/parts/JJ901FI306/"
-      :id: js-popLatestBukkenForm
-      :method: post
-    :children:
-    - :name: input
-      :count: 1
-      :attributes:
-        :name: ar
-        :type: hidden
-        :value: ''
-    - :name: input
-      :count: 1
-      :attributes:
-        :name: bs
-        :type: hidden
-        :value: ''
-    - :name: input
-      :count: 1
-      :attributes:
-        :name: dispmode
-        :type: hidden
-        :value: '3'
-  - :name: form
-    :count: 1
-    :attributes:
-      :action: "/jj/common/parts/JJ901FI302/"
-      :id: js-resetLatestBukkenForm
-      :method: post
-    :children:
-    - :name: input
-      :count: 1
-      :attributes:
-        :name: ar
-        :type: hidden
-        :value: ''
-    - :name: input
-      :count: 1
-      :attributes:
-        :name: bs
-        :type: hidden
-        :value: ''
-    - :name: input
-      :count: 1
-      :attributes:
-        :name: dispmode
-        :type: hidden
-        :value: '3'
-  - :name: form
-    :count: 1
-    :attributes:
-      :action: "/jj/common/parts/JJ901FI313/"
-      :id: js-popLatestSearchForm
-      :method: post
-    :children:
-    - :name: input
-      :count: 1
-      :attributes:
-        :name: ar
-        :type: hidden
-        :value: ''
-    - :name: input
-      :count: 1
-      :attributes:
-        :name: bs
-        :type: hidden
-        :value: ''
-    - :name: input
-      :count: 1
-      :attributes:
-        :name: dispmode
-        :type: hidden
-        :value: '3'
-  - :name: form
-    :count: 1
-    :attributes:
-      :action: "/jj/common/parts/JJ901FI312/"
-      :id: js-resetLatestSearchForm
-      :method: post
-    :children:
-    - :name: input
-      :count: 1
-      :attributes:
-        :name: ar
-        :type: hidden
-        :value: ''
-    - :name: input
-      :count: 1
-      :attributes:
-        :name: bs
-        :type: hidden
-        :value: ''
-    - :name: input
-      :count: 1
-      :attributes:
-        :name: dispmode
-        :type: hidden
-        :value: '3'
-  - :name: form
-    :count: 1
-    :attributes:
-      :action: https://suumo.jp/jj/common/common/JJ901FK101/showMemRegist/
-      :id: js-myEntryForm
-      :method: post
-      :name: common_common_JJ901FK101ActionForm
-    :children:
-    - :name: input
-      :count: 1
-      :attributes:
-        :name: siteKbn
-        :type: hidden
-        :value: '01'
-    - :name: input
-      :count: 1
-      :attributes:
-        :name: seniFlg
-        :type: hidden
-        :value: ''
-    - :name: input
-      :count: 1
-      :attributes:
-        :name: ar
-        :type: hidden
-        :value: '030'
-    - :name: input
-      :count: 1
-      :attributes:
-        :name: bs
-        :type: hidden
-        :value: '040'
   - :name: div
     :count: 1
     :attributes:
@@ -239,7 +80,7 @@
         :class: mylist-inner
       :children:
       - :name: div
-        :count: 1
+        :count: 2
         :attributes:
           :class: browsearea dn
           :id: js-mylist-historyBox
@@ -250,15 +91,10 @@
             :class: browselist
           :children:
           - :name: li
-            :count: 1
+            :count: 2
             :attributes:
               :class: browselist-box
               :id: js-mylist-historyBox-popLatestBukken
-          - :name: li
-            :count: 1
-            :attributes:
-              :class: browselist-box
-              :id: js-mylist-historyBox-popLatestSearch
         - :name: div
           :count: 1
           :attributes:
@@ -267,16 +103,6 @@
           :children:
           - :name: a
             :count: 1
-      - :name: div
-        :count: 1
-        :attributes:
-          :class: mylist-logo
-          :id: js-mylist-logo
-        :children:
-        - :name: a
-          :count: 1
-          :attributes:
-            :class: js-setCookieArZenkoku
       - :name: ul
         :count: 1
         :attributes:
@@ -315,7 +141,7 @@
                       :class: mylistbar-inbar
                     :children:
                     - :name: li
-                      :count: 1
+                      :count: 3
                       :attributes:
                         :class: mylistbar-inbar-item
                       :children:
@@ -333,62 +159,13 @@
                           :attributes:
                             :class: mylistbarcnt
                             :id: js-mylistbarcnt-bukken
-                    - :name: li
-                      :count: 1
-                      :attributes:
-                        :class: mylistbar-inbar-item
-                      :children:
-                      - :name: a
-                        :count: 1
-                        :attributes:
-                          :class: mylistbarlink mylistbarlink--company
-                        :children:
-                        - :name: span
-                          :count: 1
-                          :attributes:
-                            :class: mylistbarlink-title
-                        - :name: span
-                          :count: 1
-                          :attributes:
-                            :class: mylistbarcnt
-                            :id: js-mylistbarcnt-company
-                    - :name: li
-                      :count: 1
-                      :attributes:
-                        :class: mylistbar-inbar-item
-                      :children:
-                      - :name: a
-                        :count: 1
-                        :attributes:
-                          :class: mylistbarlink mylistbarlink--sch
-                          :id: js-mylist-myKensakuJoken
-                        :children:
-                        - :name: span
-                          :count: 1
-                          :attributes:
-                            :class: mylistbarlink-title
-                        - :name: span
-                          :count: 1
-                          :attributes:
-                            :class: mylistbarcnt
-                            :id: js-mylistbarcnt-sch
       - :name: span
-        :count: 1
+        :count: 3
         :attributes:
           :class: dn
           :id: js-mylistbukkencountcookie
-      - :name: span
-        :count: 1
-        :attributes:
-          :class: dn
-          :id: js-mylistkaishacountcookie
-      - :name: span
-        :count: 1
-        :attributes:
-          :class: dn
-          :id: js-mylistkensakujokencountcookie
   - :name: div
-    :count: 1
+    :count: 4
     :attributes:
       :class: headercontainer
     :children:
@@ -438,7 +215,7 @@
           :class: siteheader
         :children:
         - :name: div
-          :count: 1
+          :count: 2
           :attributes:
             :class: desc
           :children:
@@ -446,566 +223,6 @@
             :count: 1
             :attributes:
               :class: desc-title
-        - :name: div
-          :count: 1
-          :attributes:
-            :class: siteheader-inner
-          :children:
-          - :name: div
-            :count: 1
-            :attributes:
-              :class: logo
-            :children:
-            - :name: div
-              :count: 1
-              :attributes:
-                :class: logo-object
-              :children:
-              - :name: a
-                :count: 1
-                :children:
-                - :name: img
-                  :count: 1
-                  :attributes:
-                    :height: '46'
-                    :width: '138'
-            - :name: div
-              :count: 1
-              :attributes:
-                :class: logo-field
-              :children:
-              - :name: div
-                :count: 1
-                :attributes:
-                  :class: logo-field-link
-                :children:
-                - :name: a
-                  :count: 1
-                  :attributes:
-                    :class: js-setCookieArZenkoku
-              - :name: div
-                :count: 1
-                :attributes:
-                  :class: logo-field-area
-          - :name: div
-            :count: 1
-            :attributes:
-              :class: gnav
-            :children:
-            - :name: ul
-              :count: 1
-              :attributes:
-                :class: gnav_list
-              :children:
-              - :name: li
-                :count: 8
-                :children:
-                - :name: dl
-                  :count: 1
-                  :attributes:
-                    :class: gnav_item gnav_item--chintai
-                  :children:
-                  - :name: dt
-                    :count: 1
-                    :attributes:
-                      :class: gnav_item-title
-                  - :name: dd
-                    :count: 1
-                    :attributes:
-                      :class: gnav_item-definition
-                    :children:
-                    - :name: div
-                      :count: 1
-                      :attributes:
-                        :class: gnav_item-definition-list
-                      :children:
-                      - :name: a
-                        :count: 1
-                        :attributes:
-                          :class: gnav_btn gnav_btn--chintai is-active
-                          :title: "賃貸"
-  - :name: div
-    :count: 1
-    :attributes:
-      :class: breadcrumb
-    :children:
-    - :name: div
-      :count: 1
-      :attributes:
-        :class: breadcrumb-inner
-      :children:
-      - :name: ol
-        :count: 1
-        :attributes:
-          :class: breadcrumb-list
-        :children:
-        - :name: li
-          :count: 5
-          :children:
-          - :name: a
-            :count: 1
-            :attributes:
-              :class: js-setCookieArZenkoku
-  - :name: div
-    :count: 1
-    :attributes:
-      :class: wrapper
-    :children:
-    - :name: div
-      :count: 1
-      :attributes:
-        :class: ui-section--h1 basicpage
-      :children:
-      - :name: div
-        :count: 1
-        :attributes:
-          :class: ui-section-header basicpage-header
-        :children:
-        - :name: h1
-          :count: 1
-      - :name: p
-        :count: 1
-        :attributes:
-          :class: pagecaption
-      - :name: div
-        :count: 1
-        :attributes:
-          :class: ui-section-body
-        :children:
-        - :name: div
-          :count: 1
-          :attributes:
-            :class: contents
-          :children:
-          - :name: ul
-            :count: 1
-            :attributes:
-              :class: ui-tab--base ui-tab--base03 areatab
-            :children:
-            - :name: li
-              :count: 7
-              :children:
-              - :name: a
-                :count: 1
-                :attributes:
-                  :class: ui-tab-item is-active
-          - :name: div
-            :count: 1
-            :attributes:
-              :class: tabbody
-            :children:
-            - :name: div
-              :count: 1
-              :attributes:
-                :class: ui-section--h2
-              :children:
-              - :name: div
-                :count: 1
-                :attributes:
-                  :class: ui-section-header
-                :children:
-                - :name: h2
-                  :count: 1
-              - :name: div
-                :count: 1
-                :attributes:
-                  :class: ui-section-body ui-section-body--mt20
-                :children:
-                - :name: table
-                  :count: 1
-                  :attributes:
-                    :class: searchtable
-                  :children:
-                  - :name: tr
-                    :count: 18
-                    :children:
-                    - :name: th
-                      :count: 1
-                      :attributes:
-                        :class: searchtable-title
-                    - :name: td
-                      :count: 1
-                      :attributes:
-                        :class: searchtable-box
-                      :children:
-                      - :name: div
-                        :count: 1
-                        :attributes:
-                          :class: searchitem
-                        :children:
-                        - :name: ul
-                          :count: 1
-                          :attributes:
-                            :class: searchitem-list
-                          :children:
-                          - :name: li
-                            :count: 3
-                            :children:
-                            - :name: a
-                              :count: 1
-                        - :name: ul
-                          :count: 1
-                          :attributes:
-                            :class: searchitem-list
-                          :children:
-                          - :name: li
-                            :count: 3
-                            :children:
-                            - :name: a
-                              :count: 1
-                        - :name: ul
-                          :count: 1
-                          :attributes:
-                            :class: searchitem-list
-                          :children:
-                          - :name: li
-                            :count: 3
-                            :children:
-                            - :name: a
-                              :count: 1
-                        - :name: ul
-                          :count: 1
-                          :attributes:
-                            :class: searchitem-list
-                          :children:
-                          - :name: li
-                            :count: 3
-                            :children:
-                            - :name: a
-                              :count: 1
-                        - :name: ul
-                          :count: 1
-                          :attributes:
-                            :class: searchitem-list
-                          :children:
-                          - :name: li
-                            :count: 3
-                            :children:
-                            - :name: a
-                              :count: 1
-                        - :name: ul
-                          :count: 1
-                          :attributes:
-                            :class: searchitem-list
-                          :children:
-                          - :name: li
-                            :count: 3
-                            :children:
-                            - :name: a
-                              :count: 1
-                        - :name: ul
-                          :count: 1
-                          :attributes:
-                            :class: searchitem-list
-                          :children:
-                          - :name: li
-                            :count: 3
-                            :children:
-                            - :name: a
-                              :count: 1
-                        - :name: ul
-                          :count: 1
-                          :attributes:
-                            :class: searchitem-list
-                          :children:
-                          - :name: li
-                            :count: 3
-                            :children:
-                            - :name: a
-                              :count: 1
-      - :name: div
-        :count: 1
-        :attributes:
-          :class: bgbox bgbox--add bgbox--type3 dn
-          :id: fr_lotation_banner
-      - :name: div
-        :count: 1
-        :attributes:
-          :class: addbox addbox--pr dn
-          :id: fr_text_banner
-  - :name: div
-    :count: 1
-    :attributes:
-      :class: footer
-    :children:
-    - :name: div
-      :count: 1
-      :attributes:
-        :class: footinfo
-      :children:
-      - :name: div
-        :count: 1
-        :attributes:
-          :class: footinfo-inner
-        :children:
-        - :name: p
-          :count: 1
-          :attributes:
-            :class: footinfo-txt
-        - :name: div
-          :count: 1
-          :attributes:
-            :class: footinfo-object
-          :children:
-          - :name: span
-            :count: 1
-            :attributes:
-              :class: ui-icon--suumo06
-    - :name: div
-      :count: 1
-      :attributes:
-        :class: footlinks
-      :children:
-      - :name: div
-        :count: 1
-        :attributes:
-          :class: footlinks-inner
-        :children:
-        - :name: div
-          :count: 1
-          :attributes:
-            :class: linkbox_group
-          :children:
-          - :name: div
-            :count: 1
-            :attributes:
-              :class: linkbox linkbox--search
-            :children:
-            - :name: div
-              :count: 1
-              :attributes:
-                :class: linkbox-body
-              :children:
-              - :name: a
-                :count: 1
-                :attributes:
-                  :class: js-setCookieArZenkoku
-              - :name: a
-                :count: 1
-            - :name: div
-              :count: 1
-              :attributes:
-                :class: linkbox-search
-              :children:
-              - :name: form
-                :count: 1
-                :attributes:
-                  :action: "/jj/common/ichiran/JJ901FC001/"
-                  :id: js-wordSearch
-                  :method: post
-                :children:
-                - :name: input
-                  :count: 1
-                  :attributes:
-                    :name: ar
-                    :type: hidden
-                    :value: '030'
-                - :name: input
-                  :count: 1
-                  :attributes:
-                    :id: js-linkbox-search
-                    :name: kwd
-                    :placeholder: "キーワード検索"
-                    :type: text
-                - :name: a
-                  :count: 1
-                  :attributes:
-                    :class: ui-btn ui-btn--search ui-btn--small
-                    :id: js-footerKensakuBtn
-        - :name: div
-          :count: 1
-          :attributes:
-            :class: linkbox_group
-          :children:
-          - :name: div
-            :count: 1
-            :attributes:
-              :class: linkbox linkbox--full
-            :children:
-            - :name: div
-              :count: 1
-              :attributes:
-                :class: linkbox-title
-              :children:
-              - :name: a
-                :count: 1
-                :attributes:
-                  :class: js-setCookieArZenkoku
-            - :name: div
-              :count: 1
-              :attributes:
-                :class: linkbox-body
-              :children:
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-              - :name: br
-                :count: 2
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-                :attributes:
-                  :target: _blank
-              - :name: a
-                :count: 1
-                :attributes:
-                  :target: _blank
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-                :attributes:
-                  :target: _blank
-              - :name: a
-                :count: 1
-                :attributes:
-                  :target: _blank
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-                :attributes:
-                  :target: _blank
-              - :name: a
-                :count: 1
-                :attributes:
-                  :target: _blank
-              - :name: a
-                :count: 1
-                :attributes:
-                  :target: _blank
-              - :name: a
-                :count: 1
-                :attributes:
-                  :target: _blank
-              - :name: a
-                :count: 1
-                :attributes:
-                  :target: _blank
-        - :name: div
-          :count: 1
-          :attributes:
-            :class: linkbox_group
-          :children:
-          - :name: div
-            :count: 1
-            :attributes:
-              :class: linkbox linkbox--full
-            :children:
-            - :name: div
-              :count: 1
-              :attributes:
-                :class: linkbox-title
-            - :name: div
-              :count: 1
-              :attributes:
-                :class: linkbox-body
-              :children:
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-              - :name: a
-                :count: 1
-    - :name: div
-      :count: 1
-      :attributes:
-        :class: footlogo
-      :children:
-      - :name: div
-        :count: 1
-        :attributes:
-          :class: logobox
-        :children:
-        - :name: div
-          :count: 1
-          :children:
-          - :name: a
-            :count: 1
-            :attributes:
-              :target: _blank
-            :children:
-            - :name: img
-              :count: 1
-              :attributes:
-                :height: '27'
-                :width: '286'
-        - :name: div
-          :count: 1
-          :attributes:
-            :class: logobox-link
-          :children:
-          - :name: a
-            :count: 1
-            :attributes:
-              :target: _blank
-      - :name: div
-        :count: 1
-        :attributes:
-          :class: footlogo-link
-        :children:
-        - :name: a
-          :count: 1
-        - :name: a
-          :count: 1
-        - :name: a
-          :count: 1
-        - :name: a
-          :count: 1
-          :attributes:
-            :target: _blank
-        - :name: a
-          :count: 1
-          :attributes:
-            :target: _blank
-      - :name: div
-        :count: 1
-        :attributes:
-          :class: footlogo-action
-        :children:
-        - :name: a
-          :count: 1
-          :attributes:
-            :class: footlogo-action-btn
-            :target: _blank
   - :name: div
     :count: 1
     :attributes:
@@ -1020,35 +237,17 @@
           :height: '51'
           :width: '74'
   - :name: script
-    :count: 1
+    :count: 4
   - :name: script
-    :count: 1
-  - :name: script
-    :count: 1
-  - :name: script
-    :count: 1
-  - :name: script
-    :count: 1
+    :count: 2
     :attributes:
       :type: text/javascript
   - :name: script
-    :count: 1
-    :attributes:
-      :type: text/javascript
-  - :name: script
-    :count: 1
+    :count: 2
     :attributes:
       :language: JavaScript
   - :name: script
-    :count: 1
-    :attributes:
-      :language: JavaScript
-  - :name: script
-    :count: 1
-    :attributes:
-      :language: JavaScript
-  - :name: script
-    :count: 1
+    :count: 3
     :attributes:
       :language: JavaScript
   - :name: form
@@ -1064,7 +263,3 @@
     :count: 1
     :attributes:
       :type: text/javascript
-  - :name: script
-    :count: 1
-    :attributes:
-      :language: JavaScript

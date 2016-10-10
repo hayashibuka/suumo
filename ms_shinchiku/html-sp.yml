@@ -1,0 +1,283 @@
+{"url"=>"http://suumo.jp/ms/shinchiku/", "user-agent"=>"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_2 like Mac OS X AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13F69 Safari/601.1"}
+---
+:name: html
+:children:
+- :name: head
+  :count: 1
+  :children:
+  - :name: meta
+    :count: 1
+    :attributes:
+      :charset: UTF-8
+  - :name: meta
+    :count: 5
+    :attributes:
+      :content: unsafe-url
+      :name: referrer
+  - :name: meta
+    :count: 1
+    :attributes:
+      :content: width=device-width,user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0
+      :id: viewport
+      :name: viewport
+  - :name: link
+    :count: 10
+    :attributes:
+      :rel: stylesheet
+  - :name: link
+    :count: 4
+    :attributes:
+      :rel: apple-touch-icon
+      :sizes: 76x76
+  - :name: title
+    :count: 1
+- :name: body
+  :count: 1
+  :attributes:
+    :id: pagetop
+  :children:
+  - :name: input
+    :count: 1
+    :attributes:
+      :id: browserBack
+      :style: 'display: none;'
+      :type: text
+  - :name: div
+    :count: 3
+    :attributes:
+      :id: wrapper_viewport
+    :children:
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: appbnr
+        :data-cookie-expires: '315360000000'
+        :data-cookie-name: smp_smart_app_banner_close
+        :data-cookie-value: '1'
+      :children:
+      - :name: a
+        :count: 2
+        :attributes:
+          :class: appbnr-close
+      - :name: p
+        :count: 1
+        :attributes:
+          :class: appbnr-img
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: appbnr-txtbox
+        :children:
+        - :name: p
+          :count: 1
+          :attributes:
+            :class: appbnr-txt
+        - :name: p
+          :count: 2
+    - :name: header
+      :count: 1
+      :children:
+      - :name: h1
+        :count: 1
+        :attributes:
+          :id: dHead
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: headerInner
+        :children:
+        - :name: a
+          :count: 1
+          :attributes:
+            :class: logo
+            :onclick: homeLink();
+          :children:
+          - :name: img
+            :count: 1
+            :attributes:
+              :height: '32'
+              :width: '93'
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: buttonArea
+          :children:
+          - :name: a
+            :count: 2
+            :attributes:
+              :class: history
+          - :name: a
+            :count: 1
+            :attributes:
+              :class: menu icnMypage
+              :onclick: sendEventForBeacon([['eventName', 'open_menu']]);
+    - :name: article
+      :count: 1
+      :children:
+      - :name: section
+        :count: 1
+        :children:
+        - :name: h2
+          :count: 1
+          :attributes:
+            :class: sectionHeadRtop
+          :children:
+          - :name: span
+            :count: 1
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: todofuken
+          :children:
+          - :name: ul
+            :count: 1
+            :children:
+            - :name: li
+              :count: 8
+              :attributes:
+                :class: area
+              :children:
+              - :name: a
+                :count: 1
+                :attributes:
+                  :class: areaName
+                :children:
+                - :name: h3
+                  :count: 1
+              - :name: ul
+                :count: 1
+                :attributes:
+                  :class: pref
+                :children:
+                - :name: li
+                  :count: 7
+                  :attributes:
+                    :class: hokkaido
+                  :children:
+                  - :name: a
+                    :count: 1
+                    :attributes:
+                      :class: prefecture
+      - :name: nav
+        :count: 1
+        :attributes:
+          :class: breadcrumb
+        :children:
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: breadcrumb-inner
+          :children:
+          - :name: ol
+            :count: 1
+            :attributes:
+              :class: breadcrumb-list
+            :children:
+            - :name: li
+              :count: 2
+              :children:
+              - :name: a
+                :count: 1
+                :attributes:
+                  :onclick: homeLink();
+      - :name: section
+        :count: 1
+        :attributes:
+          :onclick: sendEventForBeacon([['eventName', 'download']]);
+    - :name: footer
+      :count: 1
+      :children:
+      - :name: div
+        :count: 4
+        :attributes:
+          :class: pcViewWrap
+        :children:
+        - :name: a
+          :count: 1
+          :attributes:
+            :class: pcViewButton
+            :onclick: pcView('suumo.jp', 'http://suumo.jp/ms/shinchiku/', 86400000);
+              return false;
+            :target: _blank
+        - :name: p
+          :count: 1
+  - :name: section
+    :count: 1
+    :attributes:
+      :id: js-popupSection
+    :children:
+    - :name: div
+      :count: 2
+      :attributes:
+        :class: popup-overlay js-popupWindowClose
+        :id: js-popup-overlay
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: popupmsgs
+      :children:
+      - :name: div
+        :count: 15
+        :attributes:
+          :class: innercontent
+          :id: js-addMylistMSG
+        :children:
+        - :name: p
+          :count: 2
+          :attributes:
+            :class: innercontent-title no-icon
+          :children:
+          - :name: br
+            :count: 1
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: innercontent
+          :id: js-searchNoResult
+          :msgtxt: "条件に一致する物件がありませんでした。"
+        :children:
+        - :name: p
+          :count: 1
+          :attributes:
+            :class: innercontent-title no-icon
+          :children:
+          - :name: br
+            :count: 1
+  - :name: script
+    :count: 4
+    :attributes:
+      :type: text/javascript
+  - :name: script
+    :count: 2
+    :attributes:
+      :charset: utf-8
+      :type: text/javascript
+  - :name: script
+    :count: 5
+  - :name: script
+    :count: 2
+  - :name: script
+    :count: 2
+    :attributes:
+      :type: text/javascript
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-pageid: PM0A0001
+      :data-templateid: SP_SUUMO
+      :data-totalhit: ''
+      :data-url: log.suumo.jp/js/logsuumo.js
+      :id: beaconJs
+      :language: JavaScript
+  - :name: script
+    :count: 2
+    :attributes:
+      :language: JavaScript
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-pageid: PM0A0001
+      :data-rsid: rcrtsuumojpspprd
+      :data-syubetsu: '010'
+      :id: catalystMainJs
+      :language: JavaScript

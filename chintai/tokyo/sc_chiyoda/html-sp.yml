@@ -1,0 +1,774 @@
+{"url"=>"http://suumo.jp/chintai/tokyo/sc_chiyoda/", "user-agent"=>"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_2 like Mac OS X AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13F69 Safari/601.1"}
+---
+:name: html
+:children:
+- :name: head
+  :count: 1
+  :children:
+  - :name: meta
+    :count: 1
+    :attributes:
+      :charset: UTF-8
+  - :name: meta
+    :count: 5
+    :attributes:
+      :content: unsafe-url
+      :name: referrer
+  - :name: meta
+    :count: 1
+    :attributes:
+      :content: width=device-width,user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0
+      :id: viewport
+      :name: viewport
+  - :name: link
+    :count: 9
+    :attributes:
+      :rel: stylesheet
+  - :name: link
+    :count: 4
+    :attributes:
+      :rel: apple-touch-icon
+      :sizes: 76x76
+  - :name: title
+    :count: 1
+- :name: body
+  :count: 1
+  :attributes:
+    :id: pagetop
+  :children:
+  - :name: input
+    :count: 1
+    :attributes:
+      :id: browserBack
+      :style: 'display: none;'
+      :type: text
+  - :name: div
+    :count: 5
+    :attributes:
+      :id: wrapper_viewport
+    :children:
+    - :name: header
+      :count: 1
+      :children:
+      - :name: h1
+        :count: 1
+        :attributes:
+          :id: dHead
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: headerInner
+        :children:
+        - :name: a
+          :count: 1
+          :attributes:
+            :class: logo
+          :children:
+          - :name: img
+            :count: 1
+            :attributes:
+              :height: '32'
+              :width: '93'
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: buttonArea
+          :children:
+          - :name: a
+            :count: 2
+            :attributes:
+              :class: history
+          - :name: a
+            :count: 1
+            :attributes:
+              :class: menu icnMypage
+              :onclick: sendEventForBeacon([['eventName', 'open_menu']]);
+    - :name: article
+      :count: 1
+      :children:
+      - :name: section
+        :count: 1
+        :children:
+        - :name: div
+          :count: 3
+          :attributes:
+            :class: secHead
+          :children:
+          - :name: h2
+            :count: 1
+            :attributes:
+              :class: headerh2
+            :children:
+            - :name: span
+              :count: 1
+              :children:
+              - :name: span
+                :count: 1
+                :attributes:
+                  :class: h2_subtext
+                :children:
+                - :name: span
+                  :count: 1
+                  :attributes:
+                    :class: h2_subtext-totalnumber
+                - :name: span
+                  :count: 1
+                  :attributes:
+                    :class: totalHits
+                    :style: 'display: none;'
+        - :name: form
+          :count: 1
+          :attributes:
+            :action: https://suumo.jp/jj/chintai/shiryou/FR301FG001/
+            :id: seikyu
+            :method: get
+            :target: _blank
+          :children:
+          - :name: input
+            :count: 4
+            :attributes:
+              :name: ar
+              :type: hidden
+              :value: '030'
+          - :name: section
+            :count: 1
+            :attributes:
+              :id: bukkenListAll
+            :children:
+            - :name: ul
+              :count: 1
+              :attributes:
+                :class: toulist l-toulist
+                :id: toulist_1
+              :children:
+              - :name: li
+                :count: 1
+                :children:
+                - :name: div
+                  :count: 1
+                  :attributes:
+                    :class: toulistitem
+                  :children:
+                  - :name: div
+                    :count: 1
+                    :attributes:
+                      :class: toulistitem-inner
+                    :children:
+                    - :name: div
+                      :count: 2
+                      :attributes:
+                        :class: tou-bukken-cd
+                        :id: '100065375184'
+                    - :name: div
+                      :count: 2
+                      :attributes:
+                        :class: toulistitem-inner-title
+                  - :name: ul
+                    :count: 1
+                    :attributes:
+                      :class: toulistitem_sublist
+                      :data-bukken-cd: '100029126986'
+                      :style: display:none
+                    :children:
+                    - :name: li
+                      :count: 1
+                      :children:
+                      - :name: div
+                        :count: 1
+                        :attributes:
+                          :class: toulistitem_sublistitem
+                        :children:
+                        - :name: div
+                          :count: 1
+                          :attributes:
+                            :class: toulistitem_sublistitem-inner
+                          :children:
+                          - :name: div
+                            :count: 2
+                            :attributes:
+                              :class: toulistitem_sublistitem-inner-cellinput
+                            :children:
+                            - :name: input
+                              :count: 1
+                              :attributes:
+                                :class: toulistitem_sublistitem-checkbox js-juko-checkbox
+                                :name: bck
+                                :rel: '030'
+                                :type: checkbox
+                                :value: 01_100029126986
+                            - :name: p
+                              :count: 1
+                              :attributes:
+                                :class: icnFavorite
+                                :data-areacd: '030'
+                                :data-bukken-cd: '100029126986'
+                                :data-chikugonensu: '12'
+                                :data-chikunen: 2004年11月
+                                :data-chintai_bukken_nm: "ＪＲ山手線 秋葉原駅 12階建 築12年"
+                                :data-choson: "岩本町"
+                                :data-kaiso_disp: 10階/地下1地上12階建
+                                :data-kakaku_value: '9.6'
+                                :data-kanigazo: https://img01.suumo.com/front/gazo/fr/bukken/184/100065375184/100065375184_cw.jpg
+                                :data-kanrihi: 8000円
+                                :data-kiss_cd: 087209026
+                                :data-kotsu: "ＪＲ山手線/秋葉原駅 歩10分"
+                                :data-madori: 1K
+                                :data-menseki: 22.61平米
+                                :data-reikin: 9.6万円
+                                :data-sc: '101'
+                                :data-seqno: ''
+                                :data-shigunku: "千代田区"
+                                :data-shikikin: "-"
+                                :data-shubetsu: '040'
+                                :data-tatemono_shu_nm: "マンション"
+                                :data-tf: '13'
+                                :data-todofuken: "東京都"
+                        - :name: div
+                          :count: 1
+                          :attributes:
+                            :class: js-beacon-bukken-cd-1_1
+                            :name: beacon_bc_list
+                            :style: display:none
+                            :value: '100029126986'
+                      - :name: div
+                        :count: 1
+                        :attributes:
+                          :class: js-beacon-kiss-cd-1_1
+                          :name: beacon_kiss_list
+                          :style: display:none
+                          :value: 087209026
+  - :name: div
+    :count: 2
+    :attributes:
+      :class: toulistitem--bottom js-juko-more
+      :id: '1_1'
+    :children:
+    - :name: a
+      :count: 1
+      :attributes:
+        :class: toulistitem_more js-addlist
+      :children:
+      - :name: span
+        :count: 1
+        :attributes:
+          :class: toulistitem_more-text moreShowBukken
+  - :name: li
+    :count: 9
+    :children:
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: toulistitem
+      :children:
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: toulistitem-inner
+        :children:
+        - :name: div
+          :count: 2
+          :attributes:
+            :class: tou-bukken-cd
+            :id: '100069739355'
+        - :name: div
+          :count: 2
+          :attributes:
+            :class: toulistitem-inner-title
+      - :name: ul
+        :count: 1
+        :attributes:
+          :class: toulistitem_sublist
+          :data-bukken-cd: '100070817861'
+          :style: display:none
+        :children:
+        - :name: li
+          :count: 1
+          :children:
+          - :name: div
+            :count: 1
+            :attributes:
+              :class: toulistitem_sublistitem
+            :children:
+            - :name: div
+              :count: 1
+              :attributes:
+                :class: toulistitem_sublistitem-inner
+              :children:
+              - :name: div
+                :count: 2
+                :attributes:
+                  :class: toulistitem_sublistitem-inner-cellinput
+                :children:
+                - :name: input
+                  :count: 1
+                  :attributes:
+                    :class: toulistitem_sublistitem-checkbox js-juko-checkbox
+                    :name: bck
+                    :rel: '030'
+                    :type: checkbox
+                    :value: 01_100070817861
+                - :name: p
+                  :count: 1
+                  :attributes:
+                    :class: icnFavorite
+                    :data-areacd: '030'
+                    :data-bukken-cd: '100070817861'
+                    :data-chikugonensu: '17'
+                    :data-chikunen: 2000年3月
+                    :data-chintai_bukken_nm: "メゾン・ド・ヴィレ神田神保町"
+                    :data-choson: "神田神保町"
+                    :data-kaiso_disp: 6階/地下8地上9階建
+                    :data-kakaku_value: '8.6'
+                    :data-kanigazo: https://img01.suumo.com/front/gazo/fr/bukken/355/100069739355/100069739355_cw.jpg
+                    :data-kanrihi: 14000円
+                    :data-kiss_cd: '156364001'
+                    :data-kotsu: "東京メトロ半蔵門線/神保町駅 歩1分"
+                    :data-madori: 1K
+                    :data-menseki: 26.6平米
+                    :data-reikin: "-"
+                    :data-sc: '101'
+                    :data-seqno: ''
+                    :data-shigunku: "千代田区"
+                    :data-shikikin: 8.6万円
+                    :data-shubetsu: '040'
+                    :data-tatemono_shu_nm: "マンション"
+                    :data-tf: '13'
+                    :data-todofuken: "東京都"
+            - :name: div
+              :count: 1
+              :attributes:
+                :class: js-beacon-bukken-cd-1_2
+                :name: beacon_bc_list
+                :style: display:none
+                :value: '100070817861'
+          - :name: div
+            :count: 1
+            :attributes:
+              :class: js-beacon-kiss-cd-1_2
+              :name: beacon_kiss_list
+              :style: display:none
+              :value: '156364001'
+  - :name: ul
+    :count: 1
+    :attributes:
+      :class: toulistitem_sublist
+      :data-bukken-cd: '100069857288'
+      :style: display:none
+    :children:
+    - :name: li
+      :count: 1
+      :children:
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: toulistitem_sublistitem
+        :children:
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: toulistitem_sublistitem-inner
+          :children:
+          - :name: div
+            :count: 2
+            :attributes:
+              :class: toulistitem_sublistitem-inner-cellinput
+            :children:
+            - :name: input
+              :count: 1
+              :attributes:
+                :class: toulistitem_sublistitem-checkbox js-juko-checkbox
+                :name: bck
+                :rel: '030'
+                :type: checkbox
+                :value: 01_100069857288
+            - :name: p
+              :count: 1
+              :attributes:
+                :class: icnFavorite
+                :data-areacd: '030'
+                :data-bukken-cd: '100069857288'
+                :data-chikugonensu: '17'
+                :data-chikunen: 2000年3月
+                :data-chintai_bukken_nm: "メゾン・ド・ヴィレ神田神保町"
+                :data-choson: "神田神保町"
+                :data-kaiso_disp: 7階/9階建
+                :data-kakaku_value: '10.5'
+                :data-kanigazo: https://img01.suumo.com/front/gazo/fr/bukken/355/100069739355/100069739355_cw.jpg
+                :data-kanrihi: 13000円
+                :data-kiss_cd: '130727003'
+                :data-kotsu: "東京メトロ半蔵門線/神保町駅 歩1分"
+                :data-madori: 1K
+                :data-menseki: 30.06平米
+                :data-reikin: 10.5万円
+                :data-sc: '101'
+                :data-seqno: ''
+                :data-shigunku: "千代田区"
+                :data-shikikin: 10.5万円
+                :data-shubetsu: '040'
+                :data-tatemono_shu_nm: "マンション"
+                :data-tf: '13'
+                :data-todofuken: "東京都"
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: js-beacon-bukken-cd-1_2
+            :name: beacon_bc_list
+            :style: display:none
+            :value: '100069857288'
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: js-beacon-kiss-cd-1_2
+          :name: beacon_kiss_list
+          :style: display:none
+          :value: '130727003'
+  - :name: div
+    :count: 2
+    :attributes:
+      :class: readmore
+    :children:
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: readmore-actionBox readmore-actionBox--bottom
+      :children:
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: actionBtn
+        :children:
+        - :name: a
+          :count: 1
+          :attributes:
+            :class: btnAction btnSchNext isLoading disabled
+            :id: reloadBtn
+          :children:
+          - :name: span
+            :count: 1
+            :attributes:
+              :class: btnAction-text
+            :children:
+            - :name: span
+              :count: 1
+  - :name: section
+    :count: 2
+    :attributes:
+      :onclick: sendEventForBeacon([['eventName', 'ichiran_campaign_banner']]);
+    :children:
+    - :name: style
+      :count: 1
+      :attributes:
+        :type: text/css
+    - :name: a
+      :count: 1
+      :attributes:
+        :class: bnr_object
+        :target: _blank
+      :children:
+      - :name: div
+        :count: 2
+        :attributes:
+          :class: bnr_object_media-left
+        :children:
+        - :name: img
+          :count: 1
+          :attributes:
+            :height: '53'
+            :width: '191'
+  - :name: nav
+    :count: 1
+    :attributes:
+      :class: breadcrumb
+    :children:
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: breadcrumb-inner
+      :children:
+      - :name: ol
+        :count: 1
+        :attributes:
+          :class: breadcrumb-list
+        :children:
+        - :name: li
+          :count: 4
+          :children:
+          - :name: a
+            :count: 1
+            :attributes:
+              :onclick: homeLink();
+  - :name: section
+    :count: 1
+    :children:
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: johoMikata
+      :children:
+      - :name: a
+        :count: 1
+        :attributes:
+          :target: _blank
+  - :name: section
+    :count: 1
+    :attributes:
+      :class: fixedBottomActionBtnBar js-fixedBottomActionBtnBar-hidden
+      :id: js-popupBtn
+    :children:
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: fixedactionbox
+      :children:
+      - :name: div
+        :count: 2
+        :attributes:
+          :class: fixedactionbox-item
+        :children:
+        - :name: a
+          :count: 1
+          :attributes:
+            :class: fixedbtn fixedbtn--action top shiryoSeikyu
+          :children:
+          - :name: div
+            :count: 1
+            :attributes:
+              :class: fixedbtn-inner
+            :children:
+            - :name: span
+              :count: 2
+              :attributes:
+                :class: fixedbtn-sub
+            - :name: br
+              :count: 1
+  - :name: section
+    :count: 1
+    :attributes:
+      :class: fixedTopBar
+    :children:
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: favoriteBar
+        :id: favoriteBar
+      :children:
+      - :name: p
+        :count: 3
+        :attributes:
+          :class: mainText forRegister
+  - :name: footer
+    :count: 1
+    :children:
+    - :name: div
+      :count: 4
+      :attributes:
+        :class: pcViewWrap
+      :children:
+      - :name: a
+        :count: 1
+        :attributes:
+          :class: pcViewButton
+          :onclick: pcView('suumo.jp', 'http://suumo.jp/chintai/tokyo/sc_chiyoda/',
+            86400000); return false;
+          :target: _blank
+      - :name: p
+        :count: 1
+  - :name: form
+    :count: 1
+    :attributes:
+      :action: cond/
+      :id: condJoken
+      :method: get
+    :children:
+    - :name: input
+      :count: 1
+      :attributes:
+        :class: typeParam
+        :name: type
+        :style: 'display: none;'
+        :type: text
+        :value: '1'
+    - :name: input
+      :count: 4
+      :attributes:
+        :class: param
+        :name: sc
+        :type: hidden
+        :value: '101'
+  - :name: input
+    :count: 3
+    :attributes:
+      :id: pCnt
+      :name: pCnt
+      :style: 'display: none;'
+      :type: text
+  - :name: input
+    :count: 2
+    :attributes:
+      :id: bknchkData
+      :name: bknchkData
+      :style: 'display: none;'
+      :type: text
+      :value: ''
+  - :name: input
+    :count: 1
+    :attributes:
+      :id: countShhNext
+      :name: countShhNext
+      :type: hidden
+      :value: '0'
+  - :name: input
+    :count: 1
+    :attributes:
+      :id: jkp
+      :name: jkp
+      :type: hidden
+      :value: 91423a353ec77bade3637cbfe9ef3a99
+  - :name: input
+    :count: 2
+    :attributes:
+      :class: js-catalyst-show
+      :data-value: '{"kaisoCD":"PRT","logType":"bukkenList","actionType":"IP","chintai_daibunrui":"08","chintai_shoubunrui":"58","areaCD":"3","keisaiSiteKBN":"01"}'
+      :style: 'display: none;'
+      :type: text
+  - :name: section
+    :count: 1
+    :attributes:
+      :id: js-popupSection
+    :children:
+    - :name: div
+      :count: 2
+      :attributes:
+        :class: popup-overlay js-popupWindowClose
+        :id: js-popup-overlay
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: popupmsgs
+      :children:
+      - :name: div
+        :count: 15
+        :attributes:
+          :class: innercontent
+          :id: js-addMylistMSG
+        :children:
+        - :name: p
+          :count: 2
+          :attributes:
+            :class: innercontent-title no-icon
+          :children:
+          - :name: br
+            :count: 1
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: innercontent
+          :id: js-searchNoResult
+          :msgtxt: "条件に一致する物件がありませんでした。"
+        :children:
+        - :name: p
+          :count: 1
+          :attributes:
+            :class: innercontent-title no-icon
+          :children:
+          - :name: br
+            :count: 1
+  - :name: script
+    :count: 4
+    :attributes:
+      :type: text/javascript
+  - :name: script
+    :count: 2
+    :attributes:
+      :charset: utf-8
+      :type: text/javascript
+  - :name: script
+    :count: 5
+  - :name: script
+    :count: 4
+  - :name: script
+    :count: 13
+    :attributes:
+      :type: text/javascript
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-cdn-url: https://img01.suumo.com
+      :data-gazo-url: https://img01.suumo.com/jj/resizeImage?src=
+      :id: dataMediatorJs
+      :type: text/javascript
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-httphost: smp.suumo.jp
+      :id: mylistJs
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-param-se: '040'
+      :id: js-data-script-listbase
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-addsearchjokenfunctionname: ''
+      :data-areacode: '030'
+      :data-fw: ''
+      :data-islogin: '0'
+      :data-joken_key: smp.joken.rireki
+      :data-jokenmax: '50'
+      :data-jokennm: "賃貸　東京都千代田区　指定なし｜"
+      :data-mainparam: sc
+      :data-max: '50'
+      :data-mylist_key: smp.bukken.mylist
+      :data-normalshiboriparam: "&sc=101"
+      :data-params: '{"sc":"101","module":"default","controller":"chintai","action":"arealist","routeparam":{"se":"040","tf":"13","pageid":"PF3C1302"},"bparam":{"SSITE":"1"}}'
+      :data-plurafwurl: "/chintai/tokyo/fwbukken/"
+      :data-pluralekurl: "/chintai/tokyo/ek/"
+      :data-pluralensenurl: "/chintai/tokyo/en/"
+      :data-pluralscurl: "/chintai/tokyo/sc/"
+      :data-regist_joken_key: smp.registJoken
+      :data-registjokenfunctionname: registShikugun
+      :data-registrirekifunctionname: saveShikugun
+      :data-requesturl: "/chintai/tokyo/sc_101/"
+      :data-sitekbncd: '01'
+      :data-ssite: '1'
+      :data-totalhits: '858'
+      :data-unnormalshiboriparam: ''
+      :data-urlparamsstring: ''
+      :id: js-data-script-commonScript
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-bclist: '["100069452765","100070600509","100065375184","100069739355","100070691609","100070710965","100071832932","100071504681","100068309355","100070838691","100070737110","100070731104","100070830659","100070825822","100071106101","100071616621","100068013664","100067956936","100068545926","100068998422","100061065482"]'
+      :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_040","se":"040"}'
+      :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_040","sc3":["13101"],"se":["040"]}'
+      :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_040","sc3":["13101"],"se":["040"],"ta":"13"}'
+      :data-jukototalhit: '2435'
+      :data-kisslist: '144023001,154818001,083652017,138683001,100882001,132735001,003448007,138683005,154818001,132191004,155938001,138663001,144590001,138663004,134124001,055859000,055859000,107527008,154818001,087209047,144621001'
+      :data-pageid: PF3C1302
+      :data-pageidlist: P,F,3,C,13,02
+      :data-pageviewinfo: '{"ab_t":"sort_recommend","sort_cd":"25"}'
+      :data-templateid: SP_SUUMO
+      :data-totalhit: '858'
+      :data-url: log.suumo.jp/js/logsuumo.js
+      :id: beaconJs
+      :language: JavaScript
+  - :name: script
+    :count: 2
+    :attributes:
+      :language: JavaScript
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-pageid: PF3C1302
+      :data-prop20: area
+      :data-rsid: rcrtsuumojpspprd
+      :data-syubetsu: '040'
+      :id: catalystMainJs
+      :language: JavaScript
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-catalyst-info: '{"catalystAllow":"1","viewCD":"05","kaisoCD":"LST","ryoikiCD":"040","hyojishubetsuID":"PV","pageID":"05-HON-040-3-0103-0001","siteID":"HON","areaCD":"3","keisaiSiteKBN":"01","todofukenCD":"13","dosenKBN":"area","searchArea":"3","searchShikugun":"13101"}'
+      :id: catalystMainV2Js
+      :language: JavaScript

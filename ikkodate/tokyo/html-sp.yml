@@ -1,0 +1,457 @@
+{"url"=>"http://suumo.jp/ikkodate/tokyo/", "user-agent"=>"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_2 like Mac OS X AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13F69 Safari/601.1"}
+---
+:name: html
+:children:
+- :name: head
+  :count: 1
+  :children:
+  - :name: meta
+    :count: 1
+    :attributes:
+      :charset: UTF-8
+  - :name: meta
+    :count: 5
+    :attributes:
+      :content: unsafe-url
+      :name: referrer
+  - :name: meta
+    :count: 1
+    :attributes:
+      :content: width=device-width,user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0
+      :id: viewport
+      :name: viewport
+  - :name: link
+    :count: 12
+    :attributes:
+      :rel: stylesheet
+  - :name: link
+    :count: 4
+    :attributes:
+      :rel: apple-touch-icon
+      :sizes: 76x76
+  - :name: title
+    :count: 1
+- :name: body
+  :count: 1
+  :attributes:
+    :id: pagetop
+  :children:
+  - :name: input
+    :count: 1
+    :attributes:
+      :id: browserBack
+      :style: 'display: none;'
+      :type: text
+  - :name: div
+    :count: 3
+    :attributes:
+      :id: wrapper_viewport
+    :children:
+    - :name: input
+      :count: 1
+      :attributes:
+        :id: keywordBackInfo
+        :name: keywordBackInfo
+        :style: display:none;
+        :type: text
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: appbnr
+        :data-cookie-expires: '315360000000'
+        :data-cookie-name: smp_smart_app_banner_close
+        :data-cookie-value: '1'
+      :children:
+      - :name: a
+        :count: 2
+        :attributes:
+          :class: appbnr-close
+      - :name: p
+        :count: 1
+        :attributes:
+          :class: appbnr-img
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: appbnr-txtbox
+        :children:
+        - :name: p
+          :count: 1
+          :attributes:
+            :class: appbnr-txt
+        - :name: p
+          :count: 2
+    - :name: header
+      :count: 1
+      :children:
+      - :name: h1
+        :count: 1
+        :attributes:
+          :id: dHead
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: headerInner
+        :children:
+        - :name: a
+          :count: 1
+          :attributes:
+            :class: logo
+            :onclick: homeLink();
+          :children:
+          - :name: img
+            :count: 1
+            :attributes:
+              :height: '32'
+              :width: '93'
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: buttonArea
+          :children:
+          - :name: a
+            :count: 2
+            :attributes:
+              :class: history
+          - :name: a
+            :count: 1
+            :attributes:
+              :class: menu icnMypage
+              :onclick: sendEventForBeacon([['eventName', 'open_menu']]);
+    - :name: article
+      :count: 1
+      :children:
+      - :name: section
+        :count: 1
+        :children:
+        - :name: h2
+          :count: 1
+          :attributes:
+            :class: sectionHeadButton
+          :children:
+          - :name: span
+            :count: 1
+          - :name: span
+            :count: 1
+            :attributes:
+              :class: notice
+          - :name: div
+            :count: 1
+            :children:
+            - :name: a
+              :count: 1
+              :children:
+              - :name: span
+                :count: 1
+                :children:
+                - :name: span
+                  :count: 2
+      - :name: section
+        :count: 1
+        :attributes:
+          :class: condition hidden
+          :id: condition
+        :children:
+        - :name: div
+          :count: 1
+          :children:
+          - :name: a
+            :count: 1
+            :attributes:
+              :class: lastTime
+              :id: lastTimeRireki
+              :style: display:none
+            :children:
+            - :name: p
+              :count: 1
+              :children:
+              - :name: span
+                :count: 1
+                :attributes:
+                  :class: bukkenCount
+                  :style: display:none;
+                :children:
+                - :name: span
+                  :count: 1
+                  :attributes:
+                    :class: number
+            - :name: p
+              :count: 1
+              :attributes:
+                :id: lastTimeRirekiText
+      - :name: section
+        :count: 7
+        :attributes:
+          :class: webpushBlock unsupported
+        :children:
+        - :name: label
+          :count: 1
+          :children:
+          - :name: div
+            :count: 1
+            :attributes:
+              :class: checkboxWrap
+            :children:
+            - :name: input
+              :count: 1
+              :attributes:
+                :id: webPushForPrevCond
+                :type: checkbox
+            - :name: span
+              :count: 1
+              :attributes:
+                :class: running hidden
+          - :name: p
+            :count: 1
+            :attributes:
+              :class: explanation
+            :children:
+            - :name: br
+              :count: 1
+      - :name: section
+        :count: 1
+        :attributes:
+          :id: bukkenRecommend
+      - :name: nav
+        :count: 1
+        :attributes:
+          :class: breadcrumb
+        :children:
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: breadcrumb-inner
+          :children:
+          - :name: ol
+            :count: 1
+            :attributes:
+              :class: breadcrumb-list
+            :children:
+            - :name: li
+              :count: 3
+              :children:
+              - :name: a
+                :count: 1
+                :attributes:
+                  :onclick: homeLink();
+      - :name: section
+        :count: 1
+        :attributes:
+          :onclick: sendEventForBeacon([['eventName', 'download']]);
+    - :name: footer
+      :count: 1
+      :children:
+      - :name: div
+        :count: 4
+        :attributes:
+          :class: pcViewWrap
+        :children:
+        - :name: a
+          :count: 1
+          :attributes:
+            :class: pcViewButton
+            :onclick: pcView('suumo.jp', 'http://suumo.jp/ikkodate/tokyo/', 86400000);
+              return false;
+            :target: _blank
+        - :name: p
+          :count: 1
+  - :name: section
+    :count: 1
+    :attributes:
+      :id: js-popupSection
+    :children:
+    - :name: div
+      :count: 2
+      :attributes:
+        :class: popup-overlay js-popupWindowClose
+        :id: js-popup-overlay
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: popupmsgs
+      :children:
+      - :name: div
+        :count: 15
+        :attributes:
+          :class: innercontent
+          :id: js-addMylistMSG
+        :children:
+        - :name: p
+          :count: 2
+          :attributes:
+            :class: innercontent-title no-icon
+          :children:
+          - :name: br
+            :count: 1
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: innercontent
+          :id: js-searchNoResult
+          :msgtxt: "条件に一致する物件がありませんでした。"
+        :children:
+        - :name: p
+          :count: 1
+          :attributes:
+            :class: innercontent-title no-icon
+          :children:
+          - :name: br
+            :count: 1
+  - :name: script
+    :count: 4
+    :attributes:
+      :type: text/javascript
+  - :name: script
+    :count: 2
+    :attributes:
+      :charset: utf-8
+      :type: text/javascript
+  - :name: script
+    :count: 13
+  - :name: script
+    :count: 2
+  - :name: script
+    :count: 2
+    :attributes:
+      :type: text/javascript
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-cdn-url: https://img01.suumo.com
+      :data-gazo-url: https://img01.suumo.com/jj/resizeImage?src=
+      :id: dataMediatorJs
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-ikkodate-ryoikicd: '020'
+      :data-ryoikicd: '020'
+      :data-todofukencd: '13'
+      :id: recommendScript
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-ryoikicd: '020'
+      :id: rtftopScript
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-register-appid: jp.suumo.smp
+      :data-register-device-url: https://device.pusna-rs.com/device/
+      :data-ryoikicd: '020'
+      :id: webpushScript
+  - :name: div
+    :count: 1
+    :attributes:
+      :class: searchform
+    :children:
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: searchform-overlay
+        :id: js-freewordOverlay
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: searchform-body
+      :children:
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: freeword
+        :children:
+        - :name: form
+          :count: 1
+          :attributes:
+            :action: javascript:void(0);
+          :children:
+          - :name: div
+            :count: 1
+            :attributes:
+              :class: freeword-body
+            :children:
+            - :name: ul
+              :count: 1
+              :attributes:
+                :class: l-searchform
+              :children:
+              - :name: li
+                :count: 1
+                :children:
+                - :name: input
+                  :count: 1
+                  :attributes:
+                    :class: freeword-input
+                    :id: js-inputText
+                    :placeholder: "駅・市区郡・物件名を入力"
+                    :type: search
+                    :value: ''
+                - :name: a
+                  :count: 1
+                  :attributes:
+                    :class: freeword-btnClear
+                    :id: js-btnClear
+                  :children:
+                  - :name: span
+                    :count: 1
+              - :name: li
+                :count: 2
+                :attributes:
+                  :class: l-searchform-search
+                :children:
+                - :name: a
+                  :count: 1
+                  :attributes:
+                    :class: freeword-btnSearch
+                    :id: js-btnSearch
+                  :children:
+                  - :name: span
+                    :count: 1
+                    :attributes:
+                      :class: icon-roupe
+            - :name: div
+              :count: 1
+              :attributes:
+                :class: l-searchhistory
+              :children:
+              - :name: div
+                :count: 1
+                :attributes:
+                  :class: freeword-history
+                :children:
+                - :name: dl
+                  :count: 1
+                  :attributes:
+                    :class: history-list
+                  :children:
+                  - :name: dt
+                    :count: 1
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: searchresults
+          :id: js-results
+    - :name: span
+      :count: 1
+      :attributes:
+        :class: searchform-preloader
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-pageid: PK3A1301
+      :data-templateid: SP_SUUMO
+      :data-totalhit: ''
+      :data-url: log.suumo.jp/js/logsuumo.js
+      :id: beaconJs
+      :language: JavaScript
+  - :name: script
+    :count: 2
+    :attributes:
+      :language: JavaScript
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-pageid: PK3A1301
+      :data-rsid: rcrtsuumojpspprd
+      :data-syubetsu: '020'
+      :id: catalystMainJs
+      :language: JavaScript

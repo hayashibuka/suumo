@@ -1,0 +1,456 @@
+{"url"=>"http://suumo.jp/ms/chuko/tokyo/ek_25620/", "user-agent"=>"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_2 like Mac OS X AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13F69 Safari/601.1"}
+---
+:name: html
+:children:
+- :name: head
+  :count: 1
+  :children:
+  - :name: meta
+    :count: 1
+    :attributes:
+      :charset: UTF-8
+  - :name: meta
+    :count: 5
+    :attributes:
+      :content: unsafe-url
+      :name: referrer
+  - :name: meta
+    :count: 1
+    :attributes:
+      :content: width=device-width,user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0
+      :id: viewport
+      :name: viewport
+  - :name: link
+    :count: 9
+    :attributes:
+      :rel: stylesheet
+  - :name: link
+    :count: 4
+    :attributes:
+      :rel: apple-touch-icon
+      :sizes: 76x76
+  - :name: title
+    :count: 1
+  - :name: input
+    :count: 2
+    :attributes:
+      :id: pCnt
+      :name: pCnt
+      :style: 'display: none;'
+      :type: text
+  - :name: input
+    :count: 2
+    :attributes:
+      :id: bknchkData
+      :name: bknchkData
+      :style: 'display: none;'
+      :type: text
+      :value: ''
+  - :name: meta
+    :count: 2
+    :attributes:
+      :content: text/css
+      :http-equiv: content-style-type
+- :name: body
+  :count: 1
+  :attributes:
+    :id: pagetop
+  :children:
+  - :name: input
+    :count: 1
+    :attributes:
+      :id: browserBack
+      :style: 'display: none;'
+      :type: text
+  - :name: div
+    :count: 3
+    :attributes:
+      :id: wrapper_viewport
+    :children:
+    - :name: header
+      :count: 1
+      :children:
+      - :name: h1
+        :count: 1
+        :attributes:
+          :id: dHead
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: headerInner
+        :children:
+        - :name: a
+          :count: 1
+          :attributes:
+            :class: logo
+          :children:
+          - :name: img
+            :count: 1
+            :attributes:
+              :height: '32'
+              :width: '93'
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: buttonArea
+          :children:
+          - :name: a
+            :count: 2
+            :attributes:
+              :class: history
+          - :name: a
+            :count: 1
+            :attributes:
+              :class: menu icnMypage
+              :onclick: sendEventForBeacon([['eventName', 'open_menu']]);
+    - :name: article
+      :count: 1
+      :children:
+      - :name: section
+        :count: 2
+        :children:
+        - :name: div
+          :count: 9
+          :attributes:
+            :class: secHead
+          :children:
+          - :name: h2
+            :count: 1
+            :attributes:
+              :class: headerh2
+            :children:
+            - :name: span
+              :count: 1
+              :children:
+              - :name: span
+                :count: 1
+                :attributes:
+                  :class: h2_subtext
+                :children:
+                - :name: span
+                  :count: 1
+                  :attributes:
+                    :class: h2_subtext-totalnumber totalHits
+        - :name: form
+          :count: 1
+          :attributes:
+            :action: https://suumo.jp/jj/bukken/shiryou/JJ010FJ010/
+            :id: seikyu
+            :method: get
+            :target: _blank
+          :children:
+          - :name: input
+            :count: 6
+            :attributes:
+              :name: ar
+              :type: hidden
+              :value: '030'
+          - :name: section
+            :count: 1
+            :attributes:
+              :id: bukkenListAll
+            :children:
+            - :name: ul
+              :count: 2
+              :attributes:
+                :class: listView bukkenList solid
+                :id: bukkenListAll_1
+              :children:
+              - :name: li
+                :count: 10
+                :children:
+                - :name: div
+                  :count: 3
+                  :attributes:
+                    :class: innerHead
+                  :children:
+                  - :name: p
+                    :count: 2
+                    :attributes:
+                      :class: inputWrap
+                    :children:
+                    - :name: input
+                      :count: 1
+                      :attributes:
+                        :class: ctmChk
+                        :name: bsnc
+                        :rel: '030'
+                        :type: checkbox
+                        :value: 01187066688
+                  - :name: div
+                    :count: 1
+                    :attributes:
+                      :class: titleBox
+                    :children:
+                    - :name: p
+                      :count: 1
+                      :attributes:
+                        :class: titleWrap
+            - :name: div
+              :count: 1
+              :attributes:
+                :class: readmoreborder
+              :children:
+              - :name: p
+                :count: 1
+      - :name: nav
+        :count: 1
+        :attributes:
+          :class: breadcrumb
+        :children:
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: breadcrumb-inner
+          :children:
+          - :name: ol
+            :count: 1
+            :attributes:
+              :class: breadcrumb-list
+            :children:
+            - :name: li
+              :count: 4
+              :children:
+              - :name: a
+                :count: 1
+                :attributes:
+                  :onclick: homeLink();
+      - :name: div
+        :count: 1
+        :attributes:
+          :id: chukoMansionBukkenListTemplate
+          :style: display:none
+        :children:
+        - :name: li
+          :count: 1
+          :children:
+          - :name: div
+            :count: 2
+            :attributes:
+              :class: innerHead
+            :children:
+            - :name: p
+              :count: 2
+              :attributes:
+                :class: inputWrap
+              :children:
+              - :name: input
+                :count: 1
+                :attributes:
+                  :class: ctmChk
+                  :name: bsnc
+                  :rel: ''
+                  :type: checkbox
+                  :value: '011'
+            - :name: div
+              :count: 1
+              :attributes:
+                :class: titleBox
+              :children:
+              - :name: p
+                :count: 1
+                :attributes:
+                  :class: titleWrap
+      - :name: section
+        :count: 1
+        :attributes:
+          :class: fixedBottomActionBtnBar js-fixedBottomActionBtnBar-hidden
+          :id: js-popupBtn
+        :children:
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: fixedActionBtnBox
+          :children:
+          - :name: a
+            :count: 1
+            :attributes:
+              :class: fixedActionBtnBox-btn inquirybtn shiryoSeikyu top disabled
+            :children:
+            - :name: span
+              :count: 1
+              :attributes:
+                :class: icnInquiryMail
+      - :name: section
+        :count: 1
+        :attributes:
+          :class: fixedTopBar
+        :children:
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: favoriteBar
+            :id: favoriteBar
+          :children:
+          - :name: p
+            :count: 3
+            :attributes:
+              :class: mainText forRegister
+      - :name: section
+        :count: 1
+        :attributes:
+          :onclick: sendEventForBeacon([['eventName', 'download']]);
+    - :name: footer
+      :count: 1
+      :children:
+      - :name: div
+        :count: 4
+        :attributes:
+          :class: pcViewWrap
+        :children:
+        - :name: a
+          :count: 1
+          :attributes:
+            :class: pcViewButton
+            :onclick: pcView('suumo.jp', 'http://suumo.jp/ms/chuko/tokyo/ek_25620/',
+              86400000); return false;
+            :target: _blank
+        - :name: p
+          :count: 1
+    - :name: form
+      :count: 1
+      :attributes:
+        :action: cond/
+        :id: condJoken
+        :method: get
+      :children:
+      - :name: input
+        :count: 1
+        :attributes:
+          :class: typeParam
+          :name: type
+          :style: 'display: none;'
+          :type: text
+          :value: '1'
+      - :name: input
+        :count: 4
+        :attributes:
+          :class: param
+          :name: e
+          :type: hidden
+          :value: '000525620'
+  - :name: section
+    :count: 1
+    :attributes:
+      :id: js-popupSection
+    :children:
+    - :name: div
+      :count: 2
+      :attributes:
+        :class: popup-overlay js-popupWindowClose
+        :id: js-popup-overlay
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: popupmsgs
+      :children:
+      - :name: div
+        :count: 15
+        :attributes:
+          :class: innercontent
+          :id: js-addMylistMSG
+        :children:
+        - :name: p
+          :count: 2
+          :attributes:
+            :class: innercontent-title no-icon
+          :children:
+          - :name: br
+            :count: 1
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: innercontent
+          :id: js-searchNoResult
+          :msgtxt: "条件に一致する物件がありませんでした。"
+        :children:
+        - :name: p
+          :count: 1
+          :attributes:
+            :class: innercontent-title no-icon
+          :children:
+          - :name: br
+            :count: 1
+  - :name: script
+    :count: 4
+    :attributes:
+      :type: text/javascript
+  - :name: script
+    :count: 2
+    :attributes:
+      :charset: utf-8
+      :type: text/javascript
+  - :name: script
+    :count: 5
+  - :name: script
+    :count: 4
+  - :name: script
+    :count: 8
+    :attributes:
+      :type: text/javascript
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-httphost: smp.suumo.jp
+      :id: mylistJs
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-param-se: '011'
+      :id: js-data-script
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-addsearchjokenfunctionname: ''
+      :data-areacode: '030'
+      :data-fw: ''
+      :data-islogin: '0'
+      :data-joken_key: smp.joken.rireki
+      :data-jokenmax: '50'
+      :data-jokennm: "中古マンション　東京都(ＪＲ山手線(東京)) 絞り込み条件 : 指定なし"
+      :data-mainparam: e
+      :data-max: '50'
+      :data-mylist_key: smp.bukken.mylist
+      :data-normalshiboriparam: "&e=000525620"
+      :data-params: '{"e":"000525620","module":"default","controller":"chukomansion","action":"ensenekilist","routeparam":{"se":"011","tf":"13","pageid":"PS3C1304"},"bparam":{"SSITE":"1"}}'
+      :data-plurafwurl: "/chukomansion/tokyo/fwbukken/"
+      :data-pluralekurl: "/chukomansion/tokyo/ek/"
+      :data-pluralensenurl: "/chukomansion/tokyo/en/"
+      :data-pluralscurl: "/chukomansion/tokyo/sc/"
+      :data-regist_joken_key: smp.registJoken
+      :data-registjokenfunctionname: registEki
+      :data-registrirekifunctionname: saveEki
+      :data-requesturl: "/chukomansion/tokyo/ek_000525620/"
+      :data-sitekbncd: '01'
+      :data-totalhits: '80'
+      :data-unnormalshiboriparamb: ''
+      :data-urlparamsstring: ''
+      :id: js-data-script-commonScript
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-bclist: '["87066688","87006506","87015773","85830554","86948919","86992951","87008439","86992955","87070252","86949247","86992893","86507969","87044385","86989106","86632634","86872182","86878955","86948894","86976005","87035656"]'
+      :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_011","se":"011"}'
+      :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_011","e":["000525620"],"se":["011"],"ta":["13"]}'
+      :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_011","e":["000525620"],"se":["011"],"ta":["13"]}'
+      :data-krsnetidlist: '["t14547700101","t14547700101","t14547700101","t00038609001","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101"]'
+      :data-nclist: '["87066688","87006506","87015773","85830554","86948919","86992951","87008439","86992955","87070252","86949247","86992893","86507969","87044385","86989106","86632634","86872182","86878955","86948894","86976005","87035656"]'
+      :data-pageid: PS3C1304
+      :data-templateid: SP_SUUMO
+      :data-totalhit: '80'
+      :data-url: log.suumo.jp/js/logsuumo.js
+      :id: beaconJs
+      :language: JavaScript
+  - :name: script
+    :count: 2
+    :attributes:
+      :language: JavaScript
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-pageid: PS3C1304
+      :data-prop20: line
+      :data-rsid: rcrtsuumojpspprd
+      :data-syubetsu: '011'
+      :id: catalystMainJs
+      :language: JavaScript
