@@ -1,2379 +1,1070 @@
-- :name: 'html'
-  :attributes:
-    :lang: 'ja'
+---
+:name: html
+:attributes:
+  :lang: ja
+:children:
+- :name: head
+  :count: 1
   :children:
-    - :name: 'head'
+  - :name: meta
+    :count: 1
+    :attributes:
+      :charset: utf-8
+  - :name: title
+    :count: 1
+  - :name: meta
+    :count: 1
+    :attributes:
+      :content: "路線,沿線,東京都,家賃相場,賃貸相場,賃料相場,賃貸,SUUMO,スーモ"
+      :name: keywords
+  - :name: meta
+    :count: 1
+    :attributes:
+      :content: "東京都で気になる駅の家賃相場を路線や沿線から探すなら不動産情報サイトSUUMO（スーモ）。各都道府県（市区郡・駅）の賃料相場情報をご用意。家賃相場を目安にあなたの賃貸物件探しにお役立てください。"
+      :name: description
+  - :name: link
+    :count: 1
+    :attributes:
+      :rel: shortcut icon
+      :type: image/vnd.microsoft.icon
+  - :name: link
+    :count: 1
+    :attributes:
+      :rel: icon
+      :type: image/vnd.microsoft.icon
+  - :name: link
+    :count: 1
+    :attributes:
+      :media: handheld
+      :rel: alternate
+  - :name: link
+    :count: 1
+    :attributes:
+      :media: screen
+      :rel: stylesheet
+- :name: body
+  :count: 1
+  :children:
+  - :name: link
+    :count: 1
+    :attributes:
+      :media: screen
+      :rel: stylesheet
+  - :name: form
+    :count: 1
+    :attributes:
+      :action: https://suumo.jp/jj/common/common/JJ901FK101/showLogin/
+      :id: js-turnbackPostForm
+      :method: post
+      :name: common_common_JJ901FK101ActionForm
+    :children:
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: ar
+        :type: hidden
+        :value: '030'
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: bs
+        :type: hidden
+        :value: '040'
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: ltbi
+        :type: hidden
+        :value: 9bca05eebee120fb3fac5305c338b7eee27e0859441c6ca6d87b94d4971a8c8476b6ab18e685f466bb28ea9e0a46d34c87ac9d22cd1e4a29bd20058e4d22aa2ccbe35948718386a321a624e5a8497565068be7c6cdf882a4609974f742c5a9709bb422ed61a6e6d988cee3c61b67e3703f49f0ac70477ffe539a134af64617e1b78d490a05df4b397ea27d9dafcb694ad165a88107f4e368ab4a49c7180b5b4cdbb0c52e1a86845eae70c8fc9d8040c04ff01c39f6180559087966bcbec201e6b1c36e4bb69965b3a47737439f68c22a5ca384d7871277c955e58ab3abff95f21dcd19395c79435acd0750fac6db10f249b14e785fa81f91e4a47689b77265cdd907a57498132f4f632cffc5dc1be37f032d2c3a132450cf21e7d944c6c90f206307e5b8c058a17037f6244f3466cd5a720495692d9425432e17ee29ae093432dfdc7d9704c28494a9e859284e8ef3ddcac458c51be9b69067244ac5042914fe768571bf89d78ffac785f53a02e8e600cc114ba4ce051008cc97cf305da6490a37bc40d06fd0e2eec27e035acc4101970670c1acb5634e83
+  - :name: form
+    :count: 1
+    :attributes:
+      :action: "/jj/common/service/JJ901FM303/"
+      :id: js-myKensakuJokenForm
+      :method: post
+    :children:
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: ar
+        :type: hidden
+        :value: '030'
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: bs
+        :type: hidden
+        :value: '040'
+  - :name: form
+    :count: 1
+    :attributes:
+      :action: "/jj/common/parts/JJ901FI306/"
+      :id: js-popLatestBukkenForm
+      :method: post
+    :children:
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: ar
+        :type: hidden
+        :value: ''
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: bs
+        :type: hidden
+        :value: ''
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: dispmode
+        :type: hidden
+        :value: '3'
+  - :name: form
+    :count: 1
+    :attributes:
+      :action: "/jj/common/parts/JJ901FI302/"
+      :id: js-resetLatestBukkenForm
+      :method: post
+    :children:
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: ar
+        :type: hidden
+        :value: ''
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: bs
+        :type: hidden
+        :value: ''
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: dispmode
+        :type: hidden
+        :value: '3'
+  - :name: form
+    :count: 1
+    :attributes:
+      :action: "/jj/common/parts/JJ901FI313/"
+      :id: js-popLatestSearchForm
+      :method: post
+    :children:
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: ar
+        :type: hidden
+        :value: ''
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: bs
+        :type: hidden
+        :value: ''
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: dispmode
+        :type: hidden
+        :value: '3'
+  - :name: form
+    :count: 1
+    :attributes:
+      :action: "/jj/common/parts/JJ901FI312/"
+      :id: js-resetLatestSearchForm
+      :method: post
+    :children:
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: ar
+        :type: hidden
+        :value: ''
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: bs
+        :type: hidden
+        :value: ''
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: dispmode
+        :type: hidden
+        :value: '3'
+  - :name: form
+    :count: 1
+    :attributes:
+      :action: https://suumo.jp/jj/common/common/JJ901FK101/showMemRegist/
+      :id: js-myEntryForm
+      :method: post
+      :name: common_common_JJ901FK101ActionForm
+    :children:
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: siteKbn
+        :type: hidden
+        :value: '01'
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: seniFlg
+        :type: hidden
+        :value: ''
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: ar
+        :type: hidden
+        :value: '030'
+    - :name: input
+      :count: 1
+      :attributes:
+        :name: bs
+        :type: hidden
+        :value: '040'
+  - :name: div
+    :count: 1
+    :attributes:
+      :class: mylist
+      :id: js-mylist
+    :children:
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: mylist-inner
       :children:
-        - :name: 'meta'
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: browsearea dn
+          :id: js-mylist-historyBox
+        :children:
+        - :name: ul
+          :count: 1
           :attributes:
-            :charset: 'utf-8'
-        - :name: 'title'
-        - :name: 'meta'
+            :class: browselist
+          :children:
+          - :name: li
+            :count: 1
+            :attributes:
+              :class: browselist-box
+              :id: js-mylist-historyBox-popLatestBukken
+          - :name: li
+            :count: 1
+            :attributes:
+              :class: browselist-box
+              :id: js-mylist-historyBox-popLatestSearch
+        - :name: div
+          :count: 1
           :attributes:
-            :content: '路線,沿線,東京都,家賃相場,賃貸相場,賃料相場,賃貸,SUUMO,スーモ'
-            :name: 'keywords'
-        - :name: 'meta'
+            :class: browsearea-close
+            :id: js-mylist-historyBox-close
+          :children:
+          - :name: a
+            :count: 1
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: mylist-logo
+          :id: js-mylist-logo
+        :children:
+        - :name: a
+          :count: 1
           :attributes:
-            :content: '東京都で気になる駅の家賃相場を路線や沿線から探すなら不動産情報サイトSUUMO（スーモ）。各都道府県（市区郡・駅）の賃料相場情報をご用意。家賃相場を目安にあなたの賃貸物件探しにお役立てください。'
-            :name: 'description'
-        - :name: 'link'
-          :attributes:
-            :href: '/front/img/favicon.ico'
-            :rel:
-              - shortcut
-              - icon
-            :type: 'image/vnd.microsoft.icon'
-        - :name: 'link'
-          :attributes:
-            :href: '/front/img/favicon.ico'
-            :rel:
-              - icon
-            :type: 'image/vnd.microsoft.icon'
-        - :name: 'link'
-          :attributes:
-            :href: 'http://suumo.jp/edit/mb/pc2m/?p=http://suumo.jp/jj/__JJSEO/chintai/soba/td_tokyo/ensen/'
-            :media: 'handheld'
-            :rel:
-              - alternate
-        - :name: 'link'
-          :attributes:
-            :href: '/edit/fr-soba/suumo/css/fr-search_soba.css'
-            :media: 'screen'
-            :rel:
-              - stylesheet
-    - :name: 'body'
+            :class: js-setCookieArZenkoku
+      - :name: ul
+        :count: 1
+        :attributes:
+          :class: mylist-list
+        :children:
+        - :name: li
+          :count: 3
+          :children:
+          - :name: div
+            :count: 1
+            :attributes:
+              :class: mylistbarbox
+            :children:
+            - :name: div
+              :count: 1
+              :attributes:
+                :class: mylistbarbox-inner
+              :children:
+              - :name: div
+                :count: 1
+                :attributes:
+                  :class: mylistbarbox-inner-contents
+                :children:
+                - :name: div
+                  :count: 1
+                  :attributes:
+                    :class: mylistbar
+                  :children:
+                  - :name: p
+                    :count: 1
+                    :attributes:
+                      :class: mylistbar-title
+                  - :name: ul
+                    :count: 1
+                    :attributes:
+                      :class: mylistbar-inbar
+                    :children:
+                    - :name: li
+                      :count: 1
+                      :attributes:
+                        :class: mylistbar-inbar-item
+                      :children:
+                      - :name: a
+                        :count: 1
+                        :attributes:
+                          :class: mylistbarlink mylistbarlink--bukken
+                        :children:
+                        - :name: span
+                          :count: 1
+                          :attributes:
+                            :class: mylistbarlink-title
+                        - :name: span
+                          :count: 1
+                          :attributes:
+                            :class: mylistbarcnt
+                            :id: js-mylistbarcnt-bukken
+                    - :name: li
+                      :count: 1
+                      :attributes:
+                        :class: mylistbar-inbar-item
+                      :children:
+                      - :name: a
+                        :count: 1
+                        :attributes:
+                          :class: mylistbarlink mylistbarlink--company
+                        :children:
+                        - :name: span
+                          :count: 1
+                          :attributes:
+                            :class: mylistbarlink-title
+                        - :name: span
+                          :count: 1
+                          :attributes:
+                            :class: mylistbarcnt
+                            :id: js-mylistbarcnt-company
+                    - :name: li
+                      :count: 1
+                      :attributes:
+                        :class: mylistbar-inbar-item
+                      :children:
+                      - :name: a
+                        :count: 1
+                        :attributes:
+                          :class: mylistbarlink mylistbarlink--sch
+                          :id: js-mylist-myKensakuJoken
+                        :children:
+                        - :name: span
+                          :count: 1
+                          :attributes:
+                            :class: mylistbarlink-title
+                        - :name: span
+                          :count: 1
+                          :attributes:
+                            :class: mylistbarcnt
+                            :id: js-mylistbarcnt-sch
+      - :name: span
+        :count: 1
+        :attributes:
+          :class: dn
+          :id: js-mylistbukkencountcookie
+      - :name: span
+        :count: 1
+        :attributes:
+          :class: dn
+          :id: js-mylistkaishacountcookie
+      - :name: span
+        :count: 1
+        :attributes:
+          :class: dn
+          :id: js-mylistkensakujokencountcookie
+  - :name: div
+    :count: 1
+    :attributes:
+      :class: headercontainer
+    :children:
+    - :name: noscript
+      :count: 1
       :children:
-        - :name: 'link'
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: headjsalart
+        :children:
+        - :name: div
+          :count: 1
           :attributes:
-            :href: '/edit/assets/suumo/css/header-gnav.css?160523'
-            :media: 'screen'
-            :rel:
-              - stylesheet
-        - :name: 'form'
-          :attributes:
-            :action: 'https://suumo.jp/jj/common/common/JJ901FK101/showLogin/'
-            :id: 'js-turnbackPostForm'
-            :method: 'post'
-            :name: 'common_common_JJ901FK101ActionForm'
+            :class: headjsalart-coution ui-media
           :children:
-            - :name: 'input'
+          - :name: span
+            :count: 1
+            :attributes:
+              :class: ui-icon--exclamation1 ui-media-object
+          - :name: div
+            :count: 1
+            :attributes:
+              :class: ui-media-body
+            :children:
+            - :name: div
+              :count: 1
               :attributes:
-                :name: 'ar'
-                :type: 'hidden'
-                :value: '030'
-            - :name: 'input'
+                :class: headjsalart-title
+            - :name: p
+              :count: 1
               :attributes:
-                :name: 'bs'
-                :type: 'hidden'
-                :value: '040'
-            - :name: 'input'
-              :attributes:
-                :name: 'ltbi'
-                :type: 'hidden'
-                :value: '9bca05eebee120fb3fac5305c338b7eee27e0859441c6ca6d87b94d4971a8c8476b6ab18e685f466bb28ea9e0a46d34c87ac9d22cd1e4a29bd20058e4d22aa2ccbe35948718386a321a624e5a8497565068be7c6cdf882a4609974f742c5a9709bb422ed61a6e6d988cee3c61b67e3703f49f0ac70477ffe539a134af64617e1b78d490a05df4b397ea27d9dafcb694ad165a88107f4e368ab4a49c7180b5b4cdbb0c52e1a86845eae70c8fc9d8040c04ff01c39f6180559087966bcbec201e6b1c36e4bb69965b3a47737439f68c22a5ca384d7871277c955e58ab3abff95f21dcd19395c79435acd0750fac6db10f249b14e785fa81f91e4a47689b77265cdd907a57498132f4f632cffc5dc1be37f032d2c3a132450cf21e7d944c6c90f206307e5b8c058a17037f6244f3466cd5a720495692d9425432e17ee29ae093432dfdc7d9704c28494a9e859284e8ef3ddcac458c51be9b69067244ac5042914fe768571bf89d78ffac785f53a02e8e600cc114ba4ce051008cc97cf305da6490a37bc40d06fd0e2eec27e035acc4101970670c1acb5634e83'
-        - :name: 'form'
-          :attributes:
-            :action: '/jj/common/service/JJ901FM303/'
-            :id: 'js-myKensakuJokenForm'
-            :method: 'post'
-          :children:
-            - :name: 'input'
-              :attributes:
-                :name: 'ar'
-                :type: 'hidden'
-                :value: '030'
-            - :name: 'input'
-              :attributes:
-                :name: 'bs'
-                :type: 'hidden'
-                :value: '040'
-        - :name: 'form'
-          :attributes:
-            :action: '/jj/common/parts/JJ901FI306/'
-            :id: 'js-popLatestBukkenForm'
-            :method: 'post'
-          :children:
-            - :name: 'input'
-              :attributes:
-                :name: 'ar'
-                :type: 'hidden'
-                :value: ''
-            - :name: 'input'
-              :attributes:
-                :name: 'bs'
-                :type: 'hidden'
-                :value: ''
-            - :name: 'input'
-              :attributes:
-                :name: 'dispmode'
-                :type: 'hidden'
-                :value: '3'
-        - :name: 'form'
-          :attributes:
-            :action: '/jj/common/parts/JJ901FI302/'
-            :id: 'js-resetLatestBukkenForm'
-            :method: 'post'
-          :children:
-            - :name: 'input'
-              :attributes:
-                :name: 'ar'
-                :type: 'hidden'
-                :value: ''
-            - :name: 'input'
-              :attributes:
-                :name: 'bs'
-                :type: 'hidden'
-                :value: ''
-            - :name: 'input'
-              :attributes:
-                :name: 'dispmode'
-                :type: 'hidden'
-                :value: '3'
-        - :name: 'form'
-          :attributes:
-            :action: '/jj/common/parts/JJ901FI313/'
-            :id: 'js-popLatestSearchForm'
-            :method: 'post'
-          :children:
-            - :name: 'input'
-              :attributes:
-                :name: 'ar'
-                :type: 'hidden'
-                :value: ''
-            - :name: 'input'
-              :attributes:
-                :name: 'bs'
-                :type: 'hidden'
-                :value: ''
-            - :name: 'input'
-              :attributes:
-                :name: 'dispmode'
-                :type: 'hidden'
-                :value: '3'
-        - :name: 'form'
-          :attributes:
-            :action: '/jj/common/parts/JJ901FI312/'
-            :id: 'js-resetLatestSearchForm'
-            :method: 'post'
-          :children:
-            - :name: 'input'
-              :attributes:
-                :name: 'ar'
-                :type: 'hidden'
-                :value: ''
-            - :name: 'input'
-              :attributes:
-                :name: 'bs'
-                :type: 'hidden'
-                :value: ''
-            - :name: 'input'
-              :attributes:
-                :name: 'dispmode'
-                :type: 'hidden'
-                :value: '3'
-        - :name: 'form'
-          :attributes:
-            :action: 'https://suumo.jp/jj/common/common/JJ901FK101/showMemRegist/'
-            :id: 'js-myEntryForm'
-            :method: 'post'
-            :name: 'common_common_JJ901FK101ActionForm'
-          :children:
-            - :name: 'input'
-              :attributes:
-                :name: 'siteKbn'
-                :type: 'hidden'
-                :value: '01'
-            - :name: 'input'
-              :attributes:
-                :name: 'seniFlg'
-                :type: 'hidden'
-                :value: ''
-            - :name: 'input'
-              :attributes:
-                :name: 'ar'
-                :type: 'hidden'
-                :value: '030'
-            - :name: 'input'
-              :attributes:
-                :name: 'bs'
-                :type: 'hidden'
-                :value: '040'
-        - :name: 'div'
-          :attributes:
-            :class:
-              - mylist
-            :id: 'js-mylist'
-          :children:
-            - :name: 'div'
-              :attributes:
-                :class:
-                  - mylist-inner
+                :class: headjsalart-txt
               :children:
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - browsearea
-                      - dn
-                    :id: 'js-mylist-historyBox'
-                  :children:
-                    - :name: 'ul'
-                      :attributes:
-                        :class:
-                          - browselist
-                      :children:
-                        - :name: 'li'
-                          :attributes:
-                            :class:
-                              - browselist-box
-                            :id: 'js-mylist-historyBox-popLatestBukken'
-                        - :name: 'li'
-                          :attributes:
-                            :class:
-                              - browselist-box
-                            :id: 'js-mylist-historyBox-popLatestSearch'
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - browsearea-close
-                        :id: 'js-mylist-historyBox-close'
-                      :children:
-                        - :name: 'a'
-                          :attributes:
-                            :href: 'javascript:void(0);'
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - mylist-logo
-                    :id: 'js-mylist-logo'
-                  :children:
-                    - :name: 'a'
-                      :attributes:
-                        :class:
-                          - js-setCookieArZenkoku
-                        :href: '/'
-                - :name: 'ul'
-                  :attributes:
-                    :class:
-                      - mylist-list
-                  :children:
-                    - :name: 'li'
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - mylistbarbox
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - mylistbarbox-inner
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - mylistbarbox-inner-contents
-                                  :children:
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - mylistbar
-                                      :children:
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - mylistbar-title
-                                        - :name: 'ul'
-                                          :attributes:
-                                            :class:
-                                              - mylistbar-inbar
-                                          :children:
-                                            - :name: 'li'
-                                              :attributes:
-                                                :class:
-                                                  - mylistbar-inbar-item
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :class:
-                                                      - mylistbarlink
-                                                      - mylistbarlink--bukken
-                                                    :href: '/jj/common/service/JJ901FM203/?ar=030&bs=040&cts=01'
-                                                  :children:
-                                                    - :name: 'span'
-                                                      :attributes:
-                                                        :class:
-                                                          - mylistbarlink-title
-                                                    - :name: 'span'
-                                                      :attributes:
-                                                        :class:
-                                                          - mylistbarcnt
-                                                        :id: 'js-mylistbarcnt-bukken'
-                                            - :name: 'li'
-                                              :attributes:
-                                                :class:
-                                                  - mylistbar-inbar-item
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :class:
-                                                      - mylistbarlink
-                                                      - mylistbarlink--company
-                                                    :href: '/jj/common/service/JJ901FM203/?ar=030&bs=040&cts=02'
-                                                  :children:
-                                                    - :name: 'span'
-                                                      :attributes:
-                                                        :class:
-                                                          - mylistbarlink-title
-                                                    - :name: 'span'
-                                                      :attributes:
-                                                        :class:
-                                                          - mylistbarcnt
-                                                        :id: 'js-mylistbarcnt-company'
-                                            - :name: 'li'
-                                              :attributes:
-                                                :class:
-                                                  - mylistbar-inbar-item
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :class:
-                                                      - mylistbarlink
-                                                      - mylistbarlink--sch
-                                                    :href: 'javascript:void(0);'
-                                                    :id: 'js-mylist-myKensakuJoken'
-                                                  :children:
-                                                    - :name: 'span'
-                                                      :attributes:
-                                                        :class:
-                                                          - mylistbarlink-title
-                                                    - :name: 'span'
-                                                      :attributes:
-                                                        :class:
-                                                          - mylistbarcnt
-                                                        :id: 'js-mylistbarcnt-sch'
-                    - :name: 'li'
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - mylistnbbox
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - mylistbar
-                                  - mylistbar--nb
-                              :children:
-                                - :name: 'ul'
-                                  :attributes:
-                                    :class:
-                                      - mylistbar-inbar
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - mylistbar-inbar-item
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :class:
-                                              - mylistbarlink
-                                              - mylistbarlink--browse
-                                            :href: 'javascript:void(0);'
-                                            :id: 'js-mylist-myHistory'
-                                          :children:
-                                            - :name: 'span'
-                                              :attributes:
-                                                :class:
-                                                  - mylistbarlink-title
-                                            - :name: 'span'
-                                              :attributes:
-                                                :class:
-                                                  - mylistbarlink-arw
-                                                  - mylisticon
-                                                  - mylisticon--arw
-                    - :name: 'li'
-                      :children:
-                        - :name: 'ul'
-                          :attributes:
-                            :class:
-                              - mylist-member
-                          :children:
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :class:
-                                      - member-entry
-                                    :href: 'https://suumo.jp/jj/common/common/JJ901FK101/showMemRegist/'
-                                  :children:
-                                    - :name: 'span'
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :class:
-                                      - mylist-login
-                                    :href: 'https://suumo.jp/jj/common/common/JJ901FK101/showLogin/'
-                                  :children:
-                                    - :name: 'span'
-                - :name: 'span'
-                  :attributes:
-                    :class:
-                      - dn
-                    :id: 'js-mylistbukkencountcookie'
-                - :name: 'span'
-                  :attributes:
-                    :class:
-                      - dn
-                    :id: 'js-mylistkaishacountcookie'
-                - :name: 'span'
-                  :attributes:
-                    :class:
-                      - dn
-                    :id: 'js-mylistkensakujokencountcookie'
-        - :name: 'div'
+              - :name: a
+                :count: 1
+                :attributes:
+                  :target: _blank
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: siteheadercontainer
+      :children:
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: siteheader
+        :children:
+        - :name: div
+          :count: 1
           :attributes:
-            :class:
-              - headercontainer
+            :class: desc
           :children:
-            - :name: 'noscript'
-              :children:
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - headjsalart
-                  :children:
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - headjsalart-coution
-                          - ui-media
-                      :children:
-                        - :name: 'span'
-                          :attributes:
-                            :class:
-                              - ui-icon--exclamation1
-                              - ui-media-object
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - ui-media-body
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - headjsalart-title
-                            - :name: 'p'
-                              :attributes:
-                                :class:
-                                  - headjsalart-txt
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: '/help/guide.html'
-                                    :target: '_blank'
-            - :name: 'div'
-              :attributes:
-                :class:
-                  - siteheadercontainer
-              :children:
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - siteheader
-                  :children:
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - desc
-                      :children:
-                        - :name: 'p'
-                          :attributes:
-                            :class:
-                              - desc-title
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - siteheader-inner
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - logo
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - logo-object
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: '/'
-                                  :children:
-                                    - :name: 'img'
-                                      :attributes:
-                                        :alt: 'SUUMO(スーモ)'
-                                        :height: '46'
-                                        :src: '/edit/assets/suumo/img/logo.png'
-                                        :width: '138'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - logo-field
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - logo-field-link
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :class:
-                                          - js-setCookieArZenkoku
-                                        :href: '/'
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - logo-field-area
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - gnav
-                          :children:
-                            - :name: 'ul'
-                              :attributes:
-                                :class:
-                                  - gnav_list
-                              :children:
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'dl'
-                                      :attributes:
-                                        :class:
-                                          - gnav_item
-                                          - gnav_item--chintai
-                                      :children:
-                                        - :name: 'dt'
-                                          :attributes:
-                                            :class:
-                                              - gnav_item-title
-                                        - :name: 'dd'
-                                          :attributes:
-                                            :class:
-                                              - gnav_item-definition
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - gnav_item-definition-list
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :class:
-                                                      - gnav_btn
-                                                      - gnav_btn--chintai
-                                                      - is-active
-                                                    :href: '/chintai/'
-                                                    :title: '賃貸'
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'dl'
-                                      :attributes:
-                                        :class:
-                                          - gnav_item
-                                          - gnav_item--ms
-                                      :children:
-                                        - :name: 'dt'
-                                          :attributes:
-                                            :class:
-                                              - gnav_item-title
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: '/ms/'
-                                                :title: 'マンション・購入'
-                                        - :name: 'dd'
-                                          :attributes:
-                                            :class:
-                                              - gnav_item-definition
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - gnav_item-definition-list
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :class:
-                                                      - gnav_btn
-                                                      - gnav_btn--shinchiku
-                                                      - gnav_btn--left
-                                                      - 
-                                                    :href: '/ms/shinchiku/'
-                                                    :title: 'マンション購入 新築・未入居マンション'
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - gnav_item-definition-list
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :class:
-                                                      - gnav_btn
-                                                      - gnav_btn--chukomansion
-                                                      - gnav_btn--right
-                                                      - 
-                                                    :href: '/ms/chuko/'
-                                                    :title: 'マンション購入 中古'
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'dl'
-                                      :attributes:
-                                        :class:
-                                          - gnav_item
-                                          - gnav_item--kodate
-                                      :children:
-                                        - :name: 'dt'
-                                          :attributes:
-                                            :class:
-                                              - gnav_item-title
-                                        - :name: 'dd'
-                                          :attributes:
-                                            :class:
-                                              - gnav_item-definition
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - gnav_item-definition-list
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :class:
-                                                      - gnav_btn
-                                                      - gnav_btn--ikkodate
-                                                      - gnav_btn--left
-                                                      - 
-                                                    :href: '/ikkodate/'
-                                                    :title: '一戸建て購入・建築 新築・未入居一戸建て'
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - gnav_item-definition-list
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :class:
-                                                      - gnav_btn
-                                                      - gnav_btn--chukoikkodate
-                                                      - gnav_btn--right
-                                                      - 
-                                                    :href: '/chukoikkodate/'
-                                                    :title: '一戸建て購入・建築 中古'
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'dl'
-                                      :attributes:
-                                        :class:
-                                          - gnav_item
-                                          - gnav_item--chumon
-                                      :children:
-                                        - :name: 'dt'
-                                          :attributes:
-                                            :class:
-                                              - gnav_item-title
-                                        - :name: 'dd'
-                                          :attributes:
-                                            :class:
-                                              - gnav_item-definition
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - gnav_item-definition-list
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :class:
-                                                      - gnav_btn
-                                                      - gnav_btn--twolines
-                                                      - gnav_btn--chumon
-                                                      - gnav_btn--left
-                                                    :href: '/chumon/'
-                                                    :title: '一戸建て購入・建築 注文'
-                                                  :children:
-                                                    - :name: 'br'
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - gnav_item-definition-list
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :class:
-                                                      - gnav_btn
-                                                      - gnav_btn--tochi
-                                                      - gnav_btn--right
-                                                      - 
-                                                    :href: '/tochi/'
-                                                    :title: '一戸建て購入・建築 土地'
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'dl'
-                                      :attributes:
-                                        :class:
-                                          - gnav_item
-                                          - gnav_item--reform
-                                      :children:
-                                        - :name: 'dt'
-                                          :attributes:
-                                            :class:
-                                              - gnav_item-title
-                                        - :name: 'dd'
-                                          :attributes:
-                                            :class:
-                                              - gnav_item-definition
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - gnav_item-definition-list
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :class:
-                                                      - gnav_btn
-                                                      - gnav_btn--reform
-                                                      - gnav_btn--left
-                                                      - 
-                                                    :href: '/remodel/'
-                                                    :title: 'リフォーム'
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - gnav_item-definition-list
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :class:
-                                                      - gnav_btn
-                                                      - gnav_btn--twolines
-                                                      - gnav_btn--setsubi
-                                                      - gnav_btn--right
-                                                    :href: '/setsubi/'
-                                                    :title: '住宅設備'
-                                                  :children:
-                                                    - :name: 'br'
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'dl'
-                                      :attributes:
-                                        :class:
-                                          - gnav_item
-                                          - gnav_item--baikyaku
-                                      :children:
-                                        - :name: 'dt'
-                                          :attributes:
-                                            :class:
-                                              - gnav_item-title
-                                        - :name: 'dd'
-                                          :attributes:
-                                            :class:
-                                              - gnav_item-definition
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - gnav_item-definition-list
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :class:
-                                                      - gnav_btn
-                                                      - gnav_btn--twolines
-                                                      - gnav_btn--baikyaku
-                                                      - 
-                                                    :href: '/baikyaku/'
-                                                    :title: '売却査定'
-                                                  :children:
-                                                    - :name: 'br'
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'dl'
-                                      :attributes:
-                                        :class:
-                                          - gnav_item
-                                          - gnav_item--counter
-                                      :children:
-                                        - :name: 'dt'
-                                          :attributes:
-                                            :class:
-                                              - gnav_item-title
-                                        - :name: 'dd'
-                                          :attributes:
-                                            :class:
-                                              - gnav_item-definition
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - gnav_item-definition-list
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :class:
-                                                      - gnav_btn
-                                                      - gnav_btn--counter
-                                                    :href: 'http://www.suumocounter.jp/?vos=dsmcrecb20110926001'
-                                                    :target: '_blank'
-                                                    :title: '講座/相談'
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - gnav_item
-                                          - gnav_item--kurashi
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - balloon_nav
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - balloon_nav-action
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - balloon_nav-action-link
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :class:
-                                                          - gnav_btn
-                                                          - gnav_btn--kurashi
-                                                        :href: 'javascript:void(0);'
-                                                        :title: '暮らし'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - balloon_nav-action-item
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - gnav_drop_list
-                                                      :children:
-                                                        - :name: 'ul'
-                                                          :attributes:
-                                                            :class:
-                                                              - gnav_drop_list-item
-                                                          :children:
-                                                            - :name: 'li'
-                                                              :children:
-                                                                - :name: 'a'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - gnav_drop
-                                                                      - gnav_drop--moving
-                                                                    :href: 'http://hikkoshi.suumo.jp/'
-                                                                    :target: '_blank'
-                                                                    :title: 'SUUMO引越し見積もり'
-                                                                  :children:
-                                                                    - :name: 'span'
-                                                                      :attributes:
-                                                                        :class:
-                                                                          - gnav_drop-text
-                                                            - :name: 'li'
-                                                              :children:
-                                                                - :name: 'a'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - gnav_drop
-                                                                      - gnav_drop--electrical
-                                                                    :href: 'http://denki.suumo.jp/'
-                                                                    :target: '_blank'
-                                                                    :title: 'SUUMO電気代診断'
-                                                                  :children:
-                                                                    - :name: 'span'
-                                                                      :attributes:
-                                                                        :class:
-                                                                          - gnav_drop-text
-                                                        - :name: 'ul'
-                                                          :attributes:
-                                                            :class:
-                                                              - gnav_drop_list-item
-                                                          :children:
-                                                            - :name: 'li'
-                                                              :children:
-                                                                - :name: 'a'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - gnav_drop
-                                                                      - gnav_drop--service
-                                                                    :href: 'https://house-service.suumo.jp/'
-                                                                    :target: '_blank'
-                                                                    :title: 'SUUMOハウスサービス'
-                                                                  :children:
-                                                                    - :name: 'span'
-                                                                      :attributes:
-                                                                        :class:
-                                                                          - gnav_drop-text
-                                                            - :name: 'li'
-                                                              :children:
-                                                                - :name: 'a'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - gnav_drop
-                                                                      - gnav_drop--inheritance
-                                                                    :href: 'https://souzoku.suumo.jp/'
-                                                                    :target: '_blank'
-                                                                    :title: 'SUUMO相続'
-                                                                  :children:
-                                                                    - :name: 'span'
-                                                                      :attributes:
-                                                                        :class:
-                                                                          - gnav_drop-text
-        - :name: 'div'
+          - :name: p
+            :count: 1
+            :attributes:
+              :class: desc-title
+        - :name: div
+          :count: 1
           :attributes:
-            :class:
-              - breadcrumb
+            :class: siteheader-inner
           :children:
-            - :name: 'div'
+          - :name: div
+            :count: 1
+            :attributes:
+              :class: logo
+            :children:
+            - :name: div
+              :count: 1
               :attributes:
-                :class:
-                  - breadcrumb-inner
+                :class: logo-object
               :children:
-                - :name: 'ol'
+              - :name: a
+                :count: 1
+                :children:
+                - :name: img
+                  :count: 1
                   :attributes:
-                    :class:
-                      - breadcrumb-list
+                    :height: '46'
+                    :width: '138'
+            - :name: div
+              :count: 1
+              :attributes:
+                :class: logo-field
+              :children:
+              - :name: div
+                :count: 1
+                :attributes:
+                  :class: logo-field-link
+                :children:
+                - :name: a
+                  :count: 1
+                  :attributes:
+                    :class: js-setCookieArZenkoku
+              - :name: div
+                :count: 1
+                :attributes:
+                  :class: logo-field-area
+          - :name: div
+            :count: 1
+            :attributes:
+              :class: gnav
+            :children:
+            - :name: ul
+              :count: 1
+              :attributes:
+                :class: gnav_list
+              :children:
+              - :name: li
+                :count: 8
+                :children:
+                - :name: dl
+                  :count: 1
+                  :attributes:
+                    :class: gnav_item gnav_item--chintai
                   :children:
-                    - :name: 'li'
+                  - :name: dt
+                    :count: 1
+                    :attributes:
+                      :class: gnav_item-title
+                  - :name: dd
+                    :count: 1
+                    :attributes:
+                      :class: gnav_item-definition
+                    :children:
+                    - :name: div
+                      :count: 1
+                      :attributes:
+                        :class: gnav_item-definition-list
                       :children:
-                        - :name: 'a'
-                          :attributes:
-                            :class:
-                              - js-setCookieArZenkoku
-                            :href: '/'
-                    - :name: 'li'
-                      :children:
-                        - :name: 'a'
-                          :attributes:
-                            :class:
-                              - js-setCookieArZenkoku
-                            :href: '/chintai/'
-                    - :name: 'li'
-                      :children:
-                        - :name: 'a'
-                          :attributes:
-                            :href: '/chintai/soba/'
-                    - :name: 'li'
-                      :children:
-                        - :name: 'a'
-                          :attributes:
-                            :href: '/chintai/soba/tokyo/'
-                    - :name: 'li'
-        - :name: 'div'
-          :attributes:
-            :class:
-              - wrapper
+                      - :name: a
+                        :count: 1
+                        :attributes:
+                          :class: gnav_btn gnav_btn--chintai is-active
+                          :title: "賃貸"
+  - :name: div
+    :count: 1
+    :attributes:
+      :class: breadcrumb
+    :children:
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: breadcrumb-inner
+      :children:
+      - :name: ol
+        :count: 1
+        :attributes:
+          :class: breadcrumb-list
+        :children:
+        - :name: li
+          :count: 5
           :children:
-            - :name: 'div'
-              :attributes:
-                :class:
-                  - ui-section--h1
-                  - basicpage
-              :children:
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - ui-section-header
-                      - basicpage-header
-                  :children:
-                    - :name: 'h1'
-                - :name: 'p'
-                  :attributes:
-                    :class:
-                      - pagecaption
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - ui-section-body
-                  :children:
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - contents
-                      :children:
-                        - :name: 'ul'
-                          :attributes:
-                            :class:
-                              - ui-tab--base
-                              - ui-tab--base03
-                              - areatab
-                          :children:
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :class:
-                                      - ui-tab-item
-                                      - is-active
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :class:
-                                      - ui-tab-item
-                                    :href: '/chintai/soba/kanagawa/ensen/'
-                                    :rel:
-                                      - ra=014
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :class:
-                                      - ui-tab-item
-                                    :href: '/chintai/soba/saitama/ensen/'
-                                    :rel:
-                                      - ra=011
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :class:
-                                      - ui-tab-item
-                                    :href: '/chintai/soba/chiba/ensen/'
-                                    :rel:
-                                      - ra=012
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :class:
-                                      - ui-tab-item
-                                    :href: '/chintai/soba/ibaraki/ensen/'
-                                    :rel:
-                                      - ra=008
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :class:
-                                      - ui-tab-item
-                                    :href: '/chintai/soba/tochigi/ensen/'
-                                    :rel:
-                                      - ra=009
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :class:
-                                      - ui-tab-item
-                                    :href: '/chintai/soba/gumma/ensen/'
-                                    :rel:
-                                      - ra=010
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - tabbody
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - ui-section--h2
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - ui-section-header
-                                  :children:
-                                    - :name: 'h2'
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - ui-section-body
-                                      - ui-section-body--mt20
-                                  :children:
-                                    - :name: 'table'
-                                      :attributes:
-                                        :class:
-                                          - searchtable
-                                      :children:
-                                        - :name: 'tr'
-                                          :children:
-                                            - :name: 'th'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-title
-                                            - :name: 'td'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-box
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - searchitem
-                                                  :children:
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_yamanotesen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_keihintohokusen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_tokaidohonsen/'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_jobansen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_nambusen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_yokohamasen/'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_yokosukasen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_chuosen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_omesen/'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_itsukaichisen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_musashinosen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_hachikosen/'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_saikyosen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_takasakisen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_utsunomiyasen/'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_sobusen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_sobukaisokusen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_keiyosen/'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_shonanshinjukulineutsunomiyayokosukasen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_shonanshinjukulinetakasakitokaidosen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_tokaidoshinkansen/'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_joetsushinkansen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_hokurikushinkansen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_tohokushinkansen/'
-                                        - :name: 'tr'
-                                          :children:
-                                            - :name: 'th'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-title
-                                            - :name: 'td'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-box
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - searchitem
-                                                  :children:
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_ginzasen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_marunouchisen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_hibiyasen/'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_tozaisen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_chiyodasen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_yurakuchosen/'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_hanzomonsen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_nambokusen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_fukutoshinsen/'
-                                        - :name: 'tr'
-                                          :children:
-                                            - :name: 'th'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-title
-                                            - :name: 'td'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-box
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - searchitem
-                                                  :children:
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_seibuyurakuchosen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_seibushinjukusen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_seibuikebukurosen/'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_seibuhaijimasen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_seibuyamaguchisen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_seibukokubunjisen/'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_seibutamagawasen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_seibutamakosen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_seibuseibuensen/'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_seibutoshimasen/'
-                                        - :name: 'tr'
-                                          :children:
-                                            - :name: 'th'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-title
-                                            - :name: 'td'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-box
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - searchitem
-                                                  :children:
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_tobutojosen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_tobuisesakisen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_tobukameidosen/'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_tobudaishisen/'
-                                        - :name: 'tr'
-                                          :children:
-                                            - :name: 'th'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-title
-                                            - :name: 'td'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-box
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - searchitem
-                                                  :children:
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_tokyutoyokosen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_tokyudenentoshisen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_tokyuikegamisen/'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_tokyumegurosen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_tokyutamagawasen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_tokyuoimachisen/'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_tokyusetagayasen/'
-                                        - :name: 'tr'
-                                          :children:
-                                            - :name: 'th'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-title
-                                            - :name: 'td'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-box
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - searchitem
-                                                  :children:
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_toeiasakusasen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_toeimitasen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_toeishinjukusen/'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_toeioedosen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_todenarakawasen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_nipporitoneriliner/'
-                                        - :name: 'tr'
-                                          :children:
-                                            - :name: 'th'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-title
-                                            - :name: 'td'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-box
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - searchitem
-                                                  :children:
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_keioinokashirasen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_keiokeibajosen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_keioshinsen/'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_keiosen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_keiodobutsuensen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_keiosagamiharasen/'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_keiotakaosen/'
-                                        - :name: 'tr'
-                                          :children:
-                                            - :name: 'th'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-title
-                                            - :name: 'td'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-box
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - searchitem
-                                                  :children:
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_keiseioshiagesen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_keiseikanamachisen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_keiseihonsen/'
-                                        - :name: 'tr'
-                                          :children:
-                                            - :name: 'th'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-title
-                                            - :name: 'td'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-box
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - searchitem
-                                                  :children:
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_keihinkyukohonsen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_keihinkyukokukosen/'
-                                        - :name: 'tr'
-                                          :children:
-                                            - :name: 'th'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-title
-                                            - :name: 'td'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-box
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - searchitem
-                                                  :children:
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_odakyusen/'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_odakyutamasen/'
-                                        - :name: 'tr'
-                                          :children:
-                                            - :name: 'th'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-title
-                                            - :name: 'td'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-box
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - searchitem
-                                                  :children:
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_tamatoshimonorail/'
-                                        - :name: 'tr'
-                                          :children:
-                                            - :name: 'th'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-title
-                                            - :name: 'td'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-box
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - searchitem
-                                                  :children:
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_rinkaisen/'
-                                        - :name: 'tr'
-                                          :children:
-                                            - :name: 'th'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-title
-                                            - :name: 'td'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-box
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - searchitem
-                                                  :children:
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_hokusosen/'
-                                        - :name: 'tr'
-                                          :children:
-                                            - :name: 'th'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-title
-                                            - :name: 'td'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-box
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - searchitem
-                                                  :children:
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_tokyomonorail/'
-                                        - :name: 'tr'
-                                          :children:
-                                            - :name: 'th'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-title
-                                            - :name: 'td'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-box
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - searchitem
-                                                  :children:
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_shinkotsuyurikamome/'
-                                        - :name: 'tr'
-                                          :children:
-                                            - :name: 'th'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-title
-                                            - :name: 'td'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-box
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - searchitem
-                                                  :children:
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_saitamakosokutetsudosen/'
-                                        - :name: 'tr'
-                                          :children:
-                                            - :name: 'th'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-title
-                                            - :name: 'td'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-box
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - searchitem
-                                                  :children:
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_tsukubaexpress/'
-                                        - :name: 'tr'
-                                          :children:
-                                            - :name: 'th'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-title
-                                            - :name: 'td'
-                                              :attributes:
-                                                :class:
-                                                  - searchtable-box
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - searchitem
-                                                  :children:
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - searchitem-list
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: '/chintai/soba/tokyo/en_naritaskyaccess/'
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - bgbox
-                      - bgbox--add
-                      - bgbox--type3
-                      - dn
-                    :id: 'fr_lotation_banner'
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - addbox
-                      - addbox--pr
-                      - dn
-                    :id: 'fr_text_banner'
-        - :name: 'div'
+          - :name: a
+            :count: 1
+            :attributes:
+              :class: js-setCookieArZenkoku
+  - :name: div
+    :count: 1
+    :attributes:
+      :class: wrapper
+    :children:
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: ui-section--h1 basicpage
+      :children:
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: ui-section-header basicpage-header
+        :children:
+        - :name: h1
+          :count: 1
+      - :name: p
+        :count: 1
+        :attributes:
+          :class: pagecaption
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: ui-section-body
+        :children:
+        - :name: div
+          :count: 1
           :attributes:
-            :class:
-              - footer
+            :class: contents
           :children:
-            - :name: 'div'
-              :attributes:
-                :class:
-                  - footinfo
+          - :name: ul
+            :count: 1
+            :attributes:
+              :class: ui-tab--base ui-tab--base03 areatab
+            :children:
+            - :name: li
+              :count: 7
               :children:
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - footinfo-inner
-                  :children:
-                    - :name: 'p'
-                      :attributes:
-                        :class:
-                          - footinfo-txt
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - footinfo-object
-                      :children:
-                        - :name: 'span'
-                          :attributes:
-                            :class:
-                              - ui-icon--suumo06
-            - :name: 'div'
+              - :name: a
+                :count: 1
+                :attributes:
+                  :class: ui-tab-item is-active
+          - :name: div
+            :count: 1
+            :attributes:
+              :class: tabbody
+            :children:
+            - :name: div
+              :count: 1
               :attributes:
-                :class:
-                  - footlinks
+                :class: ui-section--h2
               :children:
-                - :name: 'div'
+              - :name: div
+                :count: 1
+                :attributes:
+                  :class: ui-section-header
+                :children:
+                - :name: h2
+                  :count: 1
+              - :name: div
+                :count: 1
+                :attributes:
+                  :class: ui-section-body ui-section-body--mt20
+                :children:
+                - :name: table
+                  :count: 1
                   :attributes:
-                    :class:
-                      - footlinks-inner
+                    :class: searchtable
                   :children:
-                    - :name: 'div'
+                  - :name: tr
+                    :count: 18
+                    :children:
+                    - :name: th
+                      :count: 1
                       :attributes:
-                        :class:
-                          - linkbox_group
+                        :class: searchtable-title
+                    - :name: td
+                      :count: 1
+                      :attributes:
+                        :class: searchtable-box
                       :children:
-                        - :name: 'div'
+                      - :name: div
+                        :count: 1
+                        :attributes:
+                          :class: searchitem
+                        :children:
+                        - :name: ul
+                          :count: 1
                           :attributes:
-                            :class:
-                              - linkbox
-                              - linkbox--search
+                            :class: searchitem-list
                           :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - linkbox-body
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :class:
-                                      - js-setCookieArZenkoku
-                                    :href: 'http://suumo.jp/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/kanto/'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - linkbox-search
-                              :children:
-                                - :name: 'form'
-                                  :attributes:
-                                    :action: '/jj/common/ichiran/JJ901FC001/'
-                                    :id: 'js-wordSearch'
-                                    :method: 'post'
-                                  :children:
-                                    - :name: 'input'
-                                      :attributes:
-                                        :name: 'ar'
-                                        :type: 'hidden'
-                                        :value: '030'
-                                    - :name: 'input'
-                                      :attributes:
-                                        :id: 'js-linkbox-search'
-                                        :name: 'kwd'
-                                        :placeholder: 'キーワード検索'
-                                        :type: 'text'
-                                    - :name: 'a'
-                                      :attributes:
-                                        :class:
-                                          - ui-btn
-                                          - ui-btn--search
-                                          - ui-btn--small
-                                        :href: 'javascript:void(0);'
-                                        :id: 'js-footerKensakuBtn'
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - linkbox_group
-                      :children:
-                        - :name: 'div'
+                          - :name: li
+                            :count: 3
+                            :children:
+                            - :name: a
+                              :count: 1
+                        - :name: ul
+                          :count: 1
                           :attributes:
-                            :class:
-                              - linkbox
-                              - linkbox--full
+                            :class: searchitem-list
                           :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - linkbox-title
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :class:
-                                      - js-setCookieArZenkoku
-                                    :href: 'http://suumo.jp/'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - linkbox-body
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/chintai/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/chintai/mansion/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/chintai/apartment/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/chintai/ikkodate/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/chintai/soba/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/ms/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/ms/shinchiku/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/ms/chuko/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/ikkodate/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/chukoikkodate/'
-                                - :name: 'br'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/tochi/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/tokushu/renovation/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://bessou.suumo.jp/'
-                                    :target: '_blank'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://inaka.suumo.jp/'
-                                    :target: '_blank'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/chumon/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/remodel/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/setsubi/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/baikyaku/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://www.suumocounter.jp/?vos=dsmcrecb20140123007'
-                                    :target: '_blank'
-                                - :name: 'br'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://hikkoshi.suumo.jp/'
-                                    :target: '_blank'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/loan/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/library/'
-                                    :target: '_blank'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'https://kaigo.suumo.jp/'
-                                    :target: '_blank'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'https://house-service.suumo.jp/'
-                                    :target: '_blank'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://denki.suumo.jp/'
-                                    :target: '_blank'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'https://parking.suumo.jp/'
-                                    :target: '_blank'
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - linkbox_group
-                      :children:
-                        - :name: 'div'
+                          - :name: li
+                            :count: 3
+                            :children:
+                            - :name: a
+                              :count: 1
+                        - :name: ul
+                          :count: 1
                           :attributes:
-                            :class:
-                              - linkbox
-                              - linkbox--full
+                            :class: searchitem-list
                           :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - linkbox-title
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - linkbox-body
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/hokkaido/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/tohoku/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/kanto/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/koshinetsu/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/tokai/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/kansai/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/shikoku/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/chugoku/'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://suumo.jp/kyushu/'
-            - :name: 'div'
-              :attributes:
-                :class:
-                  - footlogo
-              :children:
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - logobox
-                  :children:
-                    - :name: 'div'
-                      :children:
-                        - :name: 'a'
+                          - :name: li
+                            :count: 3
+                            :children:
+                            - :name: a
+                              :count: 1
+                        - :name: ul
+                          :count: 1
                           :attributes:
-                            :href: 'http://www.recruit-sumai.co.jp'
-                            :target: '_blank'
+                            :class: searchitem-list
                           :children:
-                            - :name: 'img'
-                              :attributes:
-                                :alt: 'リクルート住まいカンパニー'
-                                :height: '27'
-                                :src: '/edit/assets/suumo/img/include/inc_CM_all_000_crrecruit.gif'
-                                :width: '286'
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - logobox-link
-                      :children:
-                        - :name: 'a'
+                          - :name: li
+                            :count: 3
+                            :children:
+                            - :name: a
+                              :count: 1
+                        - :name: ul
+                          :count: 1
                           :attributes:
-                            :href: 'http://www.recruit.jp/'
-                            :target: '_blank'
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - footlogo-link
-                  :children:
-                    - :name: 'a'
-                      :attributes:
-                        :href: 'http://suumo.jp/edit/beginner/guide/'
-                    - :name: 'a'
-                      :attributes:
-                        :href: 'http://suumo.jp/sitemap/'
-                    - :name: 'a'
-                      :attributes:
-                        :href: 'http://suumo.jp/edit/kiyaku/'
-                    - :name: 'a'
-                      :attributes:
-                        :href: 'http://cmn.point.recruit.co.jp/policy/privacy.html'
-                        :target: '_blank'
-                    - :name: 'a'
-                      :attributes:
-                        :href: 'http://suumo.jp/edit/sogotoiawase/'
-                        :target: '_blank'
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - footlogo-action
-                  :children:
-                    - :name: 'a'
-                      :attributes:
-                        :class:
-                          - footlogo-action-btn
-                        :href: 'http://www.recruit-sumai.co.jp/recruit/'
-                        :target: '_blank'
-        - :name: 'div'
+                            :class: searchitem-list
+                          :children:
+                          - :name: li
+                            :count: 3
+                            :children:
+                            - :name: a
+                              :count: 1
+                        - :name: ul
+                          :count: 1
+                          :attributes:
+                            :class: searchitem-list
+                          :children:
+                          - :name: li
+                            :count: 3
+                            :children:
+                            - :name: a
+                              :count: 1
+                        - :name: ul
+                          :count: 1
+                          :attributes:
+                            :class: searchitem-list
+                          :children:
+                          - :name: li
+                            :count: 3
+                            :children:
+                            - :name: a
+                              :count: 1
+                        - :name: ul
+                          :count: 1
+                          :attributes:
+                            :class: searchitem-list
+                          :children:
+                          - :name: li
+                            :count: 3
+                            :children:
+                            - :name: a
+                              :count: 1
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: bgbox bgbox--add bgbox--type3 dn
+          :id: fr_lotation_banner
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: addbox addbox--pr dn
+          :id: fr_text_banner
+  - :name: div
+    :count: 1
+    :attributes:
+      :class: footer
+    :children:
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: footinfo
+      :children:
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: footinfo-inner
+        :children:
+        - :name: p
+          :count: 1
           :attributes:
-            :id: 'js-pageTop'
+            :class: footinfo-txt
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: footinfo-object
           :children:
-            - :name: 'a'
-              :attributes:
-                :href: 'javascript:void(0);'
-              :children:
-                - :name: 'img'
-                  :attributes:
-                    :alt: 'ページトップへ戻る'
-                    :height: '51'
-                    :src: '/edit/assets/suumo/img/pagetop.png'
-                    :width: '74'
-        - :name: 'script'
+          - :name: span
+            :count: 1
+            :attributes:
+              :class: ui-icon--suumo06
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: footlinks
+      :children:
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: footlinks-inner
+        :children:
+        - :name: div
+          :count: 1
           :attributes:
-            :src: '/edit/assets/allsites/js/jquery-1.4.2.min.js'
-        - :name: 'script'
-          :attributes:
-            :src: '/edit/assets/suumo/js/headerfooter.js'
-        - :name: 'script'
-          :attributes:
-            :src: '/edit/fr-soba/suumo/js/fr-search_soba.js'
-        - :name: 'script'
-          :attributes:
-            :src: '/edit/fr-soba/suumo/js/include/inc-fr-search_soba.js'
-        - :name: 'script'
-          :attributes:
-            :type: 'text/javascript'
-        - :name: 'script'
-          :attributes:
-            :type: 'text/javascript'
-        - :name: 'script'
-          :attributes:
-            :language: 'JavaScript'
-            :src: '/jj/jjcommon/sc/catalyst.js?20160914'
-        - :name: 'script'
-          :attributes:
-            :language: 'JavaScript'
-        - :name: 'script'
-          :attributes:
-            :language: 'JavaScript'
-            :src: '/jj/jjcommon/sc/s_code.js'
-        - :name: 'script'
-          :attributes:
-            :language: 'JavaScript'
-        - :name: 'form'
+            :class: linkbox_group
           :children:
-            - :name: 'input'
+          - :name: div
+            :count: 1
+            :attributes:
+              :class: linkbox linkbox--search
+            :children:
+            - :name: div
+              :count: 1
               :attributes:
-                :id: 'browserBack'
-                :style: 'display: none;'
-                :type: 'hidden'
-        - :name: 'script'
+                :class: linkbox-body
+              :children:
+              - :name: a
+                :count: 1
+                :attributes:
+                  :class: js-setCookieArZenkoku
+              - :name: a
+                :count: 1
+            - :name: div
+              :count: 1
+              :attributes:
+                :class: linkbox-search
+              :children:
+              - :name: form
+                :count: 1
+                :attributes:
+                  :action: "/jj/common/ichiran/JJ901FC001/"
+                  :id: js-wordSearch
+                  :method: post
+                :children:
+                - :name: input
+                  :count: 1
+                  :attributes:
+                    :name: ar
+                    :type: hidden
+                    :value: '030'
+                - :name: input
+                  :count: 1
+                  :attributes:
+                    :id: js-linkbox-search
+                    :name: kwd
+                    :placeholder: "キーワード検索"
+                    :type: text
+                - :name: a
+                  :count: 1
+                  :attributes:
+                    :class: ui-btn ui-btn--search ui-btn--small
+                    :id: js-footerKensakuBtn
+        - :name: div
+          :count: 1
           :attributes:
-            :src: '/jj/jjcommon/vos/vos.js'
-            :type: 'text/javascript'
-        - :name: 'script'
+            :class: linkbox_group
+          :children:
+          - :name: div
+            :count: 1
+            :attributes:
+              :class: linkbox linkbox--full
+            :children:
+            - :name: div
+              :count: 1
+              :attributes:
+                :class: linkbox-title
+              :children:
+              - :name: a
+                :count: 1
+                :attributes:
+                  :class: js-setCookieArZenkoku
+            - :name: div
+              :count: 1
+              :attributes:
+                :class: linkbox-body
+              :children:
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+              - :name: br
+                :count: 2
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+                :attributes:
+                  :target: _blank
+              - :name: a
+                :count: 1
+                :attributes:
+                  :target: _blank
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+                :attributes:
+                  :target: _blank
+              - :name: a
+                :count: 1
+                :attributes:
+                  :target: _blank
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+                :attributes:
+                  :target: _blank
+              - :name: a
+                :count: 1
+                :attributes:
+                  :target: _blank
+              - :name: a
+                :count: 1
+                :attributes:
+                  :target: _blank
+              - :name: a
+                :count: 1
+                :attributes:
+                  :target: _blank
+              - :name: a
+                :count: 1
+                :attributes:
+                  :target: _blank
+        - :name: div
+          :count: 1
           :attributes:
-            :language: 'JavaScript'
+            :class: linkbox_group
+          :children:
+          - :name: div
+            :count: 1
+            :attributes:
+              :class: linkbox linkbox--full
+            :children:
+            - :name: div
+              :count: 1
+              :attributes:
+                :class: linkbox-title
+            - :name: div
+              :count: 1
+              :attributes:
+                :class: linkbox-body
+              :children:
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+              - :name: a
+                :count: 1
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: footlogo
+      :children:
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: logobox
+        :children:
+        - :name: div
+          :count: 1
+          :children:
+          - :name: a
+            :count: 1
+            :attributes:
+              :target: _blank
+            :children:
+            - :name: img
+              :count: 1
+              :attributes:
+                :height: '27'
+                :width: '286'
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: logobox-link
+          :children:
+          - :name: a
+            :count: 1
+            :attributes:
+              :target: _blank
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: footlogo-link
+        :children:
+        - :name: a
+          :count: 1
+        - :name: a
+          :count: 1
+        - :name: a
+          :count: 1
+        - :name: a
+          :count: 1
+          :attributes:
+            :target: _blank
+        - :name: a
+          :count: 1
+          :attributes:
+            :target: _blank
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: footlogo-action
+        :children:
+        - :name: a
+          :count: 1
+          :attributes:
+            :class: footlogo-action-btn
+            :target: _blank
+  - :name: div
+    :count: 1
+    :attributes:
+      :id: js-pageTop
+    :children:
+    - :name: a
+      :count: 1
+      :children:
+      - :name: img
+        :count: 1
+        :attributes:
+          :height: '51'
+          :width: '74'
+  - :name: script
+    :count: 1
+  - :name: script
+    :count: 1
+  - :name: script
+    :count: 1
+  - :name: script
+    :count: 1
+  - :name: script
+    :count: 1
+    :attributes:
+      :type: text/javascript
+  - :name: script
+    :count: 1
+    :attributes:
+      :type: text/javascript
+  - :name: script
+    :count: 1
+    :attributes:
+      :language: JavaScript
+  - :name: script
+    :count: 1
+    :attributes:
+      :language: JavaScript
+  - :name: script
+    :count: 1
+    :attributes:
+      :language: JavaScript
+  - :name: script
+    :count: 1
+    :attributes:
+      :language: JavaScript
+  - :name: form
+    :count: 1
+    :children:
+    - :name: input
+      :count: 1
+      :attributes:
+        :id: browserBack
+        :style: 'display: none;'
+        :type: hidden
+  - :name: script
+    :count: 1
+    :attributes:
+      :type: text/javascript
+  - :name: script
+    :count: 1
+    :attributes:
+      :language: JavaScript
