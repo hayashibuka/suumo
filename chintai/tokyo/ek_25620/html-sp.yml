@@ -141,7 +141,7 @@
                 :id: toulist_1
               :children:
               - :name: li
-                :count: 10
+                :count: 5
                 :children:
                 - :name: div
                   :count: 1
@@ -157,11 +157,33 @@
                       :count: 2
                       :attributes:
                         :class: tou-bukken-cd
-                        :id: '100070903550'
+                        :id: '100064510555'
                     - :name: div
                       :count: 2
                       :attributes:
                         :class: toulistitem-inner-title
+  - :name: li
+    :count: 5
+    :children:
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: toulistitem
+      :children:
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: toulistitem-inner
+        :children:
+        - :name: div
+          :count: 2
+          :attributes:
+            :class: tou-bukken-cd
+            :id: '100071089263'
+        - :name: div
+          :count: 2
+          :attributes:
+            :class: toulistitem-inner-title
   - :name: div
     :count: 2
     :attributes:
@@ -472,24 +494,24 @@
       :data-requesturl: "/chintai/tokyo/ek_000525620/"
       :data-sitekbncd: '01'
       :data-ssite: '1'
-      :data-totalhits: '335'
+      :data-totalhits: '334'
       :data-unnormalshiboriparam: ''
       :data-urlparamsstring: ''
       :id: js-data-script-commonScript
   - :name: script
     :count: 1
     :attributes:
-      :data-bclist: '["100070903550","100071713401","100070245021","100071658921","100070741293","100070600383","100068575406","100071206606","100068576671","100070822994","100071171755","100071133730","100071190000","100067457649","100070574666"]'
+      :data-bclist: '["100064510555","100065245508","100058266372","100065669870","100068588197","100068588198","100068724505","100071718093","100071017769","100071089263","100071880552","100067076652","100070240344","100069115171","100069522798","100069271748","100070245021"]'
       :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_040","se":"040"}'
       :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_040","e":["000525620"],"se":["040"]}'
       :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_040","e":["000525620"],"se":["040"],"ta":"13"}'
-      :data-jukototalhit: '605'
-      :data-kisslist: '154415001,087209008,126682003,156641001,144023001,137762002,138839001,083652017,138839001,148985003,153780001,142635001,154763001,083652011,087209014'
+      :data-jukototalhit: '607'
+      :data-kisslist: 071816340,071816340,135126001,000098004,073756000,073756000,134124001,139497015,138683005,147051002,103842004,138683004,085226004,006015022,006015022,138683004,126682003
       :data-pageid: PF3C1304
       :data-pageidlist: P,F,3,C,13,04
-      :data-pageviewinfo: '{"ab_t":"sort_recommend","sort_cd":"25"}'
+      :data-pageviewinfo: '{"ab_t":"sort_recommend","sort_cd":"19"}'
       :data-templateid: SP_SUUMO
-      :data-totalhit: '335'
+      :data-totalhit: '334'
       :data-url: log.suumo.jp/js/logsuumo.js
       :id: beaconJs
       :language: JavaScript
