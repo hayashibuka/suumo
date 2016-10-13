@@ -141,7 +141,7 @@
                 :id: toulist_1
               :children:
               - :name: li
-                :count: 2
+                :count: 1
                 :children:
                 - :name: div
                   :count: 1
@@ -157,16 +157,90 @@
                       :count: 2
                       :attributes:
                         :class: tou-bukken-cd
-                        :id: '100028649926'
+                        :id: 000069388212
                     - :name: div
                       :count: 2
                       :attributes:
                         :class: toulistitem-inner-title
+                  - :name: ul
+                    :count: 1
+                    :attributes:
+                      :class: toulistitem_sublist
+                      :data-bukken-cd: '100047711935'
+                      :style: display:none
+                    :children:
+                    - :name: li
+                      :count: 1
+                      :children:
+                      - :name: div
+                        :count: 1
+                        :attributes:
+                          :class: toulistitem_sublistitem
+                        :children:
+                        - :name: div
+                          :count: 1
+                          :attributes:
+                            :class: toulistitem_sublistitem-inner
+                          :children:
+                          - :name: div
+                            :count: 2
+                            :attributes:
+                              :class: toulistitem_sublistitem-inner-cellinput
+                            :children:
+                            - :name: input
+                              :count: 1
+                              :attributes:
+                                :class: toulistitem_sublistitem-checkbox js-juko-checkbox
+                                :name: bck
+                                :rel: '030'
+                                :type: checkbox
+                                :value: 01_100047711935
+                            - :name: p
+                              :count: 1
+                              :attributes:
+                                :class: icnFavorite
+                                :data-areacd: '030'
+                                :data-bukken-cd: '100047711935'
+                                :data-chikugonensu: '56'
+                                :data-chikunen: 1960年11月
+                                :data-chintai_bukken_nm: "門間アパート"
+                                :data-choson: "本駒込"
+                                :data-kaiso_disp: 2階/2階建
+                                :data-kakaku_value: '3'
+                                :data-kanigazo: https://img01.suumo.com/front/gazo/fr/bukken/212/69388212/69388212_cw.jpg
+                                :data-kanrihi: 2500円
+                                :data-kiss_cd: 082192131
+                                :data-kotsu: "ＪＲ山手線/駒込駅 歩7分"
+                                :data-madori: "ワンルーム"
+                                :data-menseki: 11平米
+                                :data-reikin: "-"
+                                :data-sc: '105'
+                                :data-seqno: ''
+                                :data-shigunku: "文京区"
+                                :data-shikikin: 3万円
+                                :data-shubetsu: '040'
+                                :data-tatemono_shu_nm: "アパート"
+                                :data-tf: '13'
+                                :data-todofuken: "東京都"
+                        - :name: div
+                          :count: 1
+                          :attributes:
+                            :class: js-beacon-bukken-cd-1_1
+                            :name: beacon_bc_list
+                            :style: display:none
+                            :value: '100047711935'
+                      - :name: div
+                        :count: 1
+                        :attributes:
+                          :class: js-beacon-kiss-cd-1_1
+                          :name: beacon_kiss_list
+                          :style: display:none
+                          :value: 082192131
   - :name: div
     :count: 1
     :attributes:
       :class: toulistitem--bottom js-juko-more
-      :id: '1_2'
+      :id: '1_1'
     :children:
     - :name: a
       :count: 1
@@ -178,7 +252,7 @@
         :attributes:
           :class: toulistitem_more-text moreShowBukken
   - :name: li
-    :count: 8
+    :count: 9
     :children:
     - :name: div
       :count: 1
@@ -516,12 +590,12 @@
   - :name: script
     :count: 1
     :attributes:
-      :data-bclist: '["100028649926","100071422111","100032978950","100032192758","100069854168","100025188360","000073588007","100045216889","100064509356","100027053315","100053993219","100068208202","100065127247","100067981442"]'
+      :data-bclist: '["100045137737","100032978950","000069388212","100069854168","100025188360","000073588007","100045216889","100064509356","100027053315","100053993219","100068208202","100065127247","100071511051","100067981442"]'
       :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_040","se":"040"}'
       :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_040","sa":["01"],"se":["040"]}'
       :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_040","sa":["01"],"se":["040"],"ta":"13"}'
-      :data-jukototalhit: '39546'
-      :data-kisslist: 067202000,071816088,071816040,082192114,086657003,004003000,004003000,021999000,071816040,139761001,070380045,006403003,148786001,088882012
+      :data-jukototalhit: '39484'
+      :data-kisslist: 071816040,071816040,082192129,086657003,004003000,004003000,021999000,071816040,139761001,070380045,006403003,148786001,110499012,088882012
       :data-pageid: PF3C1301
       :data-pageidlist: P,F,3,C,13,01
       :data-pageviewinfo: '{"ab_t":"sort_recommend","sort_cd":"19"}'

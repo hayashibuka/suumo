@@ -157,7 +157,7 @@
                       :count: 2
                       :attributes:
                         :class: tou-bukken-cd
-                        :id: '100065375184'
+                        :id: '100060971876'
                     - :name: div
                       :count: 2
                       :attributes:
@@ -198,16 +198,90 @@
           :count: 2
           :attributes:
             :class: tou-bukken-cd
-            :id: '100071832932'
+            :id: '100063315291'
         - :name: div
           :count: 2
           :attributes:
             :class: toulistitem-inner-title
+  - :name: ul
+    :count: 7
+    :attributes:
+      :class: toulistitem_sublist
+      :data-bukken-cd: '100061270023'
+      :style: display:none
+    :children:
+    - :name: li
+      :count: 1
+      :children:
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: toulistitem_sublistitem
+        :children:
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: toulistitem_sublistitem-inner
+          :children:
+          - :name: div
+            :count: 2
+            :attributes:
+              :class: toulistitem_sublistitem-inner-cellinput
+            :children:
+            - :name: input
+              :count: 1
+              :attributes:
+                :class: toulistitem_sublistitem-checkbox js-juko-checkbox
+                :name: bck
+                :rel: '030'
+                :type: checkbox
+                :value: '01_100061270023'
+            - :name: p
+              :count: 1
+              :attributes:
+                :class: icnFavorite
+                :data-areacd: '030'
+                :data-bukken-cd: '100061270023'
+                :data-chikugonensu: '16'
+                :data-chikunen: 2000年12月
+                :data-chintai_bukken_nm: "プレール九段"
+                :data-choson: "九段北"
+                :data-kaiso_disp: 1階/10階建
+                :data-kakaku_value: '9.8'
+                :data-kanigazo: https://img01.suumo.com/front/gazo/fr/bukken/869/100065583869/100065583869_cw.jpg
+                :data-kanrihi: 5000円
+                :data-kiss_cd: '106924018'
+                :data-kotsu: "東京メトロ半蔵門線/九段下駅 歩1分"
+                :data-madori: "ワンルーム"
+                :data-menseki: 24.12平米
+                :data-reikin: 9.8万円
+                :data-sc: '101'
+                :data-seqno: ''
+                :data-shigunku: "千代田区"
+                :data-shikikin: "-"
+                :data-shubetsu: '040'
+                :data-tatemono_shu_nm: "マンション"
+                :data-tf: '13'
+                :data-todofuken: "東京都"
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: js-beacon-bukken-cd-1_10
+            :name: beacon_bc_list
+            :style: display:none
+            :value: '100061270023'
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: js-beacon-kiss-cd-1_10
+          :name: beacon_kiss_list
+          :style: display:none
+          :value: '106924018'
   - :name: div
     :count: 1
     :attributes:
       :class: toulistitem--bottom js-juko-more
-      :id: '1_9'
+      :id: '1_10'
     :children:
     - :name: a
       :count: 1
@@ -528,24 +602,24 @@
       :data-requesturl: "/chintai/tokyo/sc_101/"
       :data-sitekbncd: '01'
       :data-ssite: '1'
-      :data-totalhits: '874'
+      :data-totalhits: '875'
       :data-unnormalshiboriparam: ''
       :data-urlparamsstring: ''
       :id: js-data-script-commonScript
   - :name: script
     :count: 1
     :attributes:
-      :data-bclist: '["100070600509","100065375184","100058509360","100071832932","100071504681","100068309355","100070838691","100070737110","100070731104","100070818376","100070825822","100071106101","100071616621","100068013664","100067956936","100068311649","100071999373","100064979287","100071611941","100070271827","100070182113"]'
+      :data-bclist: '["100025864815","100071502089","100059891254","100063315291","100070354841","100071725856","100066238662","100071499130","100064958009","100069162423","100071031779","100070968955","100071089093","100070611060","100071297573","100068506598","100071842959","100062674156","100059771664","100063828168","100071208980","100026780931","100044810973"]'
       :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_040","se":"040"}'
       :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_040","sc3":["13101"],"se":["040"]}'
       :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_040","sc3":["13101"],"se":["040"],"ta":"13"}'
-      :data-jukototalhit: '2424'
-      :data-kisslist: '154818001,083652017,105673005,003448007,138683005,154818001,132191004,155938001,138663001,145338001,138663004,134124001,055859000,055859000,107527008,126682003,103842004,152509001,103842012,141453002,143846002'
+      :data-jukototalhit: '2442'
+      :data-kisslist: 001027033,142173001,106304003,152509001,056352004,056352004,107658001,154492001,116804147,116804147,000232030,138665003,130727003,053963000,152713001,138663004,152509001,116979001,144621001,116804147,151794002,144621001,087209042
       :data-pageid: PF3C1302
       :data-pageidlist: P,F,3,C,13,02
       :data-pageviewinfo: '{"ab_t":"sort_recommend","sort_cd":"25"}'
       :data-templateid: SP_SUUMO
-      :data-totalhit: '874'
+      :data-totalhit: '875'
       :data-url: log.suumo.jp/js/logsuumo.js
       :id: beaconJs
       :language: JavaScript
