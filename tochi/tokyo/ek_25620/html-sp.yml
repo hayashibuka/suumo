@@ -155,7 +155,7 @@
               :id: bukkenListAll
             :children:
             - :name: ul
-              :count: 2
+              :count: 1
               :attributes:
                 :class: listView bukkenList solid aggregatelyList
                 :id: bukkenListAll_1
@@ -180,7 +180,7 @@
                         :name: bsnc
                         :rel: '030'
                         :type: checkbox
-                        :value: 03086939684
+                        :value: 03086860499
                   - :name: div
                     :count: 1
                     :attributes:
@@ -190,13 +190,6 @@
                       :count: 1
                       :attributes:
                         :class: titleWrap
-            - :name: div
-              :count: 1
-              :attributes:
-                :class: readmoreborder
-              :children:
-              - :name: p
-                :count: 1
       - :name: nav
         :count: 1
         :attributes:
@@ -391,21 +384,21 @@
       :data-requesturl: "/tochi/tokyo/ek_000525620/"
       :data-sitekbncd: '01'
       :data-todofuken: '030'
-      :data-totalhits: '11'
+      :data-totalhits: '10'
       :data-urlparamsstring: "?km=1"
       :id: js-data-script-commonScript
   - :name: script
     :count: 1
     :attributes:
-      :data-bclist: '["86939684","87059111","86630369","86835323","86973674","87053605","86930566","86790723","87053609","86855205","86860499"]'
+      :data-bclist: '["86860499","86939684","87059111","86630369","86835323","87053605","86930566","86790723","87053609","86855205"]'
       :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_030","se":"030"}'
       :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_030","e":["000525620"],"se":["030"],"ta":["13"]}'
       :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_030","e":["000525620"],"se":["030"],"ta":["13"]}'
-      :data-krsnetidlist: '["t13100000101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t13100000101","t13100000101"]'
-      :data-nclist: '["86939684","87059111","86630369","86835323","86973674","87053605","86930566","86790723","87053609","86855205","86860499"]'
+      :data-krsnetidlist: '["t13100000101","t13100000101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t13100000101"]'
+      :data-nclist: '["86860499","86939684","87059111","86630369","86835323","87053605","86930566","86790723","87053609","86855205"]'
       :data-pageid: PT3C1304
       :data-templateid: SP_SUUMO
-      :data-totalhit: '11'
+      :data-totalhit: '10'
       :data-url: log.suumo.jp/js/logsuumo.js
       :id: beaconJs
       :language: JavaScript
