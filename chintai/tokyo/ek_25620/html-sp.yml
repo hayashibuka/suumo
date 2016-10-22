@@ -42,7 +42,7 @@
       :style: 'display: none;'
       :type: text
   - :name: div
-    :count: 4
+    :count: 3
     :attributes:
       :id: wrapper_viewport
     :children:
@@ -141,7 +141,7 @@
                 :id: toulist_1
               :children:
               - :name: li
-                :count: 2
+                :count: 1
                 :children:
                 - :name: div
                   :count: 1
@@ -157,13 +157,32 @@
                       :count: 2
                       :attributes:
                         :class: tou-bukken-cd
-                        :id: '100072682556'
+                        :id: '100070213165'
                     - :name: div
                       :count: 2
                       :attributes:
                         :class: toulistitem-inner-title
+                  - :name: div
+                    :count: 1
+                    :attributes:
+                      :id: addDaihyoBukkenPosition_1_1
+                - :name: div
+                  :count: 1
+                  :attributes:
+                    :class: toulistitem--bottom js-juko-more
+                    :id: '1_1'
+                  :children:
+                  - :name: a
+                    :count: 1
+                    :attributes:
+                      :class: toulistitem_more js-addlist
+                    :children:
+                    - :name: span
+                      :count: 1
+                      :attributes:
+                        :class: toulistitem_more-text moreShowBukken
   - :name: li
-    :count: 8
+    :count: 9
     :children:
     - :name: div
       :count: 1
@@ -179,100 +198,11 @@
           :count: 2
           :attributes:
             :class: tou-bukken-cd
-            :id: '100071096522'
+            :id: '100070489245'
         - :name: div
           :count: 2
           :attributes:
             :class: toulistitem-inner-title
-      - :name: ul
-        :count: 1
-        :attributes:
-          :class: toulistitem_sublist
-          :data-bukken-cd: '100071096528'
-          :style: display:none
-        :children:
-        - :name: li
-          :count: 1
-          :children:
-          - :name: div
-            :count: 1
-            :attributes:
-              :class: toulistitem_sublistitem
-            :children:
-            - :name: div
-              :count: 1
-              :attributes:
-                :class: toulistitem_sublistitem-inner
-              :children:
-              - :name: div
-                :count: 2
-                :attributes:
-                  :class: toulistitem_sublistitem-inner-cellinput
-                :children:
-                - :name: input
-                  :count: 1
-                  :attributes:
-                    :class: toulistitem_sublistitem-checkbox js-juko-checkbox
-                    :name: bck
-                    :rel: '030'
-                    :type: checkbox
-                    :value: 01_100071096528
-                - :name: p
-                  :count: 1
-                  :attributes:
-                    :class: icnFavorite
-                    :data-areacd: '030'
-                    :data-bukken-cd: '100071096528'
-                    :data-chikugonensu: '1'
-                    :data-chikunen: 2016年9月
-                    :data-chintai_bukken_nm: "Ｂｒｉｌｌｉａ　ＴＨＥ　ＲＥＳＩＤＥＮＣＥ　ＴＯＫＹＯ　ＹＡＥＳＵ　Ａ"
-                    :data-choson: "新川"
-                    :data-kaiso_disp: 5階/地下1地上11階建
-                    :data-kakaku_value: '23.6'
-                    :data-kanigazo: https://img01.suumo.com/front/gazo/fr/bukken/522/100071096522/100071096522_cw.jpg
-                    :data-kanrihi: 12000円
-                    :data-kiss_cd: 001027029
-                    :data-kotsu: "ＪＲ山手線/東京駅 歩15分"
-                    :data-madori: 2LDK
-                    :data-menseki: 54平米
-                    :data-reikin: 23.6万円
-                    :data-sc: '102'
-                    :data-seqno: ''
-                    :data-shigunku: "中央区"
-                    :data-shikikin: 47.2万円
-                    :data-shubetsu: '040'
-                    :data-tatemono_shu_nm: "マンション"
-                    :data-tf: '13'
-                    :data-todofuken: "東京都"
-            - :name: div
-              :count: 1
-              :attributes:
-                :class: js-beacon-bukken-cd-1_3
-                :name: beacon_bc_list
-                :style: display:none
-                :value: '100071096528'
-          - :name: div
-            :count: 1
-            :attributes:
-              :class: js-beacon-kiss-cd-1_3
-              :name: beacon_kiss_list
-              :style: display:none
-              :value: 001027029
-  - :name: div
-    :count: 1
-    :attributes:
-      :class: toulistitem--bottom js-juko-more
-      :id: '1_3'
-    :children:
-    - :name: a
-      :count: 1
-      :attributes:
-        :class: toulistitem_more js-addlist
-      :children:
-      - :name: span
-        :count: 1
-        :attributes:
-          :class: toulistitem_more-text moreShowBukken
   - :name: div
     :count: 2
     :attributes:
@@ -583,24 +513,24 @@
       :data-requesturl: "/chintai/tokyo/ek_000525620/"
       :data-sitekbncd: '01'
       :data-ssite: '1'
-      :data-totalhits: '269'
+      :data-totalhits: '270'
       :data-unnormalshiboriparam: ''
       :data-urlparamsstring: ''
       :id: js-data-script-commonScript
   - :name: script
     :count: 1
     :attributes:
-      :data-bclist: '["100072682556","100072625013","100064567595","100031448837","100066346103","100067913157","100072557401","100071096522","100071096541","100070763014","100071909299","100071720113","100070600383","100072000746","100070715070","100072697331","100071581379","100043029600","100071070187","100072076022"]'
+      :data-bclist: '["100070551513","100072862703","100070493228","100070489245","100015759447","100070600383","100053853716","100070901535","100072158217","100072275806","100070141841","100071771286","100063432696","100068359911","100071976977"]'
       :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_040","se":"040"}'
       :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_040","e":["000525620"],"se":["040"]}'
       :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_040","e":["000525620"],"se":["040"],"ta":"13"}'
-      :data-jukototalhit: '502'
-      :data-kisslist: '141453002,071816352,071816352,083652019,087209032,154763001,157216001,001027029,001027029,148985003,130727003,141672001,137762002,154763001,139695001,148985003,145338001,087209021,123812025,156879001'
+      :data-jukototalhit: '506'
+      :data-kisslist: '140154002,140154002,140154002,140154002,001027035,137762002,154763001,145338001,154763001,140154002,140154002,140154002,153297001,140154002,130727003'
       :data-pageid: PF3C1304
       :data-pageidlist: P,F,3,C,13,04
       :data-pageviewinfo: '{"ab_t":"sort_recommend","sort_cd":"25"}'
       :data-templateid: SP_SUUMO
-      :data-totalhit: '269'
+      :data-totalhit: '270'
       :data-url: log.suumo.jp/js/logsuumo.js
       :id: beaconJs
       :language: JavaScript
