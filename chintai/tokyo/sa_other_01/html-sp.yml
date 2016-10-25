@@ -42,7 +42,7 @@
       :style: 'display: none;'
       :type: text
   - :name: div
-    :count: 4
+    :count: 3
     :attributes:
       :id: wrapper_viewport
     :children:
@@ -162,21 +162,6 @@
                       :count: 2
                       :attributes:
                         :class: toulistitem-inner-title
-  - :name: div
-    :count: 1
-    :attributes:
-      :class: toulistitem--bottom js-juko-more
-      :id: '1_3'
-    :children:
-    - :name: a
-      :count: 1
-      :attributes:
-        :class: toulistitem_more js-addlist
-      :children:
-      - :name: span
-        :count: 1
-        :attributes:
-          :class: toulistitem_more-text moreShowBukken
   - :name: li
     :count: 7
     :children:
@@ -509,24 +494,24 @@
       :data-requesturl: "/chintai/tokyo/sa_01/"
       :data-sitekbncd: '01'
       :data-ssite: '1'
-      :data-totalhits: '18185'
+      :data-totalhits: '18206'
       :data-unnormalshiboriparam: ''
       :data-urlparamsstring: ''
       :id: js-data-script-commonScript
   - :name: script
     :count: 1
     :attributes:
-      :data-bclist: '["100060816037","100067271182","100045137737","100032978950","100032094024","100069854168","100025188360","000073588007","100072744742","100072731077","100073018567","100045216889","100064509356","100027053315"]'
+      :data-bclist: '["100060816037","100067271182","100045137737","100032978950","000069388212","100069854168","100025188360","000073588007","100072731077","100072558999","100073018567","100045216889","100064509356","100027053315"]'
       :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_040","se":"040"}'
       :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_040","sa":["01"],"se":["040"]}'
       :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_040","sa":["01"],"se":["040"],"ta":"13"}'
-      :data-jukototalhit: '39665'
-      :data-kisslist: '123063002,138288001,071816040,071816040,082192105,086657003,004003000,004003000,103842003,103842011,148147001,021999000,071816040,139761001'
+      :data-jukototalhit: '39577'
+      :data-kisslist: '123063002,138288001,071816040,071816040,082192129,086657003,004003000,004003000,103842011,122740005,148147001,021999000,071816040,139761001'
       :data-pageid: PF3C1301
       :data-pageidlist: P,F,3,C,13,01
       :data-pageviewinfo: '{"ab_t":"sort_recommend","sort_cd":"19"}'
       :data-templateid: SP_SUUMO
-      :data-totalhit: '18185'
+      :data-totalhit: '18206'
       :data-url: log.suumo.jp/js/logsuumo.js
       :id: beaconJs
       :language: JavaScript
