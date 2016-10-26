@@ -141,7 +141,7 @@
                 :id: toulist_1
               :children:
               - :name: li
-                :count: 5
+                :count: 6
                 :children:
                 - :name: div
                   :count: 1
@@ -163,7 +163,7 @@
                       :attributes:
                         :class: toulistitem-inner-title
   - :name: li
-    :count: 5
+    :count: 4
     :children:
     - :name: div
       :count: 1
@@ -187,12 +187,12 @@
       - :name: div
         :count: 1
         :attributes:
-          :id: addDaihyoBukkenPosition_1_6
+          :id: addDaihyoBukkenPosition_1_7
     - :name: div
       :count: 1
       :attributes:
         :class: toulistitem--bottom js-juko-more
-        :id: '1_6'
+        :id: '1_7'
       :children:
       - :name: a
         :count: 1
@@ -236,6 +236,14 @@
                 :rel: '030'
                 :type: checkbox
                 :value: 01_100066823697
+            - :name: input
+              :count: 1
+              :attributes:
+                :id: dbc_01_100066823697
+                :name: dbc
+                :style: 'display: none;'
+                :type: text
+                :value: '100066823697'
             - :name: p
               :count: 1
               :attributes:
@@ -266,14 +274,14 @@
         - :name: div
           :count: 1
           :attributes:
-            :class: js-beacon-bukken-cd-1_7
+            :class: js-beacon-bukken-cd-1_8
             :name: beacon_bc_list
             :style: display:none
             :value: '100066823697'
       - :name: div
         :count: 1
         :attributes:
-          :class: js-beacon-kiss-cd-1_7
+          :class: js-beacon-kiss-cd-1_8
           :name: beacon_kiss_list
           :style: display:none
           :value: '106924018'
@@ -281,7 +289,7 @@
     :count: 2
     :attributes:
       :class: toulistitem--bottom js-juko-more
-      :id: '1_7'
+      :id: '1_8'
     :children:
     - :name: a
       :count: 1
@@ -602,24 +610,24 @@
       :data-requesturl: "/chintai/tokyo/sc_101/"
       :data-sitekbncd: '01'
       :data-ssite: '1'
-      :data-totalhits: '865'
+      :data-totalhits: '857'
       :data-unnormalshiboriparam: ''
       :data-urlparamsstring: ''
       :id: js-data-script-commonScript
   - :name: script
     :count: 1
     :attributes:
-      :data-bclist: '["100047457965","100073087095","100072468809","100072241251","100072348531","000057038967","100050699974","100068061151","100070686332","100069075939","100067582153","100070838454","100070830452","100070846216","100072230819","100071411890","100072158099","100071935679","100071499130","100069162423"]'
+      :data-bclist: '["100047457965","100073087095","100059230307","100072468809","100072341862","100072348531","100071997036","100050699974","100068061151","100070686332","100069075939","100067582153","100070830452","100073184875","100070846216","100072230819","100071935679","100071411890","100072158099"]'
       :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_040","se":"040"}'
       :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_040","sc3":["13101"],"se":["040"]}'
       :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_040","sc3":["13101"],"se":["040"],"ta":"13"}'
-      :data-jukototalhit: '2453'
-      :data-kisslist: '145742001,149461002,103842004,138663004,154818001,108904007,108904007,147484001,035812000,103842004,139695001,151794002,138683004,106924018,100882001,134124001,154818001,137762002,154492001,116804147'
+      :data-jukototalhit: '2437'
+      :data-kisslist: '145742001,149461002,073436001,103842004,139497015,154818001,126682003,108904007,147484001,035812000,103842004,139695001,138683004,151794002,106924018,100882001,137762002,134124001,154818001'
       :data-pageid: PF3C1302
       :data-pageidlist: P,F,3,C,13,02
       :data-pageviewinfo: '{"ab_t":"sort_recommend","sort_cd":"19"}'
       :data-templateid: SP_SUUMO
-      :data-totalhit: '865'
+      :data-totalhit: '857'
       :data-url: log.suumo.jp/js/logsuumo.js
       :id: beaconJs
       :language: JavaScript

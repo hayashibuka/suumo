@@ -42,7 +42,7 @@
       :style: 'display: none;'
       :type: text
   - :name: div
-    :count: 3
+    :count: 4
     :attributes:
       :id: wrapper_viewport
     :children:
@@ -141,7 +141,7 @@
                 :id: toulist_1
               :children:
               - :name: li
-                :count: 1
+                :count: 3
                 :children:
                 - :name: div
                   :count: 1
@@ -157,32 +157,28 @@
                       :count: 2
                       :attributes:
                         :class: tou-bukken-cd
-                        :id: '100070213165'
+                        :id: '100065669870'
                     - :name: div
                       :count: 2
                       :attributes:
                         :class: toulistitem-inner-title
-                  - :name: div
-                    :count: 1
-                    :attributes:
-                      :id: addDaihyoBukkenPosition_1_1
-                - :name: div
-                  :count: 1
-                  :attributes:
-                    :class: toulistitem--bottom js-juko-more
-                    :id: '1_1'
-                  :children:
-                  - :name: a
-                    :count: 1
-                    :attributes:
-                      :class: toulistitem_more js-addlist
-                    :children:
-                    - :name: span
-                      :count: 1
-                      :attributes:
-                        :class: toulistitem_more-text moreShowBukken
+  - :name: div
+    :count: 1
+    :attributes:
+      :class: toulistitem--bottom js-juko-more
+      :id: '1_3'
+    :children:
+    - :name: a
+      :count: 1
+      :attributes:
+        :class: toulistitem_more js-addlist
+      :children:
+      - :name: span
+        :count: 1
+        :attributes:
+          :class: toulistitem_more-text moreShowBukken
   - :name: li
-    :count: 9
+    :count: 7
     :children:
     - :name: div
       :count: 1
@@ -198,7 +194,7 @@
           :count: 2
           :attributes:
             :class: tou-bukken-cd
-            :id: '100070489245'
+            :id: '100066751559'
         - :name: div
           :count: 2
           :attributes:
@@ -513,24 +509,24 @@
       :data-requesturl: "/chintai/tokyo/ek_000525620/"
       :data-sitekbncd: '01'
       :data-ssite: '1'
-      :data-totalhits: '268'
+      :data-totalhits: '265'
       :data-unnormalshiboriparam: ''
       :data-urlparamsstring: ''
       :id: js-data-script-commonScript
   - :name: script
     :count: 1
     :attributes:
-      :data-bclist: '["100070551513","100072862703","100070493228","100070489245","100015759447","100070901535","100072158217","100072158208","100071771286","100063432696","100068359911","100071722299","100062789075","100070702264"]'
+      :data-bclist: '["100065669870","100068588197","100072927399","100068724505","100071017769","100071089263","100071880552","100066751559","100069115171","100069522798","100072152227","100068977192","100068977193","100071948823","100073003018","100069954512","100072922610","100070245021"]'
       :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_040","se":"040"}'
       :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_040","e":["000525620"],"se":["040"]}'
       :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_040","e":["000525620"],"se":["040"],"ta":"13"}'
-      :data-jukototalhit: '497'
-      :data-kisslist: '140154002,140154002,140154002,140154002,001027035,145338001,154763001,154763001,140154002,153297001,140154002,132735002,006121009,140154002'
+      :data-jukototalhit: '486'
+      :data-kisslist: 000098004,073756000,126682002,134124001,138683005,147051002,103842004,147051002,006015022,006015022,138683004,073756000,073756000,073756000,103842002,134124001,103842003,126682003
       :data-pageid: PF3C1304
       :data-pageidlist: P,F,3,C,13,04
-      :data-pageviewinfo: '{"ab_t":"sort_recommend","sort_cd":"25"}'
+      :data-pageviewinfo: '{"ab_t":"sort_recommend","sort_cd":"19"}'
       :data-templateid: SP_SUUMO
-      :data-totalhit: '268'
+      :data-totalhit: '265'
       :data-url: log.suumo.jp/js/logsuumo.js
       :id: beaconJs
       :language: JavaScript
