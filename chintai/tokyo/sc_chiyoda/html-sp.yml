@@ -204,10 +204,10 @@
           :attributes:
             :class: toulistitem_more-text moreShowBukken
   - :name: ul
-    :count: 4
+    :count: 5
     :attributes:
       :class: toulistitem_sublist
-      :data-bukken-cd: '100066823697'
+      :data-bukken-cd: '100072392186'
       :style: display:none
     :children:
     - :name: li
@@ -235,38 +235,38 @@
                 :name: bck
                 :rel: '030'
                 :type: checkbox
-                :value: 01_100066823697
+                :value: 01_100072392186
             - :name: input
               :count: 1
               :attributes:
-                :id: dbc_01_100066823697
+                :id: dbc_01_100072392186
                 :name: dbc
                 :style: 'display: none;'
                 :type: text
-                :value: '100066823697'
+                :value: '100072392186'
             - :name: p
               :count: 1
               :attributes:
                 :class: icnFavorite
                 :data-areacd: '030'
-                :data-bukken-cd: '100066823697'
+                :data-bukken-cd: '100072392186'
                 :data-chikugonensu: '45'
                 :data-chikunen: 1972年3月
-                :data-chintai_bukken_nm: "番町ハイム"
+                :data-chintai_bukken_nm: "東京メトロ有楽町線 麹町駅 11階建 築45年"
                 :data-choson: "二番町"
-                :data-kaiso_disp: 3階/地下1地上12階建
-                :data-kakaku_value: '8'
-                :data-kanigazo: https://img01.suumo.com/front/gazo/fr/bukken/394/100072257394/100072257394_cw.jpg
+                :data-kaiso_disp: 5階/11階建
+                :data-kakaku_value: '7'
+                :data-kanigazo: https://img01.suumo.com/front/gazo/fr/bukken/904/100073232904/100073232904_cw.jpg
                 :data-kanrihi: "-"
-                :data-kiss_cd: '106924018'
+                :data-kiss_cd: '103842004'
                 :data-kotsu: "東京メトロ有楽町線/麹町駅 歩2分"
                 :data-madori: "ワンルーム"
-                :data-menseki: 15.71平米
-                :data-reikin: "-(8万円)"
+                :data-menseki: 18.15平米
+                :data-reikin: 7万円
                 :data-sc: '101'
                 :data-seqno: ''
                 :data-shigunku: "千代田区"
-                :data-shikikin: 16万円
+                :data-shikikin: 7万円
                 :data-shubetsu: '040'
                 :data-tatemono_shu_nm: "マンション"
                 :data-tf: '13'
@@ -277,14 +277,14 @@
             :class: js-beacon-bukken-cd-1_8
             :name: beacon_bc_list
             :style: display:none
-            :value: '100066823697'
+            :value: '100072392186'
       - :name: div
         :count: 1
         :attributes:
           :class: js-beacon-kiss-cd-1_8
           :name: beacon_kiss_list
           :style: display:none
-          :value: '106924018'
+          :value: '103842004'
   - :name: div
     :count: 2
     :attributes:
@@ -617,12 +617,12 @@
   - :name: script
     :count: 1
     :attributes:
-      :data-bclist: '["100047457965","100073087095","100059230307","100072468809","100072341862","100072348531","100071997036","100050699974","100068061151","100070686332","100069075939","100067582153","100070830452","100073184875","100070846216","100072230819","100071935679","100071411890","100072158099"]'
+      :data-bclist: '["100047457965","100073087095","100059230307","100072241251","100072348531","100072250170","000057038967","100050699974","100068061151","100070686332","100069075939","100067582153","100073232904","100072158099","100071411890","100072230819","100070830452","100073184875","100070846216"]'
       :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_040","se":"040"}'
       :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_040","sc3":["13101"],"se":["040"]}'
       :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_040","sc3":["13101"],"se":["040"],"ta":"13"}'
-      :data-jukototalhit: '2437'
-      :data-kisslist: '145742001,149461002,073436001,103842004,139497015,154818001,126682003,108904007,147484001,035812000,103842004,139695001,138683004,151794002,106924018,100882001,137762002,134124001,154818001'
+      :data-jukototalhit: '2415'
+      :data-kisslist: '145742001,149461002,073436001,138663004,154818001,077816000,108904007,108904007,147484001,035812000,103842004,139695001,126682003,154818001,134124001,100882001,138683004,151794002,106924018'
       :data-pageid: PF3C1302
       :data-pageidlist: P,F,3,C,13,02
       :data-pageviewinfo: '{"ab_t":"sort_recommend","sort_cd":"19"}'
