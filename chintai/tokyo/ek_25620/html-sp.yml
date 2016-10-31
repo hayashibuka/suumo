@@ -141,7 +141,7 @@
                 :id: toulist_1
               :children:
               - :name: li
-                :count: 4
+                :count: 1
                 :children:
                 - :name: div
                   :count: 1
@@ -157,16 +157,180 @@
                       :count: 2
                       :attributes:
                         :class: tou-bukken-cd
-                        :id: '100064510554'
+                        :id: '100070959097'
                     - :name: div
                       :count: 2
                       :attributes:
                         :class: toulistitem-inner-title
+                  - :name: ul
+                    :count: 1
+                    :attributes:
+                      :class: toulistitem_sublist
+                      :data-bukken-cd: '100070994044'
+                      :style: display:none
+                    :children:
+                    - :name: li
+                      :count: 1
+                      :children:
+                      - :name: div
+                        :count: 1
+                        :attributes:
+                          :class: toulistitem_sublistitem
+                        :children:
+                        - :name: div
+                          :count: 1
+                          :attributes:
+                            :class: toulistitem_sublistitem-inner
+                          :children:
+                          - :name: div
+                            :count: 2
+                            :attributes:
+                              :class: toulistitem_sublistitem-inner-cellinput
+                            :children:
+                            - :name: input
+                              :count: 1
+                              :attributes:
+                                :class: toulistitem_sublistitem-checkbox js-juko-checkbox
+                                :name: bck
+                                :rel: '030'
+                                :type: checkbox
+                                :value: 01_100070994044
+                            - :name: input
+                              :count: 1
+                              :attributes:
+                                :id: dbc_01_100070994044
+                                :name: dbc
+                                :style: 'display: none;'
+                                :type: text
+                                :value: '100070994044'
+                            - :name: p
+                              :count: 1
+                              :attributes:
+                                :class: icnFavorite
+                                :data-areacd: '030'
+                                :data-bukken-cd: '100070994044'
+                                :data-chikugonensu: '1'
+                                :data-chikunen: 2016年9月
+                                :data-chintai_bukken_nm: BAYZ TOWER&GARDEN
+                                :data-choson: "豊洲"
+                                :data-kaiso_disp: 3階/31階建
+                                :data-kakaku_value: '28'
+                                :data-kanigazo: https://img01.suumo.com/front/gazo/fr/bukken/097/100070959097/100070959097_cw.jpg
+                                :data-kanrihi: "-"
+                                :data-kiss_cd: '140154002'
+                                :data-kotsu: "東京メトロ有楽町線/有楽町駅 歩11分"
+                                :data-madori: 3SLDK
+                                :data-menseki: 83.93平米
+                                :data-reikin: 28万円
+                                :data-sc: '108'
+                                :data-seqno: ''
+                                :data-shigunku: "江東区"
+                                :data-shikikin: 28万円
+                                :data-shubetsu: '040'
+                                :data-tatemono_shu_nm: "マンション"
+                                :data-tf: '13'
+                                :data-todofuken: "東京都"
+                        - :name: div
+                          :count: 1
+                          :attributes:
+                            :class: js-beacon-bukken-cd-1_1
+                            :name: beacon_bc_list
+                            :style: display:none
+                            :value: '100070994044'
+                      - :name: div
+                        :count: 1
+                        :attributes:
+                          :class: js-beacon-kiss-cd-1_1
+                          :name: beacon_kiss_list
+                          :style: display:none
+                          :value: '140154002'
+  - :name: ul
+    :count: 2
+    :attributes:
+      :class: toulistitem_sublist
+      :data-bukken-cd: '100070959097'
+      :style: display:none
+    :children:
+    - :name: li
+      :count: 1
+      :children:
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: toulistitem_sublistitem
+        :children:
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: toulistitem_sublistitem-inner
+          :children:
+          - :name: div
+            :count: 2
+            :attributes:
+              :class: toulistitem_sublistitem-inner-cellinput
+            :children:
+            - :name: input
+              :count: 1
+              :attributes:
+                :class: toulistitem_sublistitem-checkbox js-juko-checkbox
+                :name: bck
+                :rel: '030'
+                :type: checkbox
+                :value: 01_100070959097
+            - :name: input
+              :count: 1
+              :attributes:
+                :id: dbc_01_100070959097
+                :name: dbc
+                :style: 'display: none;'
+                :type: text
+                :value: '100070959097'
+            - :name: p
+              :count: 1
+              :attributes:
+                :class: icnFavorite
+                :data-areacd: '030'
+                :data-bukken-cd: '100070959097'
+                :data-chikugonensu: '1'
+                :data-chikunen: 2016年9月
+                :data-chintai_bukken_nm: BAYZ TOWER&GARDEN
+                :data-choson: "豊洲"
+                :data-kaiso_disp: 28階/31階建
+                :data-kakaku_value: '30'
+                :data-kanigazo: https://img01.suumo.com/front/gazo/fr/bukken/097/100070959097/100070959097_cw.jpg
+                :data-kanrihi: 10000円
+                :data-kiss_cd: '140154002'
+                :data-kotsu: "東京メトロ有楽町線/有楽町駅 歩11分"
+                :data-madori: 3LDK
+                :data-menseki: 86.41平米
+                :data-reikin: 30万円
+                :data-sc: '108'
+                :data-seqno: ''
+                :data-shigunku: "江東区"
+                :data-shikikin: 30万円
+                :data-shubetsu: '040'
+                :data-tatemono_shu_nm: "マンション"
+                :data-tf: '13'
+                :data-todofuken: "東京都"
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: js-beacon-bukken-cd-1_1
+            :name: beacon_bc_list
+            :style: display:none
+            :value: '100070959097'
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: js-beacon-kiss-cd-1_1
+          :name: beacon_kiss_list
+          :style: display:none
+          :value: '140154002'
   - :name: div
     :count: 1
     :attributes:
       :class: toulistitem--bottom js-juko-more
-      :id: '1_4'
+      :id: '1_1'
     :children:
     - :name: a
       :count: 1
@@ -178,7 +342,7 @@
         :attributes:
           :class: toulistitem_more-text moreShowBukken
   - :name: li
-    :count: 6
+    :count: 9
     :children:
     - :name: div
       :count: 1
@@ -194,7 +358,7 @@
           :count: 2
           :attributes:
             :class: tou-bukken-cd
-            :id: '100069115171'
+            :id: '100068819379'
         - :name: div
           :count: 2
           :attributes:
@@ -516,15 +680,15 @@
   - :name: script
     :count: 1
     :attributes:
-      :data-bclist: '["100073262444","100064510554","100068588197","100072674582","100071089263","100073329571","100072927399","100068724505","100071718093","100069115171","100069522798","100072152227","100068977193","100068977192","100071948823","100073003018","100069954512","100072922610","100072519902"]'
+      :data-bclist: '["100070959913","100072110380","100070989969","100068819379","100072277899","100068658951","100070713444","100073104282","100073407147","100072925663","100073601989","100073335774","100073087180","100072734525"]'
       :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_040","se":"040"}'
       :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_040","e":["000525620"],"se":["040"]}'
       :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_040","e":["000525620"],"se":["040"],"ta":"13"}'
       :data-jukototalhit: '477'
-      :data-kisslist: 071816340,071816340,073756000,021021002,147051002,115939002,126682002,134124001,139497015,006015022,006015022,138683004,073756000,073756000,073756000,103842002,134124001,103842003,152509003
+      :data-kisslist: '140154002,140154002,140154002,150309003,140154002,140154002,140154002,006050764,133000003,087209043,083652019,140154002,150309002,140154002'
       :data-pageid: PF3C1304
       :data-pageidlist: P,F,3,C,13,04
-      :data-pageviewinfo: '{"ab_t":"sort_recommend","sort_cd":"19"}'
+      :data-pageviewinfo: '{"ab_t":"sort_recommend","sort_cd":"25"}'
       :data-templateid: SP_SUUMO
       :data-totalhit: '253'
       :data-url: log.suumo.jp/js/logsuumo.js
