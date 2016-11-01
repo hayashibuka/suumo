@@ -42,7 +42,7 @@
       :style: 'display: none;'
       :type: text
   - :name: div
-    :count: 5
+    :count: 4
     :attributes:
       :id: wrapper_viewport
     :children:
@@ -141,7 +141,7 @@
                 :id: toulist_1
               :children:
               - :name: li
-                :count: 4
+                :count: 1
                 :children:
                 - :name: div
                   :count: 1
@@ -157,38 +157,98 @@
                       :count: 2
                       :attributes:
                         :class: tou-bukken-cd
-                        :id: '100071935871'
+                        :id: '100072336607'
                     - :name: div
                       :count: 2
                       :attributes:
                         :class: toulistitem-inner-title
-  - :name: li
-    :count: 6
-    :children:
-    - :name: div
-      :count: 1
-      :attributes:
-        :class: toulistitem
-      :children:
-      - :name: div
-        :count: 1
-        :attributes:
-          :class: toulistitem-inner
-        :children:
-        - :name: div
-          :count: 2
-          :attributes:
-            :class: tou-bukken-cd
-            :id: '100073070804'
-        - :name: div
-          :count: 2
-          :attributes:
-            :class: toulistitem-inner-title
+                  - :name: ul
+                    :count: 1
+                    :attributes:
+                      :class: toulistitem_sublist
+                      :data-bukken-cd: '100073585362'
+                      :style: display:none
+                    :children:
+                    - :name: li
+                      :count: 1
+                      :children:
+                      - :name: div
+                        :count: 1
+                        :attributes:
+                          :class: toulistitem_sublistitem
+                        :children:
+                        - :name: div
+                          :count: 1
+                          :attributes:
+                            :class: toulistitem_sublistitem-inner
+                          :children:
+                          - :name: div
+                            :count: 2
+                            :attributes:
+                              :class: toulistitem_sublistitem-inner-cellinput
+                            :children:
+                            - :name: input
+                              :count: 1
+                              :attributes:
+                                :class: toulistitem_sublistitem-checkbox js-juko-checkbox
+                                :name: bck
+                                :rel: '030'
+                                :type: checkbox
+                                :value: 01_100073585362
+                            - :name: input
+                              :count: 1
+                              :attributes:
+                                :id: dbc_01_100073585362
+                                :name: dbc
+                                :style: 'display: none;'
+                                :type: text
+                                :value: '100073585362'
+                            - :name: p
+                              :count: 1
+                              :attributes:
+                                :class: icnFavorite
+                                :data-areacd: '030'
+                                :data-bukken-cd: '100073585362'
+                                :data-chikugonensu: '0'
+                                :data-chikunen: 2016年11月
+                                :data-chintai_bukken_nm: "都営新宿線 岩本町駅 10階建 新築"
+                                :data-choson: "岩本町"
+                                :data-kaiso_disp: 6階/10階建
+                                :data-kakaku_value: '11.1'
+                                :data-kanigazo: https://img01.suumo.com/front/gazo/fr/bukken/607/100072336607/100072336607_cw.jpg
+                                :data-kanrihi: 5500円
+                                :data-kiss_cd: 083652017
+                                :data-kotsu: "都営新宿線/岩本町駅 歩3分"
+                                :data-madori: 1K
+                                :data-menseki: 25.55平米
+                                :data-reikin: 11.1万円
+                                :data-sc: '101'
+                                :data-seqno: ''
+                                :data-shigunku: "千代田区"
+                                :data-shikikin: 11.1万円
+                                :data-shubetsu: '040'
+                                :data-tatemono_shu_nm: "マンション"
+                                :data-tf: '13'
+                                :data-todofuken: "東京都"
+                        - :name: div
+                          :count: 1
+                          :attributes:
+                            :class: js-beacon-bukken-cd-1_1
+                            :name: beacon_bc_list
+                            :style: display:none
+                            :value: '100073585362'
+                      - :name: div
+                        :count: 1
+                        :attributes:
+                          :class: js-beacon-kiss-cd-1_1
+                          :name: beacon_kiss_list
+                          :style: display:none
+                          :value: 083652017
   - :name: ul
-    :count: 3
+    :count: 19
     :attributes:
       :class: toulistitem_sublist
-      :data-bukken-cd: '100072726389'
+      :data-bukken-cd: '100072351756'
       :style: display:none
     :children:
     - :name: li
@@ -216,38 +276,38 @@
                 :name: bck
                 :rel: '030'
                 :type: checkbox
-                :value: 01_100072726389
+                :value: '01_100072351756'
             - :name: input
               :count: 1
               :attributes:
-                :id: dbc_01_100072726389
+                :id: dbc_01_100072351756
                 :name: dbc
                 :style: 'display: none;'
                 :type: text
-                :value: '100072726389'
+                :value: '100072351756'
             - :name: p
               :count: 1
               :attributes:
                 :class: icnFavorite
                 :data-areacd: '030'
-                :data-bukken-cd: '100072726389'
-                :data-chikugonensu: '10'
-                :data-chikunen: 2007年2月
-                :data-chintai_bukken_nm: "東京メトロ東西線 九段下駅 13階建 築10年"
-                :data-choson: "九段南"
-                :data-kaiso_disp: 11階/13階建
-                :data-kakaku_value: '19.8'
-                :data-kanigazo: https://img01.suumo.com/front/gazo/fr/bukken/067/100073355067/100073355067_cw.jpg
-                :data-kanrihi: 10000円
-                :data-kiss_cd: '108904007'
-                :data-kotsu: "東京メトロ東西線/九段下駅 歩7分"
-                :data-madori: 1LDK
-                :data-menseki: 51.87平米
-                :data-reikin: 19.8万円
+                :data-bukken-cd: '100072351756'
+                :data-chikugonensu: '0'
+                :data-chikunen: 2016年11月
+                :data-chintai_bukken_nm: "都営新宿線 岩本町駅 10階建 新築"
+                :data-choson: "岩本町"
+                :data-kaiso_disp: 7階/10階建
+                :data-kakaku_value: '11.2'
+                :data-kanigazo: https://img01.suumo.com/front/gazo/fr/bukken/607/100072336607/100072336607_cw.jpg
+                :data-kanrihi: 5500円
+                :data-kiss_cd: '144023001'
+                :data-kotsu: "都営新宿線/岩本町駅 歩3分"
+                :data-madori: 1K
+                :data-menseki: 25.55平米
+                :data-reikin: 11.2万円
                 :data-sc: '101'
                 :data-seqno: ''
                 :data-shigunku: "千代田区"
-                :data-shikikin: 19.8万円
+                :data-shikikin: 11.2万円
                 :data-shubetsu: '040'
                 :data-tatemono_shu_nm: "マンション"
                 :data-tf: '13'
@@ -255,22 +315,22 @@
         - :name: div
           :count: 1
           :attributes:
-            :class: js-beacon-bukken-cd-1_8
+            :class: js-beacon-bukken-cd-1_1
             :name: beacon_bc_list
             :style: display:none
-            :value: '100072726389'
+            :value: '100072351756'
       - :name: div
         :count: 1
         :attributes:
-          :class: js-beacon-kiss-cd-1_8
+          :class: js-beacon-kiss-cd-1_1
           :name: beacon_kiss_list
           :style: display:none
-          :value: '108904007'
+          :value: '144023001'
   - :name: div
-    :count: 2
+    :count: 1
     :attributes:
       :class: toulistitem--bottom js-juko-more
-      :id: '1_8'
+      :id: '1_1'
     :children:
     - :name: a
       :count: 1
@@ -281,6 +341,28 @@
         :count: 1
         :attributes:
           :class: toulistitem_more-text moreShowBukken
+  - :name: li
+    :count: 9
+    :children:
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: toulistitem
+      :children:
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: toulistitem-inner
+        :children:
+        - :name: div
+          :count: 2
+          :attributes:
+            :class: tou-bukken-cd
+            :id: '100071935871'
+        - :name: div
+          :count: 2
+          :attributes:
+            :class: toulistitem-inner-title
   - :name: div
     :count: 2
     :attributes:
@@ -591,24 +673,24 @@
       :data-requesturl: "/chintai/tokyo/sc_101/"
       :data-sitekbncd: '01'
       :data-ssite: '1'
-      :data-totalhits: '856'
+      :data-totalhits: '850'
       :data-unnormalshiboriparam: ''
       :data-urlparamsstring: ''
       :id: js-data-script-commonScript
   - :name: script
     :count: 1
     :attributes:
-      :data-bclist: '["100071935871","100061430279","100072565903","100073065051","100072972281","100073576946","100051416123","100073264958","100073337514","100073070804","100070109497","100073494131","100068976488","100072510656","100073355067","100069268398","100068902259","100072304216","100065592932","100070898043","100006043279"]'
+      :data-bclist: '["100073264914","100073585373","100072564263","100071935871","100061430279","100072602231","100073420862","100073065051","100073337514","100072876332","100073576946","100051416123","100072736086","100070109497","100073441220","100073404353","100073494248"]'
       :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_040","se":"040"}'
       :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_040","sc3":["13101"],"se":["040"]}'
       :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_040","sc3":["13101"],"se":["040"],"ta":"13"}'
-      :data-jukototalhit: '2383'
-      :data-kisslist: '152962007,145486002,130727003,143846002,156364001,142173001,144621001,001027029,108904007,143697002,145338001,144023001,144023001,116979001,107464007,087209047,083652017,132191004,084833000,084833000,084833000'
+      :data-jukototalhit: '2323'
+      :data-kisslist: '143025002,083652017,157601001,152962007,145486002,156885001,141453002,143846002,108904007,001253071,142173001,144621001,132735001,145338001,157740001,152874004,156364001'
       :data-pageid: PF3C1302
       :data-pageidlist: P,F,3,C,13,02
       :data-pageviewinfo: '{"ab_t":"sort_recommend","sort_cd":"25"}'
       :data-templateid: SP_SUUMO
-      :data-totalhit: '856'
+      :data-totalhit: '850'
       :data-url: log.suumo.jp/js/logsuumo.js
       :id: beaconJs
       :language: JavaScript
