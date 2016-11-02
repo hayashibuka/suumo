@@ -42,7 +42,7 @@
       :style: 'display: none;'
       :type: text
   - :name: div
-    :count: 4
+    :count: 3
     :attributes:
       :id: wrapper_viewport
     :children:
@@ -86,10 +86,10 @@
       :count: 1
       :children:
       - :name: section
-        :count: 1
+        :count: 2
         :children:
         - :name: div
-          :count: 3
+          :count: 5
           :attributes:
             :class: secHead
           :children:
@@ -141,7 +141,7 @@
                 :id: toulist_1
               :children:
               - :name: li
-                :count: 1
+                :count: 10
                 :children:
                 - :name: div
                   :count: 1
@@ -157,385 +157,148 @@
                       :count: 2
                       :attributes:
                         :class: tou-bukken-cd
-                        :id: '100070959097'
+                        :id: '100071741136'
                     - :name: div
                       :count: 2
                       :attributes:
                         :class: toulistitem-inner-title
-                  - :name: ul
-                    :count: 1
-                    :attributes:
-                      :class: toulistitem_sublist
-                      :data-bukken-cd: '100070994044'
-                      :style: display:none
-                    :children:
-                    - :name: li
-                      :count: 1
-                      :children:
-                      - :name: div
-                        :count: 1
-                        :attributes:
-                          :class: toulistitem_sublistitem
-                        :children:
-                        - :name: div
-                          :count: 1
-                          :attributes:
-                            :class: toulistitem_sublistitem-inner
-                          :children:
-                          - :name: div
-                            :count: 2
-                            :attributes:
-                              :class: toulistitem_sublistitem-inner-cellinput
-                            :children:
-                            - :name: input
-                              :count: 1
-                              :attributes:
-                                :class: toulistitem_sublistitem-checkbox js-juko-checkbox
-                                :name: bck
-                                :rel: '030'
-                                :type: checkbox
-                                :value: 01_100070994044
-                            - :name: input
-                              :count: 1
-                              :attributes:
-                                :id: dbc_01_100070994044
-                                :name: dbc
-                                :style: 'display: none;'
-                                :type: text
-                                :value: '100070994044'
-                            - :name: p
-                              :count: 1
-                              :attributes:
-                                :class: icnFavorite
-                                :data-areacd: '030'
-                                :data-bukken-cd: '100070994044'
-                                :data-chikugonensu: '1'
-                                :data-chikunen: 2016年9月
-                                :data-chintai_bukken_nm: BAYZ TOWER&GARDEN
-                                :data-choson: "豊洲"
-                                :data-kaiso_disp: 3階/31階建
-                                :data-kakaku_value: '28'
-                                :data-kanigazo: https://img01.suumo.com/front/gazo/fr/bukken/097/100070959097/100070959097_cw.jpg
-                                :data-kanrihi: "-"
-                                :data-kiss_cd: '140154002'
-                                :data-kotsu: "東京メトロ有楽町線/有楽町駅 歩11分"
-                                :data-madori: 3SLDK
-                                :data-menseki: 83.93平米
-                                :data-reikin: 28万円
-                                :data-sc: '108'
-                                :data-seqno: ''
-                                :data-shigunku: "江東区"
-                                :data-shikikin: 28万円
-                                :data-shubetsu: '040'
-                                :data-tatemono_shu_nm: "マンション"
-                                :data-tf: '13'
-                                :data-todofuken: "東京都"
-                        - :name: div
-                          :count: 1
-                          :attributes:
-                            :class: js-beacon-bukken-cd-1_1
-                            :name: beacon_bc_list
-                            :style: display:none
-                            :value: '100070994044'
-                      - :name: div
-                        :count: 1
-                        :attributes:
-                          :class: js-beacon-kiss-cd-1_1
-                          :name: beacon_kiss_list
-                          :style: display:none
-                          :value: '140154002'
-  - :name: ul
-    :count: 2
-    :attributes:
-      :class: toulistitem_sublist
-      :data-bukken-cd: '100070959097'
-      :style: display:none
-    :children:
-    - :name: li
-      :count: 1
-      :children:
-      - :name: div
+        - :name: section
+          :count: 1
+          :attributes:
+            :onclick: sendEventForBeacon([['eventName', 'ichiran_campaign_banner']]);
+          :children:
+          - :name: style
+            :count: 1
+            :attributes:
+              :type: text/css
+          - :name: a
+            :count: 1
+            :attributes:
+              :class: bnr_object
+              :target: _blank
+            :children:
+            - :name: div
+              :count: 2
+              :attributes:
+                :class: bnr_object_media-left
+              :children:
+              - :name: img
+                :count: 1
+                :attributes:
+                  :height: '53'
+                  :width: '191'
+      - :name: nav
         :count: 1
         :attributes:
-          :class: toulistitem_sublistitem
+          :class: breadcrumb
         :children:
         - :name: div
           :count: 1
           :attributes:
-            :class: toulistitem_sublistitem-inner
+            :class: breadcrumb-inner
+          :children:
+          - :name: ol
+            :count: 1
+            :attributes:
+              :class: breadcrumb-list
+            :children:
+            - :name: li
+              :count: 4
+              :children:
+              - :name: a
+                :count: 1
+                :attributes:
+                  :onclick: homeLink();
+      - :name: section
+        :count: 1
+        :attributes:
+          :class: fixedBottomActionBtnBar js-fixedBottomActionBtnBar-hidden
+          :id: js-popupBtn
+        :children:
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: fixedactionbox
           :children:
           - :name: div
             :count: 2
             :attributes:
-              :class: toulistitem_sublistitem-inner-cellinput
+              :class: fixedactionbox-item
             :children:
-            - :name: input
+            - :name: a
               :count: 1
               :attributes:
-                :class: toulistitem_sublistitem-checkbox js-juko-checkbox
-                :name: bck
-                :rel: '030'
-                :type: checkbox
-                :value: 01_100070959097
-            - :name: input
-              :count: 1
-              :attributes:
-                :id: dbc_01_100070959097
-                :name: dbc
-                :style: 'display: none;'
-                :type: text
-                :value: '100070959097'
-            - :name: p
-              :count: 1
-              :attributes:
-                :class: icnFavorite
-                :data-areacd: '030'
-                :data-bukken-cd: '100070959097'
-                :data-chikugonensu: '1'
-                :data-chikunen: 2016年9月
-                :data-chintai_bukken_nm: BAYZ TOWER&GARDEN
-                :data-choson: "豊洲"
-                :data-kaiso_disp: 28階/31階建
-                :data-kakaku_value: '30'
-                :data-kanigazo: https://img01.suumo.com/front/gazo/fr/bukken/097/100070959097/100070959097_cw.jpg
-                :data-kanrihi: 10000円
-                :data-kiss_cd: '140154002'
-                :data-kotsu: "東京メトロ有楽町線/有楽町駅 歩11分"
-                :data-madori: 3LDK
-                :data-menseki: 86.41平米
-                :data-reikin: 30万円
-                :data-sc: '108'
-                :data-seqno: ''
-                :data-shigunku: "江東区"
-                :data-shikikin: 30万円
-                :data-shubetsu: '040'
-                :data-tatemono_shu_nm: "マンション"
-                :data-tf: '13'
-                :data-todofuken: "東京都"
+                :class: fixedbtn fixedbtn--action top shiryoSeikyu
+              :children:
+              - :name: div
+                :count: 1
+                :attributes:
+                  :class: fixedbtn-inner
+                :children:
+                - :name: span
+                  :count: 2
+                  :attributes:
+                    :class: fixedbtn-sub
+                - :name: br
+                  :count: 1
+      - :name: section
+        :count: 1
+        :attributes:
+          :class: fixedTopBar
+        :children:
         - :name: div
           :count: 1
           :attributes:
-            :class: js-beacon-bukken-cd-1_1
-            :name: beacon_bc_list
-            :style: display:none
-            :value: '100070959097'
-      - :name: div
+            :class: favoriteBar
+            :id: favoriteBar
+          :children:
+          - :name: p
+            :count: 3
+            :attributes:
+              :class: mainText forRegister
+      - :name: section
         :count: 1
         :attributes:
-          :class: js-beacon-kiss-cd-1_1
-          :name: beacon_kiss_list
-          :style: display:none
-          :value: '140154002'
-  - :name: div
-    :count: 1
-    :attributes:
-      :class: toulistitem--bottom js-juko-more
-      :id: '1_1'
-    :children:
-    - :name: a
+          :onclick: sendEventForBeacon([['eventName', 'download']]);
+    - :name: footer
       :count: 1
-      :attributes:
-        :class: toulistitem_more js-addlist
-      :children:
-      - :name: span
-        :count: 1
-        :attributes:
-          :class: toulistitem_more-text moreShowBukken
-  - :name: li
-    :count: 9
-    :children:
-    - :name: div
-      :count: 1
-      :attributes:
-        :class: toulistitem
       :children:
       - :name: div
-        :count: 1
+        :count: 4
         :attributes:
-          :class: toulistitem-inner
-        :children:
-        - :name: div
-          :count: 2
-          :attributes:
-            :class: tou-bukken-cd
-            :id: '100068819379'
-        - :name: div
-          :count: 2
-          :attributes:
-            :class: toulistitem-inner-title
-  - :name: div
-    :count: 2
-    :attributes:
-      :class: readmore
-    :children:
-    - :name: div
-      :count: 1
-      :attributes:
-        :class: readmore-actionBox readmore-actionBox--bottom
-      :children:
-      - :name: div
-        :count: 1
-        :attributes:
-          :class: actionBtn
+          :class: pcViewWrap
         :children:
         - :name: a
           :count: 1
           :attributes:
-            :class: btnAction btnSchNext isLoading disabled
-            :id: reloadBtn
-          :children:
-          - :name: span
-            :count: 1
-            :attributes:
-              :class: btnAction-text
-            :children:
-            - :name: span
-              :count: 1
-  - :name: section
-    :count: 2
-    :attributes:
-      :onclick: sendEventForBeacon([['eventName', 'ichiran_campaign_banner']]);
-    :children:
-    - :name: style
-      :count: 1
-      :attributes:
-        :type: text/css
-    - :name: a
-      :count: 1
-      :attributes:
-        :class: bnr_object
-        :target: _blank
-      :children:
-      - :name: div
-        :count: 2
-        :attributes:
-          :class: bnr_object_media-left
-        :children:
-        - :name: img
+            :class: pcViewButton
+            :onclick: pcView('suumo.jp', 'http://suumo.jp/chintai/tokyo/ek_25620/',
+              86400000); return false;
+            :target: _blank
+        - :name: p
           :count: 1
-          :attributes:
-            :height: '53'
-            :width: '191'
-  - :name: nav
-    :count: 1
-    :attributes:
-      :class: breadcrumb
-    :children:
-    - :name: div
+    - :name: form
       :count: 1
       :attributes:
-        :class: breadcrumb-inner
+        :action: cond/
+        :id: condJoken
+        :method: get
       :children:
-      - :name: ol
+      - :name: input
         :count: 1
         :attributes:
-          :class: breadcrumb-list
-        :children:
-        - :name: li
-          :count: 4
-          :children:
-          - :name: a
-            :count: 1
-            :attributes:
-              :onclick: homeLink();
-  - :name: section
-    :count: 1
-    :children:
-    - :name: div
-      :count: 1
-      :attributes:
-        :class: johoMikata
-      :children:
-      - :name: a
-        :count: 1
+          :class: typeParam
+          :name: type
+          :style: 'display: none;'
+          :type: text
+          :value: '1'
+      - :name: input
+        :count: 4
         :attributes:
-          :target: _blank
-  - :name: section
-    :count: 1
-    :attributes:
-      :class: fixedBottomActionBtnBar js-fixedBottomActionBtnBar-hidden
-      :id: js-popupBtn
-    :children:
-    - :name: div
-      :count: 1
-      :attributes:
-        :class: fixedactionbox
-      :children:
-      - :name: div
-        :count: 2
-        :attributes:
-          :class: fixedactionbox-item
-        :children:
-        - :name: a
-          :count: 1
-          :attributes:
-            :class: fixedbtn fixedbtn--action top shiryoSeikyu
-          :children:
-          - :name: div
-            :count: 1
-            :attributes:
-              :class: fixedbtn-inner
-            :children:
-            - :name: span
-              :count: 2
-              :attributes:
-                :class: fixedbtn-sub
-            - :name: br
-              :count: 1
-  - :name: section
-    :count: 1
-    :attributes:
-      :class: fixedTopBar
-    :children:
-    - :name: div
-      :count: 1
-      :attributes:
-        :class: favoriteBar
-        :id: favoriteBar
-      :children:
-      - :name: p
-        :count: 3
-        :attributes:
-          :class: mainText forRegister
-  - :name: footer
-    :count: 1
-    :children:
-    - :name: div
-      :count: 4
-      :attributes:
-        :class: pcViewWrap
-      :children:
-      - :name: a
-        :count: 1
-        :attributes:
-          :class: pcViewButton
-          :onclick: pcView('suumo.jp', 'http://suumo.jp/chintai/tokyo/ek_25620/',
-            86400000); return false;
-          :target: _blank
-      - :name: p
-        :count: 1
-  - :name: form
-    :count: 1
-    :attributes:
-      :action: cond/
-      :id: condJoken
-      :method: get
-    :children:
-    - :name: input
-      :count: 1
-      :attributes:
-        :class: typeParam
-        :name: type
-        :style: 'display: none;'
-        :type: text
-        :value: '1'
-    - :name: input
-      :count: 4
-      :attributes:
-        :class: param
-        :name: e
-        :type: hidden
-        :value: '000525620'
+          :class: param
+          :name: e
+          :type: hidden
+          :value: '000525620'
   - :name: input
     :count: 3
     :attributes:
@@ -673,24 +436,24 @@
       :data-requesturl: "/chintai/tokyo/ek_000525620/"
       :data-sitekbncd: '01'
       :data-ssite: '1'
-      :data-totalhits: '249'
+      :data-totalhits: '242'
       :data-unnormalshiboriparam: ''
       :data-urlparamsstring: ''
       :id: js-data-script-commonScript
   - :name: script
     :count: 1
     :attributes:
-      :data-bclist: '["100070959913","100072110380","100070989969","100068819379","100073511099","100073671301","100072277899","100068658951","100070713444","100073104282","100016453288","100030948960","100073302428","100073335774","100072719951"]'
+      :data-bclist: '["100071741136","100071497354","100072277899","100068658951","100072712695","100073543442","100030948960","100073713440","100073389497","100030004298","100067324092","100073823231"]'
       :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_040","se":"040"}'
       :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_040","e":["000525620"],"se":["040"]}'
       :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_040","e":["000525620"],"se":["040"],"ta":"13"}'
-      :data-jukototalhit: '473'
-      :data-kisslist: '140154002,140154002,140154002,150309003,006050630,150309002,140154002,140154002,140154002,006050764,150983002,087209033,141030001,140154002,145338001'
+      :data-jukototalhit: '464'
+      :data-kisslist: '144023001,154763001,140154002,140154002,154763001,154763001,087209033,087209047,001253071,114730002,144023001,115939002'
       :data-pageid: PF3C1304
       :data-pageidlist: P,F,3,C,13,04
       :data-pageviewinfo: '{"ab_t":"sort_recommend","sort_cd":"25"}'
       :data-templateid: SP_SUUMO
-      :data-totalhit: '249'
+      :data-totalhit: '242'
       :data-url: log.suumo.jp/js/logsuumo.js
       :id: beaconJs
       :language: JavaScript
