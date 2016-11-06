@@ -121,44 +121,6 @@
       :count: 1
       :children:
       - :name: section
-        :count: 8
-        :attributes:
-          :class: maintenance
-        :children:
-        - :name: div
-          :count: 1
-          :attributes:
-            :class: acdTgl
-          :children:
-          - :name: div
-            :count: 1
-            :attributes:
-              :class: secHead acd
-            :children:
-            - :name: p
-              :count: 1
-              :attributes:
-                :class: acdHead icnInfo icnArrowD
-              :children:
-              - :name: a
-                :count: 1
-                :children:
-                - :name: span
-                  :count: 1
-          - :name: div
-            :count: 1
-            :attributes:
-              :class: secBody acd
-              :style: 'display: none;'
-            :children:
-            - :name: p
-              :count: 1
-              :attributes:
-                :class: txtMaintenance
-              :children:
-              - :name: br
-                :count: 3
-      - :name: section
         :count: 1
         :children:
         - :name: h2
@@ -216,6 +178,35 @@
               :count: 1
               :attributes:
                 :id: lastTimeRirekiText
+      - :name: section
+        :count: 7
+        :attributes:
+          :class: webpushBlock unsupported
+        :children:
+        - :name: label
+          :count: 1
+          :children:
+          - :name: div
+            :count: 1
+            :attributes:
+              :class: checkboxWrap
+            :children:
+            - :name: input
+              :count: 1
+              :attributes:
+                :id: webPushForPrevCond
+                :type: checkbox
+            - :name: span
+              :count: 1
+              :attributes:
+                :class: running hidden
+          - :name: p
+            :count: 1
+            :attributes:
+              :class: explanation
+            :children:
+            - :name: br
+              :count: 1
       - :name: section
         :count: 1
         :attributes:

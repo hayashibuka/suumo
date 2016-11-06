@@ -121,44 +121,6 @@
       :count: 1
       :children:
       - :name: section
-        :count: 7
-        :attributes:
-          :class: maintenance
-        :children:
-        - :name: div
-          :count: 1
-          :attributes:
-            :class: acdTgl
-          :children:
-          - :name: div
-            :count: 1
-            :attributes:
-              :class: secHead acd
-            :children:
-            - :name: p
-              :count: 1
-              :attributes:
-                :class: acdHead icnInfo icnArrowD
-              :children:
-              - :name: a
-                :count: 1
-                :children:
-                - :name: span
-                  :count: 1
-          - :name: div
-            :count: 1
-            :attributes:
-              :class: secBody acd
-              :style: 'display: none;'
-            :children:
-            - :name: p
-              :count: 1
-              :attributes:
-                :class: txtMaintenance
-              :children:
-              - :name: br
-                :count: 3
-      - :name: section
         :count: 1
         :children:
         - :name: h2
@@ -223,6 +185,79 @@
             :children:
             - :name: p
               :count: 1
+      - :name: section
+        :count: 6
+        :attributes:
+          :class: searchNavi
+        :children:
+        - :name: ul
+          :count: 2
+          :attributes:
+            :class: list col2 iconArrowRight
+          :children:
+          - :name: li
+            :count: 2
+            :children:
+            - :name: a
+              :count: 1
+              :children:
+              - :name: span
+                :count: 1
+                :attributes:
+                  :class: icons area
+              - :name: span
+                :count: 1
+        - :name: a
+          :count: 1
+          :attributes:
+            :class: freeword
+            :id: js-freeWordTrigger
+          :children:
+          - :name: div
+            :count: 1
+            :attributes:
+              :class: freeword-body
+            :children:
+            - :name: ul
+              :count: 1
+              :attributes:
+                :class: l-searchform
+              :children:
+              - :name: li
+                :count: 1
+                :children:
+                - :name: input
+                  :count: 1
+                  :attributes:
+                    :class: freeword-input
+                    :id: freewordTextbox
+                    :placeholder: "駅・市区郡・物件名を入力"
+                    :readonly: readonly
+                    :type: search
+                    :value: ''
+              - :name: li
+                :count: 1
+                :attributes:
+                  :class: l-searchform-search
+                :children:
+                - :name: span
+                  :count: 1
+                  :attributes:
+                    :class: freeword-btnSearch
+                  :children:
+                  - :name: span
+                    :count: 1
+                    :attributes:
+                      :class: icon-roupe
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: topLink
+          :children:
+          - :name: a
+            :count: 1
+            :attributes:
+              :onclick: homeLink();
       - :name: nav
         :count: 1
         :attributes:
