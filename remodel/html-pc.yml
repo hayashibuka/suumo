@@ -40,38 +40,6 @@
     :count: 1
     :attributes:
       :type: text/css
-  - :name: div
-    :count: 6
-    :attributes:
-      :class: headinfo
-    :children:
-    - :name: div
-      :count: 1
-      :attributes:
-        :class: headinfo-coution ui-media
-      :children:
-      - :name: span
-        :count: 1
-        :attributes:
-          :class: ui-icon--exclamation1 ui-media-object
-      - :name: div
-        :count: 1
-        :attributes:
-          :class: ui-media-body
-        :children:
-        - :name: div
-          :count: 1
-          :attributes:
-            :class: headinfo-link
-          :children:
-          - :name: a
-            :count: 1
-            :attributes:
-              :target: _blank
-        - :name: p
-          :count: 1
-          :attributes:
-            :class: headinfo-txt
   - :name: link
     :count: 1
     :attributes:
@@ -110,6 +78,25 @@
             :children:
             - :name: a
               :count: 1
+  - :name: div
+    :count: 5
+    :attributes:
+      :class: siteheadercontainer
+    :children:
+    - :name: div
+      :count: 1
+      :attributes:
+        :class: siteheader
+      :children:
+      - :name: div
+        :count: 2
+        :attributes:
+          :class: desc
+        :children:
+        - :name: p
+          :count: 1
+          :attributes:
+            :class: desc-title
   - :name: div
     :count: 2
     :attributes:
