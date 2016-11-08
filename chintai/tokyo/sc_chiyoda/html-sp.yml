@@ -141,7 +141,7 @@
                 :id: toulist_1
               :children:
               - :name: li
-                :count: 2
+                :count: 7
                 :children:
                 - :name: div
                   :count: 1
@@ -157,13 +157,13 @@
                       :count: 2
                       :attributes:
                         :class: tou-bukken-cd
-                        :id: '100072572196'
+                        :id: '100047457965'
                     - :name: div
                       :count: 2
                       :attributes:
                         :class: toulistitem-inner-title
   - :name: li
-    :count: 8
+    :count: 3
     :children:
     - :name: div
       :count: 1
@@ -179,16 +179,16 @@
           :count: 2
           :attributes:
             :class: tou-bukken-cd
-            :id: '100073676767'
+            :id: '100071997036'
         - :name: div
           :count: 2
           :attributes:
             :class: toulistitem-inner-title
   - :name: ul
-    :count: 5
+    :count: 4
     :attributes:
       :class: toulistitem_sublist
-      :data-bukken-cd: '100074168726'
+      :data-bukken-cd: '100066823697'
       :style: display:none
     :children:
     - :name: li
@@ -216,38 +216,38 @@
                 :name: bck
                 :rel: '030'
                 :type: checkbox
-                :value: 01_100074168726
+                :value: 01_100066823697
             - :name: input
               :count: 1
               :attributes:
-                :id: dbc_01_100074168726
+                :id: dbc_01_100066823697
                 :name: dbc
                 :style: 'display: none;'
                 :type: text
-                :value: '100074168726'
+                :value: '100066823697'
             - :name: p
               :count: 1
               :attributes:
                 :class: icnFavorite
                 :data-areacd: '030'
-                :data-bukken-cd: '100074168726'
-                :data-chikugonensu: '6'
-                :data-chikunen: 2011年3月
-                :data-chintai_bukken_nm: "東京メトロ銀座線 神田駅 13階建 築6年"
-                :data-choson: "神田富山町"
-                :data-kaiso_disp: 6階/13階建
-                :data-kakaku_value: '15.9'
-                :data-kanigazo: https://img01.suumo.com/front/gazo/fr/bukken/726/100074168726/100074168726_cw.jpg
+                :data-bukken-cd: '100066823697'
+                :data-chikugonensu: '45'
+                :data-chikunen: 1972年3月
+                :data-chintai_bukken_nm: "番町ハイム"
+                :data-choson: "二番町"
+                :data-kaiso_disp: 3階/地下1地上12階建
+                :data-kakaku_value: '8'
+                :data-kanigazo: https://img01.suumo.com/front/gazo/fr/bukken/326/100073598326/100073598326_cw.jpg
                 :data-kanrihi: "-"
-                :data-kiss_cd: '133000006'
-                :data-kotsu: "東京メトロ銀座線/神田駅 歩4分"
-                :data-madori: 1DK
-                :data-menseki: 45.16平米
-                :data-reikin: 15.9万円
+                :data-kiss_cd: '106924018'
+                :data-kotsu: "ＪＲ中央線/市ヶ谷駅 歩8分"
+                :data-madori: "ワンルーム"
+                :data-menseki: 15.71平米
+                :data-reikin: "-(8万円)"
                 :data-sc: '101'
                 :data-seqno: ''
                 :data-shigunku: "千代田区"
-                :data-shikikin: 15.9万円
+                :data-shikikin: 16万円
                 :data-shubetsu: '040'
                 :data-tatemono_shu_nm: "マンション"
                 :data-tf: '13'
@@ -258,14 +258,14 @@
             :class: js-beacon-bukken-cd-1_9
             :name: beacon_bc_list
             :style: display:none
-            :value: '100074168726'
+            :value: '100066823697'
       - :name: div
         :count: 1
         :attributes:
           :class: js-beacon-kiss-cd-1_9
           :name: beacon_kiss_list
           :style: display:none
-          :value: '133000006'
+          :value: '106924018'
   - :name: div
     :count: 2
     :attributes:
@@ -591,24 +591,24 @@
       :data-requesturl: "/chintai/tokyo/sc_101/"
       :data-sitekbncd: '01'
       :data-ssite: '1'
-      :data-totalhits: '829'
+      :data-totalhits: '831'
       :data-unnormalshiboriparam: ''
       :data-urlparamsstring: ''
       :id: js-data-script-commonScript
   - :name: script
     :count: 1
     :attributes:
-      :data-bclist: '["100072572196","100071942141","100072877841","100062601585","100073676767","100073342183","100074261020","100046852168","100074174699","100072438302","100073595423","100072519937","100074327864","100072413605","100073065051","100074279718","100069551840","100071875614","100071417505","100061523617","100030196615","100028534170","100070925452","100073798784","100072718670"]'
+      :data-bclist: '["100047457965","100073087095","100059230307","100072520935","100072348531","100068437559","100071499130","100065030182","100070014634","100073596550","100069075939","100067582153","100071997036","100068061151","100070568735","100073598326","100070830452","100070846216","100071411890","100073232904","100071935679"]'
       :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_040","se":"040"}'
       :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_040","sc3":["13101"],"se":["040"]}'
       :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_040","sc3":["13101"],"se":["040"],"ta":"13"}'
-      :data-jukototalhit: '2364'
-      :data-kisslist: '132735001,154818001,154763001,132517001,156364001,000389939,142228001,143239002,156364001,087209047,107464007,152509003,133000006,142228001,143846002,087209021,156879001,144621001,154818001,116804018,083652011,087209026,123812020,147143001,132735001'
+      :data-jukototalhit: '2368'
+      :data-kisslist: '145742001,149461002,073436001,126682002,154818001,106924022,154492001,116804150,116804081,144590004,103842004,139695001,126682003,147484001,140104009,151794002,138683004,106924018,134124001,126682003,137762002'
       :data-pageid: PF3C1302
       :data-pageidlist: P,F,3,C,13,02
-      :data-pageviewinfo: '{"ab_t":"sort_recommend","sort_cd":"25"}'
+      :data-pageviewinfo: '{"ab_t":"sort_recommend","sort_cd":"19"}'
       :data-templateid: SP_SUUMO
-      :data-totalhit: '829'
+      :data-totalhit: '831'
       :data-url: log.suumo.jp/js/logsuumo.js
       :id: beaconJs
       :language: JavaScript
