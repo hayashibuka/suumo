@@ -179,7 +179,7 @@
               :attributes:
                 :id: lastTimeRirekiText
       - :name: section
-        :count: 7
+        :count: 2
         :attributes:
           :class: webpushBlock unsupported
         :children:
@@ -207,10 +207,98 @@
             :children:
             - :name: br
               :count: 1
+      - :name: input
+        :count: 3
+        :attributes:
+          :id: topBukkenRecommendCassettes
+          :name: topBukkenRecommendCassettes
+          :style: display:none;
+          :type: text
       - :name: section
         :count: 1
         :attributes:
-          :id: bukkenRecommend
+          :class: recommend_item
+          :id: recommend-list
+        :children:
+        - :name: h2
+          :count: 1
+          :attributes:
+            :class: recommend_item-h2_title
+          :children:
+          - :name: span
+            :count: 1
+        - :name: h3
+          :count: 1
+          :attributes:
+            :class: recommend_item-h3_title
+          :children:
+          - :name: span
+            :count: 1
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: js-beaconSend
+            :data-beacon-params: '[["tm","KRPICT05"],["nc","83950560"],["nc","86974922"],["nc","82673378"],["nc","86837082"],["sp_kr_top","ts=KRPICT05:ct=966:tf=13:req_id=null213315:"],["recid","KSA114R0"]]'
+        - :name: div
+          :count: 2
+          :attributes:
+            :class: js-topBukkenRecommendApiParamsContainer
+          :children:
+          - :name: input
+            :count: 4
+            :attributes:
+              :class: js-page
+              :style: 'display: none;'
+              :type: text
+              :value: '1'
+        - :name: ul
+          :count: 2
+          :attributes:
+            :class: l-recommend_list
+          :children:
+          - :name: li
+            :count: 2
+            :children:
+            - :name: div
+              :count: 1
+              :attributes:
+                :class: recommend_list js-click-link
+                :data-beacon-params: '[["recid","KSA114R0"],["kbn","6"]]'
+                :data-url: "/ikkodate/tokyo/sc_201/pj_83950560/?kbn=6&recid=KSA114R0"
+              :children:
+              - :name: div
+                :count: 2
+                :attributes:
+                  :class: recommend_list-object
+                :children:
+                - :name: div
+                  :count: 1
+                  :attributes:
+                    :class: recommend_list-object-item
+                  :children:
+                  - :name: p
+                    :count: 1
+                    :attributes:
+                      :class: toprecommend-imgLoader js-toprecommend-imgLoader
+                    :children:
+                    - :name: span
+                      :count: 1
+                      :attributes:
+                        :class: img-loader
+                  - :name: img
+                    :count: 1
+                    :attributes:
+                      :class: kaniImg
+                      :data-madori-flg: ''
+                      :data-src: https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F560%2F83950560%2F83950560_1834.jpg&w=350&h=350
+                      :style: 'display: none;'
+                  - :name: span
+                    :count: 1
+                    :attributes:
+                      :class: recommend_list-object-text
+                    :children:
+                    - :name: br
+                      :count: 1
       - :name: nav
         :count: 1
         :attributes:
@@ -319,13 +407,6 @@
       :data-cdn-url: https://img01.suumo.com
       :data-gazo-url: https://img01.suumo.com/jj/resizeImage?src=
       :id: dataMediatorJs
-  - :name: script
-    :count: 1
-    :attributes:
-      :data-ikkodate-ryoikicd: '020'
-      :data-ryoikicd: '020'
-      :data-todofukencd: '13'
-      :id: recommendScript
   - :name: script
     :count: 1
     :attributes:
