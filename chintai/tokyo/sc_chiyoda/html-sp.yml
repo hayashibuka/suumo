@@ -42,7 +42,7 @@
       :style: 'display: none;'
       :type: text
   - :name: div
-    :count: 5
+    :count: 6
     :attributes:
       :id: wrapper_viewport
     :children:
@@ -141,7 +141,7 @@
                 :id: toulist_1
               :children:
               - :name: li
-                :count: 7
+                :count: 6
                 :children:
                 - :name: div
                   :count: 1
@@ -163,7 +163,7 @@
                       :attributes:
                         :class: toulistitem-inner-title
   - :name: li
-    :count: 3
+    :count: 4
     :children:
     - :name: div
       :count: 1
@@ -179,13 +179,13 @@
           :count: 2
           :attributes:
             :class: tou-bukken-cd
-            :id: 000057038967
+            :id: '100073666229'
         - :name: div
           :count: 2
           :attributes:
             :class: toulistitem-inner-title
   - :name: ul
-    :count: 4
+    :count: 5
     :attributes:
       :class: toulistitem_sublist
       :data-bukken-cd: '100066823697'
@@ -255,22 +255,22 @@
         - :name: div
           :count: 1
           :attributes:
-            :class: js-beacon-bukken-cd-1_9
+            :class: js-beacon-bukken-cd-1_8
             :name: beacon_bc_list
             :style: display:none
             :value: '100066823697'
       - :name: div
         :count: 1
         :attributes:
-          :class: js-beacon-kiss-cd-1_9
+          :class: js-beacon-kiss-cd-1_8
           :name: beacon_kiss_list
           :style: display:none
           :value: '106924018'
   - :name: div
-    :count: 2
+    :count: 3
     :attributes:
       :class: toulistitem--bottom js-juko-more
-      :id: '1_9'
+      :id: '1_8'
     :children:
     - :name: a
       :count: 1
@@ -591,23 +591,23 @@
       :data-requesturl: "/chintai/tokyo/sc_101/"
       :data-sitekbncd: '01'
       :data-ssite: '1'
-      :data-totalhits: '838'
+      :data-totalhits: '839'
       :data-unnormalshiboriparam: ''
       :data-urlparamsstring: ''
       :id: js-data-script-commonScript
   - :name: script
     :count: 1
     :attributes:
-      :data-bclist: '["100047457965","100073087095","100059230307","100071412638","100072348531","100068437559","100071499130","100065030182","100070019154","100073596550","100069075939","100067582153","000057038967","100068061151","100070568735","100073598326","100070830452","100070846216","100072158099","100071935679","100071411890"]'
+      :data-bclist: '["100047457965","100073087095","100059230307","100072348531","100071412638","100071499130","100065030182","100070019154","100073596550","100069075939","100067582153","000057038967","100073666229","100073598326","100070830452","100070846216","100072158099","100073232904","100071935679","100071208059","100067824843","100073343687"]'
       :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_040","se":"040"}'
       :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_040","sc3":["13101"],"se":["040"]}'
       :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_040","sc3":["13101"],"se":["040"],"ta":"13"}'
-      :data-jukototalhit: '2450'
-      :data-kisslist: '145742001,149461002,073436001,126682003,154818001,106924022,154492001,116804150,116804002,144590004,103842004,139695001,108904007,147484001,140104009,151794002,138683004,106924018,154818001,137762002,134124001'
+      :data-jukototalhit: '2489'
+      :data-kisslist: '145742001,149461002,073436001,154818001,126682003,154492001,116804150,116804002,144590004,103842004,139695001,108904007,134124002,151794002,138683004,106924018,154818001,126682003,137762002,126682003,138663001,156941001'
       :data-pageid: PF3C1302
       :data-pageidlist: P,F,3,C,13,02
       :data-templateid: SP_SUUMO
-      :data-totalhit: '838'
+      :data-totalhit: '839'
       :data-url: log.suumo.jp/js/logsuumo.js
       :id: beaconJs
       :language: JavaScript
