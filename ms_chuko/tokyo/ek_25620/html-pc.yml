@@ -285,6 +285,11 @@
   - :name: script
     :count: 5
   - :name: script
+    :count: 1
+    :attributes:
+      :charset: utf-8
+      :type: text/javascript
+  - :name: script
     :count: 2
     :attributes:
       :language: JavaScript
