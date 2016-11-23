@@ -86,10 +86,10 @@
       :count: 1
       :children:
       - :name: section
-        :count: 1
+        :count: 2
         :children:
         - :name: div
-          :count: 3
+          :count: 5
           :attributes:
             :class: secHead
           :children:
@@ -141,7 +141,7 @@
                 :id: toulist_1
               :children:
               - :name: li
-                :count: 2
+                :count: 10
                 :children:
                 - :name: div
                   :count: 1
@@ -162,201 +162,143 @@
                       :count: 2
                       :attributes:
                         :class: toulistitem-inner-title
-  - :name: li
-    :count: 8
-    :children:
-    - :name: div
-      :count: 1
-      :attributes:
-        :class: toulistitem
-      :children:
-      - :name: div
-        :count: 1
-        :attributes:
-          :class: toulistitem-inner
-        :children:
-        - :name: div
-          :count: 2
-          :attributes:
-            :class: tou-bukken-cd
-            :id: '100071089263'
-        - :name: div
-          :count: 2
-          :attributes:
-            :class: toulistitem-inner-title
-  - :name: div
-    :count: 2
-    :attributes:
-      :class: readmore
-    :children:
-    - :name: div
-      :count: 1
-      :attributes:
-        :class: readmore-actionBox readmore-actionBox--bottom
-      :children:
-      - :name: div
-        :count: 1
-        :attributes:
-          :class: actionBtn
-        :children:
-        - :name: a
+        - :name: section
           :count: 1
           :attributes:
-            :class: btnAction btnSchNext isLoading disabled
-            :id: reloadBtn
+            :onclick: sendEventForBeacon([['eventName', 'ichiran_campaign_banner']]);
           :children:
-          - :name: span
+          - :name: style
             :count: 1
             :attributes:
-              :class: btnAction-text
-            :children:
-            - :name: span
-              :count: 1
-  - :name: section
-    :count: 2
-    :attributes:
-      :onclick: sendEventForBeacon([['eventName', 'ichiran_campaign_banner']]);
-    :children:
-    - :name: style
-      :count: 1
-      :attributes:
-        :type: text/css
-    - :name: a
-      :count: 1
-      :attributes:
-        :class: bnr_object
-        :target: _blank
-      :children:
-      - :name: div
-        :count: 2
-        :attributes:
-          :class: bnr_object_media-left
-        :children:
-        - :name: img
-          :count: 1
-          :attributes:
-            :height: '53'
-            :width: '191'
-  - :name: nav
-    :count: 1
-    :attributes:
-      :class: breadcrumb
-    :children:
-    - :name: div
-      :count: 1
-      :attributes:
-        :class: breadcrumb-inner
-      :children:
-      - :name: ol
-        :count: 1
-        :attributes:
-          :class: breadcrumb-list
-        :children:
-        - :name: li
-          :count: 4
-          :children:
+              :type: text/css
           - :name: a
             :count: 1
             :attributes:
-              :onclick: homeLink();
-  - :name: section
-    :count: 1
-    :children:
-    - :name: div
-      :count: 1
-      :attributes:
-        :class: johoMikata
-      :children:
-      - :name: a
+              :class: bnr_object
+              :target: _blank
+            :children:
+            - :name: div
+              :count: 2
+              :attributes:
+                :class: bnr_object_media-left
+              :children:
+              - :name: img
+                :count: 1
+                :attributes:
+                  :height: '53'
+                  :width: '191'
+      - :name: nav
         :count: 1
         :attributes:
-          :target: _blank
-  - :name: section
-    :count: 1
-    :attributes:
-      :class: fixedBottomActionBtnBar
-      :id: js-popupBtn
-    :children:
-    - :name: div
+          :class: breadcrumb
+        :children:
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: breadcrumb-inner
+          :children:
+          - :name: ol
+            :count: 1
+            :attributes:
+              :class: breadcrumb-list
+            :children:
+            - :name: li
+              :count: 4
+              :children:
+              - :name: a
+                :count: 1
+                :attributes:
+                  :onclick: homeLink();
+      - :name: section
+        :count: 1
+        :attributes:
+          :class: fixedBottomActionBtnBar
+          :id: js-popupBtn
+        :children:
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: fixedactionbox
+          :children:
+          - :name: div
+            :count: 2
+            :attributes:
+              :class: fixedactionbox-item
+            :children:
+            - :name: a
+              :count: 1
+              :attributes:
+                :class: fixedbtn fixedbtn--action top shiryoSeikyu
+              :children:
+              - :name: div
+                :count: 1
+                :attributes:
+                  :class: fixedbtn-inner
+                :children:
+                - :name: span
+                  :count: 2
+                  :attributes:
+                    :class: fixedbtn-sub
+                - :name: br
+                  :count: 1
+      - :name: section
+        :count: 1
+        :attributes:
+          :class: fixedTopBar
+        :children:
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: favoriteBar
+            :id: favoriteBar
+          :children:
+          - :name: p
+            :count: 3
+            :attributes:
+              :class: mainText forRegister
+      - :name: section
+        :count: 1
+        :attributes:
+          :onclick: sendEventForBeacon([['eventName', 'download']]);
+    - :name: footer
       :count: 1
-      :attributes:
-        :class: fixedactionbox
       :children:
       - :name: div
-        :count: 2
+        :count: 4
         :attributes:
-          :class: fixedactionbox-item
+          :class: pcViewWrap
         :children:
         - :name: a
           :count: 1
           :attributes:
-            :class: fixedbtn fixedbtn--action top shiryoSeikyu
-          :children:
-          - :name: div
-            :count: 1
-            :attributes:
-              :class: fixedbtn-inner
-            :children:
-            - :name: span
-              :count: 2
-              :attributes:
-                :class: fixedbtn-sub
-            - :name: br
-              :count: 1
-  - :name: section
-    :count: 1
-    :attributes:
-      :class: fixedTopBar
-    :children:
-    - :name: div
+            :class: pcViewButton
+            :onclick: pcView('suumo.jp', 'http://suumo.jp/chintai/tokyo/ek_25620/',
+              86400000); return false;
+            :target: _blank
+        - :name: p
+          :count: 1
+    - :name: form
       :count: 1
       :attributes:
-        :class: favoriteBar
-        :id: favoriteBar
+        :action: cond/
+        :id: condJoken
+        :method: get
       :children:
-      - :name: p
-        :count: 3
-        :attributes:
-          :class: mainText forRegister
-  - :name: footer
-    :count: 1
-    :children:
-    - :name: div
-      :count: 4
-      :attributes:
-        :class: pcViewWrap
-      :children:
-      - :name: a
+      - :name: input
         :count: 1
         :attributes:
-          :class: pcViewButton
-          :onclick: pcView('suumo.jp', 'http://suumo.jp/chintai/tokyo/ek_25620/',
-            86400000); return false;
-          :target: _blank
-      - :name: p
-        :count: 1
-  - :name: form
-    :count: 1
-    :attributes:
-      :action: cond/
-      :id: condJoken
-      :method: get
-    :children:
-    - :name: input
-      :count: 1
-      :attributes:
-        :class: typeParam
-        :name: type
-        :style: 'display: none;'
-        :type: text
-        :value: '1'
-    - :name: input
-      :count: 4
-      :attributes:
-        :class: param
-        :name: e
-        :type: hidden
-        :value: '000525620'
+          :class: typeParam
+          :name: type
+          :style: 'display: none;'
+          :type: text
+          :value: '1'
+      - :name: input
+        :count: 4
+        :attributes:
+          :class: param
+          :name: e
+          :type: hidden
+          :value: '000525620'
   - :name: input
     :count: 3
     :attributes:
@@ -494,23 +436,23 @@
       :data-requesturl: "/chintai/tokyo/ek_000525620/"
       :data-sitekbncd: '01'
       :data-ssite: '1'
-      :data-totalhits: '222'
+      :data-totalhits: '216'
       :data-unnormalshiboriparam: ''
       :data-urlparamsstring: ''
       :id: js-data-script-commonScript
   - :name: script
     :count: 1
     :attributes:
-      :data-bclist: '["100068588197","100071017769","100071718093","100075357152","100073596537","100071089263","100069115171","100069522798","100075379611","100068977193","100068977192","100071948823","100072922610","100073003018","100069954512","100075070420","100074776435","100074900044"]'
+      :data-bclist: '["100068588197","100073539290","100071089263","100071017769","100071718093","100075357152","100069115171","100069522798","100075379611","100068977192","100071948823","100072969241","100069954512","100075070420","100072922610","100074776435","100074677718"]'
       :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_040","se":"040"}'
       :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_040","e":["000525620"],"se":["040"]}'
       :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_040","e":["000525620"],"se":["040"],"ta":"13"}'
-      :data-jukototalhit: '413'
-      :data-kisslist: 073756000,138683005,139497015,134124002,144590004,147051002,006015022,006015022,126432001,073756000,073756000,073756000,103842003,103842002,134124001,153739001,134124001,141453002
+      :data-jukototalhit: '402'
+      :data-kisslist: 073756000,138683004,147051002,138683005,139497015,134124002,006015022,006015022,126432001,073756000,073756000,103842006,134124001,153739001,103842003,134124001,148985003
       :data-pageid: PF3C1304
       :data-pageidlist: P,F,3,C,13,04
       :data-templateid: SP_SUUMO
-      :data-totalhit: '222'
+      :data-totalhit: '216'
       :data-url: log.suumo.jp/js/logsuumo.js
       :id: beaconJs
       :language: JavaScript
