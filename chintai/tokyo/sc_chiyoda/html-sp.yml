@@ -141,7 +141,7 @@
                 :id: toulist_1
               :children:
               - :name: li
-                :count: 5
+                :count: 4
                 :children:
                 - :name: div
                   :count: 1
@@ -163,7 +163,7 @@
                       :attributes:
                         :class: toulistitem-inner-title
   - :name: li
-    :count: 5
+    :count: 6
     :children:
     - :name: div
       :count: 1
@@ -179,16 +179,16 @@
           :count: 2
           :attributes:
             :class: tou-bukken-cd
-            :id: '100075273825'
+            :id: '100074002383'
         - :name: div
           :count: 2
           :attributes:
             :class: toulistitem-inner-title
   - :name: ul
-    :count: 4
+    :count: 3
     :attributes:
       :class: toulistitem_sublist
-      :data-bukken-cd: '100072832780'
+      :data-bukken-cd: '100072832799'
       :style: display:none
     :children:
     - :name: li
@@ -216,38 +216,38 @@
                 :name: bck
                 :rel: '030'
                 :type: checkbox
-                :value: 01_100072832780
+                :value: 01_100072832799
             - :name: input
               :count: 1
               :attributes:
-                :id: dbc_01_100072832780
+                :id: dbc_01_100072832799
                 :name: dbc
                 :style: 'display: none;'
                 :type: text
-                :value: '100072832780'
+                :value: '100072832799'
             - :name: p
               :count: 1
               :attributes:
                 :class: icnFavorite
                 :data-areacd: '030'
-                :data-bukken-cd: '100072832780'
+                :data-bukken-cd: '100072832799'
                 :data-chikugonensu: '45'
                 :data-chikunen: 1972年3月
                 :data-chintai_bukken_nm: "東京メトロ有楽町線 麹町駅 11階建 築45年"
                 :data-choson: "二番町"
-                :data-kaiso_disp: 8階/11階建
-                :data-kakaku_value: '6.4'
+                :data-kaiso_disp: 5階/11階建
+                :data-kakaku_value: '6.5'
                 :data-kanigazo: https://img01.suumo.com/front/gazo/fr/bukken/686/100073135686/100073135686_cw.jpg
-                :data-kanrihi: 10000円
+                :data-kanrihi: 9500円
                 :data-kiss_cd: '152509001'
                 :data-kotsu: "東京メトロ有楽町線/麹町駅 歩3分"
                 :data-madori: "ワンルーム"
                 :data-menseki: 18.27平米
-                :data-reikin: 6.4万円
+                :data-reikin: "-"
                 :data-sc: '101'
                 :data-seqno: ''
                 :data-shigunku: "千代田区"
-                :data-shikikin: 6.4万円
+                :data-shikikin: "-"
                 :data-shubetsu: '040'
                 :data-tatemono_shu_nm: "マンション"
                 :data-tf: '13'
@@ -255,14 +255,14 @@
         - :name: div
           :count: 1
           :attributes:
-            :class: js-beacon-bukken-cd-1_7
+            :class: js-beacon-bukken-cd-1_6
             :name: beacon_bc_list
             :style: display:none
-            :value: '100072832780'
+            :value: '100072832799'
       - :name: div
         :count: 1
         :attributes:
-          :class: js-beacon-kiss-cd-1_7
+          :class: js-beacon-kiss-cd-1_6
           :name: beacon_kiss_list
           :style: display:none
           :value: '152509001'
@@ -270,7 +270,7 @@
     :count: 3
     :attributes:
       :class: toulistitem--bottom js-juko-more
-      :id: '1_7'
+      :id: '1_6'
     :children:
     - :name: a
       :count: 1
@@ -591,23 +591,23 @@
       :data-requesturl: "/chintai/tokyo/sc_101/"
       :data-sitekbncd: '01'
       :data-ssite: '1'
-      :data-totalhits: '811'
+      :data-totalhits: '808'
       :data-unnormalshiboriparam: ''
       :data-urlparamsstring: ''
       :id: js-data-script-commonScript
   - :name: script
     :count: 1
     :attributes:
-      :data-bclist: '["100047457965","100059230307","100075473347","100072348531","100073407797","100069075939","100074606945","000057038967","100075273825","100073232904","100071411890","100071935679","100070830452","100070846216","100072707157","100071208059","100068064610","100073343687","100074978126","000099127848"]'
+      :data-bclist: '["100047457965","100059230307","100075473347","100073596550","100069075939","100074889240","100074002383","100075273825","100073232904","100071935679","100071411890","100070830452","100070846216","100072707157","100071208059","100067824843","100074420713","100074978126","100075671225","100069917538"]'
       :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_040","se":"040"}'
       :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_040","sc3":["13101"],"se":["040"]}'
       :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_040","sc3":["13101"],"se":["040"],"ta":"13"}'
-      :data-jukototalhit: '2352'
-      :data-kisslist: '145742001,073436001,151173001,154818001,138683004,103842004,138683001,108904007,105673005,126682003,134124001,137762002,138683004,106924018,044789004,126682003,126682003,156941001,138683005,108904007'
+      :data-jukototalhit: '2333'
+      :data-kisslist: '145742001,073436001,151173001,144590004,103842004,144590001,138683005,105673005,126682003,137762002,134124001,138683004,106924018,044789004,126682003,138663001,154818001,138683005,105673005,108904007'
       :data-pageid: PF3C1302
       :data-pageidlist: P,F,3,C,13,02
       :data-templateid: SP_SUUMO
-      :data-totalhit: '811'
+      :data-totalhit: '808'
       :data-url: log.suumo.jp/js/logsuumo.js
       :id: beaconJs
       :language: JavaScript

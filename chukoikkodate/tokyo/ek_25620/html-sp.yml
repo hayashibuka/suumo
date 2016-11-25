@@ -150,7 +150,7 @@
               :id: bukkenListAll
             :children:
             - :name: ul
-              :count: 2
+              :count: 1
               :attributes:
                 :class: listView bukkenList solid
                 :id: bukkenListAll_1
@@ -185,13 +185,6 @@
                       :count: 1
                       :attributes:
                         :class: titleWrap
-            - :name: div
-              :count: 1
-              :attributes:
-                :class: readmoreborder
-              :children:
-              - :name: p
-                :count: 1
       - :name: nav
         :count: 1
         :attributes:
@@ -421,22 +414,22 @@
       :data-registrirekifunctionname: saveEki
       :data-requesturl: "/chukoikkodate/tokyo/ek_000525620/"
       :data-sitekbncd: '01'
-      :data-totalhits: '11'
+      :data-totalhits: '10'
       :data-unnormalshiboriparamb: ''
       :data-urlparamsstring: ''
       :id: js-data-script-commonScript
   - :name: script
     :count: 1
     :attributes:
-      :data-bclist: '["87090774","87269768","87250336","86735110","87247777","86603245","87245808","87273814","87201736","87256457","87194573"]'
+      :data-bclist: '["87090774","87250336","86735110","87247777","86603245","87245808","87273814","87201736","87256457","87194573"]'
       :data-customertrendsparamsformylist: '{"custdbflg":"smp_mybukken_021","se":"021"}'
       :data-customertrendsparamsforpageview: '{"custdbflg":"smp_ichiran_021","e":["000525620"],"se":["021"],"ta":["13"]}'
       :data-customertrendsparamsforsavejoken: '{"custdbflg":"smp_myjoken_021","e":["000525620"],"se":["021"],"ta":["13"]}'
-      :data-krsnetidlist: '["t14547700101","t14547700101","t14547700101","t14547700101","t13100000101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101"]'
-      :data-nclist: '["87090774","87269768","87250336","86735110","87247777","86603245","87245808","87273814","87201736","87256457","87194573"]'
+      :data-krsnetidlist: '["t14547700101","t14547700101","t14547700101","t13100000101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101","t14547700101"]'
+      :data-nclist: '["87090774","87250336","86735110","87247777","86603245","87245808","87273814","87201736","87256457","87194573"]'
       :data-pageid: PD3C1304
       :data-templateid: SP_SUUMO
-      :data-totalhit: '11'
+      :data-totalhit: '10'
       :data-url: log.suumo.jp/js/logsuumo.js
       :id: beaconJs
       :language: JavaScript
