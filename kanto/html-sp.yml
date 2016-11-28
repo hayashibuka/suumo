@@ -32,6 +32,10 @@
     :attributes:
       :media: screen
       :rel: stylesheet
+  - :name: script
+    :count: 1
+    :attributes:
+      :type: text/javascript
 - :name: body
   :count: 1
   :children:
